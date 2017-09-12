@@ -2,10 +2,10 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          iSwift
-paginate:       30
+title:          younari.swift
+paginate:       50
 baseurl:        ""
-url:            "https://younari.github.io"
+url:            "https://younari.github.io/"
 
 # Assets
 sass:
@@ -16,9 +16,9 @@ sass:
 markdown:       kramdown
 
 # About
-  author:       younari
+author:
   name:         younari
-  url:          https://younari.github.io
+  url:          https://younari.github.io/
   email:        younari.me@icloud.com
 
 # Custom vars
