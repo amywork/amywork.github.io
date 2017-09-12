@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "배열내 연속으로 중복된 숫자 제거하기"
+title: "연속으로 중복된 숫자 제거하기"
 author: "younari"
 ---
 
@@ -62,7 +62,7 @@ func shorter(num: Int) -> Int {
 <hr>
 <hr>
 
-- 다른 방법으로도 풀어보기
+- 다른 방법으로도 풀어보
 
 {% highlight swift %}
 func sqrOf10(num: Int) -> Int {
