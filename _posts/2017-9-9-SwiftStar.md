@@ -1,14 +1,15 @@
 ---
 layout: post
-title: 스트링을 활용해 삼각별 출력하기
+title: "Swift 삼각형 별찍기"
+author: "younari"
 ---
 
-> Swift로 삼각형 별찍기를 시도했습니다. 여백과 별모양 각각을 스트링을 생각해서 한 줄식 프린트했습니다. N번째 줄마다 여백 스트링을 line-n개 찍고, 별을 2n-1개씩 찍는 방법입니다.
+> 여백과 별모양 각각을 스트링을 생각해서 한 줄식 프린트했습니다. N번째 줄마다 여백 스트링을 line-n개 찍고, 별을 2n-1개씩 찍는 방법입니다.
 
 ## 총 몇 줄의 별을 찍을지 Line을 입력받아, 삼각별을 찍는 함수 v0.1
 
 
-```swift
+{% highlight swift %}
 func drawStar(line:Int) {
     
     for n in 1...line {
@@ -33,12 +34,12 @@ func drawStar(line:Int) {
         print(returnString)
     }
 }
-```
+{% endhighlight %}
 
 ## 총 몇 줄의 별을 찍을지 Line을 입력받아, 삼각별을 찍는 함수 v0.2
 
 
-```swift
+{% highlight swift %}
 func drawStar2(line: Int) -> String {
     
     var resultStr: String = ""
@@ -61,4 +62,4 @@ func drawStar2(line: Int) -> String {
     
     return resultStr
 }
-```
+{% endhighlight %}

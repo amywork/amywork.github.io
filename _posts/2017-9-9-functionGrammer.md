@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 여러가지 기초 함수 만들기
+title: "함수 만들기 연습"
+author: "younari"
 ---
 
 > Swift의 기초 문법을 익히기 위해 변수, 상수, 연산자, 조건문을 활용하는 기초 함수를 만들어보았습니다.
@@ -8,7 +9,7 @@ title: 여러가지 기초 함수 만들기
 # 기초 함수 만들기
 ## 각 자리를 더하는 함수
 
-```swift
+{% highlight swift %}
 func addAllDigit2(num :Int) -> Int {
     
     var num = num
@@ -24,13 +25,11 @@ func addAllDigit2(num :Int) -> Int {
     return positionNumber
     
 }
-var check1 = addAllDigit2(num: 5792)
-print(check1)
-```
+{% endhighlight %}
 
 
 ## 숫자 Reverse
-```swift
+{% highlight swift %}
 func revers(num: Int) -> String
 {
     var returnValue: String = ""
@@ -48,10 +47,10 @@ func revers(num: Int) -> String
 
 print(revers(num:123))//321
 print(revers(num:341))//143
-```
+{% endhighlight %}
 
 ## 윤년 판별
-```swift
+{% highlight swift %}
 func checkLeap(year: Int) -> Bool {
     var checkValue: Bool = false
     if year % 4 == 0 && (year % 100 != 0 || year % 400 == 0){
@@ -61,10 +60,10 @@ func checkLeap(year: Int) -> Bool {
     }
     return checkValue
 }
-```
+{% endhighlight %}
 
 ## 큰 수 반환하기
-```swift
+{% highlight swift %}
 func compareInt(x: Int, y:Int) -> String {
     
     var returnValue: String = ""
@@ -78,10 +77,10 @@ func compareInt(x: Int, y:Int) -> String {
     }
     return returnValue
 }
-```
+{% endhighlight %}
 
 ## 여러가지 도형 함수
-```swift
+{% highlight swift %}
 let PI: Double = 3.14
 // 01 Square function
 func square(type:String, s:Int) -> Int
@@ -162,4 +161,4 @@ func volumeOfCSV(type:String, r:Double, h:Double) -> Double
 }
 var result = volumeOfCSV(type:"Cone", r:30, h:1)
 print(result)
-```
+{% endhighlight %}
