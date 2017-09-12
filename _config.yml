@@ -3,7 +3,7 @@ permalink:      /:year-:month-:day/:title
 
 # Setup
 title:          Tale
-paginate:       10
+paginate:       50
 baseurl:        ""
 url:            "https://younari.github.io"
 
