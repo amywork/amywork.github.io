@@ -38,3 +38,15 @@ func ceasar(data:[String], keyNum:Int) -> Array<String>
 
 print(ceasar(data:["a", "B", "W", "z"], keyNum:4))
 {% endhighlight %}
+
+
+## 알파벳 배열 쉽게 만들기 
+{% highlight swift %}
+var alphabet: [Character] = []
+
+for abc in "abcdefghijklmnopqrstuvwxyz".characters
+{
+    alphabet.append(abc)
+}
+print(alphabet)
+{% endhighlight %}

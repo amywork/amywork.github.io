@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Backend 용어 모음"
+title: "Backend 용어 모"
 author: "younari"
 ---
 
