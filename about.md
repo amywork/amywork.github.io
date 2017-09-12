@@ -11,9 +11,9 @@ permalink: /about/
 
 
 # 👌🏻 Featured Skills
-- iOS development (Swift)
+- Develop for Apple Platforms (Swift)
 - UI Design (Sketch app, Xcode)
-- Knowledge of HTML, CSS, Javascript
+- Knowledge of HTML, CSS & Javascript
 
 # 👌🏻 Experience
 - 2015 ~ Product Manager @Shinsegae, e-commerce [SSG.COM](http://www.ssg.com) 
@@ -46,11 +46,11 @@ permalink: /about/
 - Field of Study : 
 - Chinese Language&Literature (First major), Digital Design (Joint major)
    - 문학: 중국의 당시/송사/산문/소설 독해를 통한 과거 사회상 및 후대 영향 탐구
-   - 언어학: 한자의 형성 및 발전 과정, 자형 구조 연구를 통한 문자문화에 대한 다각적 접근
+   - 언어학: 한자의 형성 및 발전 과정, 자형 구조 연구를 통한 문자 문화에 대한 다각적 접근
    - 실용 중국어: 고급 중국어 독해, 작문, 회화
    - 디지털 디자인: 브랜딩, 타이포그래피, VMD, 정보디자인, 사용자경험(UX) 실습
    - 예술: 영상예술기획, 러시아 공연예술, 프랑스 문화, 독일 표현주의, 한국 미술사
-- Activities and Societies
+- Activities 
    - 연세대학교 공식 학보사, [연세춘추 문화부 기자](http://chunchu.yonsei.ac.kr) 
 
 ## ✔️ Fast campus, 2017
