@@ -77,7 +77,7 @@ func compareInt(x: Int, y:Int) -> String {
     }
     return returnValue
 }
-기
+{% endhighlight %}
 
 ## 여러가지 도형 함수
 {% highlight swift %}
