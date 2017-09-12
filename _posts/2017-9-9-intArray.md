@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "배열 속 Int 간의 크기 비교하"
+title: "배열 속 Int 간의 크기 비교"
 author: "younari"
 ---
 
