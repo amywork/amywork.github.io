@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "용어 정리 01. 프로그래밍 기초"
+title: "프로그래밍 기초"
 author: "younari"
 ---
 
