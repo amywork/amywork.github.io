@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Data structure 01. Array
+title: "Swift 배열 연습"
+author: "younari"
 ---
-
-> 자료구조 - Array의 문법을 알아보고 함수를 작성해본다.
 
 ## ✨ Array
 
@@ -14,11 +13,11 @@ title: Data structure 01. Array
 
 - 배열을 선언하는 방법은 아래와 같다.
 
-```swift
+{% highlight swift %}
 var friendsList:[String] = ["string1", "string2"]
 var friendsList2:[String] = Array<String>()
 var friendsList3:[String] = [String]()
-```
+{% endhighlight %}
 
 - 배열에 값을 추가할 때는 `append` 메소드 호출
 

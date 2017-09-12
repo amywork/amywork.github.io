@@ -1,7 +1,9 @@
 ---
 layout: post
-title: 객체 지향형 프로그래밍의 이해
+title: "객체 지향 프로그래밍"
+author: "younari"
 ---
+
 
 > 객체 지향 프로그래밍은 컴퓨터 프로그램을 명령어의 목록으로 보는 시각에서 벗어나 여러 개의 독립된 단위, 즉 "객체"들의 모임으로 파악하고자 하는 것이다. 각각의 객체는 메시지를 주고받고, 데이터를 처리할 수 있다.
 
@@ -26,7 +28,7 @@ title: 객체 지향형 프로그래밍의 이해
 	- 클래스를 실체화(Instance) 하면 객체(Object)를 만들수 있다.
 	- 코드의 수정 없는 재활용을 위한 작업이다.
 
-	```swift
+	{% highlight swift %}
 	class Subject {
     var name: String
     var score: Int = 0
@@ -42,8 +44,8 @@ title: 객체 지향형 프로그래밍의 이해
         self.score = score
     } // method 함수 구현
     }
-	```
-
+	{% endhighlight %}
+	
 - **은닉화**
 	- 메소드의 로직이나 멤버 변수들에 대해 외부로 보이지 않게 하는 것 
 	- 접근지정자: 클래스의 멤버에 접근할 수 있는 권한을 통제 (private, public, protected)
@@ -63,7 +65,7 @@ title: 객체 지향형 프로그래밍의 이해
 
 ### ✔️ Class + Instance 선언법
 
-```swift
+{% highlight swift %}
 01. Subject 클래스 생성
 Class Subject {
 	var name: String = ""
@@ -73,7 +75,8 @@ Class Subject {
 02. instance 생성
 var newSubject: Subject = Subject()
 // Subject() == Subject.init(){} == 초기화 method
-```
+{% endhighlight %}
+
 
 
 ## 👌🏻 Method
@@ -85,7 +88,7 @@ var newSubject: Subject = Subject()
 ## 🤔 Question
 - 아래 코드에서, Student 클래스가 Subject 클래스를 재사용 하고 있는데, 이게 상속이라고 볼 수 있나요?
 
-```swift
+{% highlight swift %}
 class Student {
     var name: String
     var studentID: Int
@@ -112,7 +115,7 @@ class Student {
         self.subjects.append(subject)
     }
 }
-```
+{% endhighlight %}
 
 
 
