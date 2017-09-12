@@ -1,9 +1,10 @@
 ---
 layout: post
-title: 용어 정리 02. Backend
+title: "용어 정리 02. Backend"
+author: "younari"
 ---
 
-> Backend issue: 서버, 데이터 베이스, 네트워크와 관련해 기초 용어들을 찾아보고 정리하는 노트입니다.
+> 서버, 데이터 베이스, 네트워크와 관련한 기초 용어들을 찾아보고 정리하는 노트입니다.
 
 # Data
 
