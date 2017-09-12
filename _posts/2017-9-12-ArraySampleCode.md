@@ -22,18 +22,18 @@ var friendsList3:[String] = [String]()
 
 - 배열에 값을 추가할 때는 `append` 메소드 호출
 
-```swift
+{% highlight swift %}
+
 func addFriend(name: String) {
         friendsList.append(name)
 }
 
 addFriend(name: "Younari")
-```
-
+{% endhighlight %}
 
 - 내가 원하는 데이터가 배열에 있는지 찾는 함수를 만들어보자.
 
-```swift
+{% highlight swift %}
 func findFriend(name: String, targetList:[String]) -> Bool {
     for fname in targetList {
         if name == fname {
@@ -46,22 +46,20 @@ func findFriend(name: String, targetList:[String]) -> Bool {
 // 아래 두가지는 같은 결과를 return 할 것이다.
 findFriend(name: "Younari", targetList: friendsList)
 friendsList.contains("Younari")
-```
-
-
+{% endhighlight %}
 
 
 
 - 특정 데이터의 인덱스를 찾아서, 해당 인덱스를 배열에서 지울 수도 있다.
 
-```swift
+{% highlight swift %}
 func removeFriend(name: String) {
     if friendsList.contains(name) {
         let index: Int = friendsList.index(of: name)!
         friendsList.remove(at: index)
     }
 }
-```
+{% endhighlight %}
 
 ### 배열의 대표적인 method
 - `append`
