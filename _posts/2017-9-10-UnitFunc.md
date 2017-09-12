@@ -1,13 +1,14 @@
 ---
 layout: post
-title: 단위와 관련된 여러가지 함수
+title: "단위와 관련된 함수 만들기"
+author: "younari"
 ---
  
 > cm, inch, m, 평, MB, KB, 시, 분, 초 등 단위 변환과 관련된 여러가지 함수입니다.
 
 ### - 시,분,초 입력 받아 초를 반환하는 함수 만들기
 
-```swift
+{% highlight swift %}
 func timeToSecond(time: Int) -> Int {
     var t: Int = time
     var tarr: [Int] = []
@@ -20,9 +21,10 @@ func timeToSecond(time: Int) -> Int {
 
 var test = timeToSecond(time: 11320)
 print(test)
-```
+{% endhighlight %}
 
-```swift
+
+{% highlight swift %}
 func secondToTime(second: Int) -> Int {
     var returnValue: Int = 0
     var tmp = second
@@ -34,11 +36,11 @@ func secondToTime(second: Int) -> Int {
     returnValue = second + miniute*100 + hour*10000
     return returnValue
 }
-```
+{% endhighlight %}
 
 ### - inch와 centi 단위 변환하기
 
-```swift
+{% highlight swift %}
 func inchToCenti(inch: Double) -> Double {
     return inch * 2.54
 }
@@ -46,9 +48,9 @@ func inchToCenti(inch: Double) -> Double {
 func centiToInch(centi: Double) -> Double {
     return centi / 2.54
 }   
-```
+{% endhighlight %}
 
-```swift
+{% highlight swift %}
 func unitChange(inputType: String, outputType: String, inputValue: Double) -> Double {
     
     var returnValue: Double = 0.0
@@ -63,11 +65,11 @@ func unitChange(inputType: String, outputType: String, inputValue: Double) -> Do
     
     return returnValue
 }
-```
+{% endhighlight %}
 
 ### - 이것저것 단위 변환하기
 
-```swift
+{% highlight swift %}
 func SquaremeterToPyeong(m2: Double) -> Double {
     return m2 / 3.3058
 }
@@ -91,4 +93,4 @@ func KiloToMega(kb: Double) -> Double {
 func MegaToKilo(mb: Double) -> Double {
     return mb / 1024
 }
-```
+{% endhighlight %}
