@@ -7,7 +7,7 @@ permalink: /about/
 
 # Younari. 김기윤 (夏林)
 
-- Junior iOS Developer, ♥️Apple :) <br>
+- Junior iOS Developer, ♥️Apple <br>
 
 
 # 👌🏻 Featured Skills
