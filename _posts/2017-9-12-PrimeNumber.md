@@ -1,13 +1,14 @@
 ---
 layout: post
-title: 소수 찾는 함수 만들기
+title: "소수 판별 함수 만들기"
+author: "younari"
 ---
 
-> 2부터 입력된 숫자까지의 모든 소수를 찾아서 반환하는 함수 (일명 소수 판별 함수)를 만들어보았습니다.
+> 2부터 입력된 숫자까지의 모든 소수를 찾아서 반환하는 함수(소수 판별 함수)입니다.
 
 ## 소수 판별 함수 만들기 (true or false)
 
-```swift
+{% highlight swift %}
 func isPrime(num: Int) -> Bool {
     var result: Bool = true
     
@@ -22,11 +23,11 @@ func isPrime(num: Int) -> Bool {
     }
     return result
 }
-```
+{% endhighlight %}
 
 ## 소수 반환하는 함수 만들기
 
-```swift
+{% highlight swift %}
 func allPrimeNumber(endNum: Int) -> Array<Any>
 {
     var newList:[Int] = []
@@ -52,4 +53,25 @@ func allPrimeNumber(endNum: Int) -> Array<Any>
 }
 // 03. 소수만 담긴 새 배열을 프린트한다.
 // print(allPrimeNumber(endNum:13)) // [2,3,5,7]
-```
+{% endhighlight %}
+
+## 다른 방법으로도 풀어보기
+
+{% highlight swift %}
+func getPrime2(num: Int) -> [Int] {
+    let endNum: Int = num
+    var allNumbers:Set<Int> = []
+    var primeNumbers:[Int] = []
+    for checkNum in 2...endNum {
+        if !allNumbers.contains(checkNum) {
+            primeNumbers.append(checkNum)
+            var index = checkNum * 2
+            while index <= endNum {
+                allNumbers.insert(index)
+                index += checkNum
+            }
+        }
+    }
+    return primeNumbers
+}
+{% endhighlight %}
