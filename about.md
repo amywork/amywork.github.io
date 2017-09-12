@@ -11,7 +11,7 @@ permalink: /about/
 
 
 # 👌🏻 Featured Skills
-- iOS development (Swift & Objective-C)
+- iOS development (Swift)
 - UI Design (Sketch app, Xcode)
 - Knowledge : HTML, CSS, Javascript, C
 
