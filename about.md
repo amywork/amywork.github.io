@@ -13,7 +13,7 @@ permalink: /about/
 # 👌🏻 Featured Skills
 - iOS development (Swift)
 - UI Design (Sketch app, Xcode)
-- Knowledge : HTML, CSS, Javascript, C
+- Knowledge of HTML, CSS, Javascript
 
 # 👌🏻 Experience
 - 2015 ~ Product Manager @Shinsegae, e-commerce [SSG.COM](http://www.ssg.com) 
@@ -60,7 +60,7 @@ permalink: /about/
 
 **모바일 앱 UX/UI 디자인 CAMP**
 - 2017.05 ~ 2017.07 (10weeks, 60hours)
-- 국내 대기업, 에이전시, 스타트업 디자이너 지도하 APP GUI 실습 <br>
+- 국내 대기업, 에이전시, 스타트업 디자이너 지도 APP GUI 실습 <br>
 - Contents: Design components, Prototyping tools, Mobile app guide 
 
 **iOS APP 개발 School**

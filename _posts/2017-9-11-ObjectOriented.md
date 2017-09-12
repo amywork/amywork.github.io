@@ -28,23 +28,23 @@ author: "younari"
 	- 클래스를 실체화(Instance) 하면 객체(Object)를 만들수 있다.
 	- 코드의 수정 없는 재활용을 위한 작업이다.
 
-	{% highlight swift %}
-	class Subject {
-    var name: String
-    var score: Int = 0
-    var grade: String = "F"
-    var gradePoint: Double = 0.0
-    var credit: Int = 1
-    
-    init(name: String) {
-        self.name = name
-    } // instance를 생성할 때, 무조건 name이 초기화 됨
+{% highlight swift %}
+class Subject {
+var name: String
+var score: Int = 0
+var grade: String = "F"
+var gradePoint: Double = 0.0
+var credit: Int = 1
 
-    func setScore(score: Int) {
-        self.score = score
-    } // method 함수 구현
-    }
-	{% endhighlight %}
+init(name: String) {
+    self.name = name
+} // instance를 생성할 때, 무조건 name이 초기화 됨
+
+func setScore(score: Int) {
+    self.score = score
+} // method 함수 구현
+}
+{% endhighlight %}
 	
 - **은닉화**
 	- 메소드의 로직이나 멤버 변수들에 대해 외부로 보이지 않게 하는 것 
