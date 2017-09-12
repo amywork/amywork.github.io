@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 배열 속 Int 다루기
+title: "배열 속 Int 다루기"
+author: "younari"
 ---
 
 > 배열에 담긴 각각의 숫자들의 대소를 전후 비교하거나, 연속된 중복 숫자를 없애서 반환하는 등의 함수입니다.
