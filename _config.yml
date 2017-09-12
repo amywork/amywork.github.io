@@ -16,7 +16,7 @@ sass:
 markdown:       kramdown
 
 # About
-author:
+author:		younari
   name:         Younari
   url:          https://www.facebook.com/kiyun.k
   email:        younari.me@icloud.com
