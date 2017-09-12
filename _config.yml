@@ -3,7 +3,7 @@ permalink:      /:year-:month-:day/:title
 
 # Setup
 title:          Tale
-paginate:       5
+paginate:       10
 baseurl:        ""
 url:            "https://younari.github.io"
 
@@ -17,14 +17,14 @@ markdown:       kramdown
 
 # About
 author:
-  name:         Chester How
+  name:         Younari
   url:          https://www.facebook.com/kiyun.k
-  email:        chesterhow@gmail.com
+  email:        younari.me@icloud.com
 
 # Custom vars
 version:        3.4.1
 github:
-  repo:         https://github.com/chesterhow/tale
+  repo:         https://github.com/younari/younari.github.io
 
 # Gems
 gems:
