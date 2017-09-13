@@ -16,6 +16,22 @@ author: "younari"
 
 - Class의 Instance이다. 객체는 자신의 고유한 속성(attribute)을 가질 수 있으며, 클래스에서 정한 행위를 수행할 수 있다. 객체의 행위는 클래스에 정의된 행l위에 대한 정의를 공유함으로써 메모리를 경제적으로 사용한다. 
 
+{% highlight swift %}
+
+01. Subject 클래스 생성
+Class Subject {
+	var name: String = ""
+	var score: Int = 0
+}
+
+02. instance 생성
+var newSubject: Subject = Subject()
+// Subject() == Subject.init(){} == 초기화 method
+
+{% endhighlight %}
+
+
+
 ### 객체의 속성
 
 **추상화(Abstraciton)**
@@ -76,15 +92,18 @@ class Subject {
 {% endhighlight %}
 
 
-- **상속성(Inheritance)**
-	- 상위 개념의 특징을 하위 개념이 물려받는 것
-	- 상속은 새로운 클래스가 기존의 클래스의 자료와 연산을 이용할 수 있게 하는 기능
-	- 상속을 통해서 기존의 클래스를 상속받은 하위 클래스를 이용해 프로그램의 요구에 맞추어 클래스를 수정할 수 있고 클래스 간의 종속 관계를 형성함으로써 객체를 조직화할 수 있음
-	- 상속을 사용해 부모 클래스의 특성과 기능을 그대로 이어받고 기능의 일부분을 변경해야 할 경우 상속 받은 자식 클래스에서 그 기능만을 다시 정의하여 수정
-	- Super class란 상속을 위해 존재한다. 
+**상속성(Inheritance)**
 
-- **다형성(Polymorphism)**
-	- 하나의 변수명, 함수명 등이 상황에 따라 다른 의미로 해석될 수 있는 것
+- 상위 개념의 특징을 하위 개념이 물려받는 것
+- 상속은 새로운 클래스가 기존의 클래스의 자료와 연산을 이용할 수 있게 하는 기능
+- 상속을 통해서 기존의 클래스를 상속받은 하위 클래스를 이용해 프로그램의 요구에 맞추어 클래스를 수정할 수 있고 클래스 간의 종속 관계를 형성함으로써 객체를 조직화할 수 있음
+- 상속을 사용해 부모 클래스의 특성과 기능을 그대로 이어받고 기능의 일부분을 변경해야 할 경우 상속 받은 자식 클래스에서 그 기능만을 다시 정의하여 수정
+- Super class란 상속을 위해 존재한다. 
+
+**다형성(Polymorphism)**
+
+- 하나의 변수명, 함수명 등이 상황에 따라 다른 의미로 해석될 수 있는 것
+
 
 
 ## ✔️ Method
@@ -93,17 +112,9 @@ class Subject {
 
 {% highlight swift %}
 
-01. Subject 클래스 생성
-Class Subject {
-	var name: String = ""
-	var score: Int = 0
-}
-
-02. instance 생성
-var newSubject: Subject = Subject()
-// Subject() == Subject.init(){} == 초기화 method
+var s1 = Student(name: "Younari", id: 2011111050)
+s1.setSubjects(subjects: [math, english, computer])
+    
+var test = cal.scoreAvgCal(student: s1)
 
 {% endhighlight %}
-
-
-
