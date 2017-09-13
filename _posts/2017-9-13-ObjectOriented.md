@@ -52,6 +52,23 @@ func setScore(score: Int) {
 	- 데이터에 대한 읽기 쓰기 권한 구분 가능
 	- 입력데이터의 유효성 검증 부분을 로직에 포함 시킬 수 있음 (ex. 음수는 입력 안되게끔 처리)
 
+{% highlight swift %}
+class Subject {
+    private var name: String
+    private var score: Int = 0
+    -> 외부에서 score에 setscore로 값을 할당은 할 수 있으나, 값을 직접 읽을 수는 없음
+
+    func setScore(score: Int) {
+        self.score = score
+    } // method 함수 구현
+    
+    init(name: String) {
+        self.name = name
+    } // instance를 생성할 때, 무조건 name이 초기화 되고, 추후에 바꿀 수도 없음
+}
+{% endhighlight %}
+
+
 - **상속성(Inheritance)**
 	- 상위 개념의 특징을 하위 개념이 물려받는 것
 	- 상속은 새로운 클래스가 기존의 클래스의 자료와 연산을 이용할 수 있게 하는 기능
@@ -82,40 +99,5 @@ var newSubject: Subject = Subject()
 ## 👌🏻 Method
 - 클래스로부터 생성된 객체를 사용하는 방법으로서 객체에 명령을 내리는 메시지라 할 수 있다.
 - Method는 Class내에 선언된 함수를 말하며, 이는 객체에 의해 발현된다.
-
-
-
-## 🤔 Question
-- 아래 코드에서, Student 클래스가 Subject 클래스를 재사용 하고 있는데, 이게 상속이라고 볼 수 있나요?
-
-{% highlight swift %}
-class Student {
-    var name: String
-    var studentID: Int
-    
-    var subjects: [Subject] = []
-    var totalScore: Int = 0
-    
-    var totalGrade: String = "F"
-    var totalGradePoint: Int = 0
-  
-    init(name: String, id: Int) {
-        self.name = name
-        self.studentID = id
-    }
-    
-    // 수강 과목들을 모두 받아서 넣어주는 Method
-    func setSubjects(subjects:[Subject]) {
-        self.subjects = subjects
-    }
-    
-    // 질문: 위에서, Student 클래스에서, Subjct 클래스를 상속받은 것인가요?
-    // 수강 과목 하나를 받아서 넣어주는 Method
-    func addSubject(subject: Subject) {
-        self.subjects.append(subject)
-    }
-}
-{% endhighlight %}
-
 
 
