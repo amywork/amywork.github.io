@@ -11,7 +11,7 @@ author: "younari"
 
 **- 과목 클래스**
 
-```
+{% highlight swift %}
 class Subject {
     var name: String
     var score: Int = 0
@@ -27,11 +27,11 @@ class Subject {
         self.name = name
     } // instance를 생성할 때, 무조건 name이 초기화 됨
 }
-```
+{% endhighlight %}
 
 **- 학생 클래스**
 
-```
+{% highlight swift %}
 class Student {
     var name: String
     var studentID: Int
@@ -57,11 +57,11 @@ class Student {
         self.subjects.append(subject)
     }
 }
-```
+{% endhighlight %}
 
 **- 연산 클래스**
 
-```
+{% highlight swift %}
 
 class CreditCalculation {
     
@@ -82,7 +82,7 @@ class CreditCalculation {
         return avgScore
     }
 }
-```
+{% endhighlight %}
 
 <br>
 
