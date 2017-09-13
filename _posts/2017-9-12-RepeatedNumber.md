@@ -62,7 +62,7 @@ func shorter(num: Int) -> Int {
 <hr>
 <hr>
 
-- 다른 방법으로도 풀어보
+## 다른 방법으로도 풀어보기
 
 {% highlight swift %}
 func sqrOf10(num: Int) -> Int {
