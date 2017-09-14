@@ -16,7 +16,7 @@ permalink: /about/
 
 # Languages
 - 🇨🇳 Chinese : Professional working proficiency : 신HSK 6급, 255points
-- 🇺🇸 English : Professional working proficienc : Toeic 950, OPIC AL
+- 🇺🇸 English : Professional working proficiency : Toeic 950, OPIC AL
 - 🇰🇷 Korean : Native proficiency
 
 
