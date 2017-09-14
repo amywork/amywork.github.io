@@ -86,11 +86,11 @@ func fahrenheitTocelcius(f: Double) -> Double {
     return (f - 32) / 1.8
 }
 
-func KiloToMega(kb: Double) -> Double {
+func kiloToMega(kb: Double) -> Double {
     return kb * 1024
 }
 
-func MegaToKilo(mb: Double) -> Double {
+func megaToKilo(mb: Double) -> Double {
     return mb / 1024
 }
 {% endhighlight %}

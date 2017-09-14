@@ -8,7 +8,6 @@ author: "younari"
 ### 이름, 금액을 가진 "계좌" 클래스 만들기
 
 {% highlight swift %}
-```
 class BankAccount {
     var bankName: String = ""
     var deposit: Double = 0
@@ -18,14 +17,12 @@ class BankAccount {
         self.deposit = deposit
     }
 }
-```
 {% endhighlight %}
 
 ### 이름, 주소, [계좌], 총금액을 가진 "고객" 클래스 만들기
 
 {% highlight swift %}
 
-```
 class Customer {
     var name: String = ""
     var address: String = ""
@@ -59,13 +56,13 @@ class Customer {
         }
     }
 }
-```
+
 {% endhighlight %}
 
 ### 인스턴스 생성하여 고객별 보유 금액 구하기
 
 {% highlight swift %}
-```
+
 var person1: Customer = Customer(name: "Steve")
 var person2: Customer = Customer(name: "Tim")
 
@@ -85,5 +82,26 @@ person1.setAccount(account: account6)
 print(person1.totalCash)
 print(person2.totalCash)
 
-```
+{% endhighlight %}
+
+### 계좌 클래스에 이체 기능 추가하기
+
+{% highlight swift %}
+
+class BankAccount {
+    var bankName: String = ""
+    var deposit: Double = 0
+    
+    init(name: String, deposit: Double) {
+        self.bankName = name
+        self.deposit = deposit
+    }
+    
+    func tansfer(from: Customer, toWhom: Customer, toWhat: BankAccount, amounts: Double) {
+        self.deposit -= amounts
+        toWhat.deposit -= amounts
+        from.totalCash -= amounts
+        toWhom.totalCash += amounts
+    }
+}
 {% endhighlight %}
