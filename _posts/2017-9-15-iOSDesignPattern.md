@@ -5,7 +5,7 @@ author: "younari"
 ---
 
 ## iOS Design Pattern 
-- 현재 작성중인 파일로 이 문구가 살아있는 한 계속 수정될 수 있습니다.
+- 현재 작성중인 파일로 문구가 살아있는 한 계속 수정될 수 있습니다.
 - [The Role of View Controllers](https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/index.html#//apple_ref/doc/uid/TP40007457)
 - [View Controller Programming Guide for iOS](https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/DefiningYourSubclass.html#//apple_ref/doc/uid/TP40007457-CH7-SW1)
 - [UIViewController](https://developer.apple.com/documentation/uikit/uiviewcontroller)
@@ -16,13 +16,13 @@ author: "younari"
 - The first thing to notice is that iOS apps use a model-view-controller architecture. This pattern separates the app’s data and business logic from the visual presentation of that data. 
 - What distinguishes one iOS app from another is the data it manages (and the corresponding business logic) and how it presents that data to the user. Most interactions with UIKit objects do not define your app but help you to refine its behavior. For example, the methods of your app delegate let you know when the app is changing states so that your custom code can respond appropriately.
 
-### UIApplicationobject
+### UI Application object
 - At the heart of every iOS app is the UIApplication object, whose job is to facilitate the interactions between the system and other objects in the app.
 - The UIApplication object manages the event loop and other high-level app behaviors. It also reports key app transitions and some special events (such as incoming push notifications) to its delegate, which is a custom object you define. Use the UIApplication object as is—that is, without subclassing.
 - 사용자 클릭 -> OS -> UI Application -> .. -> View -> View Controller
 - Event loop : Que 구조(선입선출)
 
-### App delegateobject
+### App delegate object
 - UIApplicationMain이 AppDelegate를 호출
 - The app delegate is the heart of your custom code. This object works in tandem with the UIApplication object to handle app initialization, state transitions, and many high-level app events. This object is also the only one guaranteed to be present in every app, so it is often used to set up the app’s initial data structures.
 - 원래 순서는 delegate -> viewController 이동인데 스토리보드라는 변수
@@ -36,7 +36,7 @@ author: "younari"
 - The UIViewController class is the base class for all view controller objects. It provides default functionality for loading views, presenting them, rotating them in response to device rotations, and several other standard system behaviors. UIKit and other frameworks define additional view controller classes to implement standard system interfaces such as the image picker, tab bar interface, and navigation interface.
 
 
-### UIWindowobject
+### UI Window object
 - A UIWindow object coordinates the presentation of one or more views on a screen. Most apps have only one window, which presents content on the main screen, but apps may have an additional window for content displayed on an external display.
 - To change the content of your app, you use a view controller to change the views displayed in the corresponding window. You never replace the window itself.
 - In addition to hosting views, windows work with the UIApplication object to deliver events to your views and view controllers.
