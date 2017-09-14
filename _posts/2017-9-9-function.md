@@ -81,6 +81,7 @@ func compareInt(x: Int, y:Int) -> String {
 
 ## 여러가지 도형 함수
 {% highlight swift %}
+
 let PI: Double = 3.14
 // 01 Square function
 func square(type:String, s:Int) -> Int
@@ -159,6 +160,4 @@ func volumeOfCSV(type:String, r:Double, h:Double) -> Double
     }
     return returnValue
 }
-var result = volumeOfCSV(type:"Cone", r:30, h:1)
-print(result)
 {% endhighlight %}
