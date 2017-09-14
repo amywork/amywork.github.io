@@ -84,24 +84,34 @@ print(person2.totalCash)
 
 {% endhighlight %}
 
-### 계좌 클래스에 이체 기능 추가하기
+### 돈을 이체하는 Transfer 클래스 만들기
 
 {% highlight swift %}
 
-class BankAccount {
-    var bankName: String = ""
-    var deposit: Double = 0
+class Transfer {
     
-    init(name: String, deposit: Double) {
-        self.bankName = name
-        self.deposit = deposit
+    var fromWhom: Customer
+    var toWhom: Customer
+    var fromAccount: BankAccount
+    var toAccount: BankAccount
+    var amounts: Double
+    
+    init(from: Customer,to: Customer, fromAccount: BankAccount, toAccount: BankAccount, amounts: Double) {
+        self.fromWhom = from
+        self.toWhom = to
+        self.fromAccount = fromAccount
+        self.toAccount = toAccount
+        self.amounts = amounts
+        tansfer()
     }
     
-    func tansfer(from: Customer, toWhom: Customer, toWhat: BankAccount, amounts: Double) {
-        self.deposit -= amounts
-        toWhat.deposit -= amounts
-        from.totalCash -= amounts
+    func tansfer() {
+        fromAccount.deposit -= amounts
+        fromWhom.totalCash -= amounts
+        toAccount.deposit += amounts
         toWhom.totalCash += amounts
     }
+    
 }
+
 {% endhighlight %}
