@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "은행 계좌와 고객 객체 만들기"
+title: "은행 계좌 관련 Class 만들기"
 author: "younari"
 ---
 
@@ -19,7 +19,7 @@ class BankAccount {
 }
 {% endhighlight %}
 
-### 이름, 주소, [계좌], 총금액을 가진 "고객" 클래스 만들기
+### 이름, 주소, 복수개 계좌의 배열, 총금액을 가진 "고객" 클래스 만들기
 
 {% highlight swift %}
 
@@ -85,6 +85,7 @@ print(person2.totalCash)
 {% endhighlight %}
 
 ### 돈을 이체하는 함수를 가진 클래스 만들기
+- 단, 이체 후 고객의 totalCash를 refresh 해주어야 한다.
 
 {% highlight swift %}
 

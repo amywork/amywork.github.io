@@ -4,9 +4,9 @@ title: "클래스 구현 시나리오"
 author: "younari"
 ---
 ## 학점을 구하기 위해서는 어떤 CLASS가 있어야 할까?
-🤔 과목 클래스 : Name, Score, Grade, Grade Point <br>
-🤔 학생 클래스 : Name, [Subject], Total Score / Grade / Grade Point <br>
-🤔 연산 클래스 : 학생 이름을 입력하면 평균 점수를 반환하는 메소드 <br>
+- 과목 클래스 : Name, Score, Grade, Grade Point <br>
+- 학생 클래스 : Name, [Subject], Total Score / Grade / Grade Point <br>
+- 연산 클래스 : 학생 이름을 입력하면 평균 점수를 반환하는 메소드 <br>
 
 
 **- 과목 클래스**
