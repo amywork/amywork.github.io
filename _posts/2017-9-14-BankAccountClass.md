@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "은행 계좌 관련 Class 만들기"
+title: "은행 계좌 클래스 만들기"
 author: "younari"
 ---
 
