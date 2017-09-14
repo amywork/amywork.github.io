@@ -84,34 +84,16 @@ print(person2.totalCash)
 
 {% endhighlight %}
 
-### 돈을 이체하는 Transfer 클래스 만들기
+### 돈을 이체하는 함수를 가진 클래스 만들기
 
 {% highlight swift %}
 
-class Transfer {
-    
-    var fromWhom: Customer
-    var toWhom: Customer
-    var fromAccount: BankAccount
-    var toAccount: BankAccount
-    var amounts: Double
-    
-    init(from: Customer,to: Customer, fromAccount: BankAccount, toAccount: BankAccount, amounts: Double) {
-        self.fromWhom = from
-        self.toWhom = to
-        self.fromAccount = fromAccount
-        self.toAccount = toAccount
-        self.amounts = amounts
-        tansfer()
-    }
-    
-    func tansfer() {
-        fromAccount.deposit -= amounts
-        fromWhom.totalCash -= amounts
-        toAccount.deposit += amounts
-        toWhom.totalCash += amounts
-    }
-    
-}
+class Calculation {
+          
+            func transferMoney(toAccount: BankAccount, fromAccount: BankAccount, amounts: Double) {
+                fromAccount.deposit -= amounts
+                toAccount.deposit += amounts
+            }
+        }
 
 {% endhighlight %}
