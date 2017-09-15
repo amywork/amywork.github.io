@@ -4,7 +4,7 @@ title: "Swift Type 리뷰"
 author: "younari"
 ---
 
-> Swift Language Review
+> Swift Type Review
 
 # 01. Integer
 - **Int도 Instance이기 때문에, MAX와 MIN 프로퍼티가 존재한다.**

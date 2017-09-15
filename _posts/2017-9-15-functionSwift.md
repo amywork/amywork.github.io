@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Swift 함수"
+title: "Swift 함수 리뷰"
 author: "younari"
 ---
 
@@ -11,9 +11,9 @@ author: "younari"
 - **Parameter**(매개변수)는 함수 내부에서 사용 되는 변수명
 - 인수 레이블은 생략 가능하며 없을 때는 매개변수명이 인수 레이블로 사용된다.
 
-```swift
+{% highlight swift %}
 func fName(aName pName:Int) -> Int {      return paramName + 3  }
-```
+{% endhighlight %}
 
 ### 02. In-Out Parameter Keyword
 - 파라메터에 **함수 외부의 인스턴스**가 직접 들어간다.
