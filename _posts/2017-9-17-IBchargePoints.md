@@ -1,17 +1,15 @@
 ---
 layout: post
-title: "Swift로 간단한 UI 액션 구현하기"
+title: "Swift로 UI 구현하기"
 author: "younari"
 ---
 
-### Swift로 간단한 UI 액션 구현하기
+### Swift로 간단한 UI 구현하기
 - 일정 금액을 충전해서 물건을 구매하는 포인트몰을 구현.
 - 금액 충전시 잔액 + 반영, 물건 구매시 잔액 - 반영.
 - 코드 구성 과정은 // 코멘트로 표기.
 
-{% highlight markdown %}
-![Tale screenshot](https://imgur.com/a/iUsLu)
-{% endhighlight %}
+![screenshot](https://imgur.com/a/iUsLu)
 
 {% highlight swift %}
 
