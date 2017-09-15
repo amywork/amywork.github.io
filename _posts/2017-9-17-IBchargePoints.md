@@ -10,7 +10,7 @@ author: "younari"
 - 코드 구성 과정은 // 코멘트로 표기.
 
 {% highlight markdown %}
-![Tale screenshot](http://i.imgur.com/pXZrtmo.png)
+![Tale screenshot](https://imgur.com/a/iUsLu)
 {% endhighlight %}
 
 {% highlight swift %}
