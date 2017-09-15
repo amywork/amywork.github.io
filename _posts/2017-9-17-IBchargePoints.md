@@ -9,7 +9,7 @@ author: "younari"
 - 금액 충전시 잔액 + 반영, 물건 구매시 잔액 - 반영.
 - 코드 구성 과정은 // 코멘트로 표기.
 
-![Interface Builder](https://imgur.com/a/iUsLu)
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/iUsLu"><a href="//imgur.com/iUsLu"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 
 {% highlight swift %}
