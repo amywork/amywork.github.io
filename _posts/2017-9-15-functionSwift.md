@@ -12,7 +12,9 @@ author: "younari"
 - 인수 레이블은 생략 가능하며 없을 때는 매개변수명이 인수 레이블로 사용된다.
 
 {% highlight swift %}
-func fName(aName pName:Int) -> Int {      return paramName + 3  }
+func fName(aName pName:Int) -> Int {
+      return paramName + 3
+  }
 {% endhighlight %}
 
 ### 02. In-Out Parameter Keyword
@@ -24,11 +26,16 @@ func fName(aName pName:Int) -> Int {      return paramName + 3  }
 - `swapTwoInts(&someInt, &anotherInt)`
 
 {% highlight swift %}
-func swapTwoInts(_ a: inout Int, _ b: inout Int) {	let temporaryA = a	a=b	b = temporaryA}
+func swapTwoInts(_ a: inout Int, _ b: inout Int) {
+	let temporaryA = a
+	a=b
+	b = temporaryA
+}
 {% endhighlight %}
 
 
 ### 03. Return
-- return 키워드를 사용하여 함수 결과 반환. - 반환 타입과 같은 타입의 데이터를 반환 해야 한다.
+- return 키워드를 사용하여 함수 결과 반환. 
+- 반환 타입과 같은 타입의 데이터를 반환 해야 한다.
 - 반환값이 없는 경우는 Retrun Type을 작성하지 않는다.
 - return 타입에 tuple 타입을 넣을 수도 있다. 
