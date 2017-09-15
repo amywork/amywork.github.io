@@ -13,7 +13,6 @@ author: "younari"
 
 # 03. 접근 제어
 - **캡슐화, 은닉화**를 위해 사용
-
 - **Open** (개방 접근수준) : 모듈 외부까지 접근 가능
 - **public** (공개 접근수준) : 모듈 외부까지 접근 가능
 - **internal** (내부 접근수준) : 모듈 내부에서 접근가능, **기본 지정값**
@@ -29,7 +28,7 @@ author: "younari"
 
 
 {% highlight swift %}
-public class SomePublicClass {     public var somePublicProperty = 0     var someInternalProperty = 0     fileprivate func someFilePrivateMethod() {}     private func somePrivateMethod() {}}class SomeInternalClass {     var someInternalProperty = 0     fileprivate func someFilePrivateMethod() {}     private func somePrivateMethod() {}}
+public class SomePublicClass {     public var somePublicProperty = 0     var someInternalProperty = 0     fileprivate func someFilePrivateMethod() {}     private func somePrivateMethod() {}}// Internal 지정자가 Defaultclass SomeInternalClass {     var someInternalProperty = 0     fileprivate func someFilePrivateMethod() {}     private func somePrivateMethod() {}}
 
 fileprivate class SomeFilePrivateClass {     func someFilePrivateMethod() {}     private func somePrivateMethod() {}}private class SomePrivateClass {     func somePrivateMethod() {}
 }
