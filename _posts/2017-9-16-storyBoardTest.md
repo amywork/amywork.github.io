@@ -9,7 +9,7 @@ author: "younari"
 - 금액 충전시 잔액 + 반영, 물건 구매시 잔액 - 반영.
 - 코드 구성 과정 코멘트로 표기.
 
-[[https://github.com/younari/repository/blob/master/_images/0917chargeIB.png|alt=screen]]
+[[https://github.com/younari/younari.github.io/blob/master/_images/0917chargeIB.png]]
 
 {% highlight swift %}
 
