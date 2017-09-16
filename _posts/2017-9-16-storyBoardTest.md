@@ -9,8 +9,6 @@ author: "younari"
 - 금액 충전시 잔액 + 반영, 물건 구매시 잔액 - 반영.
 - 코드 구성 과정 코멘트로 표기.
 
-![UIScreenshot](https://imgur.com/pkeHL0G "UI Screenshot")
-
 {% highlight swift %}
 
 class ViewController: UIViewController {
