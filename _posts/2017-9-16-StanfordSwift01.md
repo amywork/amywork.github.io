@@ -31,6 +31,9 @@ by Stanford](https://itunes.apple.com/us/course/developing-ios-10-apps-with-swif
 - **External Name**: Arguments when we call a function
 - **Internal Name**: Parameters when we define a function
 
+<br>
+<hr>
+<br>
 
 ## DIY. Make calculator
 - **Optional**: Set / Not set
@@ -79,6 +82,8 @@ var displayValue: Double {
 
 
 ### 03. Define Operating Action
+{% highlight swift %}
+
 @IBAction func operation(_ sender: UIButton) {
     isUserTyping = false
     if let mathSymbol = sender.currentTitle {
@@ -90,14 +95,14 @@ var displayValue: Double {
         }
     }
 }
+{% endhighlight %}
+
 
 ### 04. Divide Operation to Model
 - 계산 기능을 Model(API)로 만들기
-- 3번의 계산 기능을 UI에서 분리하는 작업
+- 03번의 계산 기능을 UI에서 분리하는 작업
 
- 
 {% highlight swift %}
-
 import Foundation
 //  This is the Model of Calculator Brain.
 //  UI Independent, Read - only.
@@ -121,7 +126,6 @@ struct CalculatorBrain {
         }
     }
 }
-
 {% endhighlight %}
 
 
@@ -129,7 +133,6 @@ struct CalculatorBrain {
 
 {% highlight swift %}
 
-// 
 private var brain: CalculatorBrain = CalculatorBrain()
 
 @IBAction func performOperation(_ sender: UIButton) {
