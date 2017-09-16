@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "스탠포드 스위프트 강의노트 v0.1"
+title: "스탠포드 스위프트 강의노트 01"
 author: "younari"
 ---
 
