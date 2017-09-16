@@ -9,7 +9,9 @@ author: "younari"
 - 금액 충전시 잔액 + 반영, 물건 구매시 잔액 - 반영.
 - 코드 구성 과정 코멘트로 표기.
 
-
+<p align="center">
+<img src = "https://i.imgur.com/uPKJB1O.png", width="375", height="">
+</p>
 
 {% highlight swift %}
 
