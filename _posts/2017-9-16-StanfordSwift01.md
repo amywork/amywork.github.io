@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "스탠포드 스위프트 강의노트 01"
+title: "스탠포드 iOS 강의노트 v.01"
 author: "younari"
 ---
 
@@ -32,10 +32,12 @@ by Stanford](https://itunes.apple.com/us/course/developing-ios-10-apps-with-swif
 - **Internal Name**: Parameters when we define a function
 
 
-### DIY. Make calculator
+## DIY. Make calculator
 - **Optional**: Set / Not set
 - **nil**: optional, not set
 
+
+### 01. User Typing Digits
 
 {% highlight swift %}
 
@@ -56,10 +58,11 @@ var isUserTyping: Bool = false
 {% endhighlight %}
 
 
-
-### Computed Properties
+### 02. Computed Properties
 - read only variables
 - get some values from~ and set some values to~
+- Double to String
+
 
 {% highlight swift %}
 
@@ -72,7 +75,10 @@ var displayValue: Double {
         display?.text = String(newValue)
     }
 }
+{% endhighlight %}
 
+
+### 03. Define Operating Action
 @IBAction func operation(_ sender: UIButton) {
     isUserTyping = false
     if let mathSymbol = sender.currentTitle {
@@ -85,4 +91,64 @@ var displayValue: Double {
     }
 }
 
+### 04. Divide Operation to Model
+- 계산 기능을 Model(API)로 만들기
+- 3번의 계산 기능을 UI에서 분리하는 작업
+
+ 
+{% highlight swift %}
+
+import Foundation
+//  This is the Model of Calculator Brain.
+//  UI Independent, Read - only.
+
+struct CalculatorBrain {
+    
+    private var accumulator: Double
+    
+    func performOperation(_ symbol: String) {
+  
+    }
+    
+    func setOperand(_ operand: Double) {
+      
+    }
+    
+    // Computed properties
+    var result: Double {
+        get {
+            
+        }
+    }
+}
+
 {% endhighlight %}
+
+
+### 05. Operation Action과 Model 연결
+
+{% highlight swift %}
+
+// 
+private var brain: CalculatorBrain = CalculatorBrain()
+
+@IBAction func performOperation(_ sender: UIButton) {
+    if isUserTyping {
+        brain.setOperand(displayValue)
+        isUserTyping = false
+    }
+    
+    if let mathSymbol = sender.currentTitle {
+        brain.performOperation(mathSymbol)
+    }
+    
+    if let result = brain.result {
+        displayValue = result
+    }
+}
+    
+{% endhighlight %}
+
+
+### 06. Model 기능 완성하기
+- 계산기의 Operation Model을 완성하는 2화 45분 ~ 는 현재 Swift 문법을 배우는 과정에서 완벽하게 이해하기 쉽지 않으므로 추후에 다시 Back할 예정입니다.
