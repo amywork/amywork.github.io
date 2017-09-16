@@ -5,11 +5,16 @@ author: "younari"
 ---
 
 # iOS Design Pattern 
+### Sources from
+- [About iOS App Architecture](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007072)
+- [About the iOS Technologies](https://developer.apple.com/library/content/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007898)
+- [UIViewController](https://developer.apple.com/documentation/uikit/uiviewcontroller)
 - [The Role of View Controllers](https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/index.html#//apple_ref/doc/uid/TP40007457)
 - [View Controller Programming Guide for iOS](https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/DefiningYourSubclass.html#//apple_ref/doc/uid/TP40007457-CH7-SW1)
-- [UIViewController](https://developer.apple.com/documentation/uikit/uiviewcontroller)
-- [Document-Based Applications in iOS](https://developer.apple.com/library/content/documentation/DataManagement/Conceptual/DocumentBasedAppPGiOS/Introduction/Introduction.html#//apple_ref/doc/uid/TP40011149)
 - [The View Controller Hierarchy](https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/TheViewControllerHierarchy.html#//apple_ref/doc/uid/TP40007457-CH33-SW1)
+- [Document-Based Applications in iOS](https://developer.apple.com/library/content/documentation/DataManagement/Conceptual/DocumentBasedAppPGiOS/Introduction/Introduction.html#//apple_ref/doc/uid/TP40011149)
+- [App Programming Guide for iOS](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/TheAppLifeCycle/TheAppLifeCycle.html#//apple_ref/doc/uid/TP40007072-CH2-SW1)
+
 
 # MVC model
 - **Model**: What your application is (not how it displays)
@@ -41,11 +46,16 @@ author: "younari"
 - Controllers tune in to interesting stuff.
 
 ### ➝ MVCs working together.
+<br>
 
 
-# iOS MVC model (by apple)
+# The Structure of an iOS App
 - The first thing to notice is that iOS apps use a model-view-controller architecture. This pattern separates the app’s data and business logic from the visual presentation of that data. 
 - What distinguishes one iOS app from another is the data it manages (and the corresponding business logic) and how it presents that data to the user. Most interactions with UIKit objects do not define your app but help you to refine its behavior. For example, the methods of your app delegate let you know when the app is changing states so that your custom code can respond appropriately.
+- During startup, the UIApplicationMain function sets up several key objects and starts the app running. At the heart of every iOS app is the UIApplication object, whose job is to facilitate the interactions between the system and other objects in the app. 
+
+
+## The role of objects in an iOS app
 
 ### ➝ UI Application object
 - At the heart of every iOS app is the UIApplication object, whose job is to facilitate the interactions between the system and other objects in the app.
@@ -54,8 +64,8 @@ author: "younari"
 
 ### ➝ App delegate object
 - UIApplicationMain이 AppDelegate를 호출
+- AppDelegate -> viewController 이동인데 스토리보드라는 변수가 생김
 - The app delegate is the heart of your custom code. This object works in tandem with the UIApplication object to handle app initialization, state transitions, and many high-level app events. This object is also the only one guaranteed to be present in every app, so it is often used to set up the app’s initial data structures.
-- 원래 순서는 delegate -> viewController 이동인데 스토리보드라는 변수가 생김
 
 ### ➝ Documents and data model objects
 - Data model objects store your app’s content and are specific to your app. For example, a banking app might store a database containing financial transactions, whereas a painting app might store an image object or even the sequence of drawing commands that led to the creation of that image. (In the latter case, an image object is still a data object because it is just a container for the image data.)
@@ -73,13 +83,17 @@ author: "younari"
 
 
 ### ➝ View obejects, control objects, layer objects
-- Views and controls provide the visual representation of your app’s content. A view is an object that draws content in a designated rectangular area and responds to events within that area. Controls are a specialized type of view responsible for implementing familiar interface objects such as buttons, text fields, and toggle switches
+- Views and controls provide the visual representation of your app’s content. A view is an object that draws content in a designated rectangular area and responds to events within that area. Controls are a specialized type of view responsible for implementing familiar interface objects such as buttons, text fields, and toggle switches.
 
-- The UIKit framework provides standard views for presenting many di erent types of content. You can also define your own custom views by subclassing UIView (or its descendants) directly.
+- The UIKit framework provides standard views for presenting many different types of content. You can also define your own custom views by subclassing UIView (or its descendants) directly.
 
 - In addition to incorporating views and controls, apps can also incorporate Core Animation layers into their view and control hierarchies. Layer objects are actually data objects that represent visual content. Views use layer objects intensively behind the scenes to render their content. You can also add custom layer objects to your interface to implement complex animations and other types of sophisticated visual e ects.
 
-# App delegate
+
+<br>
+
+## Sample Code
+### App delegate
 {% highlight swift %}
 
 @UIApplicationMain
@@ -126,7 +140,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 
-# View Controller
+### View Controller
 
 {% highlight swift %}
 class ViewController: UIViewController {
@@ -140,12 +154,5 @@ class ViewController: UIViewController {
 override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
-    }
-
 }
-{% endhighlight %}
+}{% endhighlight %}
