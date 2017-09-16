@@ -5,7 +5,6 @@ author: "younari"
 ---
 
 ## iOS Design Pattern 
-- 현재 작성중인 파일로 문구가 살아있는 한 계속 수정될 수 있습니다.
 - [The Role of View Controllers](https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/index.html#//apple_ref/doc/uid/TP40007457)
 - [View Controller Programming Guide for iOS](https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/DefiningYourSubclass.html#//apple_ref/doc/uid/TP40007457-CH7-SW1)
 - [UIViewController](https://developer.apple.com/documentation/uikit/uiviewcontroller)
@@ -13,6 +12,38 @@ author: "younari"
 - [The View Controller Hierarchy](https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/TheViewControllerHierarchy.html#//apple_ref/doc/uid/TP40007457-CH33-SW1)
 
 ## MVC model
+- **Model**: What your application is (not how it displays)
+- **Controler**: How it displays.
+- **View**: Controller's minions, generic things (like UI Buttons)
+- It's all about managing communication between camps.
+
+### Relationship beteween camps.
+- Controllers can always talk directly to their Model.
+- Outlet: Controllers can also talk directly to their View. 
+- The Model and View should never speak to each other. 
+- The Model is UI-independent.
+
+### Can the View speack to its Controller? 
+- Sort of.
+- The Controller can drop a target on itself. (IBAction)
+- Then hand out an action to the view.
+- The View sends the action.
+- The Controller sets itself as the View's delegate.
+- The delegate is set via a protocol.
+
+### View do not own the data they display.
+- They ask for data source to Controller.
+- Controllers interpret/format Model information for the View.
+
+### Models are UI Independent.
+- They do not directly speack to Controller.
+- They are like Radio Station.
+- Controllers tune in to interesting stuff.
+
+### MVCs working together.
+
+
+## iOS MVC model (by apple)
 - The first thing to notice is that iOS apps use a model-view-controller architecture. This pattern separates the app’s data and business logic from the visual presentation of that data. 
 - What distinguishes one iOS app from another is the data it manages (and the corresponding business logic) and how it presents that data to the user. Most interactions with UIKit objects do not define your app but help you to refine its behavior. For example, the methods of your app delegate let you know when the app is changing states so that your custom code can respond appropriately.
 
