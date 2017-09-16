@@ -4,7 +4,7 @@ permalink:      /:year-:month-:day/:title
 # Setup
 title:          younari.swift
 paginate:       50
-baseurl:        ""
+baseurl:        "https://younari.github.io/"
 url:            "https://younari.github.io/"
 
 # Assets
