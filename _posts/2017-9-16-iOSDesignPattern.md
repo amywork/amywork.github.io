@@ -89,7 +89,7 @@ author: "younari"
 
 # View Controller Lifecycle
 
-##iOS calls the UIViewController methods as follows:
+## iOS calls the UIViewController methods as follows:
 
 - **viewDidLoad()** — Called when the view controller’s content view (the top of its view hierarchy) is created and loaded from a storyboard. The view controller’s outlets are guaranteed to have valid values by the time this method is called. Use this method to perform any additional setup required by your view controller.
 
