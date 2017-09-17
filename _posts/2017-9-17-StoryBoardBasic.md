@@ -4,10 +4,24 @@ title: "스토리보드로 UI 구현하기"
 author: "younari"
 ---
 
-### Xcode 스토리보드로 간단한 UI 구현하기
+# StoryBoard
+> A file that contains a visual representation of the app’s UI (user interface), showing screens of content and the transitions between them, that you work on in Interface Builder.
+
+## storyboard entry point
+- The first scene that’s shown from a storyboard when an app starts.
+
+## UIView
+- The elements that appear in the user interface are known as views. Views display content to the user. They are the building blocks for constructing your user interface and presenting your content in a clear, elegant, and useful way. Views have a variety of useful built-in behaviors, including displaying themselves onscreen and reacting to user input.
+- All view objects in iOS are of type UIView or one of its subclasses. Many UIView subclasses are highly specialized in appearance and behavior. 
+
+###### Sources from [Developer.apple.com](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/GlossaryDefinitions.html#//apple_ref/doc/uid/TP40015214-CH12-SW10)
+
+
+
+## 실습: Xcode 스토리보드로 간단한 UI 구현하기
 - 일정 금액을 충전해서 물건을 구매하는 포인트몰을 구현.
 - 금액 충전시 잔액 + 반영, 물건 구매시 잔액 - 반영.
-- 코드 구성 과정 코멘트로 표기.
+- [스크린샷 보러가기](https://github.com/younari/tastySwift/blob/master/0916_appleMachine/Readme.md)
 
 {% highlight swift %}
 
