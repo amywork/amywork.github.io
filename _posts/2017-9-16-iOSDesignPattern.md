@@ -91,14 +91,14 @@ author: "younari"
 <br>
 
 ## Sample Code
-### App delegate
+### AppDelegate.swift
 
 **The AppDelegate.swift source file has two primary functions:**
 
-- It defines your AppDelegate class. The app delegate creates the window where your app’s content is drawn and provides a place to respond to state transitions within the app.
+- It defines your AppDelegate class. **The app delegate creates the window** where your app’s content is drawn and provides a place to respond to state transitions within the app.
 - It creates the entry point to your app and a run loop that delivers input events to your app. This work is done by the UIApplicationMain attribute (@UIApplicationMain), which appears toward the top of the file.
 - Using the UIApplicationMain attribute is equivalent to calling the UIApplicationMain function and passing your AppDelegate class’s name as the name of the delegate class. In response, the system creates an application object. The application object is responsible for managing the life cycle of the app. The system also creates an instance of your AppDelegate class, and assigns it to the application object. Finally, the system launches your app.
-- The AppDelegate class adopts the UIApplicationDelegate protocol. This protocol defines a number of methods you use to set up your app, to respond to the app’s state changes, and to handle other app-level events.
+- **The AppDelegate class adopts the UIApplicationDelegate protocol.** This protocol defines a number of methods you use to set up your app, to respond to the app’s state changes, and to handle other app-level events.
 - The AppDelegate class contains a single property: window. 
 - `var window: UIWindow?`
 - The AppDelegate class also contains stub implementations of the following delegate methods:
@@ -108,6 +108,7 @@ author: "younari"
 - `func applicationWillEnterForeground(_ application: UIApplication)`
 - `func applicationDidBecomeActive(_ application: UIApplication)`
 - `func applicationWillTerminate(_ application: UIApplication)`
+- Each of the delegate methods has a default behavior. If you leave the template implementation empty or delete it from your AppDelegate class, you get the default behavior whenever that method is called. Alternatively, you can add your own code to the stub methods, **defining custom behaviors that are executed when the methods are called.**
 
 
 
@@ -157,19 +158,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 
-### View Controller
+### ViewController.swift
+- This file defines a custom subclass of UIViewController named ViewController. Right now, this class simply inherits all the behavior defined by UIViewController. To **override** or extend that behavior, you override the methods defined on UIViewController.
 
 {% highlight swift %}
+import UIKit
+ 
 class ViewController: UIViewController {
-
-// viewWillAppear
-// viewDidAppear
-// viewWillLayoutSubviews
-// viewDidDisappear
-// viewDidLoad() -> 이후 viewDidAppear()가 눈에 보이는 시점
-
-override func viewDidLoad() {
-    super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
 }
-}{% endhighlight %}
+{% endhighlight %}
