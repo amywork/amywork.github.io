@@ -64,19 +64,19 @@ class Subject {
     func scoreToGrade(_: Int) -> String {
         switch score {
         case 95...100:
-			grade = "A+"
+        	grade = "A+"
         case 90..<95:
-            grade = "A"
+			grade = "A"
         case 85..<90:
-            grade = "B+"
+			grade = "B+"
         case 80..<85:
-            grade = "B"
+			grade = "B"
         case 75..<80:
-        	grade = "C+"
+			grade = "C+"
         case 70..<75:
         	grade = "C"
         default:
-            grade = "F"
+			grade = "F"
 		}
         return grade
     }
