@@ -14,7 +14,20 @@ author: "younari"
 
 
 {% highlight swift %}
-func getPoint(somePoint:(Int,Int)) {     switch somePoint {     case (0, 0):         print("\(somePoint) is at the origin")     case (_, 0):         print("\(somePoint) is on the x-axis")     case (0, _):         print("\(somePoint) is on the y-axis")     case (-2...2, -2...2):         print("\(somePoint) is inside the box")     default:         print("\(somePoint) is outside of the box")     }}
+func getPoint(somePoint:(Int,Int)) {
+     switch somePoint {
+     case (0, 0):
+         print("\(somePoint) is at the origin")
+     case (_, 0):
+         print("\(somePoint) is on the x-axis")
+     case (0, _):
+         print("\(somePoint) is on the y-axis")
+     case (-2...2, -2...2):
+         print("\(somePoint) is inside the box")
+     default:
+         print("\(somePoint) is outside of the box")
+     }
+}
 {% endhighlight %}
 
 
@@ -66,18 +79,18 @@ class Subject {
         case 95...100:
         	grade = "A+"
         case 90..<95:
-			grade = "A"
+		grade = "A"
         case 85..<90:
-			grade = "B+"
+		grade = "B+"
         case 80..<85:
-			grade = "B"
+		grade = "B"
         case 75..<80:
-			grade = "C+"
+		grade = "C+"
         case 70..<75:
         	grade = "C"
         default:
-			grade = "F"
-		}
+		grade = "F"
+	}
         return grade
     }
     
