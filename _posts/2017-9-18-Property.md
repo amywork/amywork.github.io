@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "스위프트의 속성"
+title: "Swift Property"
 author: "younari"
 ---
 
@@ -13,7 +13,8 @@ author: "younari"
 - 클래스, 구조체에서만 사용 가능
 - 인스턴스와 연관된 값을 **저장**
 
-#Lazy property
+**👋🏻 Lazy property**
+
 - **lazy stored property**: 지연 저장 속성, 초기화 하는데 오래걸리거나 복잡한 초기화 과정이 있는 변수의 경우 지연저장을 사용하면 좋다.
 - A lazy property does not get initialized until someone accesses itYou can allocate an object, execute a closure, or call a method if you want
 
