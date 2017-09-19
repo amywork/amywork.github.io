@@ -7,16 +7,17 @@ permalink: /about/
 
 # 👧🏻 Younari. 김기윤 (夏林)
 
-- Junior iOS Developer <br>
+- Junior iOS Developer
+- [@younari.me](https://www.instagram.com/younari.me/)
 
 # Featured Skills
 - Develop for Apple Platforms (Swift)
-- UI/Interaction (Sketch app, Xcode)
+- Mobile Interaction Design (Sketch app, Xcode)
 - Basic Knowledge of HTML, CSS & Javascript
 
 # Languages
-- 🇨🇳 Chinese : Professional working proficiency : 신HSK 6급, 255points
-- 🇺🇸 English : Professional working proficiency : Toeic 950, OPIC AL
+- 🇨🇳 Chinese : Working proficiency - 신HSK 6급(255pt)
+- 🇺🇸 English : Working proficiency - Toeic 950, OPIC AL
 - 🇰🇷 Korean : Native proficiency
 
 
@@ -50,30 +51,26 @@ permalink: /about/
 - **Activities** : [연세대학교 공식 학보사 연세춘추 문화부 기자](http://chunchu.yonsei.ac.kr) 
 - **Field of Study** : Chinese Language & Literature (First major), Digital Design (Joint major)
 
-	- 문학: 중국의 당시/송사/산문/소설 독해를 통한 과거 사회상 및 후대 영향 탐구
-	- 언어학: 한자의 형성 및 발전 과정, 자형 구조 연구를 통한 문자에 대한 다각적 접근
-	- 실용 중국어: 고급 중국어 독해, 작문, 회화
-	- 디지털 디자인: 브랜딩, 타이포그래피, VMD, 정보디자인, 사용자경험(UX) 실습
-	- 예술: 영상예술기획, 러시아 공연예술, 프랑스 문화, 독일 표현주의, 한국 미술사
-
-
+1. 문학: 중국의 당시/송사/산문/소설 독해를 통한 과거 사회상 및 후대 영향 탐구
+2. 언어학: 한자의 형성 및 발전 과정, 자형 구조 연구를 통한 문자에 대한 다각적 접근
+3. 실용 중국어: 고급 중국어 독해, 작문, 회화
+4. 디지털 디자인: 브랜딩, 타이포그래피, VMD, 정보디자인, 사용자경험(UX) 실습
+5. 예술: 영상 예술 기획, 러시아 공연예술, 프랑스 문화, 독일 표현주의, 한국 미술사
 
 
 ## - Fast campus, 2017
-### **Web Interaction Programming** 
+### 01. **Web Interaction Programming** 
 - 2017.04 ~ 2017.05 (5weeks, 30hours) 
 - CoffeScript(JavaScript), HTML, CSS 문법을 활용한 웹 인터렉션 프로그래밍 실습
 
-### **모바일 앱 UX/UI 디자인 CAMP**
+### 02. **모바일 앱 UX/UI 디자인 Camp**
 - 2017.05 ~ 2017.07 (10weeks, 60hours)
-- 국내 대기업, 에이전시, 스타트업 디자이너 지도 APP GUI 실습
-- Contents: Design components, Prototyping tools, Mobile app guide 
+- 국내 대기업, 에이전시, 스타트업 디자이너 지도 App GUI 실습
+- Design components, Prototyping tools, Mobile app guide 
 
-### **iOS APP 개발 School**
+### 03. **iOS APP 개발 School**
 - 2017.09 ~ 2017.12 (16weeks)
 - Swift, Objective-C, Network
-   
-
 
 
 <br>
