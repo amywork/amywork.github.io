@@ -87,7 +87,7 @@ switch bookBarcode {
 {% endhighlight %}
 
 
-# 바코드 첫번째 숫자로 책 타입을 구분해보기
+### 04. 예제: 바코드 첫번째 숫자로 책 타입을 구분해보기
 
 {% highlight swift %}
 enum Barcode {
@@ -111,7 +111,6 @@ func checkBookType(bar: Barcode) {
         print("Anything else")
     }
 }
-
 
 checkBookType(bar: kinfolk)
 checkBookType(bar: photography)
