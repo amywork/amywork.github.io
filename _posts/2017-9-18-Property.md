@@ -88,7 +88,7 @@ stepCounter.totalSteps = 896
 ### 👍🏻 Sample Code - 01
 
 {% highlight swift %}
-staticfuncabs(d:Double) -> Double {
+static func abs(d:Double) -> Double {
 	if d < 0 { 
 		return -d
 	}else{
