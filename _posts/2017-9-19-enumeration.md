@@ -117,3 +117,21 @@ checkBookType(bar: photography)
 checkBookType(bar: foody)
 {% endhighlight %}
 
+# Raw Value
+
+{% highlight swift %}
+enum Planet: Int {
+    case mercury, venus, earth, mars, jupiter, saturn, uranus, neptune
+} // mercury = 0
+
+let possiblePlanet:Planet = Planet(rawValue: 1)! // venus
+print(possiblePlanet.rawValue) // 1
+{% endhighlight %}
+
+
+{% highlight swift %}
+enum ASCIIControlCharacter: Character {      case tab = "\t"      case lineFeed = "\n"      case carriageReturn = "\r"}
+{% endhighlight %}
+
+
+# Recursive Enumerations
