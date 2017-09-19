@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Swift Enumerations"
+title: "Swift Enumeration"
 author: "younari"
 ---
 
@@ -154,3 +154,4 @@ print(possiblePlanet.rawValue) // 1
 
 
 # Recursive Enumerations
+- 재귀열거형은 다른 인스턴스 열거형이 Associated Values로 사용되는 열거형이다.
