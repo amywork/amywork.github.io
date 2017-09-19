@@ -118,6 +118,19 @@ checkBookType(bar: foody)
 {% endhighlight %}
 
 # Raw Value
+- enum 선언시 타입을 Character, Int, String 으로 지정하고 원시값 지정이 가능하다.
+- Enumeration cases can come **prepopulated** with default values (called raw values), which are **all of the same type.**
+
+{% highlight swift %}
+enum ASCIIControlCharacter: Character {
+    case tab = "\t"
+    case lineFeed = "\n"
+    case carriageReturn = "\r"
+}
+{% endhighlight %}
+
+
+### 디폴트는 0부터 ~
 
 {% highlight swift %}
 enum Planet: Int {
@@ -128,9 +141,15 @@ let possiblePlanet:Planet = Planet(rawValue: 1)! // venus
 print(possiblePlanet.rawValue) // 1
 {% endhighlight %}
 
+### 값 지정 가능
 
 {% highlight swift %}
-enum ASCIIControlCharacter: Character {      case tab = "\t"      case lineFeed = "\n"      case carriageReturn = "\r"}
+enum Planet: Int {
+    case mercury=3, venus, earth, mars, jupiter, saturn, uranus, neptune
+} // mercury = 3
+
+let possiblePlanet:Planet = Planet(rawValue: 1)! // venus
+print(possiblePlanet.rawValue) // 1
 {% endhighlight %}
 
 
