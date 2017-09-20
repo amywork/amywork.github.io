@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Swift Enumeration"
+title: "Swift Enum"
 author: "younari"
 ---
 
