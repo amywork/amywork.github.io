@@ -175,8 +175,19 @@ enum Constants: Double {
 {% endhighlight %}
 
 
-# Recursive Enumerations
-- 재귀열거형은 다른 인스턴스 열거형이 Associated Values로 사용되는 열거형이다.
+# Properties
+- 실제적인 stored properties 를 저장할 수 없다고 하더라도, computed properties를 활용해볼 수 있다. 
 
+{% highlight swift %}
+enum Device {
+  case iPad, iPhone
+  var year: Int {
+    switch self {
+	case iPhone: return 2007 // enum의 케이스 하위에 year 생성됨
+	case iPad: return 2010
+     }
+  }
+}
+{% endhighlight %}
 
 

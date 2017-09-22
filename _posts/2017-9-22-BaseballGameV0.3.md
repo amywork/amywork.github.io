@@ -13,27 +13,35 @@ author: "younari"
 - [스위프트 베이스볼 게임 만들기 v0.2](https://younari.github.io/2017-09-22/BaseballGameV0.2)
 
 ### 수정사항: Enum, Property Observer 추가
-- Strike 및 Ball의 케이스를 담고있는 Enum 케이스 SET을 만들었습니다.
-- Property Observer을 활용하여 History Label에 전시될 텍스트가 Score Label의 텍스트에 따라 willSet 되도록 설정했습니다.
+- Strike, Ball의 케이스를 담고있는 Enum 케이스 SET을 만들고, 케이스에 따라 String을 return하는 내부 메소드를 정의했습니다.
+- Property Observer을 활용하여 History Label에 전시될 텍스트가 Score Label의 텍스트에 따라 didSet 되도록 설정했습니다.
 
 
 
 {% highlight swift %}
-
 class SmartBrain {
     
-    // Strike 및 Ball의 케이스를 담고있는 Enum
     private enum PickCase {
-        case allStrike //"YES👌🏻👏🏻♥️"
-        case ballAndStrike(strike: Int, ball: Int) //"S: \(strike), B:  \(ball)"
-        case out //"3 Out 💩"
+        case allStrike
+        case ballAndStrike(strike: Int, ball: Int)
+        case out
+        func printString() -> String {
+            switch self {
+            case .out:
+                return "3 Out 💩"
+            case .ballAndStrike(strike: let s, ball: let b):
+                return "S: \(s), B: \(b)"
+            case .allStrike:
+                return "YES👌🏻👏🏻♥️"
+            }
+        }
     }
-
+    
     func compareCheck(arr1: [Int], arr2: [Int], myStr: String) -> (SL: String, HL: String) {
         var strike: Int = 0
         var ball: Int = 0
         var caseCheck: PickCase
-        
+
         for i in 0..<arr1.count {
             if arr1[i] == arr2[i] {
                 strike += 1
@@ -41,16 +49,6 @@ class SmartBrain {
                 ball += 1
             }
         }
-        
-        if strike + ball == 0 {
-            caseCheck = PickCase.out
-        }else if strike == 3 {
-            caseCheck = PickCase.allStrike
-        }else {
-            caseCheck = PickCase.ballAndStrike(strike: strike, ball: ball)
-        }
-        
-
         
         // Property Observer
         var historyStr: String?
@@ -60,15 +58,14 @@ class SmartBrain {
             }
         }
         
-        switch caseCheck {
-        case .out:
-            displayStr = "3 Out 💩"
-        case .ballAndStrike:
-            displayStr = "S: \(strike), B:  \(ball)"
-        case .allStrike:
-            displayStr = "YES👌🏻👏🏻♥️"
+        if strike + ball == 0 {
+            displayStr = PickCase.out.printString()
+        }else if strike == 3 {
+            displayStr = PickCase.allStrike.printString()
+        }else {
+            displayStr = PickCase.ballAndStrike(strike: strike, ball: ball).printString()
         }
-        
+
         return (SL: displayStr, HL: historyStr!)
     }
     
