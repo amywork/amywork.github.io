@@ -8,7 +8,7 @@ author: "younari"
 
 # 게임 연산 로직을 담은 Smart Brain
 
-- [Xcode 프로젝트 파일 바로가기](https://github.com/younari/tastySwift/tree/master/0920_BaseballGame)
+- [Xcode 프로젝트 파일 바로가기](https://github.com/younari/tastySwift/tree/master/0921_BaseballGame)
 - [스위프트 베이스볼 게임 만들기 v0.1](https://younari.github.io/2017-09-21/BaseballGame)
 - [스위프트 베이스볼 게임 만들기 v0.2](https://younari.github.io/2017-09-22/BaseballGameV0.2)
 - [스위프트 베이스볼 게임 만들기 v0.3](https://younari.github.io/2017-09-21/BaseballGameV0.3)
