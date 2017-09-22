@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "스위프트 베이스볼 게임 만들기 v0.1"
+title: "스위프트 베이스볼 게임 만들기 v0.2"
 author: "younari"
 ---
 
