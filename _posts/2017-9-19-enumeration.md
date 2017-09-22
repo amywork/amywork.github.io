@@ -51,7 +51,7 @@ case .west:
 
 {% highlight swift %}
 enum Barcode {
-    case upc(Int, Int, Int, Int)
+    case upc(Int, Int, Int, Int) // 이건 어찌보면 튜플이 할당된 케이스!
     case qrCode(String)
 }
 {% endhighlight %}
@@ -177,3 +177,6 @@ enum Constants: Double {
 
 # Recursive Enumerations
 - 재귀열거형은 다른 인스턴스 열거형이 Associated Values로 사용되는 열거형이다.
+
+
+
