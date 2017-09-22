@@ -4,12 +4,19 @@ title: "스위프트 베이스볼 게임 만들기 v0.3"
 author: "younari"
 ---
 
-> v0.3 버전에서는 Enum을 활용하여 Strike, Ball 케이스를 분기하였습니다. 
+> v0.3 버전에서는 Enum을 활용하여 Strike, Ball 케이스를 분기하고, 변수에 Property Observer를 활용했습니다.
 
-# 01. 조금 더 똑똑해진 Smart Brain
-### Enum 활용하기
+# 조금 더 똑똑하게 Smart Brain 만들기
 
 - [Xcode 프로젝트 파일 바로가기](https://github.com/younari/tastySwift/tree/master/0920_BaseballGame)
+- [스위프트 베이스볼 게임 만들기 v0.1](https://younari.github.io/2017-09-21/BaseballGame)
+- [스위프트 베이스볼 게임 만들기 v0.2](https://younari.github.io/2017-09-22/BaseballGameV0.2)
+
+### 수정사항: Enum, Property Observer 추가
+- Strike 및 Ball의 케이스를 담고있는 Enum 케이스 SET을 만들었습니다.
+- Property Observer을 활용하여 History Label에 전시될 텍스트가 Score Label의 텍스트에 따라 willSet 되도록 설정했습니다.
+
+
 
 {% highlight swift %}
 
@@ -43,8 +50,15 @@ class SmartBrain {
             caseCheck = PickCase.ballAndStrike(strike: strike, ball: ball)
         }
         
-        var displayStr: String = ""
-        var historyStr: String = ""
+
+        
+        // Property Observer
+        var historyStr: String?
+        var displayStr: String = "" {
+            didSet {
+                historyStr = myStr + " ➜ " + displayStr + "\n"
+            }
+        }
         
         switch caseCheck {
         case .out:
@@ -55,8 +69,7 @@ class SmartBrain {
             displayStr = "YES👌🏻👏🏻♥️"
         }
         
-        historyStr = myStr + " ➜ " + displayStr + "\n"
-        return (SL: displayStr, HL: historyStr)
+        return (SL: displayStr, HL: historyStr!)
     }
     
     // 랜덤의 3자리 Int 생성 함수
@@ -72,5 +85,4 @@ class SmartBrain {
     }
     
 }
-
 {% endhighlight %}
