@@ -1,18 +1,21 @@
 ---
 layout: post
-title: "Swift Enum"
+title: "스위프트 열거형(Enum) 알아보기"
 author: "younari"
 ---
 
 # Swift Terminology - Enumeration
-##### Sources from [The Swift Programming Language (Swift 4)](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html)
+##### Sources from [The Swift Programming Language (Swift 4)](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html), [Appventure.me](https://appventure.me/2015/10/17/advanced-practical-enum-examples/)
 
 > An enumeration defines a common type for a group of related values and enables you to work with those values in a type-safe way within your code.
 
+# 필요한 상황
+- 유한한 경우의 수가 있을 때, 케이스(+때로는 연관된 값)를 선언하는 것
+- **Define any hierarchically organized data**
+- **Keeping related information together.**
+
 
 # 기본 문법
-- 다른 언어에서는 타입:값을 매칭해두지만, 스위프트에서는 열거된 항목 자체(=케이스)이다.
-
 ```
 enum CompassPoint {    case north    case south    case east    case west}
 ```
@@ -21,6 +24,8 @@ enum CompassPoint {    case north    case south    case east    case west}
 
 
 # 스위치문과 함께 사용하기
+-  Enum을 활용하는 패턴 매칭
+-  You can use various pattern matching constructs through enums
 
 {% highlight swift %}
 
@@ -117,20 +122,25 @@ checkBookType(bar: photography)
 checkBookType(bar: foody)
 {% endhighlight %}
 
-# Raw Value
+# Enum Values: Raw Value
 - enum 선언시 타입을 Character, Int, String 으로 지정하고 원시값 지정이 가능하다.
 - Enumeration cases can come **prepopulated** with default values (called raw values), which are **all of the same type.**
 
+### Mapping to String
 {% highlight swift %}
-enum ASCIIControlCharacter: Character {
-    case tab = "\t"
-    case lineFeed = "\n"
-    case carriageReturn = "\r"
+enum House: String {
+    case Baratheon = "Ours is the Fury"
+    case Greyjoy = "We Do Not Sow"
+    case Martell = "Unbowed, Unbent, Unbroken"
+    case Stark = "Winter is Coming"
+    case Tully = "Family, Duty, Honor"
+    case Tyrell = "Growing Strong"
 }
+
 {% endhighlight %}
 
 
-### 디폴트는 0부터 ~
+### Mapping to Integer, 디폴트는 0부터 ~
 
 {% highlight swift %}
 enum Planet: Int {
@@ -141,7 +151,7 @@ let possiblePlanet:Planet = Planet(rawValue: 1)! // venus
 print(possiblePlanet.rawValue) // 1
 {% endhighlight %}
 
-### 값 지정 가능
+### Mapping to Integer, 시작값 지정 가능
 
 {% highlight swift %}
 enum Planet: Int {
@@ -150,6 +160,18 @@ enum Planet: Int {
 
 let possiblePlanet:Planet = Planet(rawValue: 1)! // venus
 print(possiblePlanet.rawValue) // 1
+{% endhighlight %}
+
+### Mapping to floating point 
+- also note the fancy unicode in enum cases
+
+{% highlight swift %}
+enum Constants: Double {
+    case π = 3.14159
+    case e = 2.71828
+    case φ = 1.61803398874
+    case λ = 1.30357
+}
 {% endhighlight %}
 
 
