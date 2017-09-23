@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Swift Optional Type"
+title: "스위프트 옵셔널 문법"
 author: "younari"
 ---
 
