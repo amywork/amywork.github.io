@@ -1,17 +1,16 @@
 ---
 layout: post
-title: "Enum, Closure 활용한 계산기 만들기"
+title: "Swift 계산기 만들기 v0.5"
 author: "younari"
 ---
 
-## MVC 모델 적용 및 Enum, Closure 활용
-- 연산 모델 Class 만들기 (CalculatorModel)
-- Operation Case에 대한 Enum 만들기 (단일 연산, 이항 연산, = 연산)
-- 연산 기호 : Operation Case 딕셔너리 만들기
-- Enum의 Associated Value에 클로저가 들어가게끔 처리하기
+### 연산 기호 중복 클릭 처리 기능 추가, 단항 연산 오류 수정
+- [Xcode 프로젝트 바로가기](https://github.com/younari/tastySwift/tree/master/0919_CalculatorBrain)
+
 
 ### 연산 처리를 담당하는 클래스 (모델)
 {% highlight swift %}
+import Foundation
 class CalculatorModel {
     
     // 연산 타입 정의 : 단일, 이항, 등호
@@ -22,7 +21,6 @@ class CalculatorModel {
         case equal
     }
 
-    
     // 연산 기호 : 연산 타입 딕셔너리 생성
     private var operDic: [String:OperatoinCase] = [
         "+": .binary({(num1, num2) -> Double in return num1 + num2}),
@@ -35,7 +33,6 @@ class CalculatorModel {
         "=": .equal
     ]
 
-    
     // 연산을 기다리는 옵셔널 Double 변수 생성
     var leftNumber: Double? 
     
@@ -47,34 +44,38 @@ class CalculatorModel {
     // 바이너리 연산을 위한 스트럭트 WaitingBinary의 인스턴스
     private var waitingBinary: WaitingBinary?
     
-    // 연산 클릭시 연산 수행, 연속 연산을 위한 축적값 operand 생성
+    // 연산 클릭시 연산 수행
     var operand: Double?
-    func perfomrOperation(mathSymbol: String) {
+        func perfomrOperation(mathSymbol: String) {
         if let operationCase = operDic[mathSymbol] {
             switch operationCase {
+                
             case .unary(let function):
-                if leftNumber != nil {
-                    leftNumber = function(leftNumber!)
+                if leftNumber != nil && operand == nil {
+                    operand = function(leftNumber!)
+                }else if leftNumber != nil && operand != nil {
+                    operand = function(operand!)
                 }
-            case .binary(let binaryFunction):
-            if leftNumber != nil && operand == nil {
-                operand = leftNumber!
-                waitingBinary = WaitingBinary(firstNum: operand!, waitingFunc: binaryFunction)
-            }else if leftNumber != nil && operand != nil {
-                operand! += leftNumber!
-                waitingBinary = WaitingBinary(firstNum: operand!, waitingFunc: binaryFunction)
-            }else if operand != nil && leftNumber == nil {
-                waitingBinary = WaitingBinary(firstNum: operand!, waitingFunc: binaryFunction)
-            }
-            leftNumber = nil
+                
+            case .binary(let binaryFunc):
+                if leftNumber != nil && operand == nil {
+                    operand = leftNumber!
+                    waitingBinary = WaitingBinary(firstNum: operand!, waitingFunc: binaryFunc)
+                }else if leftNumber != nil && operand != nil {
+                    operand! = waitingBinary!.doBinaryOp(with: leftNumber!)
+                    waitingBinary = WaitingBinary(firstNum: operand!, waitingFunc: binaryFunc)
+                }else if operand != nil && leftNumber == nil {
+                    waitingBinary = WaitingBinary(firstNum: operand!, waitingFunc: binaryFunc)
+                }
+                leftNumber = nil
+                
             case .equal:
                 getResult()
-                operand = nil
             }
-    	}
+        }
     }
     
-    // 바이너리 값 저장하고 있을 스트럭트
+    // Binary 연산을 저장하고 있을 Struct
     private struct WaitingBinary {
         let firstNum: Double
         let waitingFunc: (Double,Double) -> Double
@@ -83,19 +84,13 @@ class CalculatorModel {
         }
     }
 
-    // 바이너리 연산 값 구하기
+    // Binary 연산의 결과값 구하기 (Equal 연산)
+    var returnValue: Double? // ViewController에 넘겨줄 연산 완료 값
     private func getResult() {
         if waitingBinary != nil && leftNumber != nil {
-            leftNumber = waitingBinary!.doBinaryOp(with: leftNumber!)
+            returnValue = waitingBinary!.doBinaryOp(with: leftNumber!)
         }
-    }
-    
-    // 뷰콘트롤러에 넘겨줄 연산 완료된 값
-    var returnValue: Double? {
-        return leftNumber
-    }
-    
-    
+    }   
 }
 {% endhighlight %}
 
@@ -107,7 +102,7 @@ class UpgradeCalculatorViewControler: UIViewController {
     @IBOutlet weak var displayLB: UILabel!
 
     //MARK: - IBAction
-    //숫자 입력
+    //숫자 입력받기 OK
     var isTyping: Bool = false
     @IBAction func digit(_ sender: UIButton) {
         let currentDigit = sender.currentTitle!
@@ -125,6 +120,7 @@ class UpgradeCalculatorViewControler: UIViewController {
         displayValue = 0.0
         isTyping = false
         calModel.setNumber(displayNum: displayValue)
+        calModel.operand = nil
     }
     
     // 전시된 값을 get 하거나 set하는 displayValue
@@ -147,11 +143,13 @@ class UpgradeCalculatorViewControler: UIViewController {
         
         guard let symbol = sender.currentTitle else { return }
         calModel.perfomrOperation(mathSymbol: symbol)
-
-        if calModel.returnValue != nil {
+        
+        if symbol == "=" {
             displayValue = calModel.returnValue!
+        }else {
+            displayValue = calModel.operand!
         }
+        
     }
-
 }
 {% endhighlight %}
