@@ -154,4 +154,4 @@ private var brain: CalculatorBrain = CalculatorBrain()
 
 
 ### 06. Model 기능 완성하기
-- [MVC 모델로 만든 계산기 바로가기](https://younari.github.io/2017-09-20/Calculator_04)
+- [MVC 모델로 만든 계산기 바로가기](https://younari.github.io/2017-09-15/Calculator_05)
