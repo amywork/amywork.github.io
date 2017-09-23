@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "스위프트 열거형(Enum) 알아보기"
+title: "스위프트 Enum"
 author: "younari"
 ---
 

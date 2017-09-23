@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Switch 구문 활용하기"
+title: "스위프트 Switch"
 author: "younari"
 ---
 

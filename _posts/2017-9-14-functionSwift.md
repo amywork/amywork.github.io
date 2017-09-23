@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Swift Function"
+title: "스위프트 Function"
 author: "younari"
 ---
 

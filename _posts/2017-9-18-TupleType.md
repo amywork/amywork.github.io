@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "스위프트 튜플 타입"
+title: "스위프트 Tuple"
 author: "younari"
 ---
 

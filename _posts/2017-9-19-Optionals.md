@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "스위프트 옵셔널 문법"
+title: "스위프트 Optional"
 author: "younari"
 ---
 

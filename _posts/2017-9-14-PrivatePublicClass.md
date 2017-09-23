@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Swift 클래스 접근 제어"
+title: "클래스 접근 제어"
 author: "younari"
 ---
 
@@ -28,9 +28,28 @@ author: "younari"
 
 
 {% highlight swift %}
-public class SomePublicClass {     public var somePublicProperty = 0     var someInternalProperty = 0     fileprivate func someFilePrivateMethod() {}     private func somePrivateMethod() {}}// Internal 지정자가 Defaultclass SomeInternalClass {     var someInternalProperty = 0     fileprivate func someFilePrivateMethod() {}     private func somePrivateMethod() {}}
 
-fileprivate class SomeFilePrivateClass {     func someFilePrivateMethod() {}     private func somePrivateMethod() {}}private class SomePrivateClass {     func somePrivateMethod() {}
+public class SomePublicClass {
+     public var somePublicProperty = 0
+     var someInternalProperty = 0
+     fileprivate func someFilePrivateMethod() {}
+     private func somePrivateMethod() {}
+}
+
+// Internal 지정자가 Default
+class SomeInternalClass {
+     var someInternalProperty = 0
+     fileprivate func someFilePrivateMethod() {}
+     private func somePrivateMethod() {}
+}
+
+fileprivate class SomeFilePrivateClass {
+     func someFilePrivateMethod() {}
+     private func somePrivateMethod() {}
+}
+
+private class SomePrivateClass {
+     func somePrivateMethod() {}
 }
 
 {% endhighlight %}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Swift Type"
+title: "스위프트 Type"
 author: "younari"
 ---
 
