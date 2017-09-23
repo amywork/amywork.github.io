@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Swift Property"
+title: "스위프트 프로퍼티"
 author: "younari"
 ---
 
@@ -16,7 +16,8 @@ author: "younari"
 **👋🏻 Lazy property**
 
 - **lazy stored property**: 지연 저장 속성, 초기화 하는데 오래걸리거나 복잡한 초기화 과정이 있는 변수의 경우 지연저장을 사용하면 좋다.
-- A lazy property does not get initialized until someone accesses itYou can allocate an object, execute a closure, or call a method if you want
+- A lazy property does not get initialized until someone accesses it
+You can allocate an object, execute a closure, or call a method if you want
 
 # Computed Properties
 - 클래스, 구조체, 열거형에서 모두 사용 가능
@@ -25,7 +26,25 @@ author: "younari"
 
 ### Sample Code
 {% highlight swift %}
-struct Point {     var x = 0.0, y = 0.0 }struct Size {     var width = 0.0, height = 0.0 }struct Rect {var origin = Point() var size = Size() var center: Point {         get {             let centerX = origin.x + (size.width / 2)             let centerY = origin.y + (size.height / 2)             return Point(x: centerX, y: centerY)         }         set(newCenter) {             origin.x = newCenter.x - (size.width / 2)             origin.y = newCenter.y - (size.height / 2)         }} }
+struct Point {
+     var x = 0.0, y = 0.0
+ }
+struct Size {
+     var width = 0.0, height = 0.0
+ }
+struct Rect {
+var origin = Point() var size = Size() var center: Point {
+         get {
+             let centerX = origin.x + (size.width / 2)
+             let centerY = origin.y + (size.height / 2)
+             return Point(x: centerX, y: centerY)
+         }
+         set(newCenter) {
+             origin.x = newCenter.x - (size.width / 2)
+             origin.y = newCenter.y - (size.height / 2)
+         }
+}
+ }
 {% endhighlight %}
 
 # Read-Only Computed Properties
@@ -80,9 +99,11 @@ stepCounter.totalSteps = 896
 - 값을 가져올때는 **클래스의 이름**을 통해서 가져올 수 있다.
 - `let color: UIColor = UIColor.red`
 
-### 👍🏻 Both types and instances can have methods & properties- Instance properties are properties that belong to an instance of a particular type. Every time you create a new instance of that type, it has its own set of property values, separate from any other instance.
+### 👍🏻 Both types and instances can have methods & properties
+- Instance properties are properties that belong to an instance of a particular type. Every time you create a new instance of that type, it has its own set of property values, separate from any other instance.
 - You can also define **properties that belong to the type itself,** not to any one instance of that type. There will only ever be one copy of these properties, no matter how many instances of that type you create. These kinds of properties are called **type properties.**
-- Type methods and properties are denoted with the keyword **static.**- For example, the struct Double has a number of vars and funcs on its type. These are not methods or vars you access on an instance of a Double (e.g. on 53.2). Instead, **you access them by referencing the Double type itself.**
+- Type methods and properties are denoted with the keyword **static.**
+- For example, the struct Double has a number of vars and funcs on its type. These are not methods or vars you access on an instance of a Double (e.g. on 53.2). Instead, **you access them by referencing the Double type itself.**
 
 
 ### 👍🏻 Sample Code - 01
@@ -97,9 +118,17 @@ static func abs(d:Double) -> Double {
 } 
 {% endhighlight %}
 
-- `static var pi: Double`- `let d = Double.pi`- `let d = Double.abs(-324.44)`- `let x: Double = 23.85`- `let e = x.pi` // no! pi is not an instance var- `let e = x.abs(-22.5)` // no! abs is not an instance method### 👍🏻 Sample Code - 02
+- `static var pi: Double`
+- `let d = Double.pi`
+- `let d = Double.abs(-324.44)`
+- `let x: Double = 23.85`
+- `let e = x.pi` // no! pi is not an instance var
+- `let e = x.abs(-22.5)` // no! abs is not an instance method
 
-{% highlight swift %}struct AudioChannel {
+### 👍🏻 Sample Code - 02
+
+{% highlight swift %}
+struct AudioChannel {
     static let thresholdLevel = 10
     static var maxInputLevelForAllChannels = 0
     var currentLevel: Int = 0 {
@@ -123,7 +152,15 @@ static func abs(d:Double) -> Double {
 - Static Type Property는 Data 영역에 저장
 - Instance의 속성들은 Heap 영역에 저장
 
-# Value VS. Reference#### - Value type (struct, enum) vs. Reference type (class)
-### Value (struct and enum)- Copied when passed as an argument to a function- Copied when assigned to a different variable- Immutable if assigned to a variable with let (function parameters are let)- You must note any func that can mutate a struct/enum with the keyword mutating
-### Reference (class)- Stored in the heap and reference counted (automatically)- Constant pointers to a class (let) still can mutate by calling methods and changing properties When passed as an argument, does not make a copy (just passing a pointer to same instance)
+# Value VS. Reference
+#### - Value type (struct, enum) vs. Reference type (class)
+### Value (struct and enum)
+- Copied when passed as an argument to a function
+- Copied when assigned to a different variable
+- Immutable if assigned to a variable with let (function parameters are let)
+- You must note any func that can mutate a struct/enum with the keyword mutating
+
+### Reference (class)
+- Stored in the heap and reference counted (automatically)
+- Constant pointers to a class (let) still can mutate by calling methods and changing properties When passed as an argument, does not make a copy (just passing a pointer to same instance)
 

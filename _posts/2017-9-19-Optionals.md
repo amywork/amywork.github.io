@@ -11,8 +11,6 @@ author: "younari"
 
 ## Optional?
 - A value that contains either an underlying value or nil to indicate that the value is missing.
-- nil인 상태에서 속성을 참조하거나, 함수를 실행시 발생하는 크래쉬를 방지하기 위해 사용
-- `var num: Int?` -> **Optional Int**
 
 ### 😱 optional도 enum이다.
 - The Optional type is an enumeration with two cases. 
@@ -26,12 +24,27 @@ let number: Int? = Optional.some(42)
 let noNumber: Int? = Optional.none
 {% endhighlight %}
 
+{% highlight swift %}
+let x: String? = ...
+if let y = x { //do something with y }
+{% endhighlight %}
+
+- 위 코드와 아래 코드와 같은 의미를 갖고 있다.
+
+{% highlight swift %}
+swithch x {
+	case .some(let y): // do something with y
+	case .none: break 
+}
+{% endhighlight %}
+
 ## nil
 - 변수만 선언되어 있으며, 아직 instance가 할당되기 전
 - 아무것도 없는 상태
 
 ## Unwrap
 - Optional 변수에 값이 있음을 확인하여 일반 변수로 전환해준다.
+- nil인 상태에서 속성을 참조하거나, 함수를 실행시 발생하는 크래쉬를 방지하기 위해 사용
 - To extract an underlying value from an optional.
 
 ### 🤡 Forced Unwrapping : 강제 해제 
@@ -78,9 +91,11 @@ func getFriendList(list:[String]?) {	guard let list = list else { return }
 if let isPNG = imagePaths["star"]?.hasSuffix(".png") {
     print("The star image is in PNG format")
 }
-// Prints "The star image is in PNG format"
 {% endhighlight %}
 
+- 아래 두 코드를 비교해보면 위의 x는 Int 이고, 아래 x는 Int?이다.
+- `if let x = display?.text?.hashValue { ... }`
+- `let x = display?.text?.hashValue { ... }`
 
 ## Using the Nil-Coalescing Operator
 - **nil 이면 디폴트값을 실행해줘.**

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Swift Tuple Type"
+title: "스위프트 튜플 타입"
 author: "younari"
 ---
 
