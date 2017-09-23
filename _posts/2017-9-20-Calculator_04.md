@@ -5,10 +5,10 @@ author: "younari"
 ---
 
 ## MVC 모델 적용 및 Enum, Closure 활용
-- **1.** 연산 모델 Class 만들기 (CalculatorModel)
-- **2.** Operation Case에 대한 Enum 만들기 (단일 연산, 이항 연산, = 연산)
-- **3.** 연산 기호 : Operation Case 딕셔너리 만들기
-- **4.** Enum의 Associated Value에 클로저가 들어감
+- 연산 모델 Class 만들기 (CalculatorModel)
+- Operation Case에 대한 Enum 만들기 (단일 연산, 이항 연산, = 연산)
+- 연산 기호 : Operation Case 딕셔너리 만들기
+- Enum의 Associated Value에 클로저가 들어가게끔 처리하기
 
 ### 연산 처리를 담당하는 클래스 (모델)
 {% highlight swift %}
