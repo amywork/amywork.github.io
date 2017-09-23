@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "스위프트 프로퍼티"
+title: "스위프트 Property"
 author: "younari"
 ---
 
@@ -22,7 +22,7 @@ You can allocate an object, execute a closure, or call a method if you want
 # Computed Properties
 - 클래스, 구조체, 열거형에서 모두 사용 가능
 - **실제로 값을 저장하지 않지만,** get, set키워드를 통해서 값을 간접적으로 설정하거나 받을 수 있다.
-- setter를 선언할 때 값을 넣지 않았다면 디폴트 네임은 newValue로 사용한다.
+- **setter**를 선언할 때 값을 넣지 않았다면 디폴트 네임은 **newValue**로 사용한다.
 
 ### Sample Code
 {% highlight swift %}
@@ -128,6 +128,7 @@ static func abs(d:Double) -> Double {
 ### 👍🏻 Sample Code - 02
 
 {% highlight swift %}
+
 struct AudioChannel {
     static let thresholdLevel = 10
     static var maxInputLevelForAllChannels = 0
@@ -144,6 +145,7 @@ struct AudioChannel {
         }
     }
 }
+
 {% endhighlight %}
 
 # Memory
