@@ -63,11 +63,10 @@ self.view.addSubview(topView)
 - A view that displays one or more lines of read-only text, often used in conjunction with controls to describe their intended purpose.
 
 ## UIImageView
--
+- An object that displays a single image or a sequence of animated images in your interface.
 
 
 ## UIControl
 ## UIWindow
 ## UIScrollView
-
 
