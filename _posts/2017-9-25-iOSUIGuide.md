@@ -113,43 +113,37 @@ contentImageView.isUserInteractionEnabled = true
 - 사용자의 이벤트를 받아 처리해주는 UI
 - currentImage, currentBackgroundImage
 - currentAttributedTitle. currentTitleColor
-- 버튼 클릭에 따라 로고와 매거진 타이틀의 폰트 및 텍스트 String 바꿔보기
-- `contentReadBtn.setTitle("Read More", for: UIControlState.normal)` 
-- `contentReadBtn.setTitleColor(UIColor.black, for: UIControlState.normal)`
+
+### - UIButton의 자주 사용하는 프로퍼티 살펴보기
+- setTitle, setTitleColor, addTarget
 
 {% highlight swift %}
+let btn: UIButton = UIButton(type: .custom) // Default: Custom
+view.addSubview(btn)
+btn.setTitle("normal", for: .normal) 
+btn.setTitleColor(.black, for: .normal)
+btn.setTitle("highlight", for: .highlighted)
+btn.setTitleColor(.black, for: .highlighted)//
+btn.setTitle("selected", for: .selected) 
+btn.setTitleColor(.black, for: .selected)
+btn.addTarget(self, action: #selector(ViewController.btnClick), for: .touchUpInside) 
+btn.backgroundColor = .white
+btn.frame = CGRect(x: magazineFooterView.frame.width/2-50, y: magazineFooterView.frame.height-50, width: 100, height: 20)
+{% endhighlight %}
 
-// MARK -- Content Read Buttom
-let contentReadBtn: UIButton = UIButton(type: UIButtonType.system)// init 할 때만 type 선정 가능, 기본은 custom type
-contentModuleView.addSubview(contentReadBtn)
-contentReadBtn.setTitle("Read More", for: UIControlState.normal) // 버튼 내용
-contentReadBtn.setTitleColor(UIColor.black, for: UIControlState.normal) // 버튼 내용
-contentReadBtn.backgroundColor = UIColor.white
-contentReadBtn.frame = CGRect(x: contentModuleView.frame.width-116, y: contentModuleView.frame.height-46, width: 100, height: 30)
 
-// MARK -- Add Target
-contentReadBtn.addTarget(self, action: #selector(ViewController.contentReadBtnClick(_:)), for: UIControlEvents.touchUpInside)
-    
-// MARK -- Read Button Click Enum Cases
 
-var titleCase = TitleChangeCase.on
-enum TitleChangeCase {
-    case on
-    case off
-}
-    
-@objc func contentReadBtnClick(_ sender: UIButton) {
-    switch titleCase {
-    case .on:
-    contentTitleLabel.text = "Want to read more?"
-    titleCase = .off
-    
-    case .off:
-    contentTitleLabel.text = "Magazine Title"
-    titleCase = .on
+### - sender.isSelected
+- btn의 isSelected값에 변화주기
+
+{% highlight swift %}
+@objc func btnClick(_ sender: UIButton) {
+    if sender.isSelected {
+        sender.isSelected = false
+    }else {
+        sender.isSelected = true
     }
 }
-
 {% endhighlight %}
 
 
