@@ -86,34 +86,7 @@ logoLabel.font = UIFont.systemFont(ofSize: 16, weight: UIFont.Weight.heavy)
 // MARK -- Custom Font type
 logoLabel.font = UIFont(name: "Font Name", size: 16)
 {% endhighlight %}
-
-
-{% highlight swift %}
-let contentSummaryLabel: UILabel = UILabel()
-contentModuleView.addSubview(contentSummaryLabel)
-contentSummaryLabel.frame = CGRect(x: 16, y: 402, width: self.view.frame.width-32, height: 110)
         
-//MARK -- UILabel.attributedText : lineBreakMode, textAlignment, lines
-let stringValue = "Introducing The Kinfolk Entrepreneur! Our latest book meets over 40 international entrepreneurs who offer tips, advice and inspiration for anyone hoping to forge their own professional path. Available to order at kinfolk.com/entrepreneur. Published by 
-
-let attrString = NSMutableAttributedString(string: stringValue)
-let paragraphStyle = NSMutableParagraphStyle()
-paragraphStyle.lineSpacing = 3
-paragraphStyle.minimumLineHeight = 0
-attrString.addAttribute(NSAttributedStringKey.paragraphStyle, value: paragraphStyle, range: NSRange(location: 0, length: stringValue.characters.count))
-contentSummaryLabel.attributedText = attrString
-contentSummaryLabel.lineBreakMode = .byTruncatingTail
-// byTruncatingTail is default
-//byCharWrapping, byClipping, byTruncatingHead, byWordWrapping, byTruncatingMiddle
-
-contentSummaryLabel.textAlignment = .left
-contentSummaryLabel.numberOfLines = 6
-contentSummaryLabel.isEnabled = false // This property determines only how the label is drawn. Disabled text is dimmed somewhat to indicate it is not active. This property is set to true by default.
-    
-// MARK -- adjustsFontSizeToFitWidth == AutoShrink
-contentSummaryLabel.adjustsFontSizeToFitWidth = true
-contentSummaryLabel.minimumScaleFactor = 6
-{% endhighlight %}
 
 ## UIImageView
 - An object that displays a single image or a sequence of animated images in your interface.
