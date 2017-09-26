@@ -7,7 +7,7 @@ author: "younari"
 > Xcode ViewController에서, UIView와 UIButton을 활용하여 버튼을 만들고, 버튼에 색상을 입혀 On/Off 하며 색을 바꾸는 인터렉션을 만들어봅니다.
 
 # UIButton
-- [연습용 Xcode Project 바로가기](https://github.com/younari/tastySwift/tree/master/0925_UIViewPractice/0925_UIViewPractice)
+- [연습용 Xcode Project 바로가기](https://github.com/younari/tastySwift/tree/master/0926_ButtonPractice)
 
 
 ### 01. 버튼 9개를 담을 [UIButton] 배열을 만든다.
