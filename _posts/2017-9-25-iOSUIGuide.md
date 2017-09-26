@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "iOS User Interface Guide"
+title: "iOS UI Overview"
 author: "younari"
 ---
 
-# 🦄 iOS User Interface Overview
-- [연습용 Xcode Project 바로가기](https://github.com/younari/tastySwift/tree/master/0925_UIViewPractice/0925_UIViewPractice)
+# iOS User Interface Overview
+- [연습용 Xcode Project 바로가기](https://github.com/younari/tastySwift/tree/master/0925_UIViewPractice)
 - [Apple SDK 문서 읽기](https://developer.apple.com/documentation/uikit/uilabel)
 
 ## 00. Point, Pixel
@@ -19,10 +19,10 @@ author: "younari"
 ## 02. Auto Layout
 - 추후 설명 추가 예정
 
-# 🦄 Framework
+# Framework
 - 특정 운영 체제를 위한 응용 프로그램 표준 구조를 구현 하는 **클래스와 라이브러리 모임**이다. 
 
-# 🦄 UIKit framework
+# UIKit framework
 - Command + Shift + 0 으로 찾기
 - **Cocoa Touch Framework**
 - **Ex)** `import UIKit`
@@ -136,7 +136,7 @@ self.view.addSubview(topView)
 {% endhighlight %}        
 
 
-# UIControl
+## UIControl
 - normal, highlighted, isEnabled, disabled(read only), isSelected, selected(read only), addTarget(method)
 - Button, Switch, Slider, Textview 의 상위 클래스
 
