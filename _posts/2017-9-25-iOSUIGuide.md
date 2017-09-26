@@ -27,7 +27,7 @@ author: "younari"
 - **Cocoa Touch Framework**
 - **Ex)** `import UIKit`
 - **UI Kit** : Cocoa Touch Framework에 추가된 UI관련 기능의 클래스가 모여있는 Framework
-- **UI Class Hierarchy** : NSObject 👉🏻 UIResponder 👉🏻 UIApplication, UIViewController, UIView 👉🏻 UIImageView, UILabel, UIControl, UIWindow, UIScrollView 👉🏻 UIButton, UISlider, UISwitch, UITextField
+- **UI Class Hierarchy** : NSObject 👉🏻 UIResponder 👉🏻 UIApplication, UIViewController, UIView 👉🏻 UIImageView, UILabel, **UIControl**, UIWindow, UIScrollView 👉🏻 UIButton, UISlider, UISwitch, UITextField
 
 
 ## UIResponder
@@ -210,3 +210,15 @@ self.view.addSubview(topView)
 
 
 ## UI Text Field
+- 사용자의 input을 받는 UI Text Field
+
+{% highlight swift %}
+let sendMsgTxtField = UITextField(frame: CGRect(x: 0, y: view.frame.size.height-50, width: view.frame.size.width, height: 50 ))
+self.view.addSubview(sendMsgTxtField)
+sendMsgTxtField.borderStyle = .line
+sendMsgTxtField.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+sendMsgTxtField.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+sendMsgTxtField.placeholder = "Kinfolk에게 의견을 보내주세요😊"
+/****UITextfield Protocol 채택 및 delegate 사용*****/
+sendMsgTxtField.delegate = self
+{% endhighlight %}
