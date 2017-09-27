@@ -7,7 +7,7 @@ author: "younari"
 > SignUp & SignIn - 로그인 화면 구현하기
 
 # SignUp & SignIn
-- [연습용 Xcode Project 바로가기](https://github.com/younari/tastySwift/tree/master/0926_ButtonPractice)
+- [Xcode Project 바로가기](https://github.com/younari/tastySwift/tree/master/0927_SignUp/0927_SignUp)
 
 
 ## 01. User Model 클래스 생성
