@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "스위프트 UI 구현하기"
+title: "iOS UI Basic v0.2"
 author: "younari"
 ---
 
