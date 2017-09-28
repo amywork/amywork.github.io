@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "UIButton 스위치 코드"
+title: "스위프트 UIButton"
 author: "younari"
 ---
 

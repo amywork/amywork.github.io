@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "로그인 화면 구현하기"
+title: "로그인 화면 구현하기 v0.1"
 author: "younari"
 ---
 
