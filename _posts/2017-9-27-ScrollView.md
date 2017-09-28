@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "스위프트 Scroll, Switch"
+title: "스위프트 Scroll View"
 author: "younari"
 ---
 
