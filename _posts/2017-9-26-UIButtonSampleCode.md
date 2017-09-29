@@ -8,7 +8,10 @@ author: "younari"
 
 # UIButton
 - [연습용 Xcode Project 바로가기](https://github.com/younari/tastySwift/tree/master/0926_ButtonPractice)
-
+- UIButton의 type은 init 할 때만 지정할 수 있다.
+- type default는 커스텀 타입이다.
+- buttonType은 get만 있는 read Only 읽기 전용이다.
+- UIControl은 상태(normal, selected)가 존재하기 때문에, 버튼의 타이틀을 입력할 때 (setTitle) 상태도 함께 입력해야 한다.
 
 ### 01. 버튼 9개를 담을 [UIButton] 배열을 만든다.
 ### 02. 버튼을 만드는 함수 makeBtn()을 만든다.
