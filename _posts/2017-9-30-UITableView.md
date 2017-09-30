@@ -6,7 +6,7 @@ author: "younari"
 
 # UITableView
 
-- [UITableView Xcode 프로젝트 바로가기]()
+- [UITableView Xcode 프로젝트 바로가기](https://github.com/younari/tastySwift/tree/master/0929_TableView/0929_TableView)
 
 ## override func viewDidLoad()
 - 채택해야 할 프로토콜: UITableViewDataSource, UITableViewDelegate
