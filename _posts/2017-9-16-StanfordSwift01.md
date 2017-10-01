@@ -4,8 +4,10 @@ title: "스탠포드 iOS 강의노트 v.01"
 author: "younari"
 ---
 
-
-## Intro to iOS 10, Xcode 8, Swift 3 - Note v0.1
+## Lecture 1 ~ 3
+### Lecture 1: Intro to iOS 10, Xcode 8, Swift 3 
+### Lecture 2: MVC; iOS, Xcode and Swift Demonstration
+### Lecture 3: More Swift and the Foundation Framework
 
 > **Course Description** Updated for iOS 10 and Swift. Tools and APIs required to build applications for the iPhone and iPad platforms using the iOS SDK. User interface design for mobile devices and unique user interactions using multi-touch technologies. Object-oriented design using model-view-controller paradigm, memory management, Swift programming language. Other topics include: object-oriented database API, animation, mobile device power management, multi-threading, networking and performance considerations.
 
