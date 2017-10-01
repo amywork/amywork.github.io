@@ -50,17 +50,25 @@ author: "younari"
 
 
 # The Structure of an iOS App
-- The first thing to notice is that iOS apps use a model-view-controller architecture. This pattern separates the app’s data and business logic from the visual presentation of that data. 
+- The first thing to notice is that iOS apps use **a model-view-controller architecture.** This pattern separates the app’s data and business logic from the visual presentation of that data. 
 - What distinguishes one iOS app from another is the data it manages (and the corresponding business logic) and how it presents that data to the user. Most interactions with UIKit objects do not define your app but help you to refine its behavior. For example, the methods of your app delegate let you know when the app is changing states so that your custom code can respond appropriately.
-- During startup, the UIApplicationMain function sets up several key objects and starts the app running. At the heart of every iOS app is the UIApplication object, whose job is to facilitate the interactions between the system and other objects in the app. 
+
 
 
 ## The role of objects in an iOS app
 
 ### ➝ UI Application object
+- During startup, the **UIApplicationMain function sets up several key objects and starts the app running.**
 - At the heart of every iOS app is the UIApplication object, whose job is to facilitate the interactions between the system and other objects in the app.
 - The UIApplication object manages the event loop and other high-level app behaviors. It also reports key app transitions and some special events (such as incoming push notifications) to its delegate, which is a custom object you define. Use the UIApplication object as is — that is, without subclassing.
 - Event loop : Que 구조(선입선출)
+- `let myApp = UIApplication.shared`
+- It manages all global behavior
+- Opening a URL in another application.
+- `func open(URL)`
+- `func canOpenURL(URL) -> Bool`
+- Registering to receive Push Notifications.
+- `func registerForRemoteNotifications()`
 
 ### ➝ App delegate object
 - The app delegate is the heart of your custom code. This object works in tandem with the UIApplication object to handle app initialization, state transitions, and many high-level app events. This object is also the only one guaranteed to be present in every app, so it is often used to set up the app’s initial data structures.
