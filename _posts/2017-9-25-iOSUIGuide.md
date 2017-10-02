@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "iOS UI Basic v0.1"
+title: "iOS UI Guide"
 author: "younari"
 ---
 
@@ -29,7 +29,6 @@ author: "younari"
 - **UI Kit** : Cocoa Touch Framework에 추가된 UI관련 기능의 클래스가 모여있는 Framework
 - **UI Class Hierarchy** : NSObject 👉🏻 UIResponder 👉🏻 UIApplication, UIViewController, UIView 👉🏻 UIImageView, UILabel, **UIControl**, UIWindow, UIScrollView 👉🏻 UIButton, UISlider, UISwitch, UITextField
 
-
 ## UIResponder
 - The UIResponder class defines an interface for objects that respond to handle events.
 - ex) `open func becomeFirstResponder() -> Bool`
@@ -38,14 +37,14 @@ author: "younari"
 ## UIViewController
 ## UIView
 - An object that manages the content for a rectangular area on the screen.
+- UIView class의 property 중의 하나인, frame(=> CGRect 타입)에 값을 넣어서 init하는 방식
 
 {% highlight swift %}
 let topView: UIView = UIView(frame: CGRect(x: 15, y: 15, width: self.view.frame.width-30, height: 100))
 {% endhighlight %}
 
-- UIView class의 property 중의 하나인, frame(=> CGRect 타입) 에 값을 넣어서 init하는 방식
 
-#### - CGRect?
+## CGRect?
 - **struct CGRect**: A structure that contains the location and dimensions of a rectangle. (CG = Core Graphic)
 - In the default **Core Graphics** coordinate space, the origin is located in the lower-left corner of the rectangle and the rectangle extends towards the upper-right corner. If the context has a flipped-coordinate space—often the case on iOS—the origin is in the upper-left corner and the rectangle extends towards the lower-right corner.
 
@@ -61,9 +60,19 @@ topView.layer.cornerRadius = 20
 self.view.addSubview(topView)
 {% endhighlight %}
 
-## UILabel
+
+# UILabel
 - A view that displays one or more lines of read-only text, often used in conjunction with controls to describe their intended purpose.
+- frame, textColor, text, font, textAlignment
 - 라벨 만들기 실습 (UIColor, UIFont 활용) 
+
+{% highlight swift %}
+exploreLabel.frame = CGRect(x: 0, y: 160, width: self.view.frame.size.width, height: 60)
+exploreLabel.textColor = .white
+exploreLabel.text = "Explore"
+exploreLabel.font = UIFont.systemFont(ofSize: 46, weight: .heavy)
+exploreLabel.textAlignment = .center
+{% endhighlight %}
 
 {% highlight swift %}
 // MARK -- Generate Kinfolk Logo
@@ -88,8 +97,16 @@ logoLabel.font = UIFont(name: "Font Name", size: 16)
 {% endhighlight %}
         
 
-## UIImageView
+# UIImageView
 - An object that displays a single image or a sequence of animated images in your interface.
+- alpha, frame, contentMode
+
+{% highlight swift %}
+exploreImg.image = #imageLiteral(resourceName: "Background-1")
+exploreImg.alpha = 0.6
+exploreImg.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height)
+exploreImg.contentMode = .scaleToFill
+{% endhighlight %}
 
 {% highlight swift %}
 let contentImageView: UIImageView = UIImageView()
@@ -105,17 +122,29 @@ contentImageView.isUserInteractionEnabled = true
 {% endhighlight %}        
 
 
-## UIControl
+# UIControl
 - normal, highlighted, isEnabled, disabled(read only), isSelected, selected(read only), addTarget(method)
 - Button, Switch, Slider, Textview 의 상위 클래스
 
-## UIButton
+# UIButton
 - 사용자의 이벤트를 받아 처리해주는 UI
+- setTitle, setTitleColor, .titleLabel?.font, .addTarget
 - currentImage, currentBackgroundImage
-- currentAttributedTitle. currentTitleColor
+- currentAttributedTitle
+- currentTitleColor
 
-### - UIButton의 자주 사용하는 프로퍼티 살펴보기
-- setTitle, setTitleColor, addTarget
+{% highlight swift %}
+exitIcon = UIButton(frame: CGRect(x: self.view.frame.size.width/2-15, y: self.view.frame.size.height-46, width: 30, height: 30))
+exitIcon.setTitle("Exit", for: .normal)
+exitIcon.setTitleColor(.white, for: .normal)
+exitIcon.titleLabel?.font = UIFont.systemFont(ofSize: 12)
+exitIcon.addTarget(self, action: #selector(didTapExitButton), for: .touchUpInside)
+
+// addTarget에 추가할 함수 : 화면 내리기
+@objc func didTapExitButton(_ sender: UIButton) {
+	dismiss(animated: true, completion: nil)
+}
+{% endhighlight %}
 
 {% highlight swift %}
 let btn: UIButton = UIButton(type: .custom) // Default: Custom
@@ -147,16 +176,66 @@ btn.frame = CGRect(x: magazineFooterView.frame.width/2-50, y: magazineFooterView
 {% endhighlight %}
 
 
-## UI Text Field
+# UI Text Field
 - 사용자의 input을 받는 UI Text Field
+- 프로토콜 채택 가능: UITextFieldDelegate, UITextInputTraits protocol
+- Controlling the appearance of the keyboard
+- `var isSecureTextEntry: Bool`
+- `var keyboardType: UIKeyboardType`
+- Keyboards can have accessory views that appear above the keyboard (ex. custom toolbar)
+- `var inputAccessoryView: UIView`
+
+#### Textfields property
+- `var clearsOnBeginEditing: Bool`
+- `var adjustFontSizeToFitWidth: Bool`
+- `var minimumFontSize: CGFloat`
+- `var placeholder: String?`
+- `var defaultTextAtrrtibutes: [String:Any]`
 
 {% highlight swift %}
-let sendMsgTxtField = UITextField(frame: CGRect(x: 0, y: view.frame.size.height-50, width: view.frame.size.width, height: 50 ))
+// UITextField 는 1줄 입력이 default
+sendMsgTxtField = UITextField(frame: CGRect(x: 0, y: view.frame.size.height-50, width: view.frame.size.width, height: 50 ))
 self.view.addSubview(sendMsgTxtField)
 sendMsgTxtField.borderStyle = .line
 sendMsgTxtField.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
 sendMsgTxtField.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
 sendMsgTxtField.placeholder = "Kinfolk에게 의견을 보내주세요😊"
+
 /****UITextfield Protocol 채택 및 delegate 사용*****/
 sendMsgTxtField.delegate = self
+sendMsgTxtField.adjustsFontSizeToFitWidth = true
+sendMsgTxtField.minimumFontSize = 6
+sendMsgTxtField.clearsOnBeginEditing = true
+{% endhighlight %}
+
+#### UITextField.layer
+- .borderWidth = 1/UIScreen.main.scale
+
+{% highlight swift %}
+func designTextField(_ textField: UITextField) {
+    textField.layer.cornerRadius = 3
+    textField.layer.borderColor = UIColor.lightGray.cgColor
+    textField.layer.borderWidth = 1/UIScreen.main.scale // 딱 1px
+}
+{% endhighlight %}
+
+
+# (+) UIView.animate
+
+{% highlight swift %}
+UIView.animate(withDuration: 0.1, animations: {
+        self.usernameTextField.frame.origin.x -= 10
+        self.passwordTextField.frame.origin.x -= 10
+    }, completion: { _ in
+        UIView.animate(withDuration: 0.1, animations: {
+            self.usernameTextField.frame.origin.x += 20
+            self.passwordTextField.frame.origin.x += 20
+        }, completion: { _ in
+            UIView.animate(withDuration: 0.1, animations: {
+                self.usernameTextField.frame.origin.x -= 10
+                self.passwordTextField.frame.origin.x -= 10
+            })
+        })
+    })
+}
 {% endhighlight %}

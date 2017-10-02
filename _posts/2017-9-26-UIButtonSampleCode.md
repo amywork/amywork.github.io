@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "스위프트 UIButton"
+title: "버튼 인터렉션 만들어보기"
 author: "younari"
 ---
 

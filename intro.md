@@ -29,8 +29,7 @@ permalink: /intro/
 
 # 02. iOS Platform Guide
 ## iOS User Interface
-- [iOS UI Basic v0.1](https://younari.github.io/2017-09-25/iOSUIBasic01)
-- [iOS UI Basic v0.2](https://younari.github.io/2017-09-25/iOSUIBasic02)
+- [iOS UI Basic v0.1](https://younari.github.io/2017-09-25/iOSUIGuide)
 - [스토리보드로 UI 구현하기](https://younari.github.io/2017-09-17/StoryBoardBasic)
 - [UIButton, UILabel을 활용한 스위치 코드 만들기](https://younari.github.io/2017-09-26/UIButtonSampleCode)
 - [스위프트 Alert Controller](https://younari.github.io/2017-09-27/AlertController)
