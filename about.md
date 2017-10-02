@@ -27,7 +27,7 @@ permalink: /about/
 
 
 # Experience
-- [SSG.COM](http://www.ssg.com) : 2015 ~ Product Manager @Shinsegae, e-commerce 
+- [SSG.COM](https://itunes.apple.com/kr/app/ssg-com-%EB%B0%B1%ED%99%94%EC%A0%90%EC%97%90%EC%84%9C-%EC%9D%B4%EB%A7%88%ED%8A%B8%EA%B9%8C%EC%A7%80-%EC%93%B1-%ED%95%9C%EB%B2%88%EC%97%90/id786135420?mt=8) : 2015 ~ Product Manager @Shinsegae, e-commerce
 
 ### Role and responsibility
 - Shapes the future of the ssg.com online service from featuring prioritization to defining UX strategy
@@ -42,11 +42,12 @@ permalink: /about/
 
 ### Projects
 - [SSG.COM 콘텐츠 커머스 채널 매거진 구축 - PC](http://www.ssg.com/contents/lifeMagazineMain.ssg?gnb=magazine)
-- [SSG.COM 콘텐츠 커머스 채널 매거진 구축 - MO](m.ssg.com/contents/lifeMagazineMain.ssg)
+- [SSG.COM 콘텐츠 커머스 채널 매거진 구축 - MO](http://m.ssg.com/contents/lifeMagazineMain.ssg)
 - [하우디 저널 및 S.I.VILLAGE 매거진 발행을 위한 Back Office 에디터 시스템 기획](http://howdy.ssg.com/contents/journalMain.ssg)
-- [개인화 데이터의 자동화 타겟 푸시 알림 기획 - MO](m.ssg.com/personalized/foryou/foryouMain.ssg)
-- [SSG.COM 개인화 위시리스트(클립) 서비스 기획](http://www.ssg.com/myssg/myClip/main.ssg)
-- [S.I.VILLAGE 신규 사이트 구축 실무 기획 (코너 설계, 스토리보드)](http://www.sivillage.ssg.com)
+- [개인화 데이터의 자동화 타겟 푸시 알림 기획 - MO](http://m.ssg.com/personalized/foryou/foryouMain.ssg)
+- [SSG.COM 개인화 위시리스트(클립) 서비스 기획 - PC](http://www.ssg.com/myssg/myClip/main.ssg)
+- [SSG.COM 개인화 위시리스트(클립) 서비스 기획 - MO](http://m.ssg.com/service/clipsale.ssg)
+- [S.I.VILLAGE 신규 사이트 구축 실무 기획 (코너 설계, 스토리보드)](http://sivillage.ssg.com/)
 - [SSG.COM 브랜드 통합 채널, 공식스토어 매장 기획](http://www.ssg.com/special/index.ssg)
 
 
