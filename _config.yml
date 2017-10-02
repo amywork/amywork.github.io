@@ -3,7 +3,7 @@ permalink:      /:year-:month-:day/:title
 
 # Setup
 title:          younari.swift
-paginate:       50
+paginate:       100
 baseurl:        "https://younari.github.io"
 url:            "https://younari.github.io"
 
