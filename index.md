@@ -1,21 +1,15 @@
 ---
 layout: post
-title: "First User Guide"
+title: "Index"
 author: "younari"
-permalink: /guide/
+permalink: /index
 ---
 
 
-# tastySwift 📝💛
-- **Apple Lover** 👍🏻💙, **Archiving Xcode projects (written in Swift)**
 - **[Github Xcode project files](https://github.com/younari/tastySwift)**
-
-## Course Note for...
-- iOS APP 개발 School, 2017.09 ~ 2017.12 (16weeks)
 
 ## 로그인, 회원가입 페이지 구현하기
 - [로그인, 회원가입 페이지 구현하기](https://younari.github.io/2017-09-28/SignUpSignInV02)
-
 
 ## Calculator 계산기 만들기
 ### Refactoring 5회, 09/12 ~ 09/20
