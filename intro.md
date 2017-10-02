@@ -5,11 +5,10 @@ author: "younari"
 permalink: /intro/
 ---
 
-## 🙂 Dear, First Users 
-#### Index for Younari.swift
-- **[@Github Download Xcode project files](https://github.com/younari/tastySwift)**
+## 👋 Dear, First Users 
+- **[If you need, Get Xcode project files @Github](https://github.com/younari/tastySwift)**
 
-# Swift
+# 01. Swift
 ## 스위프트의 기본 문법
 - [스위프트 Enum](https://younari.github.io/2017-09-19/enumeration)
 - [스위프트 Optional](https://younari.github.io/2017-09-19/Optionals)
@@ -28,8 +27,7 @@ permalink: /intro/
 - [단위와 관련된 다양한 함수](https://younari.github.io/2017-09-08/UnitFunc)
 - [두 변수를 교환하는 SWAP](https://younari.github.io/2017-09-08/SWAP)
 
-
-# iOS Basic
+# 02. iOS Platform Guide
 ## iOS User Interface
 - [iOS UI Basic v0.1](https://younari.github.io/2017-09-25/iOSUIBasic01)
 - [iOS UI Basic v0.2](https://younari.github.io/2017-09-25/iOSUIBasic02)
@@ -38,18 +36,22 @@ permalink: /intro/
 - [스위프트 Alert Controller](https://younari.github.io/2017-09-27/AlertController)
 - [Scroll View & Sitch](https://younari.github.io/2017-09-27/ScrollView)
 - [Table View](https://younari.github.io/2017-09-30/UITableView)
-- [Frame Based 리뷰](https://github.com/younari/tastySwift/tree/master/0929_UIViewReview)
-- [Table View로 상품 리스트 만들어보기](https://github.com/younari/tastySwift/tree/master/0930_ProductTableView)
+- [Frame Based Practice](https://github.com/younari/tastySwift/tree/master/0929_UIViewReview)
+- [Table View로 상품 리스트 만들기](https://github.com/younari/tastySwift/tree/master/0930_ProductTableView)
 
 ## iOS Design Pattern
 - [iOS Design Pattern](https://younari.github.io/2017-09-16/iOSDesignPattern)
-- [스탠포드 iOS 강의노트](https://younari.github.io/2017-09-16/StanfordSwift01)
 - [Helpful Resources](https://younari.github.io/2017-09-16/HelpfulResources)
 - [Apple Events 2017](https://younari.github.io/2017-09-14/AppleEvents2017)
+- [스탠포드 iOS 강의노트 L1~3](https://younari.github.io/2017-09-16/StanfordSwift01)
+- [스탠포드 iOS 강의노트 L4](https://younari.github.io/2017-09-16/StanfordSwift02)
+- [스탠포드 iOS 강의노트 L5](https://younari.github.io/2017-09-16/StanfordSwift03)
+- [스탠포드 iOS 강의노트 L6~7](https://younari.github.io/2017-09-16/StanfordSwift04)
 
 
-# Algorithm and Data Structure
-## 알고리즘 구현하기
+# 03. Algorithm and Data Structure
+## 알고리즘
+- [알고리즘 기초](https://younari.github.io/2017-09-07/Algorithm)
 - [자릿수 판별 함수 만들어보기](https://younari.github.io/2017-09-17/countOfdigit)
 - [재귀를 활용하는 함수](https://younari.github.io/2017-09-17/recursionFunc)
 - [연속으로 중복된 숫자 제거하기](https://younari.github.io/2017-09-12/RepeatedNumber)
@@ -61,19 +63,20 @@ permalink: /intro/
 - [Swift 삼각형 별찍기](https://younari.github.io/2017-09-09/SwiftStar)
 
 ## 프로그래밍 기초
+- [프로그래밍 기초](https://younari.github.io/2017-09-05/Program)
 - [객체 지향 프로그래밍](https://younari.github.io/2017-09-14/Object)
 - [Backend](https://younari.github.io/2017-09-06/Backend)
-- [프로그래밍 기초](https://younari.github.io/2017-09-05/Program)
 
-# Demo Projects
+
+# 04. Demo Projects
 ## 로그인, 회원가입 페이지 구현하기
-- [로그인, 회원가입 페이지 구현하기](https://younari.github.io/2017-09-28/SignUpSignInV02)
+- [로그인, 회원가입 페이지 구현하기 v0.2](https://younari.github.io/2017-09-28/SignUpSignInV02)
+- [로그인, 회원가입 페이지 구현하기 v0.1](https://younari.github.io/2017-09-28/SignUpSignInV01)
 
 ## Calculator 계산기 만들기
 ### Refactoring 5회, 09/12 ~ 09/20
-- 계산기 연산 모델 Class를 통해 구현하기 (CalculatorModel)
-- Operation Case에 대한 Enum 만들기 (단일 연산, 이항 연산, = 연산)
-- Enum의 Associated Value에 클로저가 들어가게끔 처리하기
+- 계산기의 다양한 연산 모델을 Class를 통해 구현하기 (CalculatorModel)
+- Operation Case에 대한 Enum을 설계하여 Associated Value에 클로저 할당하기 (단일 연산, 이항 연산 등)
 - [계산기 만들기 v0.5](https://younari.github.io/2017-09-15/Calculator_05)
 - [계산기 만들기 v0.4](https://younari.github.io/2017-09-15/Calculator_04)
 - [계산기 만들기 v0.3](https://younari.github.io/2017-09-15/Calculator_03)
@@ -82,7 +85,8 @@ permalink: /intro/
 
 ## Baseball 게임 만들기
 ### Refactoring 5회, 09/21 ~ 09/24
-- 임의의 3자리 숫자(중복 불가)를 컴퓨터가 자동으로 만들고, 사용자가 해당 숫자를 맞추는 게임입니다. 자릿수가 맞으면 Strike, 자릿수는 맞지 않지만 해당 숫자가 들어있으면 Ball입니다. 
+- 임의의 3자리 숫자(중복 불가)를 컴퓨터가 자동으로 생성하고, 사용자가 해당 숫자를 맞추는 게임
+- 자릿수가 맞으면 Strike, 자릿수는 맞지 않지만 해당 숫자가 들어있으면 Ball
 - [Baseball 게임 만들기 v0.1](https://younari.github.io/2017-09-21/BaseballGameV0.1)
 - [Baseball 게임 만들기 v0.2](https://younari.github.io/2017-09-22/BaseballGameV0.2)
 - [Baseball 게임 만들기 v0.3](https://younari.github.io/2017-09-22/BaseballGameV0.3)

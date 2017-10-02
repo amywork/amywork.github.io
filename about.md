@@ -15,7 +15,7 @@ permalink: /about/
 
 # Featured Skills
 - Develop for Apple Platforms, Swift
-- Mobile Interaction Design, Sketch app + Xcode
+- Mobile Interaction Design, Sketchapp + Xcode
 - Basic Knowledge of HTML, CSS & Javascript
 - Al〰️ways crave	 for Learning
 - Loyalty to Apple. 🙏🏻

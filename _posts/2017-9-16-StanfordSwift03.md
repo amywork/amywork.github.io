@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "스탠포드 iOS 강의노트 v.03"
+title: "스탠포드 iOS 강의노트 L5"
 author: "younari"
 ---
 
@@ -38,7 +38,9 @@ by Stanford](https://itunes.apple.com/us/course/developing-ios-10-apps-with-swif
 
 ## UIRotationGestureRecognizer
 - `var rotation: CGFloat` // not read-only (can reset); in radians 
-- `var velocity: CGFloat { get }` // radians per second## UISwipeGestureRecognizer
+- `var velocity: CGFloat { get }` // radians per second
+
+## UISwipeGestureRecognizer
 - `var direction: UISwipeGestureRecoginzerDirection` // which swipe directions you want 
 - `var numberOfTouchesRequired: Int` // finger count
 

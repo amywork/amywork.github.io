@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "스탠포드 iOS 강의노트 v.04"
+title: "스탠포드 iOS 강의노트 L6,7"
 author: "younari"
 ---
 
@@ -70,8 +70,8 @@ class EmotionsViewController: VCLLoggingViewController
 - A very Simple & Important use of Protocols.
 - It is a way to implement "blind communication" between a View and a Controller.
 - View ->(delegate, datasource)-> Controller
-- `should` `did` `will`
-- `data at` `count`
+- delegate `should` `did` `will`
+- datasource `data at` `count`
 
 ### How it plays out
 1. A View declares a delegation protocol (what the View wants the controller to do for it)

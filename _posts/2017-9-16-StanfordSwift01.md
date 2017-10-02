@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "스탠포드 iOS 강의노트 v.01"
+title: "스탠포드 iOS 강의노트 L1,2,3"
 author: "younari"
 ---
 
