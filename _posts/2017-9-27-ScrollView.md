@@ -128,6 +128,38 @@ class ViewController: UIViewController, UIScrollViewDelegate {
 }
 {% endhighlight %}
 
+
+# Color Card Transition
+- 컬러를 배열에 담아, 여러가지 컬러의 카드를 스크롤하는 인터렉션
+
+{% highlight swift %}
+import UIKit
+class CardScrollViewController: UIViewController, UIScrollViewDelegate {
+    @IBOutlet weak var todayLabel: UILabel!
+    @IBOutlet weak var cardScrollView: UIScrollView!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        cardScrollView.contentSize = CGSize(width: cardScrollView.frame.size.width*10, height: cardScrollView.frame.size.height)
+
+        var colors: [UIColor] = [.red, .blue, .green] // 컬러담기      
+        for n in 0..<colors.count {
+            let card = UIView()
+            var offset: CGFloat {
+                return 16 + (260*CGFloat(n)) + (16*2*CGFloat(n))
+            }
+            card.frame = CGRect(x: offset, y: 16, width: 260, height: cardScrollView.frame.size.height-32)
+            card.backgroundColor = colors[n]
+            card.layer.cornerRadius = 13
+            cardScrollView.addSubview(card)
+        }
+        
+    }
+}
+{% endhighlight %}
+
+
+
 # UISwitch
 - `UISwitch` 인스턴스 생성
 - `addTarget` 설정
