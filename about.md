@@ -5,9 +5,9 @@ author: "younari"
 permalink: /about/
 ---
 
-# 👋🏻 Younari. 김기윤 (夏林)
-
-- Junior iOS Developer, LOVE Apple 👍🏻💙
+# 👋🏻 Younari.
+### 김기윤 (夏林)
+- Junior iOS Developer
 - [Github](https://github.com/younari/tastySwift)
 - [Instagram @younari.me](https://www.instagram.com/younari.me/)
 - [Facebook](https://www.facebook.com/kiyun.k)
