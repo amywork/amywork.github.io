@@ -10,6 +10,7 @@ author: "younari"
 - [Xcode Project 바로가기](https://github.com/younari/tastySwift/tree/master/0927_LoginUserDefault/0927_SignUp)
 - [로그인 화면 구현하기 v0.1 바로가기](https://younari.github.io/2017-09-28/SignUpSignInV01)
 
+![LoginScreen](https://i.pinimg.com/originals/d2/16/a2/d216a20c76bb482cb25ac42135975f16.png)
 
 ## 회원가입시 UserDefaults를 통해 plist에 유저 데이터 저장하기
 - 싱글톤 방식
