@@ -12,14 +12,16 @@ author: "younari"
 - 채택해야 할 프로토콜: UITableViewDataSource, UITableViewDelegate
 - TableView의 frame과 스타일을 init 하며 인스턴스 생성
 - `let tableView: UITableView = UITableView(frame: view.bounds, style: .plain)`
-- UITableViewDataSource 선언 `tableView.dataSource = self`
+- **delegate**: How the table is displayed
+- **dataSource**: The data that is displayed inside the cells.
+- UITableViewDataSource 선언 `tableView.dataSource = self` 
 - UITableViewDelegate 선언 `tableView.delegate = self`
 - `dequeueReusableCell` 에서 UI를 재사용 할 수 있도록 cell 정보와 관련된 class를 register (등록)
 - `tableView.register(MenuCell.self, forCellReuseIdentifier: "MenuCell")`
 - `tableView.register(UITableViewCell.self, forCellReuseIdentifier: "UITableViewCell")`
-- ReuseIdentifier의 이름은 통상 클래스 이름과 동일하게 적어준다.
-- 위 코드에서 UITableViewCell은 시스템 cell 클래스
-- MenuCell은 테스트를 위해 만든 커스텀 클래스
+- 위 코드에서 ReuseIdentifier의 이름은 통상 클래스 이름과 동일하게 부여한다.
+- 위 코드에서 UITableViewCell은 시스템 cell 클래스를 뜻한다.
+- MenuCell은 테스트를 위해 샘플로 만든 커스텀 클래스이다.
 - -> UITableViewCell.self 에서 self는 클래스 자기 자신. 즉 class이름.self = 클래스 자체
 - `view.addSubview(tableView)`
 
@@ -29,10 +31,8 @@ override func viewDidLoad() {
     let tableView: UITableView = UITableView(frame: view.bounds, style: .plain)
     tableView.dataSource = self // UITableViewDataSource 선언
     tableView.delegate = self // UITableViewDelegate 선언
-
     tableView.register(menuCell.self, forCellReuseIdentifier: "menuCell")
     tableView.register(UITableViewCell.self, forCellReuseIdentifier: "UITableViewCell") // tableView에 Cell Class를 Register
-    
     view.addSubview(tableView)
 }
 {% endhighlight %}
