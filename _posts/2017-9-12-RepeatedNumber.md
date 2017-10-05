@@ -19,6 +19,8 @@ func intToArr(num: Int) -> Array<Int> {
     return intArr
 }
 {% endhighlight %}
+
+
 - 제곱수를 만들어주는 함수 (num1의 num2승을 만들어주는 함수)
 
 {% highlight swift %}

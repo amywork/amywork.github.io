@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Swift 배열 연습"
+title: "스위프트 Array"
 author: "younari"
 ---
 
