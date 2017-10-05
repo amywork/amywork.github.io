@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "날짜와 관련된 함수 만들기"
+title: "요일을 구하는 함수"
 author: "younari"
 ---
 

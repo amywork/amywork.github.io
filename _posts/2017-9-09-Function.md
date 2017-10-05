@@ -14,8 +14,6 @@ func addAllDigit2(num :Int) -> Int {
     
     var num = num
     var positionNumber = 0
-    
-// (number/10) >= 0 && number != 0 라는 조건을, number > 0으로 바꿔도 문제가 없다.
     while num > 0 {
         positionNumber += num % 10
         num = num / 10
@@ -62,6 +60,7 @@ func checkLeap(year: Int) -> Bool {
 }
 {% endhighlight %}
 
+
 ## 큰 수 반환하기
 {% highlight swift %}
 func compareInt(x: Int, y:Int) -> String {
@@ -78,6 +77,7 @@ func compareInt(x: Int, y:Int) -> String {
     return returnValue
 }
 {% endhighlight %}
+
 
 ## 여러가지 도형 함수
 {% highlight swift %}
