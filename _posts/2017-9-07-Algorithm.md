@@ -40,15 +40,15 @@ author: "younari"
 - 입력은 push, 출력은 pop
 - 푸시(삽입)와 팝(떼어내고 읽기) 두가지 일만 할 수 있는 것
 
-### Call stack
-- 여러개의 함수를 호출하면서 함수에 사용되는 변수를 저장하는 스택을 호출스택이라고 한다.
+# Call stack - 호출스택
+- 여러개의 함수를 호출하면서 함수에 사용되는 변수를 저장하는 스택
 
 # Queue
 - 선입선출(先入先出, First In First Out; FIFO), 대기열
 - 입력 동작은 Enqueue, 출력 동작은 Dequeue
 - 어떠한 작업/데이터를 순서대로 실행/사용하기 위해 대기시킬 때 사용
 
-# Binary Search (이진 탐색)
+# Binary Search - 이진탐색
 - [이진 탐색(Binary Search)의 탐색 과정](http://blog.eairship.kr/246)
 - [raywenderlich - Binary Search](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Binary%20Search)
 - 탐색 대상이 절반씩 줄어들기 때문에 시간 복잡도는 O(logn)
