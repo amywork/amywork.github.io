@@ -14,11 +14,10 @@ permalink: /about/
 - [younari.me@icloud.com](mailto:younari.me@icloud.com)
 
 # Featured Skills
-- Develop for Apple Platforms, Swift
-- Mobile Interaction Design, Sketchapp + Xcode
+- Develop for Apple Platforms with Swift
+- Mobile Interaction Design with Sketchapp & Xcode
 - Basic Knowledge of HTML, CSS & Javascript
-- Al〰️ways crave	 for Learning
-- Loyalty to Apple. 🙏🏻
+- Crave for Learning
 
 # Languages
 - 🇨🇳 Chinese : Working proficiency - 신HSK 6급, 255pt
