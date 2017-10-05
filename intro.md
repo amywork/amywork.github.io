@@ -9,7 +9,7 @@ permalink: /intro/
 - **[If you need, Get Xcode project files @Github](https://github.com/younari/tastySwift)**
 
 # 01. Swift
-## 스위프트의 기본 문법
+## 스위프트 기본 문법
 - [스위프트 Enum](https://younari.github.io/2017-09-19/enumeration)
 - [스위프트 Optional](https://younari.github.io/2017-09-19/Optionals)
 - [스위프트 Closure](https://younari.github.io/2017-09-19/Closure)
@@ -21,21 +21,23 @@ permalink: /intro/
 - [스위프트 Type](https://younari.github.io/2017-09-14/swiftTypes)
 - [스위프트 Class 접근제어](https://younari.github.io/2017-09-14/PrivatePublicClass)
 - [스위프트 Array](https://younari.github.io/2017-09-12/ArraySample)
+
+## 스위프트 간단 프로젝트
 - [클래스 구현 시나리오 그려보기](https://younari.github.io/2017-09-13/gradeClass)
 - [은행 계좌 클래스 만들어보기](https://younari.github.io/2017-09-13/BankAccountClass)
-- [배열 속 Int간의 크기 비교](https://younari.github.io/2017-09-09/IntArray)
-- [단위와 관련된 다양한 함수](https://younari.github.io/2017-09-08/UnitFunc)
+- [배열 속 Int간의 크기 비교하기](https://younari.github.io/2017-09-09/IntArray)
+- [다양한 단위 변환 함수 만들기](https://younari.github.io/2017-09-08/UnitFunc)
 - [두 변수를 교환하는 SWAP](https://younari.github.io/2017-09-08/SWAP)
 
 # 02. iOS Platform Guide
 ## iOS User Interface
 - [iOS UI Basic v0.1](https://younari.github.io/2017-09-25/iOSUIGuide)
 - [스토리보드로 UI 구현하기](https://younari.github.io/2017-09-17/StoryBoardBasic)
+- [Frame Based UI](https://github.com/younari/tastySwift/tree/master/0929_UIViewReview)
 - [UIButton, UILabel을 활용한 스위치 코드 만들기](https://younari.github.io/2017-09-26/UIButtonSampleCode)
 - [스위프트 Alert Controller](https://younari.github.io/2017-09-27/AlertController)
 - [Scroll View & Sitch](https://younari.github.io/2017-09-27/ScrollView)
 - [Table View](https://younari.github.io/2017-09-30/UITableView)
-- [Frame Based Practice](https://github.com/younari/tastySwift/tree/master/0929_UIViewReview)
 - [Table View로 상품 리스트 만들기](https://github.com/younari/tastySwift/tree/master/0930_ProductTableView)
 
 ## iOS Design Pattern
@@ -51,21 +53,21 @@ permalink: /intro/
 # 03. Algorithm and Data Structure
 ## 알고리즘
 - [알고리즘 기초](https://younari.github.io/2017-09-07/Algorithm)
-- [자릿수 판별 함수 만들어보기](https://younari.github.io/2017-09-17/countOfdigit)
-- [재귀를 활용하는 함수](https://younari.github.io/2017-09-17/recursionFunc)
 - [연속으로 중복된 숫자 제거하기](https://younari.github.io/2017-09-12/RepeatedNumber)
 - [Collatz의 추측, Harshad 수](https://younari.github.io/2017-09-11/collatzHarshad)
-- [소수 판별 함수 만들기](https://younari.github.io/2017-09-11/PrimeNumber)
-- [날짜와 관련된 함수](https://younari.github.io/2017-09-10/Calendar)
+- [소수를 판별하는 함수](https://younari.github.io/2017-09-11/PrimeNumber)
+- [요일을 구하는 함수](https://younari.github.io/2017-09-10/Calendar)
 - [Caesar cipher 알고리즘](https://younari.github.io/2017-09-10/CaesarCipher)
 - [삼각수 만들기](https://younari.github.io/2017-09-09/TriangleNumber)
-- [Swift 삼각형 별찍기](https://younari.github.io/2017-09-09/SwiftStar)
+- [삼각형으로 별찍기](https://younari.github.io/2017-09-09/SwiftStar)
+- [자릿수를 판별하는 함수](https://younari.github.io/2017-09-11/CountOfdigit)
+- [하노이의 탑](https://younari.github.io/2017-09-11/HanoiTower)
+- [팩토리얼, 피보나치 수열](https://younari.github.io/2017-09-11/FactorialPibonacci)
 
 ## 프로그래밍 기초
-- [프로그래밍 기초](https://younari.github.io/2017-09-05/Program)
+- [프로그래밍 기초 용어](https://younari.github.io/2017-09-05/Program)
+- [Backend 기초 용어](https://younari.github.io/2017-09-06/Backend)
 - [객체 지향 프로그래밍](https://younari.github.io/2017-09-14/Object)
-- [Backend](https://younari.github.io/2017-09-06/Backend)
-
 
 # 04. Demo Projects
 ## 로그인, 회원가입 페이지 구현하기
