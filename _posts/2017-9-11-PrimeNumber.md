@@ -55,7 +55,7 @@ func allPrimeNumber(endNum: Int) -> Array<Any>
 // print(allPrimeNumber(endNum:13)) // [2,3,5,7]
 {% endhighlight %}
 
-## 다른 방법으로도 풀어보기
+## 다른 방법 v0.1
 
 {% highlight swift %}
 func getPrime2(num: Int) -> [Int] {
@@ -73,5 +73,34 @@ func getPrime2(num: Int) -> [Int] {
         }
     }
     return primeNumbers
+}
+{% endhighlight %}
+
+## 다른 방법 v0.2
+- 이 방법의 출처는 [We Heart Swift](https://www.weheartswift.com/first-n-primes/), Eratosthene’s Sieve
+
+{% highlight swift %}
+let N = 100
+let maxP = 1000
+var isPrime: [Bool] = []
+var primes: [Int] = []
+for i in 0...maxP {
+    isPrime.append(true)
+}
+isPrime[0] = false
+isPrime[1] = false
+for i in 2...maxP {
+    if isPrime[i] == true {
+        var j = i*i
+        while j <= maxP {
+            isPrime[j] = false
+            j += i
+        }
+        primes.append(i)
+    }
+}
+
+for i in 0..<N {
+    print(primes[i])
 }
 {% endhighlight %}
