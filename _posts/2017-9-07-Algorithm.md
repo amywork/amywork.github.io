@@ -26,7 +26,7 @@ author: "younari"
 - 배열은 쓰지않는 공간까지 전부 예약해두고 있어야 하기 때문에 공간 낭비가 생긴다.
 
 # 재귀 함수
-- 재귀함수에서의 스택 사용 (함수를 위에 계속 푸시)
+- 재귀함수에서의 스택 사용 
 - 재귀는 함수가 스스로를 호출하는 것이다.
 - 모든 재귀 함수는 기본 단계와 재귀 단계라는 두 부분으로 나뉘어져 있다.
 - 스택에는 푸시와 팝이라는 두가지 연산이 있다.
@@ -50,7 +50,7 @@ author: "younari"
 
 # Binary Search (이진 탐색)
 - [이진 탐색(Binary Search)의 탐색 과정](http://blog.eairship.kr/246)
-- [stackoverflow.com](https://stackoverflow.com/questions/31904396/swift-binary-search-for-standard-array)
+- [raywenderlich - Binary Search](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Binary%20Search)
 - 탐색 대상이 절반씩 줄어들기 때문에 시간 복잡도는 O(logn)
 
 {% highlight swift %}
