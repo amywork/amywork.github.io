@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "재귀를 활용하는 함수"
+title: "팩토리얼, 피보나치 수열"
 author: "younari"
 ---
 

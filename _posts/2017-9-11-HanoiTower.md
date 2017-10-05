@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "하노이 탑 알고리즘"
+title: "재귀, 하노이의 탑"
 author: "younari"
 ---
 
