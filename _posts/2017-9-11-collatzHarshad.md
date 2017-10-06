@@ -52,3 +52,21 @@ func harshad(number: Int) -> Bool {
     return returnValue
 }
 {% endhighlight %}
+
+
+### 03. 황금 비율, Golden ratio
+- `1+1/(1+1/(1+1/(1+...)))`
+
+{% highlight swift %}
+let depth = 20 //임의의 정수
+func goldenRatio(depth:Int) -> Double {
+    if depth == 0 {
+        return 1.0
+    }
+    else {
+        return 1.0 + 1.0/goldenRatio(depth: depth - 1)
+    }
+}
+
+phi = goldenRatio(depth:depth)
+{% endhighlight %}
