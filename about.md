@@ -6,12 +6,15 @@ permalink: /about/
 ---
 
 # 👋🏻 Younari.
-### 김기윤 (夏林)
+- 김기윤, 林林
 - Junior iOS Developer
-- [Github](https://github.com/younari/tastySwift)
-- [Instagram @younari.me](https://www.instagram.com/younari.me/)
+
+# Networks
+- [Github](https://github.com/younari)
+- [Instagram](https://www.instagram.com/younari.me/)
 - [Facebook](https://www.facebook.com/kiyun.k)
-- [younari.me@icloud.com](mailto:younari.me@icloud.com)
+- [Pinterest](https://www.pinterest.co.kr/younari_/)
+- [Linkedin](https://www.linkedin.com/in/%EA%B8%B0%EC%9C%A4-%EA%B9%80-6b61b894/)
 
 # Featured Skills
 - Develop for Apple Platforms with Swift
@@ -51,28 +54,28 @@ permalink: /about/
 
 
 # Education
-## - Prologue
+## 🏫 Prologue
 - 2011 이화여자외국어고등학교(서울) 중국어과 졸업
 - 2011 연세대학교(신촌) 중어중문학과 입학
 - 2012 연세대학교(신촌) 디지털예술학(시각디자인) 연계 전공
 - 2013 북경 사범대학교 연수 (6개월)
 - 2015 연세대학교(신촌) 중어중문학과 및 디지털예술학(연계전공) 졸업
-- 2017 Fast Campus 개발 및 디자인 과정 수료
+- 2017 Fast Campus 개발 및 디자인 과정 이수
 
-## - 연세대학교, 2011 ~ 2015
+## 🏫 연세대학교, 2011 ~ 2015
 - **Degree** : Bachelor's degree
 - **Grade** : 3.93 (4.5)
 - **Activities** : [연세대학교 공식 학보사 연세춘추 문화부 기자](http://chunchu.yonsei.ac.kr) 
 - **Field of Study** : Chinese Language & Literature (First major), Digital Design (Joint major)
 
-1. 문학, 중국의 당시/송사/산문/소설 독해를 통한 과거 사회상 및 후대 영향 탐구
-2. 언어학, 한자의 발전 과정 및 자형 구조 연구를 통한 문자에 대한 다각적 접근
-3. 실용 중국어, 고급 중국어 독해/작문/회화
-4. 디지털 디자인, 브랜딩/타이포그래피/[VMD](https://www.behance.net/gallery/49975731/-VMD)/[정보디자인](https://www.behance.net/gallery/49975089/MoMA-Infographic)/UX디자인 실습
-5. 예술, 영상예술기획/러시아 공연예술/프랑스언어와문화/독일표현주의/한국미술사
+1. *문학, 중국의 당시/송사/산문/소설 독해*
+2. *언어학, 한자의 발전 과정 및 자형 구조 연구*
+3. *실용 중국어, 고급 중국어 독해/작문/회화*
+4. *디지털 디자인, 브랜딩/타이포그래피/[VMD](https://www.behance.net/gallery/49975731/-VMD)/[정보디자인](https://www.behance.net/gallery/49975089/MoMA-Infographic)/UX디자인*
+5. *예술, 영상예술기획/러시아 공연예술/프랑스언어와문화/독일표현주의/한국미술사*
 
 
-## - Fast Campus, 2017
+## 🏫 Fast Campus, 2017
 ### 01. **웹 인터렉션 프로그래밍** 
 - 2017.04 ~ 2017.05 (5weeks, 30hours) 
 - CoffeScript(JavaScript), HTML, CSS 문법을 활용한 웹 인터렉션 프로그래밍 실습
@@ -93,7 +96,7 @@ permalink: /about/
 - Swift를 함수형 언어답게 사용하는 법
 - [fastcampus.co.kr](http://www.fastcampus.co.kr/dev_camp_rxswift/)
 
-## - Online Courses
+## 🏫 Online Courses
 ### 01. **Sketch UI Design Master**
 - 2017.07 ~ 2017.09 (12weeks)
 - User Experience Design in Sketch, SVG Workflows in Sketch
@@ -114,6 +117,22 @@ permalink: /about/
 - 프로그래밍 입문자를 위한 C 와 C++
 - [두들낙서의 C/C++](https://www.inflearn.com/course/c%EC%96%B8%EC%96%B4-%EB%91%90%EB%93%A4%EB%82%99%EC%84%9C/)
 
+
+# I ❤︎
+- [Apple](https://www.apple.com/)
+- [Google](https://www.google.co.kr/)
+- [Nest](https://www.nest.co.uk)
+- [Github](https://github.com)
+- [Coursera](https://www.coursera.org)
+- [Producthunt](https://www.producthunt.com/)
+- [29CM](http://www.29cm.co.kr/)
+- [Pinterest](https://www.pinterest.co.kr/)
+- [Dropbox](https://www.dropbox.com)
+- [Louis Poulsen](http://www.louispoulsen.com)
+- [Facebook](https://www.facebook.com/)
+- [Tech Crunch](https://techcrunch.com/)
+- [My Music Taste](https://www.mymusictaste.com/)
+- [Wikipedia](https://en.wikipedia.org)
 
 
 
