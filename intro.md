@@ -32,14 +32,13 @@ permalink: /intro/
 
 # 02. iOS Platform Guide
 ## iOS User Interface
-- [iOS UI Basic v0.1](https://younari.github.io/2017-09-25/iOSUIGuide)
-- [스토리보드로 UI 구현하기](https://younari.github.io/2017-09-17/StoryBoardBasic)
+- [iOS UI Basic](https://younari.github.io/2017-09-25/iOSUIGuide)
 - [Frame Based UI](https://github.com/younari/tastySwift/tree/master/0929_UIViewReview)
-- [UIButton, UILabel을 활용한 스위치 코드 만들기](https://younari.github.io/2017-09-26/UIButtonSampleCode)
-- [스위프트 Alert Controller](https://younari.github.io/2017-09-27/AlertController)
-- [Scroll View & Sitch](https://younari.github.io/2017-09-27/ScrollView)
-- [Table View](https://younari.github.io/2017-09-30/UITableView)
-- [Table View로 상품 리스트 만들기](https://github.com/younari/tastySwift/tree/master/0930_ProductTableView)
+- [스토리보드로 UI 구현하기](https://younari.github.io/2017-09-17/StoryBoardBasic)
+- [UIButton, UILabel을 활용한 인터렉션 만들기](https://younari.github.io/2017-09-26/UIButtonSampleCode)
+- [스위프트 AlertController](https://younari.github.io/2017-09-27/AlertController)
+- [스위프트 ScrollView & Switch](https://younari.github.io/2017-09-27/ScrollView)
+- [스위프트 TableView](https://younari.github.io/2017-09-30/UITableView)
 
 ## iOS Design Pattern
 - [iOS Design Pattern](https://younari.github.io/2017-09-16/iOSDesignPattern)
