@@ -65,6 +65,8 @@ permalink: /intro/
 - [자릿수를 판별하는 함수](https://younari.github.io/2017-09-11/CountOfdigit)
 - [하노이의 탑](https://younari.github.io/2017-09-11/HanoiTower)
 - [팩토리얼, 피보나치 수열](https://younari.github.io/2017-09-11/FactorialPibonacci)
+- [최대공약수와 최소공배수](https://younari.github.io/2017-09-11/GCDLCD)
+- [제곱수 구하기](https://younari.github.io/2017-09-11/Power)
 
 ## 프로그래밍 기초
 - [프로그래밍 기초 용어](https://younari.github.io/2017-09-05/Program)
