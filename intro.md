@@ -25,9 +25,10 @@ permalink: /intro/
 ## 스위프트 간단 프로젝트
 - [클래스 만들기 연습 v0.1](https://younari.github.io/2017-09-13/ClassV01)
 - [클래스 만들기 연습 v0.2](https://younari.github.io/2017-09-13/ClassV02)
-- [Int와 Array](https://younari.github.io/2017-09-09/IntArray)
 - [다양한 단위 변환 함수 만들기](https://younari.github.io/2017-09-08/UnitFunc)
 - [두 변수를 교환하는 SWAP](https://younari.github.io/2017-09-08/SWAP)
+- [입력받은 숫자를 배열로 만들기](https://younari.github.io/2017-09-09/IntArray)
+
 
 # 02. iOS Platform Guide
 ## iOS User Interface
@@ -67,6 +68,7 @@ permalink: /intro/
 - [팩토리얼, 피보나치 수열](https://younari.github.io/2017-09-11/FactorialPibonacci)
 - [최대공약수와 최소공배수](https://younari.github.io/2017-09-11/GCDLCD)
 - [제곱수 구하기](https://younari.github.io/2017-09-11/Power)
+- [배열의 최대값과 최소값](https://younari.github.io/2017-09-09/MinMax)
 
 ## 프로그래밍 기초
 - [프로그래밍 기초 용어](https://younari.github.io/2017-09-05/Program)

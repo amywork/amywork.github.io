@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Int와 Array"
+title: "입력받은 숫자를 배열로 만들기"
 author: "younari"
 ---
 
@@ -35,19 +35,3 @@ func digits(_ number: Int) -> [Int] {
 }
 {% endhighlight %}
 
-## 배열의 최대값과 최소값을 반환하기
-
-{% highlight swift %}
-func minMax(array: [Int]) -> (min: Int, max: Int) {
-    var currentMin = array[0]
-    var currentMax = array[0]
-    for value in array[1..<array.count] {
-        if value < currentMin {
-            currentMin = value
-        } else if value > currentMax {
-            currentMax = value
-        }
-    }
-    return (currentMin, currentMax)
-}
-{% endhighlight %}
