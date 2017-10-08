@@ -33,6 +33,7 @@ author: "younari"
 - 배열은 쓰지않는 공간까지 전부 예약해두고 있어야 하기 때문에 공간 낭비가 생긴다.
 
 # 선택 정렬
+- [정렬 알고리즘 개요](https://namu.wiki/w/%EC%A0%95%EB%A0%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98?from=%EC%84%A0%ED%83%9D%20%EC%A0%95%EB%A0%AC#s-2.1.2)
 
 # 재귀 함수
 - 재귀함수에서의 스택 사용 
@@ -91,13 +92,35 @@ if let searchIndex = binarySearch(myArray,5){
 {% endhighlight %}
 
 # Quick Sort
+- [스위프트 알고리즘 클럽](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Quicksort)
+- **partitioning** : pivot을 중심으로 pivot보다 작은 수들을 sort 하고, 큰 수들을 sort 해서 합치는 것
+
+{% highlight swift %}
+func quicksort<T: Comparable>(_ a: [T]) -> [T] {
+  guard a.count > 1 else { return a }
+
+  let pivot = a[a.count/2]
+  let less = a.filter { $0 < pivot }
+  let equal = a.filter { $0 == pivot }
+  let greater = a.filter { $0 > pivot }
+
+  return quicksort(less) + equal + quicksort(greater)
+}
+{% endhighlight %}
 
 # Hash Table
-- [ Key : Value ]
+- [스위프트 알고리즘 클럽](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Hash%20Table)
+- **[ Key : Value ]**
+- 해시테이블은 해시함수와 배열을 결합해서 만든다.
+- 대부분의 프로그래밍 언어는 해시테이블을 지원한다.
 - 딕셔너리, 연관 배열, maps
-- 어떤 것과 다른 것 사이의 관계를 모형화
-- 중복을 막을 수 있다
+- 어떤 것과 다른 것 사이의 관계를 모형화하는 것
+- 중복을 막을 수 있다.
 - 서버에게 작업을 시키지 않고, 자료를 캐싱할 수 있다.
+- 충돌을 줄이는 해시 함수가 좋은 함수이다.
+- 사용률이 0.7보다 커지면 해시 테이블을 리사이징 한다.
+- 평균적인 경우 해시 테이블의 성능은 상수 시간이다. O(1)
+- It is difficult to predict where in the array your objects end up. Hence, dictionaries **do not guarantee any particular order of the elements in the hash table.**
 
 
 # Graph, 너비 우선 탐색
@@ -107,10 +130,8 @@ if let searchIndex = binarySearch(myArray,5){
 # 탐욕 알고리즘
 - 정확한 답을 구할 수 없을 때, 가장 가까운 답을 구하는 방법
 
-
 # 동적 프로그래밍
 - 어려운 문제를 여러개의 하위 문제로 쪼개고 하위 문제들을 먼저 푸는 방법
-
 
 # KNN 알고리즘
 - 유사도를 통해 분류나 반응을 예측하는 회귀에 주로 사용되는 머신러닝의 한 종류
