@@ -95,7 +95,40 @@ logoLabel.font = UIFont.systemFont(ofSize: 16, weight: UIFont.Weight.heavy)
 // MARK -- Custom Font type
 logoLabel.font = UIFont(name: "Font Name", size: 16)
 {% endhighlight %}
+
+
+### Attributed Text (swift4)
+{% highlight swift %}
+import UIKit
+class ViewController: UIViewController {
+
+    @IBOutlet weak var label: UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        updateUI()
+    }
+ 
+    func updateUI() {
         
+        let text = "Hello World"
+
+        let attributes = [
+            NSAttributedStringKey.foregroundColor: UIColor.black,
+            NSAttributedStringKey.underlineStyle: 1,
+            NSAttributedStringKey.strokeWidth: 2,
+            NSAttributedStringKey.kern: 4
+            ] as [NSAttributedStringKey : Any]
+
+        let attStr = NSAttributedString(string: text, attributes: attributes)
+        label.attributedText = attStr
+        label.font = UIFont.systemFont(ofSize: 20)
+    }
+
+}
+{% endhighlight %}
+
+
 
 # UIImageView
 - An object that displays a single image or a sequence of animated images in your interface.
