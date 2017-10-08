@@ -5,7 +5,14 @@ author: "younari"
 ---
 
 # ✔️ Reading Note - 알고리즘
-> [그림으로 개념을 이해하는 알고리즘](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788968483547&orderClick=JAj), 저자: 아디트야 바르가바, 한빛 미디어
+> 도서 - [그림으로 개념을 이해하는 알고리즘 / 아디트야 바르가바](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788968483547&orderClick=JAj)
+
+- 시작 기간: 2017년 9월 초
+- 목표 기간: 2017년 11월 말
+- **목표 01**: 주어진 문제를 어떠한 방식으로 해결할 수 있을까?
+- **목표 02**: 코드의 속도를 어떻게 하면 빠르게 할 수 있을까?
+- **목표 03**: 코드를 어떻게 더 정리해서 알아보기 쉽게 만들 수 있을까?
+
 
 ### 참고 자료
 - [The Euclidean Algorithm](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/the-euclidean-algorithm)
@@ -24,6 +31,8 @@ author: "younari"
 - 배열에 비해 데이터의 추가/삽입 및 삭제가 용이하나 순차적으로 탐색하지 않으면 특정 위치의 요소에 접근할 수 없어 일반적으로 탐색 속도가 떨어진다.
 - 탐색 또는 정렬을 자주 하면 배열을, 추가/삭제가 많으면 연결 리스트를 사용하는 것이 유리하다. 
 - 배열은 쓰지않는 공간까지 전부 예약해두고 있어야 하기 때문에 공간 낭비가 생긴다.
+
+# 선택 정렬
 
 # 재귀 함수
 - 재귀함수에서의 스택 사용 
@@ -80,3 +89,39 @@ if let searchIndex = binarySearch(myArray,5){
     println("Element found on index: \(searchIndex)");
 }
 {% endhighlight %}
+
+# Quick Sort
+
+# Hash Table
+- [ Key : Value ]
+- 딕셔너리, 연관 배열, maps
+- 어떤 것과 다른 것 사이의 관계를 모형화
+- 중복을 막을 수 있다
+- 서버에게 작업을 시키지 않고, 자료를 캐싱할 수 있다.
+
+
+# Graph, 너비 우선 탐색
+
+# 다익스트라 알고리즘
+
+# 탐욕 알고리즘
+- 정확한 답을 구할 수 없을 때, 가장 가까운 답을 구하는 방법
+
+
+# 동적 프로그래밍
+- 어려운 문제를 여러개의 하위 문제로 쪼개고 하위 문제들을 먼저 푸는 방법
+
+
+# KNN 알고리즘
+- 유사도를 통해 분류나 반응을 예측하는 회귀에 주로 사용되는 머신러닝의 한 종류
+
+# Tree, 트리
+
+# 역 인덱스
+
+# 퓨리에 변환
+
+# 병렬 알고리즘
+
+# 맵 리듀스
+
