@@ -34,6 +34,7 @@ author: "younari"
 
 # 선택 정렬
 - [정렬 알고리즘 개요](https://namu.wiki/w/%EC%A0%95%EB%A0%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98?from=%EC%84%A0%ED%83%9D%20%EC%A0%95%EB%A0%AC#s-2.1.2)
+- [스위프트 알고리즘 클럽 예제 코드](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Selection%20Sort)
 
 # 재귀 함수
 - 재귀함수에서의 스택 사용 
@@ -57,6 +58,7 @@ author: "younari"
 - 선입선출(先入先出, First In First Out; FIFO), 대기열
 - 입력 동작은 Enqueue, 출력 동작은 Dequeue
 - 어떠한 작업/데이터를 순서대로 실행/사용하기 위해 대기시킬 때 사용
+- [스위프트 알고리즘 클럽](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Queue)
 
 # Binary Search - 이진탐색
 - [이진 탐색(Binary Search)의 탐색 과정](http://blog.eairship.kr/246)
@@ -91,6 +93,9 @@ if let searchIndex = binarySearch(myArray,5){
 }
 {% endhighlight %}
 
+# Insertion Sort
+- [스위프트 알고리즘 클럽](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Insertion%20Sort)
+
 # Quick Sort
 - [스위프트 알고리즘 클럽](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Quicksort)
 - **partitioning** : pivot을 중심으로 pivot보다 작은 수들을 sort 하고, 큰 수들을 sort 해서 합치는 것
@@ -124,6 +129,10 @@ func quicksort<T: Comparable>(_ a: [T]) -> [T] {
 
 
 # Graph, 너비 우선 탐색
+- [스위프트 알고리즘 클럽](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Graph)
+- 최단 경로를 찾는 방법
+- 탐색 목록은 큐가 되어야 한다.
+- 누군가 확인한 후 두번 다시 확인하지 않도록 해야한다.
 
 # 다익스트라 알고리즘
 
