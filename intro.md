@@ -32,7 +32,9 @@ permalink: /intro/
 
 # 02. iOS Platform Guide
 ## iOS User Interface
-- [iOS UI Basic](https://younari.github.io/2017-09-25/iOSUIGuide)
+- [iOS Design Pattern](https://younari.github.io/2017-09-24/iOSDesignPattern)
+- [iOS UI Overview](https://younari.github.io/2017-09-25/iOSUIOverView)
+- [iOS UI View Controller](https://younari.github.io/2017-09-25/ViewController)
 - [Frame Based UI](https://github.com/younari/tastySwift/tree/master/0929_UIViewReview)
 - [스토리보드로 UI 구현하기](https://younari.github.io/2017-09-17/StoryBoardBasic)
 - [UIButton, UILabel을 활용한 인터렉션 만들기](https://younari.github.io/2017-09-26/UIButtonSampleCode)
@@ -40,8 +42,7 @@ permalink: /intro/
 - [스위프트 ScrollView & Switch](https://younari.github.io/2017-09-27/ScrollView)
 - [스위프트 TableView](https://younari.github.io/2017-09-30/UITableView)
 
-## iOS Design Pattern
-- [iOS Design Pattern](https://younari.github.io/2017-09-16/iOSDesignPattern)
+## Stanford iOS Lecture
 - [스탠포드 iOS 강의노트 L1~3](https://younari.github.io/2017-09-16/StanfordSwift01)
 - [스탠포드 iOS 강의노트 L4](https://younari.github.io/2017-09-16/StanfordSwift02)
 - [스탠포드 iOS 강의노트 L5](https://younari.github.io/2017-09-16/StanfordSwift03)
