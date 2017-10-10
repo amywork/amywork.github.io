@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "iOS 뷰 콘트롤러"
+title: "iOS View Controller"
 author: "younari"
 ---
 
@@ -110,5 +110,17 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let nextStr = textField.text ?? "nothing to send"
         destionationVC?.takeMessage(nextStr) // String 전달
     }
+}
+{% endhighlight %}
+
+
+### Unwind Segue
+- 01. Exit을 통한 unwind를 했을 때, **돌아가야 할 ViewController에** 아래의 @IBAction을 만들어준다.
+- 02. **Exit을 하는 ViewController에서** 버튼을 통한 Exit segue를 만들어준다.
+
+{% highlight swift %}
+@IBAction func dismissCompletion(_ sender: UIStoryboardSegue) {
+	// tableView를 reload 한다던가 등등의 작업을 해줍니다.
+	// 아무 작업을 해주지 않으면 원래 그상태로의 화면이 남아있습니다.
 }
 {% endhighlight %}
