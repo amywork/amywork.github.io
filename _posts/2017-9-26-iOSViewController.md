@@ -25,12 +25,10 @@ let secondVC1 = SecondViewController()
 {% highlight swift %}
 
 // 스토리보드 파일을 통하여,
-let storyboard = UIStoryboard(name: “Storyboard이름(ex. Main)”, bundle: nil) 
+let storyboard = UIStoryboard(name: “Storyboard Name”, bundle: nil) 
 
-// ViewController를 인스턴스화 해서,
-let vc:UIViewController = storyboard.instantiateViewController(withIdentifier: “내가 설정한 Storyboard Identifier")
-
-// present 한다.
+// ViewController를 인스턴스화 해서, present 한다.
+let vc:UIViewController = storyboard.instantiateViewController(withIdentifier: “Storyboard Identifier")
 present(vc, animated: true, completion: nil)
 
 {% endhighlight %}
