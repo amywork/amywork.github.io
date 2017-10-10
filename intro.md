@@ -32,12 +32,12 @@ permalink: /intro/
 
 # 02. iOS Platform Guide
 ## iOS User Interface
-- [iOS Design Pattern](https://younari.github.io/2017-09-24/iOSDesignPattern)
-- [iOS UI Overview](https://younari.github.io/2017-09-25/iOSUIOverView)
-- [iOS UI View Controller](https://younari.github.io/2017-09-25/ViewController)
+- [iOS Design Pattern](https://younari.github.io/2017-09-25/iOSDesignPattern)
+- [iOS UI Overview](https://younari.github.io/2017-09-26/iOSUIOverView)
+- [iOS UI View Controller](https://younari.github.io/2017-09-26/ViewController)
+- [스토리보드로 UI 구현하기](https://younari.github.io/2017-09-26/StoryBoardBasic)
 - [Frame Based UI](https://github.com/younari/tastySwift/tree/master/0929_UIViewReview)
-- [스토리보드로 UI 구현하기](https://younari.github.io/2017-09-17/StoryBoardBasic)
-- [UIButton, UILabel을 활용한 인터렉션 만들기](https://younari.github.io/2017-09-26/UIButtonSampleCode)
+- [스위프트 UI Button](https://younari.github.io/2017-09-27/UIButtonSampleCode)
 - [스위프트 AlertController](https://younari.github.io/2017-09-27/AlertController)
 - [스위프트 ScrollView & Switch](https://younari.github.io/2017-09-27/ScrollView)
 - [스위프트 TableView](https://younari.github.io/2017-09-30/UITableView)
@@ -77,8 +77,8 @@ permalink: /intro/
 
 # 04. Demo Projects
 ## 로그인, 회원가입 페이지 구현하기
-- [로그인, 회원가입 페이지 구현하기 v0.2](https://younari.github.io/2017-09-28/SignUpSignInV02)
-- [로그인, 회원가입 페이지 구현하기 v0.1](https://younari.github.io/2017-09-28/SignUpSignInV01)
+- [로그인, 회원가입 페이지 구현하기 v0.2](https://younari.github.io/2017-09-24/SignUpSignInV02)
+- [로그인, 회원가입 페이지 구현하기 v0.1](https://younari.github.io/2017-09-24/SignUpSignInV01)
 
 ## Calculator 계산기 만들기
 ### Refactoring 5회, 09/12 ~ 09/20
