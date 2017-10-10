@@ -68,3 +68,25 @@ func close(_ sender: UIButton) {
 - 시작점은 UIButton, UITableView의 Selected Row, UIGesture등
 - 종착점은 UIViewController
 - Segue 또한 Identifier를 가질 수 있다.
+
+{% highlight swift %}
+import UIKit
+class SegueTestViewController: UIViewController {
+
+    var isAbleToNext: Bool = true
+    
+    // UI스위치 액션에 대한 Bool 값 (On/Off)을 가지고 segue의 perform 여부를 결정한다.
+    @IBAction func ableToNext(_ sender: UISwitch) {
+        isAbleToNext = sender.isOn
+    }
+    
+    // "shouldPerformSegue"
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        if identifier == "nextDestination" {
+            return isAbleToNext
+        }else {
+            return false
+        }
+    }
+}
+{% endhighlight %}

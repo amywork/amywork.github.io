@@ -37,7 +37,7 @@ permalink: /intro/
 - [iOS UI View Controller](https://younari.github.io/2017-09-26/iOSViewController)
 - [스토리보드로 UI 구현하기](https://younari.github.io/2017-09-26/StoryBoardBasic)
 - [Frame Based UI](https://github.com/younari/tastySwift/tree/master/0929_UIViewReview)
-- [스위프트 UI Button](https://younari.github.io/2017-09-27/UIButtonSampleCode)
+- [스위프트 UI Button](https://younari.github.io/2017-09-27/UIButton)
 - [스위프트 AlertController](https://younari.github.io/2017-09-27/AlertController)
 - [스위프트 ScrollView & Switch](https://younari.github.io/2017-09-27/ScrollView)
 - [스위프트 TableView](https://younari.github.io/2017-09-30/UITableView)
