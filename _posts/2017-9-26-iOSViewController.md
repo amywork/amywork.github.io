@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "iOS View Controller"
+title: "iOS 뷰 콘트롤러"
 author: "younari"
 ---
 
 # UIViewController
+
+> [샘플 Xcode 프로젝트 바로가기](https://github.com/younari/tastySwift/tree/master/1011_ViewController)
 
 ![segue](https://younari.github.io/images/Segue.jpg)
 
@@ -48,6 +50,8 @@ present(vc, animated: true, completion: nil)
 
 # Present Modally
 - 기준 ViewController에서 대상 ViewController를 Present하고, dismiss를 통해 대상 ViewController는 사라진다.
+- `presentedViewController`, `presentingViewController`
+
 
 ### present
 `present(UIViewController, animated: Bool, completion: (() -> Void)?)`
@@ -61,13 +65,18 @@ func close(_ sender: UIButton) {
 }    
 {% endhighlight %}
 
-![segue](https://raw.githubusercontent.com/younari/younari.github.io/master/images/SegueProcess.png)
 
 # Segue
-- Storyboard 파일 내 두 개의 ViewController사이 화면전환을 정의한 인스턴스
-- 시작점은 UIButton, UITableView의 Selected Row, UIGesture등
-- 종착점은 UIViewController
+- Storyboard 파일 내 두 개의 ViewController 사이 화면 전환을 정의한 인스턴스를 Segue라고 한다.
+- 시작점은 UIButton, UITableView의 Selected Row, UIGesture등이 된다.
+- 종착점은 UIViewController가 된다.
 - Segue 또한 Identifier를 가질 수 있다.
+
+![segue](https://raw.githubusercontent.com/younari/younari.github.io/master/images/SegueProcess.png)
+
+
+### should Perform Segue?
+- Segue를 통한 화면전환을 해야할지에 대한 정의
 
 {% highlight swift %}
 import UIKit
@@ -87,6 +96,19 @@ class SegueTestViewController: UIViewController {
         }else {
             return false
         }
+    }
+}
+{% endhighlight %}
+
+### prepare for Segue?
+- prev -> next 뷰콘트롤러로 보낼 데이터 등을 정의
+
+{% highlight swift %}
+override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    if segue.identifier == "nextDestination" {
+        let destionationVC = segue.destination as? DestinationViewController
+        let nextStr = textField.text ?? "nothing to send"
+        destionationVC?.takeMessage(nextStr) // String 전달
     }
 }
 {% endhighlight %}
