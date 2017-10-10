@@ -4,7 +4,7 @@ title: "Helpful Resources"
 author: "younari"
 ---
 
-## Official resources
+## Official Documents
 
 - [Swift Standard Library](https://developer.apple.com/documentation/swift)
 - [Terminology](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/GlossaryDefinitions.html#//apple_ref/doc/uid/TP40015214-CH12-SW1)
@@ -25,11 +25,12 @@ author: "younari"
 - [Core Animation](https://developer.apple.com/documentation/quartzcore)
 - [Core Image](https://developer.apple.com/documentation/coreimage)
 - [Photos](https://developer.apple.com/documentation/photos)
+- [Introduction to Cocoa Drawing Guide](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CocoaDrawingGuide/Introduction/Introduction.html)
 
 
 ## External resources
 - [Hash Code runner Swift](http://hashcode.co.kr/code_runners?language=swift)
 - [letswift.kr](http://letswift.kr/2017/#)
 - [Yagom Swift](https://yagom.github.io/swift_basic/)
-
-
+- [The Traveled iOS Developer’s Guide](https://medium.com/the-traveled-ios-developers-guide)
+- [We Heart Swift](https://www.weheartswift.com/learn-swift/)

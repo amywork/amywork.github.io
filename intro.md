@@ -5,7 +5,7 @@ author: "younari"
 permalink: /intro/
 ---
 
-## 👋 Dear, First Users 
+# 👋🏻 Welcome
 - **[If you need, Get Xcode project files @Github](https://github.com/younari/tastySwift)**
 
 # 01. Swift
