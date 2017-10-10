@@ -59,7 +59,7 @@ func close(_ sender: UIButton) {
 {% endhighlight %}
 
 
-![segue](https://i.pinimg.com/564x/37/81/1b/37811b6ce499ef79cfa9a752e76446d3.jpg)
+![segue](https://younari.github.io/images/Segue.jpg)
 
 # Segue
 - Storyboard 파일 내 두 개의 ViewController사이 화면전환을 정의한 인스턴스
