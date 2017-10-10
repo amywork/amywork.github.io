@@ -28,7 +28,8 @@ let secondVC1 = SecondViewController()
 let storyboard = UIStoryboard(name: “Storyboard Name”, bundle: nil) 
 
 // ViewController를 인스턴스화 해서, present 한다.
-let vc:UIViewController = storyboard.instantiateViewController(withIdentifier: “Storyboard Identifier")
+let vc:UIViewController = storyboard.instantiateViewController(withIdentifier: "Storyboard Identifier")
+
 present(vc, animated: true, completion: nil)
 
 {% endhighlight %}
@@ -56,3 +57,12 @@ func close(_ sender: UIButton) {
     dismiss(animated: true, completion: nil)
 }    
 {% endhighlight %}
+
+
+![segue](https://i.pinimg.com/564x/37/81/1b/37811b6ce499ef79cfa9a752e76446d3.jpg)
+
+# Segue
+- Storyboard 파일 내 두 개의 ViewController사이 화면전환을 정의한 인스턴스
+- 시작점은 UIButton, UITableView의 Selected Row, UIGesture등
+- 종착점은 UIViewController
+- Segue 또한 Identifier를 가질 수 있다.
