@@ -5,6 +5,9 @@ author: "younari"
 ---
 
 # UIViewController
+
+![segue](https://younari.github.io/images/Segue.jpg)
+
 - 모든 앱은 적어도 한 개 이상의 UIViewController를 가지고 있어야 하며, 대부분의 앱은 여러개의 UIViewController로 이뤄져 있다.
 - **모든 앱은 하나의 Root View Controller를 가지고 있고, 모든 View Controller는 제각각 자신의 Root View를 가지고 있다.**
 - UIViewController는 사용자의 **인터렉션과 앱의 데이터 사이에서** 컨트롤의 역할을 한다.
@@ -57,7 +60,6 @@ func close(_ sender: UIButton) {
     dismiss(animated: true, completion: nil)
 }    
 {% endhighlight %}
-
 
 ![segue](https://younari.github.io/images/Segue.jpg)
 
