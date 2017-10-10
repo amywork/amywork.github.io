@@ -179,9 +179,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 {% endhighlight %}
 
 
-
-
-
 ## ViewController.swift
 - This file defines a custom subclass of UIViewController named ViewController. Right now, this class simply inherits all the behavior defined by UIViewController. To **override** or extend that behavior, you override the methods defined on UIViewController.
 

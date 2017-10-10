@@ -8,43 +8,60 @@ author: "younari"
 - [연습용 Xcode Project 바로가기](https://github.com/younari/tastySwift/tree/master/0925_UIViewPractice)
 - [Apple SDK 문서 읽기](https://developer.apple.com/documentation/uikit/uilabel)
 
-## 00. Point, Pixel
+### Point, Pixel
 - Xcode에서 개발 시 사용하는 단위는 모두 **point**이다. 실제 디자이너에게 전달 받을 이미지는 포인트 기준으로 1x, 2x, 3x **pixel**로 받아야 한다.
 
-## 01. Frame Base
+### Frame Base
 - 좌측 상단 0,0 을 기준으로, x,y 좌표를 산정하는 것
 - **x, y, width, Height**
 - 뷰의 위치는 **상위뷰**를 기준으로 위치를 잡는다. (상위 Layer 기준)
 
-## 02. Auto Layout
+### Auto Layout
 - 추후 설명 추가 예정
 
 # Framework
 - 특정 운영 체제를 위한 응용 프로그램 표준 구조를 구현 하는 **클래스와 라이브러리 모임**이다. 
 
-# UIKit framework
+### UIKit framework
 - Command + Shift + 0 으로 찾기
 - **Cocoa Touch Framework**
 - **Ex)** `import UIKit`
 - **UI Kit** : Cocoa Touch Framework에 추가된 UI관련 기능의 클래스가 모여있는 Framework
 - **UI Class Hierarchy** : NSObject 👉🏻 UIResponder 👉🏻 UIApplication, UIViewController, UIView 👉🏻 UIImageView, UILabel, **UIControl**, UIWindow, UIScrollView 👉🏻 UIButton, UISlider, UISwitch, UITextField
 
-## UIResponder
+# UIResponder
 - The UIResponder class defines an interface for objects that respond to handle events.
 - ex) `open func becomeFirstResponder() -> Bool`
 
-## UIApplication
-## UIViewController
-## UIView
+# UIApplication
+- App Launching 후 가장 먼저 만들어지는 것
+
+# AppDelegate
+- UIApplication에 의해 AppDelegate의 인스턴스 생성, UIApplication의 상태 변화 관리
+- `func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool`
+- `func applicationWillResignActive(_ application: UIApplication)`
+- `func applicationDidEnterBackground(_ application: UIApplication)`
+- `func applicationWillEnterForeground(_ application: UIApplication)`
+- `func applicationDidBecomeActive(_ application: UIApplication)`
+- `func applicationWillTerminate(_ application: UIApplication)`
+
+# UIViewController
+- 모든 앱은 적어도 한개 이상의 UIViewController를 가지고 있으며, 대부분의 앱은 여러개의 UIViewController로 이뤄져 있다.
+- UIViewController는 사용자의 인터렉션과 앱의 데이터 사이에서 컨트롤의 역할을 한다.
+- UIViewController는 **모든 View의 관리, 사용자 이벤트 핸들링, UIViewController간의 전환** 등의 역할을 수행한다.
+- 모든 UIViewController는 한개의 RootView를 필수적으로 가지고 있으며, 화면에 표시되는 모든 View는 RootView의 SubView로 존재한다.
+
+# UIView
 - An object that manages the content for a rectangular area on the screen.
-- UIView class의 property 중의 하나인, frame(=> CGRect 타입)에 값을 넣어서 init하는 방식
+- 화면에 표시되는 모든 View는 RootView의 SubView로 존재한다.
+- UIView class의 property 중의 하나인, frame(=> CGRect 타입)에 값을 넣어서 init하는 방식이 있다.
 
 {% highlight swift %}
 let topView: UIView = UIView(frame: CGRect(x: 15, y: 15, width: self.view.frame.width-30, height: 100))
 {% endhighlight %}
 
 
-## CGRect?
+## 참고. CGRect?
 - **struct CGRect**: A structure that contains the location and dimensions of a rectangle. (CG = Core Graphic)
 - In the default **Core Graphics** coordinate space, the origin is located in the lower-left corner of the rectangle and the rectangle extends towards the upper-right corner. If the context has a flipped-coordinate space—often the case on iOS—the origin is in the upper-left corner and the rectangle extends towards the lower-right corner.
 
@@ -125,6 +142,7 @@ contentImageView.isUserInteractionEnabled = true
 # UIControl
 - normal, highlighted, isEnabled, disabled(read only), isSelected, selected(read only), addTarget(method)
 - Button, Switch, Slider, Textview 의 상위 클래스
+
 
 # UIButton
 - 사용자의 이벤트를 받아 처리해주는 UI
@@ -220,7 +238,7 @@ func designTextField(_ textField: UITextField) {
 {% endhighlight %}
 
 
-# (+) UIView.animate
+### 참고. UIView에 animate 효과 주기
 
 {% highlight swift %}
 UIView.animate(withDuration: 0.1, animations: {
