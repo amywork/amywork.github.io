@@ -12,16 +12,36 @@ author: "younari"
 - 모든 UIViewController는 한 개의 **RootView**를 필수적으로 가지고 있으며, 화면에 표시되는 모든 View는 RootView의 SubView로 존재한다.
 - Window 위에 1개의 Tapbar 올릴 수 있으며, Tapbar 는 여러개의 ViewController를 Sub로 가질 수 있고, 그마다 각각의 NavigationViewController를 가질 수 있다.
 
+###👌🏻UIViewController의 Instance 만들기
+
+- Class를 직접 인스턴스 시키는 방법, 단 스토리보드와 연관되지 않는다.
+
+{% highlight swift %}
+let secondVC1 = SecondViewController()
+{% endhighlight %}
+
+- 따라서 스토리보드를 통해 UI를 만들어놓은 ViewController의 인스턴스를 생성하여 present해야 한다.
+
+{% highlight swift %}
+
+// 스토리보드 파일을 통하여,
+let storyboard = UIStoryboard(name: “Storyboard이름(ex. Main)”, bundle: nil) 
+
+// ViewController를 인스턴스화 해서,
+let vc:UIViewController = storyboard.instantiateViewController(withIdentifier: “내가 설정한 Storyboard Identifier")
+
+// present 한다.
+present(vc, animated: true, completion: nil)
+
+{% endhighlight %}
+
+
 # General ViewController
 - UIViewController(Root = UIView), UITableViewController(Root = UITableView), UICollectionViewController(Root = UICollectionView)
 
 # Navigation ViewController
 - UINavigationController(Stack), UITabbarController(Switching), UISplitViewController(Splitting)
 
-# UIView
-- 화면에 표시되는 모든 View는 RootView의 SubView로 존재한다.
 
-{% highlight swift %}
 
-{% endhighlight %}
 
