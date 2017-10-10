@@ -39,9 +39,22 @@ present(vc, animated: true, completion: nil)
 # General ViewController
 - UIViewController(Root = UIView), UITableViewController(Root = UITableView), UICollectionViewController(Root = UICollectionView)
 
+
 # Navigation ViewController
 - UINavigationController(Stack), UITabbarController(Switching), UISplitViewController(Splitting)
 
 
+# Present Modally
+- 기준 ViewController에서 대상 ViewController를 Present하고, dismiss를 통해 대상 ViewController는 사라진다.
 
+### present
+`present(UIViewController, animated: Bool, completion: (() -> Void)?)`
 
+### dismiss
+`dismiss(animated: Bool, completion: (() -> Void)?`
+
+{% highlight swift %}
+func close(_ sender: UIButton) {
+    dismiss(animated: true, completion: nil)
+}    
+{% endhighlight %}
