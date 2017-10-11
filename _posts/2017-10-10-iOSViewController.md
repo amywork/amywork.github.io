@@ -17,7 +17,7 @@ author: "younari"
 - 모든 UIViewController는 한 개의 **RootView**를 필수적으로 가지고 있으며, 화면에 표시되는 모든 View는 RootView의 SubView로 존재한다.
 - Window 위에 1개의 Tapbar 올릴 수 있으며, Tapbar 는 여러개의 ViewController를 Sub로 가질 수 있고, 그마다 각각의 NavigationViewController를 가질 수 있다.
 
-### 👌🏻UIViewController의 Instance 만들기
+## UIViewController의 Instance 만들기
 
 - Class를 직접 인스턴스 시키는 방법, 단 스토리보드와 연관되지 않는다.
 
@@ -38,6 +38,29 @@ let vc:UIViewController = storyboard.instantiateViewController(withIdentifier: "
 present(vc, animated: true, completion: nil)
 
 {% endhighlight %}
+
+
+## 👍🏻 NSCoder
+- NSCoder를 이용해서 XML 파일로 만든 스토리보드를 바이트 단위의 Data로 아카이빙 시켜준 뒤에, 변환된 Data를 다시 `init(coder aDecoder: NSCoder)`로 디코딩하여 뷰콘트롤러의 인스턴스를 만든다.
+- instance가 만들어지기 이전에 호출
+
+{% highlight swift %}
+init(coder aDecoder: NSCoder) {
+        <#code#>
+}
+{% endhighlight %}
+
+
+## 👍🏻 awakeFromNib
+- instance가 만들어진 후에 호출 (IBOutlet, IBAction 스토리보드의 View가 모두 바인딩 됨)
+- awakeFromNib가 호출되는 시점에는 IBAction과 IBOutlet이 연결되어 있으므로 이들은 nil이 아님을 보장한다.
+
+- nib을 사용하는 경우 불려지는 순서
+- init -> initWithCoder -> awakeFromNib
+
+- nib를 사용하지않는 경우 불려지는 순서
+- init -> initWithFrame
+- nib 파일 내 오브젝트들은 initWithFrame이 호출되지 않는다.
 
 
 # General ViewController
