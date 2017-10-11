@@ -101,13 +101,15 @@ func popAction() {
 - 외관은 custom할 수 있으나, frame, bounds, or alpha values는 바꿀 수 없다
 - NavigationItem array를 가지고 있다.
 - Bar의 높이 = 20(StatusBar height) + 44(Base NavigationBar Height)
+- `self.navigationController?.navigationBar.prefersLargeTitles = true`
+- **위 Method 활용 시 iOS11에서 Large Title을 적용할 수 있다.**
 
 # UI Navigation Item
 - UINavigation의 각 ViewController를 관리하기 위해 만들어지는 인스턴스.
 - Navigation Bar에 array로써 들어가있다.
 
 # UI Bar Button Item
-- 원하는 뷰를 만들고 (ex. 라벨, 버튼)
+- 원하는 View를 만들고 (ex. 라벨, 버튼)
 - 그것을 `UIBartButtonItem(customView: UIView)`에 넣어서
 - 그것을 `UINavigationItem`의 left 또는 center 또는 right에 넣는다.
 
