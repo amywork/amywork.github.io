@@ -137,6 +137,11 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 {% endhighlight %}
 
 
+### Manual Segue (수동 segue)
+- UIButton같은 trigger가 없이 화면을 이동해야 할 떄
+- `performSegue(withIdentifier: "id", sender: self)`
+
+
 ### Unwind Segue
 - Exit을 통한 unwind를 했을 때, **돌아가야 할 ViewController에** 아래의 @IBAction을 만들어준다.
 - **Exit을 하는 ViewController에서** 버튼을 통한 Exit segue를 만들어준다.
