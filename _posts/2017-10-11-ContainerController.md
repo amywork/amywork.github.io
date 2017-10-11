@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "Container Controller"
+title: "Container ViewController"
 author: "younari"
 ---
 
 # Container ViewController
 
-> Container ViewController인 UINavigationController, UITabBarController, UISplitViewController를 통해 View Controller의 구조를 알아본다. [샘플 Xcode 프로젝트 바로가기](https://github.com/younari/tastySwift/tree/master/1011_NavigationController)
+> [샘플 Xcode 프로젝트 바로가기](https://github.com/younari/tastySwift/tree/master/1011_NavigationController)
 
+- 목표: Container ViewController인 UINavigationController, UITabBarController, UISplitViewController를 통해 View Controller의 구조를 알아본다. 
 
 # UI Navigation Controller
 
@@ -29,7 +30,7 @@ author: "younari"
 
 <br>
 
-# View Controller의 구조, Sample Code
+# View Controller의 구조
 - View Controller의 구조를 알아보기위해 프로젝트에서 스토리보드와의 연결을 끊고, 코드로 작성해본다.
 - 우선 App Delegate의 didFinishLaunchingWithOptions 함수에서, UIwindow의 인스턴스인 window를 만든다.
 - window의 rootViewController로 UITabBarController를 올리고, 그 위에 하나의 탭에는 UINavigationController를 올리고, 다른 탭에는 UIViewController를 올린다.
@@ -68,5 +69,25 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
         
         return true
     }
+}
+{% endhighlight %}
+
+# UINavigationController를 통한 Push, Pop
+
+{% highlight swift %}
+@IBAction func pushHandler(_ sender: Any) {
+
+	// 스토리보드를 통해 ViewController를 instantiate 해준다.
+	// 여기서는 itemDetailViewController 클래스의 인스턴스인 nextVC 뷰콘트롤러
+    
+    let nextVC: itemDetailViewController = self.storyboard?.instantiateViewController(withIdentifier: "itemDetailViewController") as! itemDetailViewController
+    
+    // 자신의 navigationController에게 nextVC 푸시를 요청한다 : pushViewController
+    self.navigationController?.pushViewController(nextVC, animated: true)
+}
+    
+func popAction() {
+	// 자신의 navigationController에게 pop을 요청한다.
+    self.navigationController?.popViewController(animated: true)
 }
 {% endhighlight %}
