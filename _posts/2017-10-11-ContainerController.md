@@ -13,15 +13,20 @@ author: "younari"
 # UI Navigation Controller
 
 - View Controller의 **Container 역할**을 하는 View Controller
+- UIToolbar가 제공되며 기본 hidden상태로 존재 한다.
+
+###  UI Navigation Controller의 구조
+![NavBar](https://younari.github.io/images/NavController.png)
+
 - View Controller들을 array로 가지고 있으면서 스택 구조로 관리하는 컨테이너이다.
 - **viewControllers(Array)와 navigationBar, toolbar**로 이루어져 있다.
-- UIToolbar가 제공되며 기본 hidden상태로 존재 한다.
+
 
 <br>
 
+### 설정 방법
 ![NavBar](https://younari.github.io/images/NavShowPresent.jpg)
 
-## 설정 방법
 - 뷰콘트롤러에서 Editor -> Embed in -> Navigation Controller
 - 우측 하단 오브젝트 라이브러리에서 UINaviagationController Drag and Drop
 
