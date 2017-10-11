@@ -19,14 +19,22 @@ author: "younari"
 - UIToolbar가 제공되며 기본 hidden상태로 존재 한다.
 
 <br>
+
 ![NavBar](https://younari.github.io/images/NavShowPresent.jpg)
 
 ## 설정 방법
 - 뷰콘트롤러에서 Editor -> Embed in -> Navigation Controller
 - 우측 하단 오브젝트 라이브러리에서 UINaviagationController Drag and Drop
 
+
+<br>
+
 # View Controller의 구조, Sample Code
-- 프로젝트에서 스토리보드와의 연결을 끊은 뒤, App Delegate에서 window를 만들고, window의 rootViewController로 UITabBarController를 올리고, 그 위에 하나의 탭에는 UINavigationController를 올리고, 다른 탭에는 ViewController 를 올린다.
+- View Controller의 구조를 알아보기위해 프로젝트에서 스토리보드와의 연결을 끊고, 코드로 작성해본다.
+- 우선 App Delegate의 didFinishLaunchingWithOptions 함수에서, UIwindow의 인스턴스인 window를 만든다.
+- window의 rootViewController로 UITabBarController를 올리고, 그 위에 하나의 탭에는 UINavigationController를 올리고, 다른 탭에는 UIViewController를 올린다.
+- UINavigationController의 rootViewController를 지정해준다.
+
 
 {% highlight swift %}
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -41,9 +49,9 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
         // 01. instantiateInitialViewController() : initial로 설정된 뷰콘트롤러가 있을 경우 바로 인스턴스
         // let rootVC: ViewController = storyboard.instantiateInitialViewController() as! ViewController
         
-        // 02. ViewController()의 인스턴스를 바로 만들어서 rootViewController로 설정할 수도 있다.
-        let rootVC = ViewController()
-        rootVC.view.backgroundColor = .red
+        // 02. UIViewController()의 인스턴스를 바로 만들어서 rootViewController로 설정할 수도 있다.
+        let rootVC = UIViewController()
+        rootVC.view.backgroundColor = .blue
         
         // 03. main 스토리보드를 통해 ViewController의 인스턴스를 만들고, UINavigationController에 rootViewController로 추가한다.
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
