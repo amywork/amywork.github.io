@@ -94,3 +94,26 @@ func popAction() {
     self.navigationController?.popViewController(animated: true)
 }
 {% endhighlight %}
+
+
+# Navigation Bar
+- 네비게이션 인터페이스를 관리 하는 뷰
+- 외관은 custom할 수 있으나, frame, bounds, or alpha values는 바꿀 수 없다
+- NavigationItem array를 가지고 있다.
+- Bar의 높이 = 20(StatusBar height) + 44(Base NavigationBar Height)
+
+# UI Navigation Item
+- UINavigation의 각 ViewController를 관리하기 위해 만들어지는 인스턴스.
+- Navigation Bar에 array로써 들어가있다.
+
+# UI Bar Button Item
+- 원하는 뷰를 만들고 (ex. 라벨, 버튼)
+- 그것을 `UIBartButtonItem(customView: UIView)`에 넣어서
+- 그것을 `UINavigationItem`의 left 또는 center 또는 right에 넣는다.
+
+{% highlight swift %}
+let nextBtn = UIButton()
+nextBtn.setTitle("🙃👉🏻", for: .normal)
+nextBtn.addTarget(self, action: #selector(nextBtnHandler), for: .touchUpInside)
+self.navigationItem.rightBarButtonItem = UIBarButtonItem(customView: nextBtn)
+{% endhighlight %}
