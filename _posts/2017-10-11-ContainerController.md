@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Container ViewController"
+title: "Container Controller"
 author: "younari"
 ---
 
