@@ -12,8 +12,6 @@ author: "younari"
 
 # UI Navigation Controller
 
-![NavBar](https://younari.github.io/images/navController.jpg)
-
 - View Controller의 **Container 역할**을 하는 View Controller
 - View Controller들을 array로 가지고 있으면서 스택 구조로 관리하는 컨테이너이다.
 - **viewControllers(Array)와 navigationBar, toolbar**로 이루어져 있다.
