@@ -11,13 +11,16 @@ author: "younari"
 ### Point, Pixel
 - Xcode에서 개발 시 사용하는 단위는 모두 **point**이다. 실제 디자이너에게 전달 받을 이미지는 포인트 기준으로 1x, 2x, 3x **pixel**로 받아야 한다.
 
-### Frame Base
+# Frame Base
 - 좌측 상단 0,0 을 기준으로, x,y 좌표를 산정하는 것
 - **x, y, width, Height**
 - 뷰의 위치는 **상위뷰**를 기준으로 위치를 잡는다. (상위 Layer 기준)
 
-### Auto Layout
-- 추후 설명 추가 예정
+# Auto Layout
+- 캔버스의 사이즈가 늘어나거나 줄어들 때 해당 캔버스 위의 view들의 사이즈를 유동적으로 설정하기 위함
+- 기준 View와 대상 View간 상대적인 Constraints(제약 사항)를 모두 정의
+- 🙃 **대상 View의 Attribute = 기준 View의 Attribute * 비율 + 간격(상수)**
+
 
 # Framework
 - 특정 운영 체제를 위한 응용 프로그램 표준 구조를 구현 하는 **클래스와 라이브러리 모임**이다. 
