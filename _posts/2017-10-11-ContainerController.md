@@ -107,7 +107,7 @@ func popAction() {
 - 외관은 custom할 수 있으나, frame, bounds, alpha values는 바꿀 수 없다
 - NavigationItem array를 가지고 있다.
 - Bar의 높이 = 20(StatusBar height) + 44(Base NavigationBar Height)
-- `self.navigationController?.navigationBar.prefersLargeTitles = true`
+- self.navigationController?.navigationBar.prefersLargeTitles = true
 - **위 Method 활용 시 iOS11에서 Large Title을 적용할 수 있다.**
 
 # UI Navigation Item
