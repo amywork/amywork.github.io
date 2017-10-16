@@ -4,7 +4,17 @@ title: "Data Model"
 author: "younari"
 ---
 
-> [Initializer Swift Document Official Resources](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html)
+# Data Model, Structure와 Class
+- Structure, Class, Enum - 프로그램 코드 블럭의 기본 구조
+- Class 및 Structure는 인스턴스로 만들어질 때 프로퍼티를 모두 초기화 해야 한다. 때문에 초기 상태를 지정하기 위한 initializer가 만들어진다.
+- 필요한 상황에서 instance를 생성하여 사용한다.
+- Class의 인스턴스는 메모리의 Heap영역에 저장되는 참조(Reference)타입이다. 인스턴스가 대입된 변수는 이 인스턴스의 주소를 담고 있으며, 인스턴스를 가리키는 포인터라고 할 수 있다.
+- Structure는 Class와 달리 값(Value) 타입이다.
+- Data는 주로 Struct로 만들고, UI같이 재활용하는 것들은 주로 Class로 만든다. 하지만 무엇을 Struct로 만들어야 하고 Class로 만들어야 하는지는 개발자의 재량에 달려있다.
+
+# Initializer
+
+> init의 구체적인 내용은 스위프트 도큐멘테이션을 참조할 수 있다. [Initializer Swift Document Official Resources](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html)
 
 1. Setting Initial Values for Stored Properties
 2. Customizing Initialization
@@ -15,16 +25,8 @@ author: "younari"
 7. Required Initializers
 8. Setting a Default Property Value with a Closure or Function
 
-# Data Model, Structure와 Class
-- 프로그램 코드 블럭의 기본 구조
-- 초기 상태를 지정하기 위한 initializer가 만들어진다.
-- 사용 시 instance를 생성한다.
-- 클래스 및 구조체는 인스턴스로 만들어질 때 프로퍼티는 모두 초기화 해야 한다.
-- Class의 인스턴스는 메모리의 Heap영역에 저장되는 Reference 타입이다. 인스턴스가 대입된 변수는 이 인스턴스의 주소를 담고 있으며, 인스턴스를 가리키는 포인터라고 할 수 있다.
-- Data는 주로 Struct로 만들고, UI같이 재활용하는 것들은 주로 Class로 만든다. 하지만 무엇을 Struct로 만들어야 하고 Class로 만들어야 하는지는 개발자의 재량이다.
-
 # Struct의 Memberwise Initializer
-- **Struct**의 경우 모든 프로퍼티가 초기화 할수 있게 모든 멤버에 대한 **Memberwise Initializer**가 생긴다.
+- **Struct**의 경우 모든 프로퍼티가 초기화 할수 있게 모든 멤버에 대한 **Memberwise Initializer**를 제공한다.
 - 때문에, Structure를 설계할 떄 모두 초기화 해주지 않아도 기본적으로 Memberwise Initializer를 통한 초기화를 보장할 수 있다.
 - 하지만 커스텀으로 Struct 내에 custom initializer를 만들었다면, initializer에 포함되지 않은 프로퍼티에 대해서는 optional이던 기타 방법으로 Default 값을 넣어주어야 한다.
 
@@ -87,7 +89,7 @@ convenience init(name: String) {
 # Required Initializer 
 - 필수적으로 구현해야 하는 Initializer
 - 상속받은 클래스는 모두 구현해야 한다.
-- 예시: Custom View만들 때 
+- 예시: Custom View만들 때 required init?(coder aDecoder: NSCoder)
 
 {% highlight swift %}
 required init?(coder aDecoder: NSCoder) {
@@ -96,10 +98,9 @@ required init?(coder aDecoder: NSCoder) {
 {% endhighlight %}
 
 # Class 상속시 초기화
-- 부모 클래스로부터 상속받은 모든 저장 속성은 초기화할 때 초기값을 할당 받아야 한다.
-- 상속을 받았다면 부모 클래스의 Designated initializers를 호출 해야 한다.
-- cf. Struct는 상속 불가
-- Class는 Type Casting을 사용할수 있다.(Structure 불가)
+- 부모 클래스로부터 상속받은 모든 저장 속성은 서브 클래스를 초기화할 때 부모 클래스의 초기 값을 할당 받아야 한다.
+- 부모 클래스의 Designated initializers를 호출 해야 한다.
+- Class는 Type Casting을 사용할수 있다. (상속을 받았기 때문)
 
 # Sample Code
 
@@ -141,3 +142,20 @@ class SomeView: UIView {
 # Deinit
 - Class instance에 대한 reference를 해제할 때 필요한 내용을 구현한다.
 
+# Failable Initializers
+- init이 실패했을 경우에 대한 처리가 가능하다.
+- init뒤에 ?를 붙여 사용한다. (init?)
+- init?(){ return nil }안에서 사용되는 return 값은 실제 값을 리턴한다기 보다 init이 실패하였다는 표기에 가깝다.
+- 도큐멘트 원문: *Strictly speaking, initializers do not return a value. Rather, their role is to ensure that self is fully and correctly initialized by the time that initialization ends. Although you write return nil to trigger an initialization failure, you do not use the return keyword to indicate initialization success.*
+
+{% highlight swift %}
+struct Animal {
+    let species: String
+    init?(species: String) {
+        if species.isEmpty { return nil }
+        self.species = species
+    }
+}
+{% endhighlight %}
+
+# 
