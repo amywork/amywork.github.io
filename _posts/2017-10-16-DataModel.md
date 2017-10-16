@@ -1,0 +1,133 @@
+---
+layout: post
+title: "Data Model"
+author: "younari"
+---
+
+> [Initializer Swift Document Official Resources](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html)
+
+1. Setting Initial Values for Stored Properties
+2. Customizing Initialization
+3. Default Initializers
+4. Initializer Delegation for Value Types : Designated Initializer, Convenience Initializer
+5. Class Inheritance and Initialization
+6. Failable Initializers
+7. Required Initializers
+8. Setting a Default Property Value with a Closure or Function
+
+# Data Model, Structure와 Class
+- 프로그램 코드 블럭의 기본 구조
+- 초기 상태를 지정하기 위한 initializer가 만들어진다.
+- 사용 시 instance를 생성한다.
+- 클래스 및 구조체는 인스턴스로 만들어 질때 프로퍼티는 모두 초기화 해야 한다.
+- Class의 인스턴스는 메모리의 Heap 영역에 저장된다. 인스턴스가 대입된 변수는 이 인스턴스의 주소를 가리킨다.
+
+# Struct의 Memberwise Initializer
+- **Struct**의 경우 모든 프로퍼티가 초기화 할수 있게 모든 멤버에 대한 **Memberwise Initializer**가 생긴다.
+- 때문에, Structure를 설계할 떄 모두 초기화 해주지 않아도 기본적으로 Memberwise Initializer를 통한 초기화를 보장할 수 있다.
+- 하지만 커스텀으로 Struct 내에 custom initializer를 만들었다면, initializer에 포함되지 않은 프로퍼티에 대해서는 optional이던 기타 방법으로 Default 값을 넣어주어야 한다.
+
+# Custom Initializer
+
+{% highlight swift %}
+struct Celsius {
+    var temperatureInCelsius: Double
+    init(fromFahrenheit fahrenheit: Double) {
+        temperatureInCelsius = (fahrenheit - 32.0) / 1.8
+    }
+    init(fromKelvin kelvin: Double) {
+        temperatureInCelsius = kelvin - 273.15
+    }
+    init(_ celsius: Double) {
+        temperatureInCelsius = celsius
+    }
+}
+
+let bodyTemperature = Celsius(37.0)
+// bodyTemperature.temperatureInCelsius is 37.0
+{% endhighlight %}
+
+# Designated Initializer
+- Designated initializers are the primary initializers for a class. A designated initializer fully initializes all properties introduced by that class and calls an appropriate superclass initializer to continue the initialization process up the superclass chain. [sources](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html)
+
+
+# Convenience Initializer
+- Convenience initializers are secondary, supporting initializers for a class. You can define a convenience initializer to call a designated initializer from the same class as the convenience initializer with some of the designated initializer’s parameters set to default values. You can also define a convenience initializer to create an instance of that class for a specific use case or input value type. [sources](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html)
+
+
+## Rule 1
+- A designated initializer must call a designated initializer from its immediate superclass.
+- designated initializer는 상위 클래스의 designated initializer를 반드시 호출해야 한다.
+
+## Rule 2
+- A convenience initializer must call another initializer from the same class.
+- convenience initializer는 동일 클래스 내의 다른 initializer를 호출한다.
+
+## Rule 3
+- A convenience initializer must ultimately call a designated initializer.
+- convenience initializer는 궁극적으로 designated initializer를 호출한다.
+
+## A simple way to remember
+- Designated initializers must always delegate up. = Designated는 상하 관계
+- Convenience initializers must always delegate across. = Convenience는 좌우 관계
+
+## Safety Check
+- A convenience initializer must delegate to another initializer before assigning a value to any property (including properties defined by the same class). If it doesn’t, the new value the convenience initializer assigns will be overwritten by its own class’s designated initializer.
+
+{% highlight swift %}
+convenience init(name: String) {
+    // 자신의 designated initializer 먼저 호출
+    self.init(frame: CGRect(x:0,y:0,width:10,height:10))
+    // designated initializer 먼저 호출한뒤 SomeView의 프로퍼티 초기화
+    self.name = name
+}
+{% endhighlight %}
+
+# Required Initializer 
+- 필수적으로 구현해야 하는 Initializer
+- 상속받은 클래스는 모두 구현해야 한다.
+- 예시: Custom View만들 때 
+
+{% highlight swift %}
+required init?(coder aDecoder: NSCoder) {
+    fatalError("init(coder:) has not been implemented")
+}
+{% endhighlight %}
+
+# Class 상속시 초기화
+- 부모 클래스로부터 상속받은 모든 저장 속성은 초기화할 때 초기값을 할당 받아야 한다.
+- 상속을 받았다면 부모 클래스의 Designated initializers를 호출 해야 한다.
+- cf. Struct는 상속 불가
+
+# Sample Code
+
+{% highlight swift %}
+import UIKit
+class SomeView: UIView {
+	
+	// SomeView의 프로퍼티
+	var name:String
+	    
+	// SomeView의 부모 class가 요구하는 required initializer
+	required init?(coder aDecoder: NSCoder) {
+	    fatalError("init(coder:) has not been implemented")
+	}
+	    
+	// designated initializer
+	override init(frame: CGRect) {
+	    // SomeView의 프로퍼티를 초기화하는 동시에,
+	    self.name = ""
+	    // 상속을 받았으므로 부모 클래스의 Designated initializer를 호출하며 frame 초기화
+	    super.init(frame: frame)
+	}
+	    
+	// convenience initializer: name 값을 받으면서 초기화 하기 위함
+	convenience init(name: String) {
+	    // 자신의 designated initializer 호출
+	    self.init(frame: CGRect(x:0,y:0,width:10,height:10))
+	    // SomeView의 프로퍼티 초기화
+	    self.name = name
+	}
+
+}
+{% endhighlight %}
