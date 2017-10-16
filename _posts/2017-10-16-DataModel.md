@@ -19,8 +19,9 @@ author: "younari"
 - 프로그램 코드 블럭의 기본 구조
 - 초기 상태를 지정하기 위한 initializer가 만들어진다.
 - 사용 시 instance를 생성한다.
-- 클래스 및 구조체는 인스턴스로 만들어 질때 프로퍼티는 모두 초기화 해야 한다.
-- Class의 인스턴스는 메모리의 Heap 영역에 저장된다. 인스턴스가 대입된 변수는 이 인스턴스의 주소를 가리킨다.
+- 클래스 및 구조체는 인스턴스로 만들어질 때 프로퍼티는 모두 초기화 해야 한다.
+- Class의 인스턴스는 메모리의 Heap영역에 저장되는 Reference 타입이다. 인스턴스가 대입된 변수는 이 인스턴스의 주소를 담고 있으며, 인스턴스를 가리키는 포인터라고 할 수 있다.
+- Data는 주로 Struct로 만들고, UI같이 재활용하는 것들은 주로 Class로 만든다. 하지만 무엇을 Struct로 만들어야 하고 Class로 만들어야 하는지는 개발자의 재량이다.
 
 # Struct의 Memberwise Initializer
 - **Struct**의 경우 모든 프로퍼티가 초기화 할수 있게 모든 멤버에 대한 **Memberwise Initializer**가 생긴다.
@@ -98,6 +99,7 @@ required init?(coder aDecoder: NSCoder) {
 - 부모 클래스로부터 상속받은 모든 저장 속성은 초기화할 때 초기값을 할당 받아야 한다.
 - 상속을 받았다면 부모 클래스의 Designated initializers를 호출 해야 한다.
 - cf. Struct는 상속 불가
+- Class는 Type Casting을 사용할수 있다.(Structure 불가)
 
 # Sample Code
 
@@ -131,3 +133,11 @@ class SomeView: UIView {
 
 }
 {% endhighlight %}
+
+# Mutating func
+- Value Type (Struct)에서의 프로퍼티 수정
+- 기본적으로 구조체와 열거형과 같은 **값타입 프로퍼티**는 **인스턴스 메소드 내에서 바로 수정이 불가능**하다.- 때문에, 특정 메소드에서 수정을 해야 할 경우에는 mutating 키워드를 통해 변경 가능하다.
+
+# Deinit
+- Class instance에 대한 reference를 해제할 때 필요한 내용을 구현한다.
+
