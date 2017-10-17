@@ -157,5 +157,3 @@ struct Animal {
     }
 }
 {% endhighlight %}
-
-# 
