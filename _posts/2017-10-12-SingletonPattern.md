@@ -21,6 +21,12 @@ author: "younari"
 - 가령 Setting이나 NotificationCenter와 같은 객체는 Singletone으로 만드는 것이 좋다. 이와 같은 디폴트성이 강한 정보는 앱 전체에 적용되어야 하기 때문이다.
 - 구현 방법: **Class에서 Static**을 통해 구현한다. 
 
+## Singletone Design Pattern의 예시
+- 스크린 정보를 가지고 있는 객체- `let screen = UIScreen.main`
+- 어플리케이션 객체
+- `let app = UIApplication.shared`
+- 사용자 정보를 저장하는 객체- `let data = UserDefaults.standard` - 파일 시스템 정보를 가지고 있는 객체- `let fileManager = FileManager.default`
+
 {% highlight swift %}
 
 class SingletonClass {
