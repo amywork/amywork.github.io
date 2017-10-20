@@ -8,7 +8,7 @@ author: "younari"
 
 ### 👌🏻 CustomCell의 스위치 value가 바뀔 때마다 ViewController에게 value 값을 전달해주기 위해, delegate 패턴을 만들어본다.
 
-#01. UITableViewCell을 상속받은 CustomCell설계
+# 01. UITableViewCell을 상속받은 CustomCell설계
 
 ### CustomCellDelegate 프로토콜
 {% highlight swift %}
