@@ -118,7 +118,7 @@ permalink: /about/
 - [두들낙서의 C/C++](https://www.inflearn.com/course/c%EC%96%B8%EC%96%B4-%EB%91%90%EB%93%A4%EB%82%99%EC%84%9C/)
 
 
-# I ❤︎
+# Be inspired by... ❤︎
 - [Apple](https://www.apple.com/)
 - [Google](https://www.google.co.kr/)
 - [Nest](https://www.nest.co.uk)
@@ -131,9 +131,10 @@ permalink: /about/
 - [Louis Poulsen](http://www.louispoulsen.com)
 - [Facebook](https://www.facebook.com/)
 - [Tech Crunch](https://techcrunch.com/)
-- [My Music Taste](https://www.mymusictaste.com/)
 - [Wikipedia](https://en.wikipedia.org)
-
+- [My Music Taste](https://www.mymusictaste.com/)
+- [Sound Cloud](https://soundcloud.com)
+- [ziaco](https://www.instagram.com/woozico0914/)
 
 
 <br>
