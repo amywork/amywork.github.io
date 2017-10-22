@@ -65,14 +65,9 @@ permalink: /about/
 ## 🏫 연세대학교, 2011 ~ 2015
 - **Degree** : Bachelor's degree
 - **Grade** : 3.93 (4.5)
-- **Activities** : [연세대학교 공식 학보사 연세춘추 문화부 기자](http://chunchu.yonsei.ac.kr) 
+- **Activities** : [연세대학교 공식 학보사 연세춘추 문화부](http://chunchu.yonsei.ac.kr) 
 - **Field of Study** : Chinese Language & Literature (First major), Digital Design (Joint major)
-
-1. *문학, 중국의 당시/송사/산문/소설 독해*
-2. *언어학, 한자의 발전 과정 및 자형 구조 연구*
-3. *실용 중국어, 고급 중국어 독해/작문/회화*
-4. *디지털 디자인, 브랜딩/타이포그래피/[VMD](https://www.behance.net/gallery/49975731/-VMD)/[정보디자인](https://www.behance.net/gallery/49975089/MoMA-Infographic)/UX디자인*
-5. *예술, 영상예술기획/러시아 공연예술/프랑스언어와문화/독일표현주의/한국미술사*
+- **언어학/실용중국어/영상예술기획/브랜딩/타이포그래피/[VMD](https://www.behance.net/gallery/49975731/-VMD)/[정보디자인](https://www.behance.net/gallery/49975089/MoMA-Infographic)/UX설계/독일표현주의/러시아공연예술**
 
 
 ## 🏫 Fast Campus, 2017
