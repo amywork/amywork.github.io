@@ -53,7 +53,7 @@ do {
 }
 {% endhighlight %}
 
-## 🙃 Converting to Optional Value
+## 🙃 02. Converting to Optional Value
 
 {% highlight swift %}
 let x = try? someThrowingFunction()
