@@ -7,7 +7,7 @@ author: "younari"
 
 - 인스턴스 간의 데이터를 주고받는 방식
 - **발송자(Notification Center)**: 특정 이벤트가 발생 하였음을 불특정 다수의 객체에게 알리기 위해 사용하는 클래스
-- **수신자(Observer)**: 어떤 객체라도 특정 이벤트가 발생했다는 알림을 받을 것이 라고 관찰자(Observer)로 등록을 해두면 노티피케이션 센터 가 모든 관찰자 객체에게 알림을 준다
+- **수신자(Observer)**: 어떤 객체라도 특정 이벤트가 발생했다는 알림을 받을 것이라고 관찰자(Observer)로 등록을 해두면 노티피케이션 센터가 모든 관찰자 객체에게 알림을 준다.
 - UserDefaults처럼 모든 app이 하나씩 가지고 있다. 
 - **Each running app has a default notification center**, and you can create new notification centers to organize communications in particular contexts.
 
