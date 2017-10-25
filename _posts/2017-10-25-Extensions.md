@@ -59,7 +59,7 @@ let cellMenuType = cell?[indexPath.section, indexPath.row]
 - 코드 정리, 추상화를 위함
 - 기존 클래스, 구조, 열거 형 또는 프로토콜 유형에 새로운 기능을 추가
 - 저장 프로퍼티 제외하고 기능 추가 가능
-- UITableViewDataSource 같이 부가적인 메소드들만 extension으로 따로 뺴서 정의 가능
+- UITableViewDataSource 같이 추상화 가능한 코드들은 묶어서 extension으로 확장 가능
 
 
 # Generic
