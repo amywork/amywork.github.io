@@ -14,7 +14,8 @@ author: "younari"
 {% highlight swift %}
 subscript(index: Type) -> Type {	get {
 		// return an appropriate subscript value here
-	}set(newValue) {      // perform a suitable setting action here	} 
+	}set(newValue) {
+		// perform a suitable setting action here	}
 }
 {% endhighlight %}
 
@@ -45,7 +46,14 @@ extension SettingTableViewCell {
         return CellMenuType.non
     }
 }
+
+// 사용시 아래와 같이 대괄호
+let cellMenuType = cell?[indexPath.section, indexPath.row]
+
 {% endhighlight %}
+
+
+
 
 
 
