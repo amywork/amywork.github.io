@@ -4,7 +4,7 @@ title: "Swift 고급 문법"
 author: "younari"
 ---
 
-### Subscript, Extensions, Generic
+> Subscript, Extensions, Generic
 
 # Subscript
 - 클래스, 구조체, 열거형의 collection, list, sequence의 멤버에 접근 가능한 단축문법
@@ -12,16 +12,18 @@ author: "younari"
 - 사용시 **대괄호**
 
 {% highlight swift %}
+
 subscript(index: Type) -> Type {	get {
 		// return an appropriate subscript value here
 	}set(newValue) {
 		// perform a suitable setting action here	}
 }
+
 {% endhighlight %}
 
 
 {% highlight swift %}
-/*Extension: Subscript cell menu type*/
+
 enum CellMenuType {
     case infoMenu // (0,0)
     case changePW // (0,1)
@@ -51,10 +53,6 @@ extension SettingTableViewCell {
 let cellMenuType = cell?[indexPath.section, indexPath.row]
 
 {% endhighlight %}
-
-
-
-
 
 
 # Extensions
