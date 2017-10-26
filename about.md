@@ -11,10 +11,10 @@ permalink: /about/
 
 # Networks
 - [Github](https://github.com/younari)
-- [Instagram](https://www.instagram.com/younari.me/)
-- [Facebook](https://www.facebook.com/kiyun.k)
 - [Pinterest](https://www.pinterest.co.kr/younari_/)
 - [Linkedin](https://www.linkedin.com/in/%EA%B8%B0%EC%9C%A4-%EA%B9%80-6b61b894/)
+- [Instagram](https://www.instagram.com/younari.me/)
+- [Facebook](https://www.facebook.com/kiyun.k)
 
 # Featured Skills
 - Develop for Apple Platforms with Swift
