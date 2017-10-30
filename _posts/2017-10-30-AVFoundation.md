@@ -46,7 +46,7 @@ Pauses playback of the current item.
 ## [M]addBoundaryTimeObserver(forTimes:queue:using:)
 - https://developer.apple.com/documentation/avfoundation/avplayer/1388027-addboundarytimeobserver
 
-# 👌🏻AVPlayerActionAtItemEnd (Enum)
+# AVPlayerActionAtItemEnd (Enum)
 - You use these constants with actionAtItemEnd to indicate the action a player should take when it finishes playing.
 
 
