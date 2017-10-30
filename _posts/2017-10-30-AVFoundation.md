@@ -3,6 +3,7 @@ layout: post
 title: "AV Foundation"
 author: "younari"
 ---
+> AV Foundation 도큐멘트 직접 읽고 유용한 프로퍼티 및 메소드 찾아보기
 
 # AVFoundation
 - [AVFoundation](https://developer.apple.com/documentation/avfoundation)
@@ -10,7 +11,27 @@ author: "younari"
 
 # AVAsset 
 - [AVAsset](https://developer.apple.com/documentation/avfoundation/avasset)
-- AVAsset의 모델링된 데이터 -> AVPlayerItem를 만들고 -> AVPlayer가 재생하는 구조
+- AVAsset의 모델링된 데이터로 -> AVPlayerItem를 만들고 -> AVPlayer가 재생하는 구조
+
+# Sample Code
+
+{% highlight swift %}
+
+var isPlaying: Bool = false
+var player:AVPlayer = AVPlayer()    
+    
+if let url = currentSong.songURL
+{
+    let asset = AVAsset(url: url)
+    let playerItem = AVPlayerItem(asset: asset, automaticallyLoadedAssetKeys: nil)
+    player.replaceCurrentItem(with: playerItem)
+    if isPlaying {
+        player.play()
+        isPlaying = true
+    }
+}
+{% endhighlight %}
+
 
 # AVPlayer
 - [AVPlayer](https://developer.apple.com/documentation/avfoundation/avplayer)
@@ -46,11 +67,8 @@ Pauses playback of the current item.
 ## [M]addBoundaryTimeObserver(forTimes:queue:using:)
 - https://developer.apple.com/documentation/avfoundation/avplayer/1388027-addboundarytimeobserver
 
-# AVPlayerActionAtItemEnd (Enum)
+
+
+
+### cf. AVPlayerActionAtItemEnd (Enum)
 - You use these constants with actionAtItemEnd to indicate the action a player should take when it finishes playing.
-
-
-
-
-{% highlight swift %}
-{% endhighlight %}
