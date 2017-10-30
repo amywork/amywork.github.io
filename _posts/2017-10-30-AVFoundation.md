@@ -59,16 +59,15 @@ Pauses playback of the current item.
 ## [M]func replaceCurrentItem(with: AVPlayerItem?)
 - Replaces the current player item with a new player item.
 
-### AVPlayer: 자신의 상태가 계속해서 바뀌는 동적 객체로, state를 observe하기 위한 두가지 Method가 존재한다.
+## AVPlayer는 자신의 상태가 계속해서 바뀌는 동적 객체로, 변화하는 state를 observe하기 위한 두가지 Method가 존재한다.
 
-## [M]addPeriodicTimeObserver(forInterval:queue:using:)
-- https://developer.apple.com/documentation/avfoundation/avplayer/1385829-addperiodictimeobserver
+## 01. [M]addPeriodicTimeObserver(forInterval:queue:using:)
+- [addPeriodicTimeObserver](https://developer.apple.com/documentation/avfoundation/avplayer/1385829-addperiodictimeobserver)
 
-## [M]addBoundaryTimeObserver(forTimes:queue:using:)
-- https://developer.apple.com/documentation/avfoundation/avplayer/1388027-addboundarytimeobserver
+## 02. [M]addBoundaryTimeObserver(forTimes:queue:using:)
+- [addBoundaryTimeObserver](https://developer.apple.com/documentation/avfoundation/avplayer/1388027-addboundarytimeobserver)
 
-
-
+<hr>
 
 ### cf. AVPlayerActionAtItemEnd (Enum)
 - You use these constants with actionAtItemEnd to indicate the action a player should take when it finishes playing.
