@@ -44,30 +44,21 @@ if let url = currentSong.songURL
 - You use an AVPlayer to play media assets, which AVFoundation models using the AVAsset class. AVAsset only models the static aspects of the media, such as its duration or creation date, and on its own, is unsuitable for playback with an AVPlayer. To play an asset, you need to create an instance of its dynamic counterpart found in AVPlayerItem.
 
 
-## [M]func play()
-- Begins playback of the current item.
-
-## [M]func pause()
-Pauses playback of the current item.
-
-## [P]var rate: Float
-- The current playback rate.
-
-## [P]var actionAtItemEnd: AVPlayerActionAtItemEnd
-- The action to perform when the current player item has finished playing.
-
-## [M]func replaceCurrentItem(with: AVPlayerItem?)
-- Replaces the current player item with a new player item.
+- **[M]func play()** : Begins playback of the current item.
+- **[M]func pause()** : Pauses playback of the current item.
+- **[P]var rate: Float** : The current playback rate.
+- **[P]var actionAtItemEnd: AVPlayerActionAtItemEnd** : The action to perform when the current player item has finished playing.
+- **[M]func replaceCurrentItem(with: AVPlayerItem?)** : Replaces the current player item with a new player item.
 
 
 <hr>
 
-## 🤚🏻 AV Player는 자신의 상태가 계속해서 바뀌는 동적 객체로, 변화하는 state를 observe하기 위한 두가지 Method가 존재한다.
+#### AV Player는 자신의 상태가 계속해서 바뀌는 동적 객체로, 변화하는 state를 observe하기 위한 두가지 Method가 존재한다.
 
-## 01. [M]addPeriodicTimeObserver(forInterval:queue:using:)
+- 🤚🏻 01. [M]addPeriodicTimeObserver(forInterval:queue:using:)
 - [addPeriodicTimeObserver](https://developer.apple.com/documentation/avfoundation/avplayer/1385829-addperiodictimeobserver)
 
-## 02. [M]addBoundaryTimeObserver(forTimes:queue:using:)
+- 🤚🏻 02. [M]addBoundaryTimeObserver(forTimes:queue:using:)
 - [addBoundaryTimeObserver](https://developer.apple.com/documentation/avfoundation/avplayer/1388027-addboundarytimeobserver)
 
 <hr>
