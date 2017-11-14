@@ -5,10 +5,10 @@ author: "younari"
 permalink: /Edu/
 ---
 
-# Programming courses
-#### Road map by yunari.
+# My Course Road map 🏇
 
-## Ongoing Online Courses
+## ✔︎ Ongoing Online Courses
+
 ### 01. **let's build that app**
 - [AppStore](https://www.letsbuildthatapp.com/course/AppStore)
 - [Youtube](https://www.letsbuildthatapp.com/course/YouTube)
@@ -32,7 +32,7 @@ permalink: /Edu/
 - [Advanced Swift](https://www.objc.io/books/)
 
 
-## Tutorials
+### 06. Tutorials
 - [ARC and Memory Management in Swift](https://www.raywenderlich.com/134411/arc-memory-management-swift)
 - [UIGestureRecognizer Tutorial](https://www.raywenderlich.com/162745/uigesturerecognizer-tutorial-getting-started)
 - [UICollectionView Custom Layout Tutorial: Pinterest](https://www.raywenderlich.com/164608/uicollectionview-custom-layout-tutorial-pinterest-2)
@@ -40,7 +40,7 @@ permalink: /Edu/
 - [Swift Guide to Map Filter Reduce](https://useyourloaf.com/blog/swift-guide-to-map-filter-reduce/)
 
 
-## Already taken courses
+## ✔︎ Already taken courses
 ### 01. **Sketch UI Design Master**
 - 2017.07 ~ 2017.09 (12weeks)
 - User Experience Design in Sketch, SVG Workflows in Sketch
@@ -63,7 +63,7 @@ permalink: /Edu/
 
 
 
-## Offline Courses @FastCampus
+## ✔︎ Offline Courses @FastCampus
 ### 01. **iOS APP 개발 School**
 - 2017.09 ~ 2017.12 (16weeks)
 - Swift, Objective-C, Network
