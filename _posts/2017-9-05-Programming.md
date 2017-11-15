@@ -4,7 +4,7 @@ title: "컴퓨터 공학 용어 사전"
 author: "younari"
 ---
 
-> 프로그래밍, 컴퓨터의 구조, 통신 방식 등 컴퓨터 공학 기초 용어들을 찾아보고 정리하는 노트입니다.
+> 프로그래밍, 컴퓨터의 구조, 통신 방식 등 컴퓨터 공학 기초 용어 정리
 
 # ✔️ Programming
 - 사용자의 입력에 반응하도록 구현된 명령어의 집합
@@ -281,10 +281,3 @@ As long as you document the structure of your API's response, other people can u
 - The CSV file format is not standardized. The basic idea of separating fields with a comma is clear, but that idea gets complicated when the field data may also contain commas or even embedded line-breaks. CSV implementations may not handle such field data, or they may use quotation marks to surround the field. Quotation does not solve everything: some fields may need embedded quotation marks, so a CSV implementation may include escape characters or escape sequences.
 
 - In addition, the term "CSV" also denotes some closely related delimiter-separated formats that use different field delimiters. These include tab-separated values and space-separated values. A delimiter that is not present in the field data (such as tab) keeps the format parsing simple. These alternate delimiter-separated files are often even given a .csv extension despite the use of a non-comma field separator. This loose terminology can cause problems in data exchange. Many applications that accept CSV files have options to select the delimiter character and the quotation character.
-
-<br>
-<hr><hr>
-<br>
-
-# ✔️ iOS Newtwork system
-- [URL Loading System](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/URLLoadingSystem/URLLoadingSystem.html)
