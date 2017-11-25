@@ -30,32 +30,7 @@ permalink: /Edu/
 - [UI Design Portfolio](https://www.behance.net/gallery/54607233/Organize-your-subscriptions-with-Cash-bot)
 
 
-### **Raywenderlich**
-- [iOS 11](https://store.raywenderlich.com/products/ios-11-by-tutorials)
-- [iOS Animation](https://store.raywenderlich.com/products/ios-animations-by-tutorials)
-- [iOS tutorials](https://www.raywenderlich.com/category/ios)
-
-### **let's build that app**
-- [AppStore](https://www.letsbuildthatapp.com/course/AppStore)
-- [Youtube](https://www.letsbuildthatapp.com/course/YouTube)
-- [Firebase Social Login](https://www.letsbuildthatapp.com/course/Firebase-Social-Login)
-- [Facebook Messenger](https://www.letsbuildthatapp.com/course/Facebook-Chat-Messenger)
-- [Facebook Newsfeed](https://www.letsbuildthatapp.com/course/Facebook-News-Feed)
-- [Instagram Firebase](https://www.letsbuildthatapp.com/course/Instagram-Firebase)
-
-### **Udemy - Mark Price**
-- [iOS 10 & Swift 3: From Beginner to Paid Professional](https://www.udemy.com/devslopes-ios10/)
-
-### **objc.io**
-- [Advanced Swift](https://www.objc.io/books/)
-
-### **Tutorials**
-- [Swift Guide to Map Filter Reduce](https://useyourloaf.com/blog/swift-guide-to-map-filter-reduce/)
-- [Swift 함수에 커링 사용하기](https://academy.realm.io/kr/posts/currying-on-the-swift-functions/)
-- [Add Account Kit and Facebook Login](https://www.udacity.com/course/passwordless-login-solutions-for-ios--ud1028)
-
-
-## ✔︎ Already taken courses
+## ✔︎ 온라인 교육과정
 
 ### **Developing iOS 10 Apps with Swift by Stanford**
 - 2017.09 ~ 2017.11 (12weeks)
@@ -76,5 +51,30 @@ permalink: /Edu/
 - 2017.07 ~ 2017.08 (8weeks)
 - 프로그래밍 입문자를 위한 C 와 C++
 - [두들낙서의 C/C++](https://www.inflearn.com/course/c%EC%96%B8%EC%96%B4-%EB%91%90%EB%93%A4%EB%82%99%EC%84%9C/)
+
+
+### **Raywenderlich**
+- [iOS 11](https://store.raywenderlich.com/products/ios-11-by-tutorials)
+- [iOS Animation](https://store.raywenderlich.com/products/ios-animations-by-tutorials)
+- [iOS tutorials](https://www.raywenderlich.com/category/ios)
+
+### **let's build that app**
+- [AppStore](https://www.letsbuildthatapp.com/course/AppStore)
+- [Youtube](https://www.letsbuildthatapp.com/course/YouTube)
+- [Firebase Social Login](https://www.letsbuildthatapp.com/course/Firebase-Social-Login)
+- [Facebook Messenger](https://www.letsbuildthatapp.com/course/Facebook-Chat-Messenger)
+- [Facebook Newsfeed](https://www.letsbuildthatapp.com/course/Facebook-News-Feed)
+- [Instagram](https://www.letsbuildthatapp.com/course/Instagram-Firebase)
+
+### **Udemy - Mark Price**
+- [iOS 10 & Swift 3: From Beginner to Paid Professional](https://www.udemy.com/devslopes-ios10/)
+
+### **objc.io**
+- [Advanced Swift](https://www.objc.io/books/)
+
+### **Articles**
+- [Swift Guide to Map Filter Reduce](https://useyourloaf.com/blog/swift-guide-to-map-filter-reduce/)
+- [Swift 함수에 커링 사용하기](https://academy.realm.io/kr/posts/currying-on-the-swift-functions/)
+- [Add Account Kit and Facebook Login](https://www.udacity.com/course/passwordless-login-solutions-for-ios--ud1028)
 
 

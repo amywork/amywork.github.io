@@ -30,7 +30,7 @@ permalink: /about/
 - **Grade** : 3.93 (4.5)
 - **Activities** : [연세대학교 공식 학보사 연세춘추](http://chunchu.yonsei.ac.kr)
 - **Major** : Chinese Language & Literature (First major), Digital Design (Joint major)
--  **Field of Study** : 언어학/실용중국어/영상예술기획//독일표현주의/러시아공연예술/브랜드디자인/타이포그래피/[VMD](https://www.behance.net/gallery/49975731/-VMD)/[정보디자인](https://www.behance.net/gallery/49975089/MoMA-Infographic)
+-  **Field of Study** : 언어학/실용중국어/영상예술기획/독일표현주의/러시아공연예술/브랜드디자인/타이포그래피/[VMD](https://www.behance.net/gallery/49975731/-VMD)/[정보디자인](https://www.behance.net/gallery/49975089/MoMA-Infographic)
 
 # Featured Skills
 - Develop for Apple Platforms in Swift
