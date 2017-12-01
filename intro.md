@@ -6,7 +6,7 @@ permalink: /intro/
 ---
 
 # 👋🏻 Welcome
-- **[Related Xcode project files @Github](https://github.com/younari/tastySwift)**
+- **[Xcode project files @Github](https://github.com/younari/tastySwift)**
 
 # 01. Swift
 ## 스위프트 기본 문법
@@ -30,14 +30,15 @@ permalink: /intro/
 - [스위프트 ARC](https://younari.github.io/2017-10-31/ARC)
 - [스위프트 Thread, GCD](https://younari.github.io/2017-11-06/ThreadAndGCD)
 
-
 ## 스위프트로 데이터 다루기
 - [서버와의 데이터 연동시 Data Control](https://younari.github.io/2017-10-16/DataControl)
 - [Data Model, Structure와 Class](https://younari.github.io/2017-10-15/DataModel)
 - [Singleton Pattern](https://younari.github.io/2017-10-12/SingletonPattern)
 - [User Defaults 만들기](https://younari.github.io/2017-10-19/SingletonPractice)
+- [Firebase 간단 활용법](https://github.com/younari/tastySwift/tree/master/1119_FirebaseDBSample)
+- [URL Session을 활용한 HTTP Request](https://github.com/younari/tastySwift/tree/master/1117_HTTPRequest)
 
-## 스위프트 간단 실습
+## 스위프트 기초 실습
 - [클래스 만들기 연습 v0.1](https://younari.github.io/2017-09-13/ClassV01)
 - [클래스 만들기 연습 v0.2](https://younari.github.io/2017-09-13/ClassV02)
 - [다양한 단위 변환 함수 만들기](https://younari.github.io/2017-09-08/UnitFunc)
@@ -54,6 +55,7 @@ permalink: /intro/
 - [iOS Container View Controller](https://younari.github.io/2017-10-11/ContainerController)
 - [iOS StoryBoard](https://younari.github.io/2017-09-26/StoryBoardBasic)
 - [iOS Frame Based UI](https://github.com/younari/tastySwift/tree/master/0929_UIViewReview)
+- [Content Hugging Properties](https://github.com/younari/tastySwift/tree/master/1120_ContentHugging)
 - [스위프트 UI Button](https://younari.github.io/2017-09-27/UIButton)
 - [스위프트 AlertController](https://younari.github.io/2017-09-27/AlertController)
 - [스위프트 ScrollView & Switch](https://younari.github.io/2017-09-27/ScrollView)
@@ -64,11 +66,6 @@ permalink: /intro/
 - [스탠포드 iOS 강의노트 L4](https://younari.github.io/2017-09-16/StanfordSwift02)
 - [스탠포드 iOS 강의노트 L5](https://younari.github.io/2017-09-16/StanfordSwift03)
 - [스탠포드 iOS 강의노트 L6~7](https://younari.github.io/2017-09-16/StanfordSwift04)
-
-## Apple
-- [Helpful Resources](https://younari.github.io/2017-09-12/HelpfulResources)
-- [Apple Events 2017](https://younari.github.io/2017-09-12/AppleEvents2017)
-
 
 # 03. Programming
 ## 알고리즘
@@ -92,8 +89,14 @@ permalink: /intro/
 - [객체 지향 프로그래밍](https://younari.github.io/2017-09-13/Object)
 
 # 04. Demo Projects
+## Instagram Copied
+- [3일만에 인스타그램 핵심기능 구현하기, 파이어베이스 서버 활용](https://github.com/younari/tastySwift/tree/master/1126_Onstagram)
+
 ## Music Player
-- [Music Player : Custom Cover Flow Layout & Collection View](https://github.com/younari/tastySwift/tree/master/MusicPlayerProject)
+- [Music Player : Custom Cover Flow Layout & Collection View](https://github.com/younari/tastySwift/tree/master/1201_MusicPlayer)
+
+## Open Weather API
+- [Open Weather API를 적용한 2페이지 앱 만들기](https://github.com/younari/tastySwift/tree/master/1116_OpenWeather)
 
 ## 로그인, 회원가입 페이지 구현하기
 - [로그인, 회원가입 페이지 구현하기 v0.2](https://younari.github.io/2017-09-24/SignUpSignInV02)
@@ -119,6 +122,10 @@ permalink: /intro/
 - [Baseball 게임 만들기 v0.4](https://younari.github.io/2017-09-22/BaseballGameV0.4)
 - [Baseball 게임 만들기 v0.5](https://younari.github.io/2017-09-23/BaseballGameV0.5)
 
-# 05. Insights
+# 05. Insights & Meetups
+- [Helpful Resources](https://younari.github.io/2017-09-12/HelpfulResources)
 - [API Lists](https://younari.github.io/2017-10-17/APILists)
+- [2017년 9월, Apple Events](https://younari.github.io/2017-09-12/AppleEvents2017)
 - [2017년 11월, 페이스북 밋업 참가 기록](https://younari.github.io/2017-11-05/FacebookPlatform)
+- 2017년 12월, Swift Meetup Seoul
+

@@ -54,7 +54,6 @@ permalink: /Edu/
 
 
 ### **Raywenderlich**
-- [iOS 11](https://store.raywenderlich.com/products/ios-11-by-tutorials)
 - [iOS Animation](https://store.raywenderlich.com/products/ios-animations-by-tutorials)
 - [iOS tutorials](https://www.raywenderlich.com/category/ios)
 
@@ -66,7 +65,7 @@ permalink: /Edu/
 - [Facebook Newsfeed](https://www.letsbuildthatapp.com/course/Facebook-News-Feed)
 - [Instagram](https://www.letsbuildthatapp.com/course/Instagram-Firebase)
 
-### **Udemy - Mark Price**
+### **Udemy**
 - [iOS 10 & Swift 3: From Beginner to Paid Professional](https://www.udemy.com/devslopes-ios10/)
 
 ### **objc.io**

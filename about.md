@@ -66,25 +66,6 @@ permalink: /about/
 - [S.I.VILLAGE 신규 사이트 구축 실무 기획 (코너 설계, 스토리보드)](http://sivillage.ssg.com/)
 - [SSG.COM 브랜드 통합 채널, 공식스토어 매장 기획](http://www.ssg.com/special/index.ssg)
 
-
-# Be inspired by... ❤︎
-- [Apple](https://www.apple.com/)
-- [Google](https://www.google.co.kr/)
-- [Nest](https://www.nest.co.uk)
-- [Github](https://github.com)
-- [Coursera](https://www.coursera.org)
-- [Producthunt](https://www.producthunt.com/)
-- [29CM](http://www.29cm.co.kr/)
-- [Pinterest](https://www.pinterest.co.kr/)
-- [Dropbox](https://www.dropbox.com)
-- [Louis Poulsen](http://www.louispoulsen.com)
-- [Facebook](https://www.facebook.com/)
-- [Tech Crunch](https://techcrunch.com/)
-- [Wikipedia](https://en.wikipedia.org)
-- [ZIACO](https://www.instagram.com/woozico0914/)
-- [Sound Cloud](https://soundcloud.com)
-
-
 <br>
 
 ### 💌 Contact me
