@@ -85,7 +85,7 @@
 
 # 04. Demo Projects
 ## Instagram Copied
-- [3일만에 인스타그램 핵심기능 구현하기, 파이어베이스 서버 활용](https://github.com/younari/tastySwift/tree/master/1126_Onstagram)
+- [인스타그램 핵심기능 구현하기, 파이어베이스 서버](https://github.com/younari/tastySwift/tree/master/1126_Onstagram)
 
 ## Music Player
 - [Music Player : Custom Cover Flow Layout & Collection View](https://github.com/younari/tastySwift/tree/master/1201_MusicPlayer)
