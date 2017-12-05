@@ -34,3 +34,7 @@ author: "younari"
 - [Yagom Swift](https://yagom.github.io/swift_basic/)
 - [The Traveled iOS Developer’s Guide](https://medium.com/the-traveled-ios-developers-guide)
 - [We Heart Swift](https://www.weheartswift.com/learn-swift/)
+- [Swift Guide to Map Filter Reduce](https://useyourloaf.com/blog/swift-guide-to-map-filter-reduce/)
+- [Swift 함수에 커링 사용하기](https://academy.realm.io/kr/posts/currying-on-the-swift-functions/)
+- [Add Account Kit and Facebook Login](https://www.udacity.com/course/passwordless-login-solutions-for-ios--ud1028)
+
