@@ -5,7 +5,7 @@ author: "younari"
 permalink: /Edu/
 ---
 
-## What I've Learned  🚣🏻‍♀️
+## What I've Learned
 
 ## ✔︎ Fast Campus 교육 과정
 
@@ -29,6 +29,9 @@ permalink: /Edu/
 - Design components, Prototyping tools, Mobile app guide
 - [UI Design Portfolio](https://www.behance.net/gallery/54607233/Organize-your-subscriptions-with-Cash-bot)
 
+<br>
+<hr>
+<br>
 
 ## ✔︎ 온라인 교육과정
 
