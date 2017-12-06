@@ -41,7 +41,7 @@ permalink: /about/
 
 # Experience
 - *2015.07 ~ 2017* : SHINSEGAE, [SSG.COM](https://itunes.apple.com/kr/app/ssg-com-%EB%B0%B1%ED%99%94%EC%A0%90%EC%97%90%EC%84%9C-%EC%9D%B4%EB%A7%88%ED%8A%B8%EA%B9%8C%EC%A7%80-%EC%93%B1-%ED%95%9C%EB%B2%88%EC%97%90/id786135420?mt=8) :  **Product Manager** 
-- *2018.01 ~* : SHINSEGAE, [SSG.COM](https://itunes.apple.com/kr/app/ssg-com-%EB%B0%B1%ED%99%94%EC%A0%90%EC%97%90%EC%84%9C-%EC%9D%B4%EB%A7%88%ED%8A%B8%EA%B9%8C%EC%A7%80-%EC%93%B1-%ED%95%9C%EB%B2%88%EC%97%90/id786135420?mt=8) :  **iOS Development** 
+
 
 ### Role and responsibility
 - Shapes the future of the ssg.com service from featuring prioritization to defining UX strategies
