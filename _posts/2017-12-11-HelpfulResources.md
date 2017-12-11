@@ -4,8 +4,20 @@ title: "Helpful Resources"
 author: "younari"
 ---
 
-## Official Documents
+## External resources
+- [Hash Code runner Swift](http://hashcode.co.kr/code_runners?language=swift)
+- [letswift.kr](http://letswift.kr/2017/#)
+- [Yagom Swift](https://yagom.github.io/swift_basic/)
+- [The Traveled iOS Developer’s Guide](https://medium.com/the-traveled-ios-developers-guide)
+- [We Heart Swift](https://www.weheartswift.com/learn-swift/)
+- [Swift Guide to Map Filter Reduce](https://useyourloaf.com/blog/swift-guide-to-map-filter-reduce/)
+- [Swift 함수에 커링 사용하기](https://academy.realm.io/kr/posts/currying-on-the-swift-functions/)
+- [Add Account Kit and Facebook Login](https://www.udacity.com/course/passwordless-login-solutions-for-ios--ud1028)
+- [objc.io :: A weekly video series on Swift programming](https://talk.objc.io)
+- [This week in Swift](https://swiftnews.curated.co)
 
+
+## Official Documents
 - [Swift Standard Library](https://developer.apple.com/documentation/swift)
 - [Terminology](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/GlossaryDefinitions.html#//apple_ref/doc/uid/TP40015214-CH12-SW1)
 - [The App Life Cycle](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/TheAppLifeCycle/TheAppLifeCycle.html#//apple_ref/doc/uid/TP40007072-CH2-SW1)
@@ -26,15 +38,3 @@ author: "younari"
 - [Core Image](https://developer.apple.com/documentation/coreimage)
 - [Photos](https://developer.apple.com/documentation/photos)
 - [Introduction to Cocoa Drawing Guide](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CocoaDrawingGuide/Introduction/Introduction.html)
-
-
-## External resources
-- [Hash Code runner Swift](http://hashcode.co.kr/code_runners?language=swift)
-- [letswift.kr](http://letswift.kr/2017/#)
-- [Yagom Swift](https://yagom.github.io/swift_basic/)
-- [The Traveled iOS Developer’s Guide](https://medium.com/the-traveled-ios-developers-guide)
-- [We Heart Swift](https://www.weheartswift.com/learn-swift/)
-- [Swift Guide to Map Filter Reduce](https://useyourloaf.com/blog/swift-guide-to-map-filter-reduce/)
-- [Swift 함수에 커링 사용하기](https://academy.realm.io/kr/posts/currying-on-the-swift-functions/)
-- [Add Account Kit and Facebook Login](https://www.udacity.com/course/passwordless-login-solutions-for-ios--ud1028)
-
