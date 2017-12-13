@@ -7,17 +7,10 @@ permalink: /about/
 
 # Younari
 - iOS Developer
-
-# Networks
-- **[Github](https://github.com/younari)**
-- [Pinterest for ideations](https://www.pinterest.co.kr/younari_/)
-- [Linkedin for communicate](https://www.linkedin.com/in/%EA%B8%B0%EC%9C%A4-%EA%B9%80-6b61b894/)
-- [Instagram for daily life](https://www.instagram.com/younari.me/)
-- [Facebook for my friends](https://www.facebook.com/kiyun.k)
+- [Github profile](https://github.com/younari)
 
 # Education
 - 2011 이화여자외국어고등학교(서울) 중국어과 졸업
-- 2011 연세대학교(신촌) 중어중문학과 입학
 - 2013 북경 사범대학교 연수 (6개월)
 - 2015 연세대학교(신촌) 중어중문학과 및 디지털예술학(연계전공) 졸업
 - 2017 [Fast Campus 개발 과정 수료 (iOS ・ RxSwift ・ UXDesign)](https://younari.github.io/Edu/)
