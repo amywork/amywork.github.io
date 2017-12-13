@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Helpful Resources"
+title: "Helpful Links"
 author: "younari"
+permalink: /Links/
 ---
 
-## External resources
+## Swift sources
 - [Hash Code runner Swift](http://hashcode.co.kr/code_runners?language=swift)
 - [letswift.kr](http://letswift.kr/2017/#)
 - [Yagom Swift](https://yagom.github.io/swift_basic/)
@@ -15,7 +16,6 @@ author: "younari"
 - [Add Account Kit and Facebook Login](https://www.udacity.com/course/passwordless-login-solutions-for-ios--ud1028)
 - [objc.io :: A weekly video series on Swift programming](https://talk.objc.io)
 - [This week in Swift](https://swiftnews.curated.co)
-
 
 ## Official Documents
 - [Swift Standard Library](https://developer.apple.com/documentation/swift)

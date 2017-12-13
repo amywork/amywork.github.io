@@ -2,7 +2,7 @@
 layout: post
 title: "About"
 author: "younari"
-permalink: /about/
+permalink: /About/
 ---
 
 # Younari

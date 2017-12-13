@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Intro"
+title: "Blog"
 author: "younari"
-permalink: /intro/
+permalink: /Blog/
 ---
 
 # 👋🏻 Welcome
