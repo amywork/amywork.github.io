@@ -38,3 +38,17 @@ permalink: /Links/
 - [Core Image](https://developer.apple.com/documentation/coreimage)
 - [Photos](https://developer.apple.com/documentation/photos)
 - [Introduction to Cocoa Drawing Guide](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CocoaDrawingGuide/Introduction/Introduction.html)
+
+
+# Open APIs
+- [AirBnb](https://ko.airbnb.com/partner?af=126295512&c=VigLink&ircid=4560&irclid=zTJ3J91AYXSp28EQkWW982ETUkm3Oux5nTlDR40&irgwc=1&sharedid=)
+- [Kakao](https://developers.kakao.com/docs/restapi)
+- [Vimeo](https://developer.vimeo.com/api/start)
+- [Youtube](https://developers.google.com/youtube/)
+- [Twitter](https://dev.twitter.com/docs)
+- [Foursquare](https://developer.foursquare.com/)
+- [Google](https://developers.google.com/products/)
+- [Facebook](https://developers.facebook.com/?locale=ko_KR)
+- [Facebook Graph API](https://developers.facebook.com/docs/graph-api/?locale=ko_KR)
+- [Behance](https://www.behance.net/dev)
+- [Ebay](http://developer.ebay.com/Devzone/shopping/docs/Concepts/ShoppingAPIGuide.html)

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "RxSwift 실험 :: RGB Slider"
+title: "RxSwift 실험 - RGB Slider"
 author: "younari"
 ---
 
-> RxSwift로 구현하는 작은 실험들👀 a를 수정하면 b와 c의 값도 쉽게 변화해야 하는 상황일 때 Rx의 구원을 받아보자... ✨🙏🏻
+> RxSwift로 구현하는 작은 실험들 👀 a를 수정하면 b와 c의 값도 쉽게 변화해야 하는 상황일 때 Rx의 구원을 받아보자... ✨🙏🏻
 
 ## 목표
 - Slider로 RGB 값을 0부터 1까지 조정하면서 이미지뷰의 Background Color와 Label의 RGB Value 값도 자동적으로 바뀌도록 구현한다.
