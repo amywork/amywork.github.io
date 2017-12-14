@@ -5,7 +5,7 @@ author: "younari"
 permalink: /Links/
 ---
 
-## Swift sources
+# Swift Resources
 - [Hash Code runner Swift](http://hashcode.co.kr/code_runners?language=swift)
 - [letswift.kr](http://letswift.kr/2017/#)
 - [Yagom Swift](https://yagom.github.io/swift_basic/)
@@ -17,7 +17,7 @@ permalink: /Links/
 - [objc.io :: A weekly video series on Swift programming](https://talk.objc.io)
 - [This week in Swift](https://swiftnews.curated.co)
 
-## Official Documents
+# Official Documents
 - [Swift Standard Library](https://developer.apple.com/documentation/swift)
 - [Terminology](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/GlossaryDefinitions.html#//apple_ref/doc/uid/TP40015214-CH12-SW1)
 - [The App Life Cycle](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/TheAppLifeCycle/TheAppLifeCycle.html#//apple_ref/doc/uid/TP40007072-CH2-SW1)
