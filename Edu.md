@@ -7,7 +7,7 @@ permalink: /Edu/
 
 > My own after-school program... 👩🏻‍🎓
 
-## ✨ Fast Campus Courses
+# Fast Campus Courses
 
 <hr>
 
@@ -32,7 +32,7 @@ permalink: /Edu/
 <br>
 <br>
 
-## ✨ Online Courses
+# Online Courses
 
 <hr>
 
