@@ -16,6 +16,7 @@ permalink: /Links/
 - [Add Account Kit and Facebook Login](https://www.udacity.com/course/passwordless-login-solutions-for-ios--ud1028)
 - [objc.io :: A weekly video series on Swift programming](https://talk.objc.io)
 - [This week in Swift](https://swiftnews.curated.co)
+- [Swift가 제공하는 여러 포인터 타입들과 동작 방식](https://academy.realm.io/kr/posts/nate-cook-tryswift-tokyo-unsafe-swift-and-pointer-types/)
 
 # Official Documents
 - [Swift Standard Library](https://developer.apple.com/documentation/swift)
