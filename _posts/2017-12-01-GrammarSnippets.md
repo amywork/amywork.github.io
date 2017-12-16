@@ -4,7 +4,7 @@ title: "Code Snapshots"
 author: "younari"
 ---
 
-> 클로저, 튜플, map, flatMap 등 [Fastcampus swift](http://www.fastcampus.co.kr/dev_camp_rxswift/) 강좌를 들으며 재밌었던 코드 스니펫 모음
+> 클로저, 튜플, map, flatMap 등 **[Fastcampus RxSwift](http://www.fastcampus.co.kr/dev_camp_rxswift/)** 강좌를 들으며 재밌었던 코드 스니펫 모음
 
 # Closure :: Curling
 

@@ -24,21 +24,21 @@ scrollView.frame.origin.y: 0.0
 
 ```
 override func viewDidLoad() {
-		super.viewDidLoad()
-		// Set up a 3-column Collection View
-		let width = view.frame.size.width / 3
-		let layout = collectionView?.collectionViewLayout as! UICollectionViewFlowLayout
-		layout.itemSize = CGSize(width:width, height:width)
-		layout.sectionHeadersPinToVisibleBounds = true
-		// Refresh control
-		let refresh = UIRefreshControl()
-		refresh.addTarget(self, action: #selector(self.refresh), for: UIControlEvents.valueChanged)
-		collectionView?.refreshControl = refresh
-		// Toolbar
-		navigationController?.isToolbarHidden = true
-		// Edit
-		navigationItem.leftBarButtonItem = editButtonItem
-	}
+	super.viewDidLoad()
+	// Set up a 3-column Collection View
+	let width = view.frame.size.width / 3
+	let layout = collectionView?.collectionViewLayout as! UICollectionViewFlowLayout
+	layout.itemSize = CGSize(width:width, height:width)
+	layout.sectionHeadersPinToVisibleBounds = true
+	// Refresh control
+	let refresh = UIRefreshControl()
+	refresh.addTarget(self, action: #selector(self.refresh), for: UIControlEvents.valueChanged)
+	collectionView?.refreshControl = refresh
+	// Toolbar
+	navigationController?.isToolbarHidden = true
+	// Edit
+	navigationItem.leftBarButtonItem = editButtonItem
+}
 ```
 
 

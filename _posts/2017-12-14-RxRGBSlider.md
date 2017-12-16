@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "RxSwift 미니 실험"
+title: "RxSwift 실험"
 author: "younari"
 ---
 
-> **Rx Swift**로 구현하는 작은 실험들 👀 하나의 값이 변할 때 다른 값들에도 미치는 영향도가 높을 때 Rx의 구원을 받아보자 😇
+> **[Fastcampus RxSwift](http://www.fastcampus.co.kr/dev_camp_rxswift/)** 강좌를 통해 만난, **Rx Swift**로 구현해보는 작은 실험들 👀 
 
 # RGB Slider 만들기
-- Slider로 RGB 값을 0부터 1까지 조정하면서 이미지뷰의 Background Color와 Label의 RGB Value 값도 자동적으로 바뀌도록 구현한다.
+- Slider로 RGB 값을 0부터 1까지 조정하면서 이미지뷰의 Background Color와 Label의 RGB Value 값도 자동적으로 바뀌도록 구현해보자.
 
 ## ✔️ 1차 실험
 - RGB 각각의 값을 관찰하기 위해 슬라이더도 3개 만들고, value도 3개 만들어서 각각 subscribe 시켜줬다. 뭔가 비슷한 코드를 계속 치고 있는 느낌이어서 코드가 훨씬 더 간단해질 수 있을 것 같다...☹️
@@ -76,7 +76,9 @@ extension ViewController {
 {% endhighlight %}
 
 ## ✔️ 2차 실험
-- 강사님의 코드를 보고 수정 -> Reactive where Base: UIView 를 extension 해서, backgroundColor를 Binder로 만들어서, Observable<UIColor> 를 colorView.rx.backgroundColor 에 bind 👏🏻
+- 강사님의 코드를 보고 수정
+- Reactive where Base: UIView 를 extension 해서, backgroundColor를 Binder로 만든다.
+- combineLatest 해준 Observable<UIColor>를 colorView.rx.backgroundColor에 bind 👏🏻
 
 {% highlight swift %}
 
@@ -89,11 +91,15 @@ extension Reactive where Base: UIView {
     }
 }
 
+{% endhighlight %}
+
+{% highlight swift %}
+
 let color = Observable<UIColor>.combineLatest(redSlider.rx.value, greenSlider.rx.value, blueSlider.rx.value) { (r,g,b) -> UIColor in
-            return UIColor(displayP3Red: CGFloat(r), green: CGFloat(g), blue: CGFloat(b), alpha: 1)
-        }
-        
-        color.bind(to: colorView.rx.backgroundColor).disposed(by: disposeBag)
+    return UIColor(displayP3Red: CGFloat(r), green: CGFloat(g), blue: CGFloat(b), alpha: 1)
+}
+    
+color.bind(to: colorView.rx.backgroundColor).disposed(by: disposeBag)
 
 {% endhighlight %}
 
@@ -170,6 +176,7 @@ func bind3() {
 
 
 # RxCocoa :: Binder
+- RxCocoa의 Binder class file
 
 {% highlight swift %}
 
