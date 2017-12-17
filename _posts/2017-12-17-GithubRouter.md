@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "enum GithubAPI"
+title: "GithubAPI"
 author: "younari"
 ---
 
