@@ -4,7 +4,7 @@ title: "GithubAPI"
 author: "younari"
 ---
 
-- [Fast Campus](http://www.fastcampus.co.kr/dev_camp_rxswift/) 수업에서 [강사님](https://github.com/intmain)이 API와 관련된 클래스들을 구조화 하는 방식이 인상깊어서 이 공간에도 기록합니다.. 👏🏻👏🏻
+- [Fast Campus](http://www.fastcampus.co.kr/dev_camp_rxswift/) 수업에서 [강사님](https://github.com/intmain)이 API와 관련된 클래스들을 구조화 하는 방식이 너무 좋았어서, 포스팅을 올려봅니다 🙂👏🏻💖
 - *이 프로젝트와 관련된 github API guide는 [여기](https://developer.github.com/v3/issues/#list-issues-for-a-repository) 에서 확인할 수 있습니다.*
 
 # Spec
@@ -22,9 +22,7 @@ author: "younari"
 // 대략 아래와 같은 메소드들... 
 
 internal func repoIssues(owner: String, repo: String) -> (Int, IssueResponsesHandler) -> Void
-   
 internal func createComment(owner: String, repo: String, number: Int, comment: String, completionHandler: (DataResponse<Model.Comment>) -> Void) -> <<error type>>
-
 internal func createIssue(owner: String, repo: String, title: String, body: String, completionHandler: (DataResponse<Model.Issue>) -> Void) -> <<error type>>
 
 {% endhighlight %}
@@ -32,7 +30,7 @@ internal func createIssue(owner: String, repo: String, title: String, body: Stri
 
 # Github API :: Struct
 - `API Protocol` 을 채택한 `Github API` 구조체입니다.
-- 위 메소드들이 실제로 구현되어 있어, `response`를 받아 `Completion Handler`를 실행하는 녀석들입니다. 다만 내부에 `API Call`은 `Github Router`의 `manager`를 통해 처리합니다.
+- 위 메소드들이 실제로 구현되어 있어, `response`를 받아 `Completion Handler`를 실행하는 녀석들입니다. 내부에 `API Call`은 `Github Router`의 `manager`를 통해 처리합니다.
 
 {% highlight swift %}
 
@@ -56,7 +54,7 @@ internal struct GitHubAPI : API {
 
 # Github Router :: Enum
 - API Call을 처리하는 아이입니다.
-- 여기서 효율적이라고 생각했던 점은, 이 부분이 enum으로 되어있어서,  `switch self` 하면서 case마다 알맞은 `URLRequest`를 return 하게됩니다.
+- 여기서 효율적이라고 생각했던 점은, 이 부분이 enum으로 되어있어서, `switch self` 하면서 case마다 알맞은 `URLRequest`를 return 하게됩니다.
 - `baseURL`
 - `manager: Alamofire.SessionManager`
 - `method: HTTPMethod`
@@ -75,8 +73,10 @@ enum GitHubRouter {
 
 {% endhighlight %}
 
+{% highlight swift %}
+
 /*--base URL String--*/
-    static let baseURLString: String = "https://api.github.com"
+static let baseURLString: String = "https://api.github.com"
    
 /*--Responsible for creating and managing Request objects, as well as their underlying NSURLSession.--*/
 static let manager: Alamofire.SessionManager = {
@@ -118,8 +118,11 @@ var path: String {
         return "/repos/\(owner)/\(repo)/issues"
     }
 }
+
+{% endhighlight %}
     
 {% highlight swift %}
+
 /*--URLRequest--*/
 func asURLRequest() throws -> URLRequest {
     let url = try GitHubRouter.baseURLString.asURL()
@@ -145,4 +148,5 @@ func asURLRequest() throws -> URLRequest {
     
     return urlRequest
 }
+
 {% endhighlight %}
