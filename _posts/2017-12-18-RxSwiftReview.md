@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "FastCampus RxSwift 강의 리뷰"
+title: "RxSwift 강의 리뷰"
 author: "younari"
 ---
+
+<br>
 
 오늘의 포스팅은 수강 만족도가 정말 높았던 **[Fast Campus](http://www.fastcampus.co.kr)** 의  **[RxSwift](http://www.fastcampus.co.kr/dev_camp_rxswift/)** 강의 리뷰입니다. 
 
@@ -10,6 +12,8 @@ author: "younari"
 - **강의 시간** : 매주 토요일 5시간, 8주 과정
 - **강사님 Github Profile** : [/intmain](https://github.com/intmain)
 - **RxSwift Github** : [ReactiveX / RxSwift](https://github.com/ReactiveX/RxSwift)
+
+<br>
 
 ![RxSwift Code](https://younari.github.io/images/RxSwift2.png)
 
@@ -60,6 +64,8 @@ RxSwift로 넘어가기 전인 4주 동안에도, 강사님의 실무 경험이 
 
 하지만 누군가에게 장점으로 느껴지는 것이 누군가에겐 단점일 수도 있을 것 같습니다. 만약 스위프트로 iOS 개발을 이미 오래 하셨고, 함수형 프로그래밍과 RxSwift 학습만이 유일한 목적이었다면 초반 3주차 까지는 복습하는 시간이었을 수도 있었을 것 같습니다. 
 
+> [수업 필기 Sample](https://younari.github.io/2017-12-14/RxRGBSlider)
+
 ### ✔︎ 좋았던 점 
 
 - 데이터 모델링
@@ -104,6 +110,7 @@ RxSwift로 넘어가기 전인 4주 동안에도, 강사님의 실무 경험이 
 ### ✔︎ 아쉬웠던 점
 강사님께서도 말씀하셨지만, RxSwift로 이 프로젝트를 포팅하기 이전에 observable과 더 친해지는 시간을 갖기 위해 다양한 Rx 샘플 프로젝트들을 먼저 다뤄보는 것이 더 수강생 친화적일 것 같습니다. 
 
+<br>
 
 # 서브 프로젝트 리뷰
 
@@ -117,16 +124,21 @@ RxSwift와 친해지는 계기를 마련하기 위해, 강사님께서 다양한
 - Rx 이미지 피커 + 프로그레스 바
 - Rx Url request
 
+<br>
 
 # Reactor Kit
 
 강좌 마지막 시간에는 스위프트계의 젊은 천재 수열님이 만들어주신 **[ReactorKit](https://github.com/ReactorKit/ReactorKit)** 을 잠깐 맛보는 시간을 가졌습니다. 뷰는 UI처리만 하게 하고, 비즈니스 로직들을 담은 모델은 Reactor가 감싸게끔 설계하는 방식입니다. 실제로 ReactorKit은 강사님이 근무하고 계신 Kaka..🤧에서도 몇몇 프로젝트에 사용하고 계시다고 합니다. 😁
+
+
+> [Reactor Kit 강의노트](https://younari.github.io/2017-12-16/ReactorKit)
 
 ### ✔︎ Reactor Kit?
 - UI와 비즈니스 로직을 분리하는 것
 - View는 Action을 emit한다.
 - Reactor는 State를 emit한다.
 
+<br>
 
 # 이론 vs 실습
 - 이론과 실습이라는 두 축이 있다면, 이론보다는 실습 중심입니다.
@@ -149,11 +161,13 @@ doneButton.rx.tap
             }).bind(to: reloadSubject!).disposed(by: disposeBag)
 ```
 
-# 기타 리소스
+<br>
+
+# 수업 듣기 전에 보면 좋아요
 - [rxmarbles.com](http://rxmarbles.com)
 - [Introducing RxSwift](https://www.raywenderlich.com/158026/introducing-rxswift-reactive-programming-swift)
 
-
+<br>
 # 요약
 
 ### ✔︎ 수업 자료
@@ -181,3 +195,4 @@ doneButton.rx.tap
 
 # 맺음말
 - 스위프트의 매력은 멀티패러다임 랭귀지 라는 것 아닐까요? 객체 지향으로만 코딩하셨던 분들이라면 RxSwift와 꼭 한 번 인연을 맺어보시길 추천합니다. 강사님께서 워낙 실력도 빵빵하시고 프로젝트 준비도 너무 잘해주셔서 코딩 스킬을 점프업 하는데 아주 좋은 강의인 것 같습니다. 🙃👍🏻 
+
