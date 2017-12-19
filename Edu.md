@@ -11,7 +11,7 @@ permalink: /Edu/
 
 <hr>
 
-### **iOS App 개발 School**
+### **iOS Programming School**
 - 2017.09 ~ 2017.12 (16weeks)
 - [Swift, Objective-C, Network, Firebase](http://school.fastcampus.co.kr/dev_ids)
 
@@ -19,13 +19,13 @@ permalink: /Edu/
 - 2017.10 ~ 2017.12 (8weeks, 40hours)
 - [Functional programming in Swift](http://www.fastcampus.co.kr/dev_camp_rxswift/)
 
-### **Web Interaction Programming**
+### **Web Interactive Programming**
 - 2017.04 ~ 2017.05 (5weeks, 30hours)
-- CoffeScript, HTML, CSS 기반 웹 인터렉션 프로그래밍 실습
+- CoffeScript, HTML, CSS 
+- [Web Interactive Programming](http://www.fastcampus.co.kr/dgn_camp_webinteractive/)
 
 ### **UI Design Camp**
 - 2017.05 ~ 2017.07 (10weeks, 60hours)
-- 대기업, 에이전시, 스타트업 디자이너 지도 App GUI 제작 실습
 - Design components, Prototyping tools, Mobile app guide
 - [Design Portfolio :: Behance](https://www.behance.net/gallery/54607233/Organize-your-subscriptions-with-Cash-bot)
 
