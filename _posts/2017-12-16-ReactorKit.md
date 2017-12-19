@@ -4,7 +4,7 @@ title: "Reactor Kit"
 author: "younari"
 ---
 
-> **[Fastcampus RxSwift](http://www.fastcampus.co.kr/dev_camp_rxswift/)** 강좌 마지막 시간에 천재 수열님이 만들어주신 Reactor Kit을 잠깐 맛보았다. 뷰는 UI처리만 하게 하고, 비즈니스 로직들을 담은 모델은 Reactor가 감싸게끔 설계하는 방식. 스위프트를 객체 지향으로만 쓰는 것이 아니라 멀티 패러다임으로 사용하는 연습을 해보니 프로그래밍이 훨씬 재밌어진다. 🙃👍🏻
+> **[Fastcampus RxSwift](http://www.fastcampus.co.kr/dev_camp_rxswift/)** 강좌 마지막 시간에 천재 수열님이 만들어주신 Reactor Kit을 잠깐 맛보았다. 뷰는 UI처리만 하게 하고, 비즈니스 로직들을 담은 모델은 Reactor가 감싸게끔 설계하는 방식. 스위프트를 객체 지향으로만 쓰는 것이 아니라 멀티 패러다임으로 사용하는 연습을 해보니 프로그래밍이 훨씬 재밌어진다. 🙃
 
 # Reactor Kit
 - **[ReactorKit](https://github.com/ReactorKit/ReactorKit)** :: A framework for reactive and unidirectional Swift application architecture
