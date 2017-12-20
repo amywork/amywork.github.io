@@ -4,10 +4,10 @@ title: "GithubAPI"
 author: "younari"
 ---
 
-- *[Fast Campus](http://www.fastcampus.co.kr/dev_camp_rxswift/) 수업 [강사님](https://github.com/intmain)께서 API와 관련된 클래스들을 구조화 하는 방식이 너무 좋았어서, 포스팅을 올려봅니다 🙂 이 프로젝트와 관련된 github API guide는 [여기](https://developer.github.com/v3/issues/#list-issues-for-a-repository) 에서 확인할 수 있습니다.*
+- *[Fast Campus](http://www.fastㄴampus.co.kr/dev_camp_rxswift/) 수업 [강사님](https://github.com/intmain)께서 API와 관련된 클래스들을 구조화 하는 방식이 너무 좋았어서, 포스팅을 올려봅니다🙂*
 
 # Spec
-- **01. `repoIssues` / `issueComment`** : 깃헙 API를 call 해서 Owner의 Repo에 포스팅된 Issues (+이슈에 달린 comments)를 리스트 형태로 가져온다.
+- **01. `repoIssues` / `issueComment`** : [깃헙 API](https://developer.github.com/v3/issues/#list-issues-for-a-repository)를 call 해서 Owner의 Repo에 포스팅된 Issues (+ 이슈에 달린 comments)를 리스트 형태로 가져온다.
 - **02. `createIssue` / `editIssue`** : Issue를 create 하거나 edit할 수 있다.
 - **03. `createComment`** : 개별 Issue에 댓글을 달 수 있다.
 
