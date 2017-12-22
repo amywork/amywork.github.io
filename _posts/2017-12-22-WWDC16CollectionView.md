@@ -6,6 +6,7 @@ author: "younari"
 
 > 16년도 WWDC의 UICollectionView 섹션을 다시 보고, CollectionView와 관련된 정보들을 아카이브 해야겠다고 생각해서 시작하는 포스팅입니다. 
 
+#### [develpoer.apple.com :: Official Doc](https://developer.apple.com/documentation/uikit/uicollectionview)
 
 # WWDC 2016
 - [What's New in UICollectionView in iOS 10](https://developer.apple.com/videos/play/wwdc2016/219/)
