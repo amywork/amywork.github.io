@@ -1,12 +1,52 @@
 ---
 layout: post
-title: "Today I Learned"
+title: "CollectionView"
 author: "younari"
 ---
 
-> 2017.12.01 ~ 2017.12.07
+> 16년도 WWDC의 UICollectionView 섹션을 다시 보고, CollectionView와 관련된 정보들을 아카이브 해야겠다고 생각해서 시작하는 포스팅입니다. 
 
-#### 스크롤뷰 offset, inset, frame, bounds
+
+# WWDC 2016
+- [What's New in UICollectionView in iOS 10](https://developer.apple.com/videos/play/wwdc2016/219/)
+- UICollectionView is a powerful class allowing your app to manage and customize the layout of views. iOS 10 brings enhancements for better performance, easier layout and brings features you've been looking for. Learn how to make your apps richer and faster by using new features in UICollectionView and its sibling, UITableView. *(WWDC 2016 - Session 219 - iOS, tvOS)*
+
+
+## WWDC 2016 :: iOS10 CollectionView New Features
+- `Smooth scrolling` : Scrolling like butter! 😂
+- ⭐️ `UICollectionView Cell PreFetching`
+- `Improvements to self-sizing cells`
+- `Interactive reordering`
+- `Embeded Refresh Control`
+
+
+# Life Cycle of a Cell
+- `prepareForReuse` ->
+- `cellForItemAtIndexPath` ->
+- `willDisplayCell` ->
+- `didEndDisplayCell` (-> ⭐️ `willDisplayCell`)
+
+
+# Self-Sizing Cells API
+- ASIS :: layout.estimatedItemSize = CGSize(width:50,height:50)
+- NEW :: layout.estimatedItemSize = `UICollectionViewFlowLayoutAutomaticSize`
+- **Collection View will do the math for you**
+
+
+# Interactive Reordering
+
+- ```installsStandardGestureForInteractiveMovement = true```
+-  moveItemAt to destinationIndexPath 이후 dataSource update 필요
+
+```
+override func collectionView(_ collectionView: UICollectionView, moveItemAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+    dataSource.moveDataFrom(sourceIndexPath, toIndexPath: destinationIndexPath)
+}
+```
+
+# Related Snippets 
+
+## offset, inset, frame, bounds
 - **contentInset**은 스크롤뷰의 콘텐츠 오프셋을 밀어내는 효과가 있다.
 - **contentOffset**과 **scrollView bounds** 값은 함께 움직인다.
 - **bounds**는 **subView**의 어느지점부터 스크린의 **CGRect**를 그리겠다는 선언과도 같다.
@@ -19,76 +59,40 @@ scrollView.bounds.origin.y: -64.0
 scrollView.frame.origin.y: 0.0
 ```
 
-#### 콜렉션뷰 헤더 앵커 잡기
+## Pinning Header
 - **`layout.sectionHeadersPinToVisibleBounds = true`**
 
-```
-override func viewDidLoad() {
-	super.viewDidLoad()
-	// Set up a 3-column Collection View
-	let width = view.frame.size.width / 3
-	let layout = collectionView?.collectionViewLayout as! UICollectionViewFlowLayout
-	layout.itemSize = CGSize(width:width, height:width)
-	layout.sectionHeadersPinToVisibleBounds = true
-	// Refresh control
-	let refresh = UIRefreshControl()
-	refresh.addTarget(self, action: #selector(self.refresh), for: UIControlEvents.valueChanged)
-	collectionView?.refreshControl = refresh
-	// Toolbar
-	navigationController?.isToolbarHidden = true
-	// Edit
-	navigationItem.leftBarButtonItem = editButtonItem
-}
-```
-
-
-
-### 콜렉션뷰 Interactive Movement
-
-- ```installsStandardGestureForInteractiveMovement = true```
--  단, movement 이후에 DataSource를 어떻게 처리할 지 잘 구현해주어야 한다.
-
-```
-override func collectionView(_ collectionView: UICollectionView, moveItemAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath)
-
-```
-
-### 콜렉션뷰 Delete & Insert
-
+## Editing Mode
 - `navigationItem.leftBarButtonItem = editButtonItem`
 
 ```
 override func setEditing(_ editing: Bool, animated: Bool) {
-		super.setEditing(editing, animated: animated)
-		addButton.isEnabled = !editing
-		collectionView?.allowsMultipleSelection = editing
-		if !editing {
-			navigationController?.isToolbarHidden = true
-		}
-		guard let indexes = collectionView?.indexPathsForVisibleItems else {
-			return
-		}
-		for index in indexes {
-			let cell = collectionView?.cellForItem(at: index) as! CollectionViewCell
-			cell.isEditing = editing
-		}
+	super.setEditing(editing, animated: animated)
+	addButton.isEnabled = !editing
+	collectionView?.allowsMultipleSelection = editing
+	if !editing {
+		navigationController?.isToolbarHidden = true
 	}
+	guard let indexes = collectionView?.indexPathsForVisibleItems else {
+		return
+	}
+	for index in indexes {
+		let cell = collectionView?.cellForItem(at: index) as! CollectionViewCell
+		cell.isEditing = editing
+	}
+}
 ```
 
-### 콜렉션뷰 커스텀 플로우레이아웃
-
-- `override func prepare()`
-- ```override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]?```
-- ```override open func shouldInvalidateLayout(forBoundsChange newBounds: CGRect) -> Bool```
+## Custom FlowLayout
 
 ```
 override func prepare() {
-    super.prepare() 
-    if isSetup == false {
-      setupCollectionView()
-      isSetup = true
-    }
-  }
+	super.prepare() 
+	if isSetup == false {
+	  setupCollectionView()
+	  isSetup = true
+	}
+}
   
 override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
 
@@ -109,7 +113,7 @@ override open func shouldInvalidateLayout(forBoundsChange newBounds: CGRect) -> 
 }
 ```
 
-### 콜렉션뷰 Target ContentOffset
+## Target ContentOffset
 
 - ```override func targetContentOffset(forProposedContentOffset proposedContentOffset: CGPoint, withScrollingVelocity velocity: CGPoint) -> CGPoint```
 
@@ -132,7 +136,7 @@ override func targetContentOffset(forProposedContentOffset proposedContentOffset
 ```
 
 
-### 콜렉션뷰 Stretching Header
+## Stretching Header
 
 - `let offset = collectionView!.contentOffset`
 - `deltaY = fabs(offset.y)`
