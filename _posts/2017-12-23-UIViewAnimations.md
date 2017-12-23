@@ -20,7 +20,7 @@ author: "younari"
 # Sample code
 
 ## 01. Label Cube Animation
-- Happy -> NewYear 라벨의 텍스
+- 라벨의 텍스트를 Happy -> NewYear 로 전환하기
 
 {% highlight swift %}
 class ViewController: UIViewController {
