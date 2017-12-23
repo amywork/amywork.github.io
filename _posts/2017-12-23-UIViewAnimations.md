@@ -20,7 +20,7 @@ author: "younari"
 # Sample code
 
 ## 01. Label Cube Animation
-- 라벨의 텍스트를 Happy -> NewYear 로 전환하기
+- 라벨의 텍스트를 Happy -> NewYear 로 페이지 넘기듯 전환하기
 
 {% highlight swift %}
 class ViewController: UIViewController {
@@ -123,4 +123,55 @@ UIView.animateKeyframes(
 },
     completion: nil)
     
+{% endhighlight %}
+
+
+
+## 03. ViewController Transition
+
+- `UIViewControllerAnimatedTransitioning` 프로토콜을 채택한,
+- 커스텀 PopAnimator transition class를 만든다. 
+- `transitionDuration`과 `animateTransition` 메소드를 구현한다.
+
+{% highlight swift %}
+
+class PopAnimator: NSObject, UIViewControllerAnimatedTransitioning {
+	let duration = 1.0
+	var originFrame = CGRect.zero
+	var presenting = true
+}
+
+{% endhighlight %}
+
+{% highlight swift %}
+
+// Duration
+func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+    return duration
+}
+
+func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+	// Customize transition effects
+}
+
+{% endhighlight %}
+
+- 대상 viewController는 `UIViewControllerTransitioningDelegate`를 채택하고 아래와 같이 작업한다. 
+
+{% highlight swift %}
+// 커스텀하게 만든 transition의 인스턴스를 생성한다.
+let transition = PopAnimator()
+
+// delegate 메소드를 정의한다.
+func animationController(
+    forPresented presented: UIViewController,
+    presenting: UIViewController,
+    source: UIViewController
+    ) -> UIViewControllerAnimatedTransitioning? {
+    return transition
+}
+    
+func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    return transition
+}
 {% endhighlight %}
