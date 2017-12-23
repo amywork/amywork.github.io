@@ -7,6 +7,8 @@ permalink: /Edu/
 
 > My own after-school program... 👩🏻‍🎓
 
+![FastCampus](https://younari.github.io/images/FastCampus.png)
+
 # Fast Campus Courses
 
 <hr>
@@ -31,30 +33,34 @@ permalink: /Edu/
 
 <br>
 <br>
+<br>
+<br>
+👩🏻‍💻🎓
+
 
 # Online Courses
 
 <hr>
 
-### ✔︎ **Developing iOS 10 Apps with Swift by Stanford**
+### **Developing iOS 10 Apps with Swift by Stanford**
 - ⭐️ ***highly recommended***
 - [Tools and APIs required to build applications for the iPhone and iPad platforms using the iOS SDK](https://itunes.apple.com/us/course/developing-ios-10-apps-with-swift/id1198467120)
 
-### ✔︎ **Ray Wenderlich :: Swift**
+### **Ray Wenderlich :: Swift**
 - ⭐️ ***highly recommended***
 - [iOS Video tutorials](https://www.raywenderlich.com/category/ios)
 
-### ✔︎ **Design + Code**
+### **Design + Code**
 - [Learn iOS 10 design and Xcode 8](https://designcode.io/)
 
-### ✔︎ **Sketch UI Design Master**
+### **Sketch UI Design Master**
 - ⭐️ ***highly recommended***
 - [User Experience Design in Sketch, SVG Workflows in Sketch](http://courses.sketchmaster.com/)
 
-### ✔︎ **프로그래밍 입문자를 위한 C**
+### **프로그래밍 입문자를 위한 C**
 - [두들낙서의 C/C++](https://www.inflearn.com/course/c%EC%96%B8%EC%96%B4-%EB%91%90%EB%93%A4%EB%82%99%EC%84%9C/)
 
-### ✔︎ **let's build that app**
+### **let's build that app**
 - [AppStore](https://www.letsbuildthatapp.com/course/AppStore)
 - [Youtube](https://www.letsbuildthatapp.com/course/YouTube)
 - [Firebase Social Login](https://www.letsbuildthatapp.com/course/Firebase-Social-Login)
@@ -62,10 +68,10 @@ permalink: /Edu/
 - [Facebook Newsfeed](https://www.letsbuildthatapp.com/course/Facebook-News-Feed)
 - [Instagram](https://www.letsbuildthatapp.com/course/Instagram-Firebase)
 
-### ✔︎ **Udemy**
+### **Udemy**
 - [iOS 10 & Swift 3: From Beginner to Paid Professional](https://www.udemy.com/devslopes-ios10/)
 
-### ✔︎ **objc.io**
+### **objc.io**
 - ⭐️ ***highly recommended***
 - [Advanced Swift](https://www.objc.io/books/)
 
