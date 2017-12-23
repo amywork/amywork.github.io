@@ -7,7 +7,6 @@ permalink: /Edu/
 
 > My own after-school program... 👩🏻‍🎓
 
-![FastCampus](https://younari.github.io/images/FastCampus.png)
 
 # Fast Campus Courses
 
@@ -43,18 +42,15 @@ permalink: /Edu/
 <hr>
 
 ### **Developing iOS 10 Apps with Swift by Stanford**
-- ⭐️ ***highly recommended***
-- [Tools and APIs required to build applications for the iPhone and iPad platforms using the iOS SDK](https://itunes.apple.com/us/course/developing-ios-10-apps-with-swift/id1198467120)
+- [Tools and APIs required to build applications using the iOS SDK](https://itunes.apple.com/us/course/developing-ios-10-apps-with-swift/id1198467120)
 
 ### **Ray Wenderlich :: Swift**
-- ⭐️ ***highly recommended***
 - [iOS Video tutorials](https://www.raywenderlich.com/category/ios)
 
 ### **Design + Code**
 - [Learn iOS 10 design and Xcode 8](https://designcode.io/)
 
 ### **Sketch UI Design Master**
-- ⭐️ ***highly recommended***
 - [User Experience Design in Sketch, SVG Workflows in Sketch](http://courses.sketchmaster.com/)
 
 ### **프로그래밍 입문자를 위한 C**
@@ -72,6 +68,5 @@ permalink: /Edu/
 - [iOS 10 & Swift 3: From Beginner to Paid Professional](https://www.udemy.com/devslopes-ios10/)
 
 ### **objc.io**
-- ⭐️ ***highly recommended***
 - [Advanced Swift](https://www.objc.io/books/)
 
