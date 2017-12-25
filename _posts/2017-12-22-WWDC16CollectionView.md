@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CollectionView"
+title: "Collection View"
 author: "younari"
 ---
 
