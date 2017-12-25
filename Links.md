@@ -45,6 +45,9 @@ permalink: /Links/
 - [Photos](https://developer.apple.com/documentation/photos)
 - [Introduction to Cocoa Drawing Guide](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CocoaDrawingGuide/Introduction/Introduction.html)
 
+# Design
+- [Human Interface Guidelines iOS](https://developer.apple.com/ios/human-interface-guidelines/overview/themes/)
+
 
 # Open APIs
 - [AirBnb](https://ko.airbnb.com/partner?af=126295512&c=VigLink&ircid=4560&irclid=zTJ3J91AYXSp28EQkWW982ETUkm3Oux5nTlDR40&irgwc=1&sharedid=)
