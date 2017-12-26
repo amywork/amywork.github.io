@@ -6,44 +6,43 @@ permalink: /About/
 ---
 
 # Younari
-- iOS Developer
-- [Github profile](https://github.com/younari)
+- iOS Developer,
+- **[Github](https://github.com/younari)**
 
 # Education
 - 2011 이화여자외국어고등학교(서울) 중국어과 졸업
 - 2013 북경 사범대학교 연수 (6개월)
 - 2015 연세대학교(신촌) 중어중문학과 및 디지털예술학(연계전공) 졸업
-- 2017 [Fast Campus 개발 과정 수료 (iOS ・ RxSwift ・ UXDesign)](https://younari.github.io/Edu/)
+- 2017 [Fast Campus 개발 과정 (iOS ・ RxSwift ・ UXDesign)](https://younari.github.io/Edu/)
 
-### 🏫 2011 ~ 2015 연세대학교 (Yonsei Univ.)
+### 2011 ~ 15 연세대학교 :: Yonsei Univ.
 - **Degree** : Bachelor's degree
-- **Grade** : 3.93 (4.5)
+- **Grade** : 3.93 / 4.5
 - **Activities** : [연세대학교 학보사 연세춘추 기자](http://chunchu.yonsei.ac.kr)
 - **Major** : Chinese Language & Literature, Digital Design
--  **Field of Study** : 언어학/실용중국어/영상예술기획/독일표현주의/러시아공연예술/브랜드디자인/타이포그래피/[VMD](https://www.behance.net/gallery/49975731/-VMD)/[정보디자인](https://www.behance.net/gallery/49975089/MoMA-Infographic)
+-  **Field of Study** : 언어학/실용중국어/영상예술기획/브랜드디자인/타이포그래피/[VMD](https://www.behance.net/gallery/49975731/-VMD)/[정보디자인](https://www.behance.net/gallery/49975089/MoMA-Infographic)
 
 # Featured Skills
 - iOS development in Swift
-- Mobile UI Design
+- Mobile UI Design :: Sketch App
 
 # Languages
-- 🇨🇳 **Chinese** : Working proficiency - 신HSK 6급, 255pt
+- 🇨🇳 **Chinese** : Working proficiency - 新HSK 6级, 255pt
 - 🇺🇸 **English** : Working proficiency - Toeic 950, OPIC AL
 - 🇰🇷 **Korean** : Native proficiency, mother language
 
 
 # Experience
-- *2015.07 ~ 2017* *SHINSEGAE*, [SSG.COM](https://itunes.apple.com/kr/app/ssg-com-%EB%B0%B1%ED%99%94%EC%A0%90%EC%97%90%EC%84%9C-%EC%9D%B4%EB%A7%88%ED%8A%B8%EA%B9%8C%EC%A7%80-%EC%93%B1-%ED%95%9C%EB%B2%88%EC%97%90/id786135420?mt=8) ::  **Product Manager** 
-
+-  **Product Manager** :: *2015 ~ 2017 - [SHINSEGAE / SSG.COM](https://itunes.apple.com/kr/app/ssg-com-%EB%B0%B1%ED%99%94%EC%A0%90%EC%97%90%EC%84%9C-%EC%9D%B4%EB%A7%88%ED%8A%B8%EA%B9%8C%EC%A7%80-%EC%93%B1-%ED%95%9C%EB%B2%88%EC%97%90/id786135420?mt=8)*
 
 ### Role and responsibility
-- Shapes the future of the ssg.com service from featuring prioritization to defining UX strategies
-- Conceptualizes creative solutions to drive business goals and engagement of new APIs and tools
+- Shapes the future of the ssg.com service from featuring prioritization to defining UX strategies.
+- Conceptualizes creative solutions to drive business goals and engagement of new APIs and tools.
 
 ### Capability
 - Managing large single projects or multiple concurrent smaller projects
 - Experience in using project delivery tools such as Git, Slack, Redmine
-- UI prototyping (Sketchapp)
+- UI prototyping 
 
 ### Projects
 - [SSG.COM 콘텐츠 커머스 채널 매거진 구축 / PC](http://www.ssg.com/contents/lifeMagazineMain.ssg?gnb=magazine)
