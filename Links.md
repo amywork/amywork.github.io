@@ -1,11 +1,26 @@
 ---
 layout: post
-title: "Helpful Links"
+title: "Bookmarks"
 author: "younari"
 permalink: /Links/
 ---
 
-# Swift Resources
+# APPLE
+> Apple is a multinational corporation that designs, manufactures, and markets mobile communication and media devices, personal computers, portable digital music players, and sells a variety of related software, services, peripherals, networking solutions, and third-party digital content and applications. (Foundation : Apr 1, 1976)
+
+## Articles
+- [Apple confirms Shazam acquisition. Snap and Spotify also expressed interest](https://techcrunch.com/2017/12/11/apple-shazam-deal/)
+- [Apple pushes HomePod release to early 2018](https://techcrunch.com/2017/11/17/apple-pushes-homepod-release-to-early-2018/)
+- [Apple defends new ad-tracking prevention measures in Safari](https://techcrunch.com/2017/09/15/apple-defends-new-ad-tracking-prevention-measures-in-safari/)
+- [The Future Of Enterprise App Development Is Swift](https://techcrunch.com/2015/06/10/the-future-of-enterprise-app-development-is-swift/)
+
+
+# Swift
+>  Swift is a powerful and intuitive programming language for macOS, iOS, watchOS and tvOS. Writing Swift code is interactive and fun, the syntax is concise yet expressive, and Swift includes modern features developers love. Swift code is safe by design, yet also produces software that runs lightning-fast. Swift 4 was developed in the open at Swift.org, with source code, a bug tracker, mailing lists, and regular development builds available for everyone. This broad community of developers, both inside Apple as well as hundreds of outside contributors, work together to make Swift even more amazing. Swift already supports all Apple platforms as well as Linux, with community members actively working to port to even more platforms. (https://developer.apple.com/swift/)
+
+> Tim Cook when he referred to Swift as the “the next big programming language,” developers will be building apps in “the next 20 years.” Thanks in large part to the ease of learning Swift – as compared to Objective-C -, the open sourcing of core libraries, and the ability for developers to create contextual apps on the latest versions of iOS, the opportunity to create apps, which can utilize the proactive features presented during the keynote, to drive employee productivity increases enterprises will likely accelerate, and expand, their native iOS development plans in the year to come. (Tech Crunch)
+
+## Swift Resources
 - [Hash Code runner Swift](http://hashcode.co.kr/code_runners?language=swift)
 - [letswift.kr](http://letswift.kr/2017/#)
 - [Yagom Swift](https://yagom.github.io/swift_basic/)
@@ -19,12 +34,31 @@ permalink: /Links/
 - [Swift가 제공하는 여러 포인터 타입들과 동작 방식](https://academy.realm.io/kr/posts/nate-cook-tryswift-tokyo-unsafe-swift-and-pointer-types/)
 - [Changing Xcode Header Comment](https://useyourloaf.com/blog/changing-xcode-header-comment/)
 
-# WWDC
+## RayWenderlich
+- [Networking with URLSession](https://videos.raywenderlich.com/courses/93-networking-with-urlsession/lessons/1)
+- [iOS Concurrency with GCD and Operations](https://videos.raywenderlich.com/courses/55-ios-concurrency-with-gcd-and-operations/lessons/1)
+- [iOS 10: Memory Graph Debugger](https://videos.raywenderlich.com/screencasts/421-ios-10-memory-graph-debugger)
+- [iOS 10: Thread Sanitizer](https://videos.raywenderlich.com/screencasts/418-ios-10-thread-sanitizer)
+- [Saving Data in iOS](https://videos.raywenderlich.com/courses/96-saving-data-in-ios/lessons/1)
+- [Xcode Tips and Tricks](https://videos.raywenderlich.com/courses/88-xcode-tips-and-tricks/lessons/1)
+- [Scroll View School](https://videos.raywenderlich.com/courses/99-scroll-view-school/lessons/1)
+- [Beginning iOS Animations](https://videos.raywenderlich.com/courses/104-beginning-ios-animations/lessons/1)
+- [Intermediate iOS Animations](https://videos.raywenderlich.com/courses/80-intermediate-ios-animations/lessons/1)
+- [Custom Controls in iOS](https://videos.raywenderlich.com/courses/76-custom-controls-in-ios/lessons/1)
+- [Beginning Video with AVFoundation](https://videos.raywenderlich.com/courses/15-beginning-video-with-avfoundation/lessons/1)
+- [Beginning Collection Views](https://videos.raywenderlich.com/courses/95-beginning-collection-views/lessons/1)
+- [Custom Collection View Layout](https://videos.raywenderlich.com/courses/65-custom-collection-view-layout/lessons/1)
+- [CALayers](https://videos.raywenderlich.com/courses/25-calayers/lessons/1)
+
+## WWDC
 - [What's New in the Apple Push Notification Service](https://developer.apple.com/videos/play/wwdc2016/724/)
 - [Advances in UIKit Animations and Transitions](https://developer.apple.com/videos/play/wwdc2016/216)
 - [Advanced Notifications](https://developer.apple.com/videos/play/wwdc2016/708)
 
-# Official Documents
+## Design
+- [Human Interface Guidelines iOS](https://developer.apple.com/ios/human-interface-guidelines/overview/themes/)
+
+## Official Documents
 - [Swift Standard Library](https://developer.apple.com/documentation/swift)
 - [Terminology](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/GlossaryDefinitions.html#//apple_ref/doc/uid/TP40015214-CH12-SW1)
 - [The App Life Cycle](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/TheAppLifeCycle/TheAppLifeCycle.html#//apple_ref/doc/uid/TP40007072-CH2-SW1)
@@ -46,11 +80,8 @@ permalink: /Links/
 - [Photos](https://developer.apple.com/documentation/photos)
 - [Introduction to Cocoa Drawing Guide](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CocoaDrawingGuide/Introduction/Introduction.html)
 
-# Design
-- [Human Interface Guidelines iOS](https://developer.apple.com/ios/human-interface-guidelines/overview/themes/)
 
-
-# Open APIs
+# 3rd parties
 - [AirBnb](https://ko.airbnb.com/partner?af=126295512&c=VigLink&ircid=4560&irclid=zTJ3J91AYXSp28EQkWW982ETUkm3Oux5nTlDR40&irgwc=1&sharedid=)
 - [Kakao](https://developers.kakao.com/docs/restapi)
 - [Vimeo](https://developer.vimeo.com/api/start)
@@ -62,3 +93,5 @@ permalink: /Links/
 - [Facebook Graph API](https://developers.facebook.com/docs/graph-api/?locale=ko_KR)
 - [Behance](https://www.behance.net/dev)
 - [Ebay](http://developer.ebay.com/Devzone/shopping/docs/Concepts/ShoppingAPIGuide.html)
+
+

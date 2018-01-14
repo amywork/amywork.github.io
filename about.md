@@ -15,12 +15,12 @@ permalink: /About/
 - **2015** 연세대학교(신촌) 중어중문학과 및 디지털예술학(연계전공) 졸업
 - **2017** [Fast Campus 개발 과정 (iOS ・ RxSwift ・ UXDesign)](https://younari.github.io/Edu/)
 
-### 연세대학교 (YONSEI University)
+### 2011 - 15 : 연세대학교 YONSEI University
 - **Degree** : Bachelor's degree
 - **Grade** : 3.93 (4.5)
 - **Activities** : [연세대학교 학보사 연세춘추 문화국](http://chunchu.yonsei.ac.kr)
 - **Major** : Chinese Language & Literature, Digital Design
--  **Field of Study** : 언어학/실용중국어/영상예술기획/브랜드디자인/타이포그래피/[VMD](https://www.behance.net/gallery/49975731/-VMD)/[정보디자인](https://www.behance.net/gallery/49975089/MoMA-Infographic)
+-  **Field of Studies** : 언어학/실용중국어/영상예술기획/브랜드디자인/타이포그래피/[VMD](https://www.behance.net/gallery/49975731/-VMD)/[정보디자인](https://www.behance.net/gallery/49975089/MoMA-Infographic)
 
 # Featured Skills
 - Cocoa, Swift, iOS
@@ -35,7 +35,7 @@ permalink: /About/
 # Experience
 
 ### 신세계 (SHINSEGAE) 
--  **2018 ~** *[SSG.COM](https://itunes.apple.com/kr/app/ssg-com-%EB%B0%B1%ED%99%94%EC%A0%90%EC%97%90%EC%84%9C-%EC%9D%B4%EB%A7%88%ED%8A%B8%EA%B9%8C%EC%A7%80-%EC%93%B1-%ED%95%9C%EB%B2%88%EC%97%90/id786135420?mt=8)* Software Developer (iOS)
+-  **2018 ~** *[SSG.COM](https://itunes.apple.com/kr/app/ssg-com-%EB%B0%B1%ED%99%94%EC%A0%90%EC%97%90%EC%84%9C-%EC%9D%B4%EB%A7%88%ED%8A%B8%EA%B9%8C%EC%A7%80-%EC%93%B1-%ED%95%9C%EB%B2%88%EC%97%90/id786135420?mt=8)* Software Developer, iOS
 -  **2015 ~ 2017** *[SSG.COM](https://itunes.apple.com/kr/app/ssg-com-%EB%B0%B1%ED%99%94%EC%A0%90%EC%97%90%EC%84%9C-%EC%9D%B4%EB%A7%88%ED%8A%B8%EA%B9%8C%EC%A7%80-%EC%93%B1-%ED%95%9C%EB%B2%88%EC%97%90/id786135420?mt=8)* Product Manager
 
 ### Role and responsibility
@@ -44,7 +44,6 @@ permalink: /About/
 - Conceptualizes creative solutions to drive business goals and engagement of new APIs and tools.
 
 ### Capability
-- Experience with Cocoa, Swift, iOS.
 - Experience in Managing large single projects or multiple concurrent smaller projects.
 - Experience in using project delivery tools such as Git, Slack, Spreadsheets.
 - Experience in prototyping (Zeplin, Sketch)
