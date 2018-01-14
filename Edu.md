@@ -34,7 +34,7 @@ permalink: /Edu/
 <br>
 <br>
 <br>
-👩🏻‍💻🎓
+
 
 
 # Online Courses
@@ -44,7 +44,7 @@ permalink: /Edu/
 ### **Developing iOS 10 Apps with Swift by Stanford**
 - [Tools and APIs required to build applications using the iOS SDK](https://itunes.apple.com/us/course/developing-ios-10-apps-with-swift/id1198467120)
 
-### **Ray Wenderlich :: Swift**
+### **Ray Wenderlich**
 - [iOS Video tutorials](https://www.raywenderlich.com/category/ios)
 
 ### **Design + Code**
@@ -53,7 +53,7 @@ permalink: /Edu/
 ### **Sketch UI Design Master**
 - [User Experience Design in Sketch, SVG Workflows in Sketch](http://courses.sketchmaster.com/)
 
-### **프로그래밍 입문자를 위한 C**
+### **inflearn.com**
 - [두들낙서의 C/C++](https://www.inflearn.com/course/c%EC%96%B8%EC%96%B4-%EB%91%90%EB%93%A4%EB%82%99%EC%84%9C/)
 
 ### **let's build that app**

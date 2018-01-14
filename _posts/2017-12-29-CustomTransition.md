@@ -4,10 +4,10 @@ title: "Custom Transition"
 author: "younari"
 ---
 
-> NavigationController에 올라탄 view controller 들의 transition을 customize 해본다.
+> Navigation Controller에 올라탄 view controller들의 transition 효과를 커스텀해본다.
 
 
-# NavigationControllerDelegate
+# Navigation Controller Delegate
 - `NavigationController`의 transition을 customize 하기 위해, `NavigationControllerDelegate` Class를 생성해서, 원하는 지점에 커스텀한 `UIViewControllerAnimatedTransitioning`클래스를 return 해준다.
 
 
