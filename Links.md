@@ -33,6 +33,7 @@ permalink: /Links/
 - [This week in Swift](https://swiftnews.curated.co)
 - [Swift가 제공하는 여러 포인터 타입들과 동작 방식](https://academy.realm.io/kr/posts/nate-cook-tryswift-tokyo-unsafe-swift-and-pointer-types/)
 - [Changing Xcode Header Comment](https://useyourloaf.com/blog/changing-xcode-header-comment/)
+- [Ramdom Number](http://www.seemuapps.com/generating-a-random-number-in-swift)
 
 ## RayWenderlich
 - [Networking with URLSession](https://videos.raywenderlich.com/courses/93-networking-with-urlsession/lessons/1)
@@ -49,6 +50,7 @@ permalink: /Links/
 - [Beginning Collection Views](https://videos.raywenderlich.com/courses/95-beginning-collection-views/lessons/1)
 - [Custom Collection View Layout](https://videos.raywenderlich.com/courses/65-custom-collection-view-layout/lessons/1)
 - [CALayers](https://videos.raywenderlich.com/courses/25-calayers/lessons/1)
+- [Reference Counting](https://videos.raywenderlich.com/screencasts/421-ios-10-memory-graph-debugger)
 
 ## WWDC
 - [What's New in the Apple Push Notification Service](https://developer.apple.com/videos/play/wwdc2016/724/)
