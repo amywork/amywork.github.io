@@ -34,6 +34,7 @@ permalink: /Links/
 - [Swift가 제공하는 여러 포인터 타입들과 동작 방식](https://academy.realm.io/kr/posts/nate-cook-tryswift-tokyo-unsafe-swift-and-pointer-types/)
 - [Changing Xcode Header Comment](https://useyourloaf.com/blog/changing-xcode-header-comment/)
 - [Ramdom Number](http://www.seemuapps.com/generating-a-random-number-in-swift)
+- [Bounds and Frame](http://www.ryanwright.me/cookbook/ios/obj-c/frames-and-bounds)
 
 ## RayWenderlich
 - [Networking with URLSession](https://videos.raywenderlich.com/courses/93-networking-with-urlsession/lessons/1)
