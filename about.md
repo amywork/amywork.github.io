@@ -6,7 +6,6 @@ permalink: /About/
 ---
 
 # Younari
-- SSG.COM에서 2년 동안 온라인 커머스 기획 업무를 하다가, 스위프트란 언어를 만나고 iOS 개발에 열정을 갖게 되었습니다. 지금은 SSG.COM의 App 개발팀에서 iOS 어플리케이션 개발 업무를 진행하고 있습니다. 
 - **[Github](https://github.com/younari)**
 
 # Education
