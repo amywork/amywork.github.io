@@ -16,9 +16,6 @@ permalink: /Links/
 
 
 # Swift
->  Swift is a powerful and intuitive programming language for macOS, iOS, watchOS and tvOS. Writing Swift code is interactive and fun, the syntax is concise yet expressive, and Swift includes modern features developers love. Swift code is safe by design, yet also produces software that runs lightning-fast. Swift 4 was developed in the open at Swift.org, with source code, a bug tracker, mailing lists, and regular development builds available for everyone. This broad community of developers, both inside Apple as well as hundreds of outside contributors, work together to make Swift even more amazing. Swift already supports all Apple platforms as well as Linux, with community members actively working to port to even more platforms. (https://developer.apple.com/swift/)
-
-> Tim Cook when he referred to Swift as the “the next big programming language,” developers will be building apps in “the next 20 years.” Thanks in large part to the ease of learning Swift – as compared to Objective-C -, the open sourcing of core libraries, and the ability for developers to create contextual apps on the latest versions of iOS, the opportunity to create apps, which can utilize the proactive features presented during the keynote, to drive employee productivity increases enterprises will likely accelerate, and expand, their native iOS development plans in the year to come. (Tech Crunch)
 
 ## Swift Resources
 - [Hash Code runner Swift](http://hashcode.co.kr/code_runners?language=swift)
