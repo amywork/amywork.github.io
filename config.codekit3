@@ -1695,6 +1695,12 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/_posts\/2018-01-27-SwiftGrammar.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_posts\/2018-01-27-SwiftGrammar.html",
+		"oF": 0
+		},
 	"\/_posts\/2018-01-27-SwiftGrammar.md": {
 		"cS": 0,
 		"eF": 1,
@@ -1816,6 +1822,12 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about.html",
+		"oF": 0
 		},
 	"\/about.md": {
 		"cS": 0,
