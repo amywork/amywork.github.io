@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Problem Solving"
+title: "Swift Tips"
 author: "younari"
 ---
 
@@ -8,18 +8,21 @@ author: "younari"
 
 # 01. Memory Leak 
 - 눈에 보이지는 않지만 뒤에서 줄줄 새고 있는 메모리를 관리해보자.
-- **→ 요약**: **Heap Allocation**은 **Deallocation**될 때 **Reference Cycle**이 발생되어 **Memory Leak**이 일어나지 않도록 주의해야 한다.
 - 자식 클래스가 부모 클래스를 참조하는 상황에서는 weak을 통해 부모가 해제되면 자식도 해제될 수 있도록 설계한다.
-- 클로저는 일종의 Instant Class이다. 클로저 블럭에서 값을 캡쳐하는 경우에 retain count를 올려서 메모리 손실을 발생시킬 수 있다. 클로저 블럭에서도 필요한 경우 weak으로 retain count를 막거나 self를 guard로 감쌀 필요가 있다.
+- 클로저는 일종의 compiler가 내부적으로 만드는 class이다. 클로저 블럭에서 값을 캡쳐하는 경우에 retain count를 올려서 메모리 손실을 발생시킬 수 있다. 클로저 블럭에서도 self를 참조해야 하는 경우 weak으로 retain count를 올리는 것을 방지하거나 self를 guard로 감쌀 필요가 있다. (예외: UIView.animate)
+- **Retain count를 올리느냐 마느냐의 문제!**
+- **→ 요약**: **Heap Allocation**은 **Deallocation**될 때 **Reference Cycle**이 발생되어 **Memory Leak**이 일어나지 않도록 주의해야 한다.
+
 
 <hr>
 
-- **흔히 발생하는 문제**: 뷰콘트롤러의 경우 **클로저에서 self를 캡처** 당했거나 **delegate = self**를 통해 누군가의 대행자가 되면서 해당 뷰콘트롤러의 Retain count를 올리게 된다. 이렇게 되면 ViewController가 Pop되더라도 RetainCount가 0이 되지 않는데, 때문에 힙에 할당된 메모리가 영구 해제될 수 없게된다. 이렇게 되면 앱 크래쉬로 이어질 수 있기 때문에, 개발자는 weak 이나 guard `self`를 통해 메모리 사이클 관리를 챙겨주어야 한다. 
+- **흔히 발생하는 문제**: 뷰콘트롤러의 경우 **클로저에서 self를 캡처** 당했거나 **delegate = self**를 통해 누군가의 대행자가 되면서 해당 뷰콘트롤러의 Retain count를 올리게 된다. 이렇게 되면 ViewController가 Pop되더라도 RetainCount가 0이 되지 않는데, 때문에 힙에 할당된 메모리가 영구 해제될 수 없게된다. 
 - **→ 요약**: **Delegate, Closure 에서 weak 챙겨주기!**
 
 <hr>
 
 - ***"Memory is a limited resource on mobile. Use too much and the jetsam system deamon will kill your app."*** @RayWenderlich, 2017 DevCon, Session 8
+- [참고 링크 RWDevCon 2017 Vault - Swift Memory Management](https://videos.raywenderlich.com/courses/81-rwdevcon-2017-vault-tutorials/lessons/8)
 
 
 <br>
@@ -71,29 +74,29 @@ collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifie
 <br>
 
 # 08. ScrollView
-- `scrollRectToVisible(_:animated:)`
+- API - `scrollRectToVisible(_:animated:)`
 - [Apple Doc](https://developer.apple.com/documentation/uikit/uiscrollview/1619439-scrollrecttovisible#declarations)
 - [stackoverflow](https://stackoverflow.com/questions/1446536/uiscrollview-works-as-expected-but-scrollrecttovisible-does-nothing)
 
 <br>
 
-# 09. UIColor Extension
-- UIColor RGB로 컬러 만들기
+# 09. Data에 didSet을 통해 UI를 변경하기
+- [참고 링크 RWDevCon 2017 Vault - Advanced Auto Layout](https://videos.raywenderlich.com/courses/81-rwdevcon-2017-vault-tutorials/lessons/2)
 
 ```
-extension UIColor {
-    
-    static func rgb(_ red: CGFloat, green: CGFloat, blue: CGFloat) -> UIColor {
-        return UIColor(red: red/255, green: green/255, blue: blue/255, alpha: 1)
-    }
-    
+var separatorsVisible: Bool = false {
+  didSet {
+    horizontalSeparator.isHidden = !separatorsVisible
+    verticalSeparator.isHidden = !separatorsVisible
+  }
 }
 ```
 
 <br>
 
-# 10. 오토레이아웃 애니메이션
+# 10. 오토레이아웃 우선순위를 이용하는 애니메이션 트릭 (Lyft)
 - 새로운 데이터가 Set 되는 순간, 특정 constraint를 deActive 하고, 다음차 우선순위 constraint가 적용되게끔 하는 테크닉
+- [참고 링크 RWDevCon 2017 Vault - Advanced Auto Layout](https://videos.raywenderlich.com/courses/81-rwdevcon-2017-vault-tutorials/lessons/2)
 
 ```
 func setTextLabel(_ textData: String?, animated: Bool = true) {
@@ -106,14 +109,18 @@ func setTextLabel(_ textData: String?, animated: Bool = true) {
 
 <br>
 
-# 11. Data에 didSet을 통해 UI를 변경하기
-- @RayWenderlich Devcon 2017. Lyft AutoLayout Guide
+# 11. Machine Learning in iOS
+- [참고 링크 RWDevCon 2017 Vault - Machine Learning in iOS](https://videos.raywenderlich.com/courses/81-rwdevcon-2017-vault-tutorials/lessons/3)
 
-```
-var separatorsVisible: Bool = false {
-  didSet {
-    horizontalSeparator.isHidden = !separatorsVisible
-    verticalSeparator.isHidden = !separatorsVisible
-  }
-}
-```
+
+<br>
+
+
+# 12. iOS Concurrency
+- [참고 링크 RWDevCon 2017 Vault - iOS Concurrency](https://videos.raywenderlich.com/courses/81-rwdevcon-2017-vault-tutorials/lessons/4)
+
+
+<br>
+
+# 13. Reconstructing Popular iOS Animations
+- [참고 링크 RWDevCon 2017 Vault - Reconstructing Popular iOS Animations](https://videos.raywenderlich.com/courses/81-rwdevcon-2017-vault-tutorials/lessons/5)
