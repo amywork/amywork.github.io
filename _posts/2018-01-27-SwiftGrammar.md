@@ -118,9 +118,11 @@ func setTextLabel(_ textData: String?, animated: Bool = true) {
 
 # 12. iOS Concurrency
 - [참고 링크 RWDevCon 2017 Vault - iOS Concurrency](https://videos.raywenderlich.com/courses/81-rwdevcon-2017-vault-tutorials/lessons/4)
-- **DispatchGroup**
+
+### DispatchGroup
+- 일련의 concurrent task를 하나의 DispatchGroup 내로 묶어놓을 수 있다.
+- 일련의 concurrent task가 끝나면 DispatchGroup을 통해 **MainThread에 Notify**하여 가장 마지막 Task 처리
 - ex) `let animationGroup = DispatchGroup()`
-- Task가 끝나면 Main Thread에 Notify를 통해 가장 마지막 Task 처리
 
 ```
 extension UIView {
@@ -139,6 +141,35 @@ animationGroup.notify(queue: DispatchQueue.main) {
   //Do Something
 }
 ```
+
+### Race Condition
+- concurrent로 multi thread가 돌 때 같은 변수를 서로 다른 스레드에서 동시에 read / write 할 경우 Race Condition이 발생할 수 있다.
+
+```
+let workerQueue = DispatchQueue(label: "a", attributes: .concurrent)
+let group = DispatchGroup()
+```
+
+### ThreadSafe with DispatchBarrier
+- Race Condition을 피하기 위해서는 동시에 같은 변수를 read/write하지 못하도록 barrier 한다.
+- `.async(flags: .barrier)`
+
+```
+let isolationQueue = DispatchQueue(label: "isolation", attributes: .concurrent)
+
+override func changeProperty(first: String, second: String) {
+    isolationQueue.async(flags: .barrier) {
+        super.changeName(first: firstName, second: lastName)
+    }
+}
+    
+override var first: String {
+    return isolationQueue.sync {
+        return super.first
+    }
+}
+``` 
+
 
 <br>
 
