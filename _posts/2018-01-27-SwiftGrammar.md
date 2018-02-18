@@ -118,9 +118,34 @@ func setTextLabel(_ textData: String?, animated: Bool = true) {
 
 # 12. iOS Concurrency
 - [참고 링크 RWDevCon 2017 Vault - iOS Concurrency](https://videos.raywenderlich.com/courses/81-rwdevcon-2017-vault-tutorials/lessons/4)
+- **DispatchGroup**
+- ex) `let animationGroup = DispatchGroup()`
+- Task가 끝나면 Main Thread에 Notify를 통해 가장 마지막 Task 처리
 
+```
+extension UIView {
+  static func animate(withDuration duration: TimeInterval, animations: @escaping () -> Void, group: DispatchGroup, completion: ((Bool) -> Void)?) {
+    group.enter()
+    animate(withDuration: duration, animations: animations) { (success) in
+      completion?(success)
+      group.leave()
+    }
+  }
+}
+```
+
+```
+animationGroup.notify(queue: DispatchQueue.main) {
+  //Do Something
+}
+```
 
 <br>
 
 # 13. Reconstructing Popular iOS Animations
 - [참고 링크 RWDevCon 2017 Vault - Reconstructing Popular iOS Animations](https://videos.raywenderlich.com/courses/81-rwdevcon-2017-vault-tutorials/lessons/5)
+
+<br>
+
+# 14. Server Side Swift with Vapor
+- [Server Side Swift with Vapor](https://videos.raywenderlich.com/courses/115-server-side-swift-with-vapor/lessons/1)
