@@ -5,12 +5,17 @@ author: "younari"
 permalink: /Edu/
 ---
 
-> My own after-school program... 👩🏻‍🎓
+> **Learning fuels my life. My own After-school program**  🙂📖
 
 
 # Fast Campus Courses
 
 <hr>
+### **Machine Learning**
+- 2018.3.10 ~ 3.31 (4weeks)
+- 함수, 미분, 적분, 행렬, 선형대수, 확률, 최적화, 선형회귀, 파이썬
+- [머신러닝 수학기초 CLASS](http://www.fastcampus.co.kr/data_camp_basicmath/)
+
 
 ### **iOS Programming School**
 - 2017.09 ~ 2017.12 (16weeks)
@@ -30,10 +35,14 @@ permalink: /Edu/
 - Design components, Prototyping tools, Mobile app guide
 - [Design Portfolio :: Behance](https://www.behance.net/gallery/54607233/Organize-your-subscriptions-with-Cash-bot)
 
+### **Dev-Seminar**
+- 2018.3.25 (1day, 10hours)
+- RxSwift, TDD, AutoLayout
+- [Fast Campus iOS Dev Seminar](http://www.fastcampus.co.kr/dev_seminar_dev1801/)
+
 <br>
 <br>
-<br>
-<br>
+
 
 
 
@@ -41,10 +50,13 @@ permalink: /Edu/
 
 <hr>
 
+### Google IT Support Professional Certificate
+- [Google IT Support Professional Certificate](https://www.coursera.org/specializations/google-it-support)
+
 ### **Developing iOS 10 Apps with Swift by Stanford**
 - [Tools and APIs required to build applications using the iOS SDK](https://itunes.apple.com/us/course/developing-ios-10-apps-with-swift/id1198467120)
 
-### **Ray Wenderlich**
+### **Ray Wenderlich Subscriptions**
 - [iOS Video tutorials](https://www.raywenderlich.com/category/ios)
 
 ### **Design + Code**
@@ -53,20 +65,27 @@ permalink: /Edu/
 ### **Sketch UI Design Master**
 - [User Experience Design in Sketch, SVG Workflows in Sketch](http://courses.sketchmaster.com/)
 
-### **inflearn.com**
+### **Inflearn C**
 - [두들낙서의 C/C++](https://www.inflearn.com/course/c%EC%96%B8%EC%96%B4-%EB%91%90%EB%93%A4%EB%82%99%EC%84%9C/)
 
-### **let's build that app**
-- [AppStore](https://www.letsbuildthatapp.com/course/AppStore)
-- [Youtube](https://www.letsbuildthatapp.com/course/YouTube)
-- [Firebase Social Login](https://www.letsbuildthatapp.com/course/Firebase-Social-Login)
-- [Facebook Messenger](https://www.letsbuildthatapp.com/course/Facebook-Chat-Messenger)
-- [Facebook Newsfeed](https://www.letsbuildthatapp.com/course/Facebook-News-Feed)
-- [Instagram](https://www.letsbuildthatapp.com/course/Instagram-Firebase)
+### **Let's build that app**
+- [AppStore](https://www.letsbuildthatapp.com/course/AppStore), [Youtube](https://www.letsbuildthatapp.com/course/YouTube), [Firebase Social Login](https://www.letsbuildthatapp.com/course/Firebase-Social-Login), [Facebook Messenger](https://www.letsbuildthatapp.com/course/Facebook-Chat-Messenger), [Facebook Newsfeed](https://www.letsbuildthatapp.com/course/Facebook-News-Feed), [Instagram](https://www.letsbuildthatapp.com/course/Instagram-Firebase)
 
 ### **Udemy**
 - [iOS 10 & Swift 3: From Beginner to Paid Professional](https://www.udemy.com/devslopes-ios10/)
 
-### **objc.io**
+### **objc.io Subscription**
 - [Advanced Swift](https://www.objc.io/books/)
 
+### Coursera Programming Foundations 
+- [Programming Foundations with JavaScript, HTML and CSS](https://www.coursera.org/learn/duke-programming-web)
+
+<br>
+<br>
+
+# Standby
+
+<hr>
+
+- [Bitcoin and Cryptocurrency Technologies](https://www.coursera.org/learn/cryptocurrency)
+- [Probabilistic Graphical Models Specialization](https://www.coursera.org/specializations/probabilistic-graphical-models)
