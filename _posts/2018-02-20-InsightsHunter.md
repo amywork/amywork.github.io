@@ -10,7 +10,7 @@ author: "younari"
 # 제2외국어
 
 ### 👉🏻 중국어
-- 오프라인 수업 참여하기: [차이나탄 캠프(위워크 을지로점)](http://camp.chinatan.co.kr/)
+- 오프라인 수업 참여하기: [차이나탄 캠프(위워크)](http://camp.chinatan.co.kr/)
 - 온라인 강의 듣기: [차이나탄 온라인 수업](https://www.chinatan.co.kr/)
 - 중국어 테크 뉴스 읽기: [钛媒体](http://www.tmtpost.com)
 
@@ -62,7 +62,7 @@ author: "younari"
 - [트레바리 넥스랩](http://trevari.co.kr/clubs/467)
 
 # 강의
-- [RxSwift](https://brunch.co.kr/@younari/5)
+- [RxSwift 강의 리뷰](https://brunch.co.kr/@younari/5)
 - [Programming Courses](https://younari.github.io/Edu/)
 
 # 브랜드 수집
