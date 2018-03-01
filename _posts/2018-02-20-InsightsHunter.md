@@ -7,17 +7,10 @@ author: "younari"
 > 비즈니스 인사이트를 가진 소프트웨어 엔지니어로 성장하기 위해, 습득한 여러가지 정보들을 기록하려고 합니다. 평일에는 회사의 비즈니스 목적과 방향성에 맞는 방식으로 사고하고, 서비스 효율을 높이기 위한 엔지니어로서 생활하고 있지만, 퇴근 이후나 주말에는 개인의 성장을 위해 공부하고, 습득한 지식이 삶과 일에 상호작용 하면서 시너지를 낼 수 있도록 트레이닝하는 공간입니다.
 
 
-# 제2외국어
-
-### 👉🏻 중국어
-- 오프라인 수업 참여하기: [차이나탄 캠프(위워크)](http://camp.chinatan.co.kr/)
-- 온라인 강의 듣기: [차이나탄 온라인 수업](https://www.chinatan.co.kr/)
-- 중국어 테크 뉴스 읽기: [钛媒体](http://www.tmtpost.com)
-
 # 뉴스
 
 ### 👉🏻 Publy.co
-- 목적: **[publy](https://publy.co)** 에서 제공하는 유료 콘텐츠를 멤버십으로 이용하며, 시대적 키워드를 발췌한다.
+- **[publy.co](https://publy.co)** 
 
 ### 👉🏻 TechCrunch
 - [Android 8.1 can now display Wi-Fi speeds before connecting](http://bit.ly/2DZ1tA5?cc=ffc63f4f302979623ec9e8a82d6db2a5)
@@ -35,6 +28,13 @@ author: "younari"
 - [My Development Toolset 2017 for iOS](https://medium.com/ios-os-x-development/my-development-toolset-2017-for-ios-7c0758e3e5ce)
 - [iOS Simulator Power Ups](https://medium.com/the-traveled-ios-developers-guide/ios-simulator-power-ups-407060863b3c)
 - [Thoughts on the HomePod from a Voice-First Startup Founder](https://medium.com/vui-magazine/thoughts-on-the-homepod-from-a-voice-first-startup-founder-c67f344eb344)
+
+# 제2외국어
+
+### 👉🏻 중국어
+- 오프라인 수업 참여하기: [차이나탄 캠프(위워크)](http://camp.chinatan.co.kr/)
+- 온라인 강의 듣기: [차이나탄 온라인 수업](https://www.chinatan.co.kr/)
+- 중국어 테크 뉴스 읽기: [钛媒体](http://www.tmtpost.com)
 
 # 세미나
 ### 👉🏻 참여예정 컨퍼런스

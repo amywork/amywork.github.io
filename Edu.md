@@ -16,7 +16,6 @@ permalink: /Edu/
 - 함수, 미분, 적분, 행렬, 선형대수, 확률, 최적화, 선형회귀, 파이썬
 - [머신러닝 수학기초 CLASS](http://www.fastcampus.co.kr/data_camp_basicmath/)
 
-
 ### **iOS Programming School**
 - 2017.09 ~ 2017.12 (16weeks)
 - [Swift, Objective-C, Network, Firebase](http://school.fastcampus.co.kr/dev_ids)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Swift Tips"
+title: "Swift Tips #1"
 author: "younari"
 ---
 
