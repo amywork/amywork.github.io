@@ -4,13 +4,13 @@ title: "Developer festival"
 author: "younari"
 ---
 
-올 해에는 저의 버킷리스트에 담겨있는 7가지 테크 컨퍼런스 중 하나를 무조건 다녀와야겠다는 생각입니다. iOS 개발을 하고 있지만, 변화무쌍한 테크씬에서 어떤 방향성을 가진 개발자로 성장해야할까 하는 것은 항상 고민되는 부분인데요. 컨퍼런스에 참가할 생각만 하면 가슴이 터질 것 같이 정말 설레고, 그 곳에서 다양한 국적의 개발자들을 만나고 대화를 나누면서 저의 시야도 넓어질 수 있을 것 같습니다. 
+버킷리스트에 담겨있는 테크 컨퍼런스를 하나씩 다녀와볼 계획입니다. iOS 개발을 하고 있지만, 변화무쌍한 테크씬에서 어떤 방향성을 가진 개발자로 성장해야 할지는 항상 고민되는 부분인데요. 컨퍼런스에 참가할 생각만 하면 가슴이 터질 것 같이 정말 설레고, 그 곳에서 다양한 국적의 개발자들을 만나고 대화를 나누면서 저의 시야도 넓어질 수 있을 것 같습니다. 몇 년 전까지만 해도 실리콘밸리에서 열리는 컨퍼런스만 눈에 들어왔는데 최근에는 인접 국가인 중국에서 열리는 BAT주관 컨퍼런스도 관심이 갑니다.
 
-> 유나리의 버킷 컨퍼런스 :: 구글 I/O, 깃헙 Universe, 애플 WWDC, 페이스북 F8, 테크크런치 Disrupt, RayWenderlich DevCon, Swift Summit 
+> 버킷 리스트 :: 구글 I/O, 깃헙 Universe, 애플 WWDC, 페이스북 F8, 테크크런치 Disrupt, RayWenderlich DevCon, Swift Summit, 百度 AI Developer Conference
 
 # Google I/O
-- **일정**: May 8-10
-- **위치**: Shoreline Amphitheatre in Mountain View, CA
+- **일정**: May
+- **위치**: Mountain View, CA
 - **공식 홈페이지**: [Google I/O 2018](http://events.google.com/io)
 - **관심 주제**:
 -  AI Adventures: art, science, and tools of machine learning
@@ -28,7 +28,7 @@ author: "younari"
 -  What's new in Android Support Library
 
 # Facebook F8
-- **일정**: May 1 & 2
+- **일정**: May
 - **위치**: San Jose, California
 - **공식 홈페이지**: [Facebook Developer Conference](https://www.f8.com)
 - **관심 주제**:
@@ -40,7 +40,7 @@ author: "younari"
 - How the Sharing Economy Developed in China and Beyond
 
 
-# WWDC 2018
+# WWDC
 - **일정**: June
 - **위치**: San Jose, California
 - **공식 홈페이지**: [Apple Developer Conference, WWDC](https://developer.apple.com/wwdc/)
@@ -53,7 +53,7 @@ author: "younari"
 
 
 # Disrupt SF
-- **일정**: SEPTEMBER 5-7, 2018
+- **일정**: SEPTEMBER
 - **위치**: SAN FRANCISCO
 - **공식 홈페이지**: [Disrupt SF 2018](https://techcrunch.com/event-info/disrupt-sf-2018/)
 - Artificial Intelligence
@@ -80,3 +80,6 @@ author: "younari"
 - **일정**: October
 - **위치**: San Francisco
 - **공식 홈페이지**: [Swift Summit](https://www.swiftsummit.com)
+
+# Baidu AI Conference
+- [Baidu Create 2017百度AI开发者大会](http://create.baidu.com/)

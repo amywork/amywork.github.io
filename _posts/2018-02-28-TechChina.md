@@ -18,3 +18,23 @@ author: "younari"
 # 문장 수집
 - 不仅中国科技力量在国际壮大，钛媒体作为今年 CES 唯一官方合作的科技媒体和创新社区，也开始了在 CES 上的正式亮相。
 - 科技的，就是世界的。在智能物联、汽车科技和区块链领域，我们已经看到中国创新力量正在崛起。如今的中国，正以一种全新的“中国创新”面貌，登上世界舞台，“用科技对话世界”，就是我们和未来相处的正确姿势。
+
+
+# 비즈니스 여행
+### 18.04. 深圳
+- MUIJI HOTEL 深圳
+- 深圳市民中心
+- 大芬油画村
+- 下沙街
+- 南门一坊
+- 荔枝公园
+- 深圳软件产业基地 *Shenzhen Software Industry Base
+- 白石洲
+
+
+# SOURCES
+- [Tech Node](https://technode.com)
+- [techcrunch.cn](http://techcrunch.cn)
+- [微博](https://weibo.com/login.php)
+- [钛媒体](http://www.tmtpost.com/)
+- [Baidu AI Conference](http://create.baidu.com/)
