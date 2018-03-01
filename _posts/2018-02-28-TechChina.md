@@ -1,18 +1,23 @@
 ---
 layout: post
-title: "Tech Chinese"
+title: "Tech China"
 author: "younari"
 ---
 
-> 2018년 3월부터 6월까지 4개월동안 WeWork(위워크)에서 차이나탄 중국어 캠프 과정을 수강햡니다. 테크/모바일/스타트업과 관련된 다양한 중국어 표현들을 중점적으로 학습하고 기록합니다.
+2018년 3월부터 6월까지 4개월동안 WeWork(위워크)에서 차이나탄 중국어 캠프 과정을 수강햡니다. 테크/모바일/스타트업과 관련된 다양한 중국어 표현들을 중점적으로 학습하고 기록합니다.
 
-# 微信， 滴滴出行
-- **강의 날짜**: 2018년 2월 28일, 수요일
-- **강의 주제**: 중국의 카카오톡 "웨이신"과 중국의 우버 "디디추싱" 앱을 통해 모바일에서 사용할 수 있는 여러가지 표현들을 익히는 시간.
-- 微信转装: 위쳇페이
-- 代叫: 대리기사
-- 区块链技术: 블록체인 기술
+### 목표
 
+> 위워크 중국어 캠프 수강 / 중국 테크 동향 기사 수집 / 비즈니스 여행 계획 (심천, 북경, 상하이 컨퍼런스 위주)
+
+# SOURCES
+- [Tech Node](https://technode.com)
+- [techcrunch.cn](http://techcrunch.cn)
+- [微博](https://weibo.com/login.php)
+- [钛媒体](http://www.tmtpost.com/)
+- [Baidu AI Conference](http://create.baidu.com/)
+- [腾讯](https://www.tencent.com/zh-cn/index.html)
+- [腾讯视频](https://v.qq.com/)
 
 
 # 문장 수집
@@ -32,9 +37,10 @@ author: "younari"
 - 白石洲
 
 
-# SOURCES
-- [Tech Node](https://technode.com)
-- [techcrunch.cn](http://techcrunch.cn)
-- [微博](https://weibo.com/login.php)
-- [钛媒体](http://www.tmtpost.com/)
-- [Baidu AI Conference](http://create.baidu.com/)
+# 수업 기록
+## 微信， 滴滴出行
+- **강의 날짜**: 2018년 2월 28일, 수요일
+- **강의 주제**: 중국의 카카오톡 "웨이신"과 중국의 우버 "디디추싱" 앱을 통해 모바일에서 사용할 수 있는 여러가지 표현들을 익히는 시간.
+- 微信转装: 위쳇페이
+- 代叫: 대리기사
+- 区块链技术: 블록체인 기술
