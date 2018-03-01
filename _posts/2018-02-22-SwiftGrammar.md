@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "Swift Tips #1"
+title: "Swift 탐구 생활"
 author: "younari"
 ---
 
-> 사수님께 배운 내용, RayWenderlich DevCon에서 배운 내용, 구글링해서 습득한 내용 등 각종 문제 상황을 해결하면서 남은 지식들을 기록하는 포스트 입니다.
+> 사수님께 배운 내용, RayWenderlich DevCon을 통해 학습한 내용, 구글링한 내용 등 - 각종 문제 상황을 해결하면서 남겨진 스위프트 지식들을 기록하는 포스트 입니다. 매 주 주말에 업데이트 됩니다.
 
 # 01. Memory Leak 
-- 눈에 보이지는 않지만 뒤에서 줄줄 새고 있는 메모리를 관리해보자.
+- **질문**: init은 불렸는데, Deinit이 안불렸어요!
+- → 눈에 보이지는 않지만 뒤에서 줄줄 새고 있는 메모리를 관리하자.
 - 자식 클래스가 부모 클래스를 참조하는 상황에서는 weak을 통해 부모가 해제되면 자식도 해제될 수 있도록 설계한다.
 - 클로저는 일종의 compiler가 내부적으로 만드는 class이다. 클로저 블럭에서 값을 캡쳐하는 경우에 retain count를 올려서 메모리 손실을 발생시킬 수 있다. 클로저 블럭에서도 self를 참조해야 하는 경우 weak으로 retain count를 올리는 것을 방지하거나 self를 guard로 감쌀 필요가 있다. (예외: UIView.animate)
 - **Retain count를 올리느냐 마느냐의 문제!**
@@ -47,10 +48,10 @@ author: "younari"
 <br>
 
 # 05. AutoLayout 적용 시점
-- setNeedsLayout / layoutIfNeeded / layoutSubviews의 차이점은 뭘까?
-- setNeedsLayout: asynchronous update (비동기 업데이트)
-- layoutIfNeeded: synchronous update (동기 업데이트 = 바로 실행)
-- layoutSubviews: override method
+- **질문**: setNeedsLayout / layoutIfNeeded / layoutSubviews의 차이점은 무엇인가요?
+- **setNeedsLayout**: asynchronous update (비동기 업데이트)
+- **layoutIfNeeded**: synchronous update (동기 업데이트 = 바로 실행)
+- **layoutSubviews**: override method
 - (발췌) So, stated succinctly, layoutIfNeeded says update immediately please, whereas setNeedsLayout says please update but you can wait until the next update cycle.
 - [참고자료01](http://www.iosinsight.com/setneedslayout-vs-layoutifneeded-explained/)
 - [참고자료02](https://medium.com/@abhimuralidharan/ios-swift-setneedslayout-vs-layoutifneeded-vs-layoutsubviews-5a2b486da31c)
@@ -58,8 +59,8 @@ author: "younari"
 <br>
 
 # 06. init rect & coder
-- init(rect:)는 뷰를 코드로 생성할때 사용하는 방식
-- init(coder:)는 뷰를 xib로 생성할때 사용하는 방식
+- `init(rect:)` 뷰를 코드로 생성할때 사용하는 방식
+- `init(coder:)` 뷰를 xib로 생성할때 사용하는 방식
 - 예시로 아래에서는 스토리보드를 통해 init 했으므로, init(coder:)가 불림
 
 ```
@@ -180,3 +181,62 @@ override var first: String {
 
 # 14. Server Side Swift with Vapor
 - [Server Side Swift with Vapor](https://videos.raywenderlich.com/courses/115-server-side-swift-with-vapor/lessons/1)
+
+<br>
+
+# 15. 콜렉션뷰 Cell의 ContentView
+- 기본적으로 다른 설정을 하지 않는다면 cell의 `contentView.translatesAutoresizingMaskIntoConstraints = true` 이다.
+- 그런데 `contentView.translatesAutoresizingMaskIntoConstraints` 값을 커스텀 Cell에서 false 로 바꿔서 오토레이아웃을 사용하겠다고 하게되면, Cell의 Height과 Width 컨스트레인트가 없기 때문에 ambiguous layout이 된다.
+- 이 때 스토리보드에서 Cell에 subView들을 오토레이아웃을 걸어두었다면 이 subView들의 오토레이아웃 또한 ambiguous layout이 된다.
+- 때문에 커스텀 Cell에서 `self.contentView.translatesAutoresizingMaskIntoConstraints = false` 해주게 될 경우에는 contentView의 constraint를 무조건 잡아줘야 스토리보드에서 걸어둔 subView들의 오토레이아웃을 유지할 수 있다.
+
+```
+// Example
+self.addConstraint(self and contentView top)
+self.addConstraint(self and contentView bottom)
+self.addConstraint(self and contentView left)
+self.addConstraint(self and contentView right)
+```
+ 
+
+# 16. OptionSet, 비트 연산
+- [A type that presents a mathematical set interface to a bit set](https://developer.apple.com/documentation/swift/optionset)
+- [Advanced Operators](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/AdvancedOperators.html)
+
+```
+struct ShadowDirection: OptionSet {
+    let rawValue: Int
+    static let left  = ShadowDirection(rawValue: 1 << 0)
+    static let right = ShadowDirection(rawValue: 1 << 1)
+    static let up  = ShadowDirection(rawValue: 1 << 2)
+    static let down  = ShadowDirection(rawValue: 1 << 3)
+    static let all: ShadowDirection = [.left, .right, .up, .down]
+}
+
+```
+
+# 17. KVO
+- [Key Value Observing](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/KeyValueObserving/KeyValueObserving.html)
+- Key-value observing is a mechanism that allows objects to be notified of changes to specified properties of other objects.
+
+
+```
+//Example
+scrollView.addObserver(self, forKeyPath: #keyPath(UIScrollView.contentOffset), options: [.new, .old], context: &OffsetContext)
+```
+
+```
+override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+}
+```
+
+# 18. 자료형과 버스 크기
+- 32비트 컴퓨터 -> 4바이트 / 64비트 컴퓨터 -> 8바이트
+- In computer architecture, **a bus is a communication system that transfers data between components inside a computer**, or between computers. This expression covers all related hardware components (wire, optical fiber, etc.) and software, including communication protocols.
+- Early computer buses were parallel electrical wires with multiple connections, but the term is now used for any physical arrangement that provides the same logical function as a parallel electrical bus. Modern computer buses can use both parallel and bit serial connections, and can be wired in either a multidrop (electrical parallel) or daisy chain topology, or connected by switched hubs, as in the case of USB.
+
+# 19. Accessibility
+- `UIAccessibilityIsVoiceOverRunning`
+- Returns a Boolean value indicating whether VoiceOver is running.
+- You can use this function to customize your application’s UI specifically for VoiceOver users. For example, you might want UI elements that usually disappear quickly to persist onscreen for VoiceOver users. Note that you can also listen for the UIAccessibilityVoiceOverStatusChanged notification to find out when VoiceOver starts and stops.
+- 참고: [UIAccessibilityVoiceOverStatusChanged](https://developer.apple.com/documentation/uikit/uiaccessibilityvoiceoverstatuschanged)
