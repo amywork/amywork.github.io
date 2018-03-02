@@ -14,12 +14,17 @@ author: "younari"
 - UIView에 `layoutIfNeeded`를 부르면, 해당 뷰의 `root CALayer`로 전달된다.
 - 모든 UIView는 하나의 root CALayer를 갖고 있으며, 요놈이 sublayer들을 배열로 가지고 있다.
 
+<hr>
+
 ### Layer는 SubLayer를 가질 수 있다.
 ### Layer는 여러가지 Property가 있다.
 ### Layer의 Property들은 animate될 수 있다.
 ### Layer는 View에 비해 퍼포먼스가 좋다.
 
+<hr>
+
 # shadow
+- [How Shadow Works](https://developer.apple.com/library/content/documentation/GraphicsImaging/Conceptual/drawingwithquartz2d/dq_shadows/dq_shadows.html#//apple_ref/doc/uid/TP30001066-CH208-SW1)
 
 ```
 let layer = CALayer()

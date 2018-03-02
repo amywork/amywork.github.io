@@ -240,3 +240,9 @@ override func observeValue(forKeyPath keyPath: String?, of object: Any?, change:
 - Returns a Boolean value indicating whether VoiceOver is running.
 - You can use this function to customize your application’s UI specifically for VoiceOver users. For example, you might want UI elements that usually disappear quickly to persist onscreen for VoiceOver users. Note that you can also listen for the UIAccessibilityVoiceOverStatusChanged notification to find out when VoiceOver starts and stops.
 - 참고: [UIAccessibilityVoiceOverStatusChanged](https://developer.apple.com/documentation/uikit/uiaccessibilityvoiceoverstatuschanged)
+
+# 20. inline function
+- CPU는 메모리를 alloc할 때 연산을 가장 많이 하기 때문에, 메모리 alloc을 줄여주는 것이 성능 향상에 좋다.
+- 함수의 동작 원리: 함수 또한 결국 메모리를 alloc 하는 것인데, 함수 내부에서 다른 함수를 호출 할 때 계속 메모리를 할당하게 된다.
+- 매우 간단한 연산을 하는 함수의 경우 inline을 사용하면 함수 내부에서 다른 함수를 호출할 때 메모리를 alloc하지 않고 인라인 함수들을 복붙 형태로 내부에 임베드 하게 된다.
+
