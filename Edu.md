@@ -5,7 +5,7 @@ author: "younari"
 permalink: /Edu/
 ---
 
-> **Learning fuels my life. My own After-school program**  🙂📖
+> **Cause Learning fuels my life, my own After-school program**  🙂📖
 
 
 # Fast Campus Courses
@@ -14,7 +14,7 @@ permalink: /Edu/
 ### **Machine Learning**
 - 2018.3.10 ~ 3.31 (4weeks)
 - 함수, 미분, 적분, 행렬, 선형대수, 확률, 최적화, 선형회귀, 파이썬
-- [머신러닝 수학기초 CLASS](http://www.fastcampus.co.kr/data_camp_basicmath/)
+- [머신러닝 수학기초](http://www.fastcampus.co.kr/data_camp_basicmath/)
 
 ### **iOS Programming School**
 - 2017.09 ~ 2017.12 (16weeks)
@@ -88,3 +88,9 @@ permalink: /Edu/
 
 - [Bitcoin and Cryptocurrency Technologies](https://www.coursera.org/learn/cryptocurrency)
 - [Probabilistic Graphical Models Specialization](https://www.coursera.org/specializations/probabilistic-graphical-models)
+- [프로그래머스.co.kr](https://programmers.co.kr)
+
+# Review
+<hr>
+- [FastCampus - RxSwift 강의 리뷰 / 브런치](https://brunch.co.kr/@younari/5)
+- [온라인으로 코딩 공부 시작하기 / 브런치](https://brunch.co.kr/@younari/1)
