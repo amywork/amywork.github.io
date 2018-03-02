@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Developer festival"
+title: "Tech Node"
 author: "younari"
+permalink: /Node/
 ---
 
 이번 해부터 좀 더 적극적으로 버킷리스트에 담겨있는 테크 컨퍼런스를 하나씩 다녀와볼 계획입니다. iOS 개발을 하고 있지만, 변화무쌍한 테크씬에서 어떤 방향성을 가진 개발자로 성장해야 할지는 항상 고민되는 부분인데요. 컨퍼런스에 참가할 생각만 하면 가슴이 터질 것 같이 정말 설레고, 그 곳에서 다양한 국적의 개발자들을 만나고 대화를 나누면서 저의 시야도 넓어질 수 있을 것 같습니다. 몇 년 전까지만 해도 실리콘밸리에서 열리는 컨퍼런스만 눈에 들어왔는데 최근에는 인접 국가인 중국에서 열리는 BAT주관 컨퍼런스도 관심이 갑니다. 
@@ -13,6 +14,12 @@ author: "younari"
 - **일정**: July
 - **위치**: Beijing
 - **공식 홈페이지**: [Baidu Create 2017百度AI开发者大会](http://create.baidu.com/)
+
+
+# Alibaba cloud
+- **일정**: October
+- **위치**: Hangzhou 
+- **공식 홈페이지**: [The Cloud Computing Conference Partners](https://www.alibabacloud.com/the-computing-conference-2017/agenda?day=all&theme=all&meeting=detail1101)
 
 # Facebook F8
 - **일정**: May
