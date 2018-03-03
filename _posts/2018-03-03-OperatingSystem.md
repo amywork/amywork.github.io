@@ -45,7 +45,7 @@ author: "younari"
 > The kernel creates processes, efficiently schedules them, and manages how processes are terminated.
 
 ## Memory Management
-- **Virtual memory **is **a combination of hard drive space and RAM** that acts like memory that our processes can use.
+- **Virtual memory** is **a combination of hard drive space and RAM** that acts like memory that our processes can use.
 
 > When we store our virtual memory on our hard drive, we call the allocated space, swap space. When we get into practical applications of disk partitioning, we'll allocate space for swap. The kernel takes care of all of this for us, of course. It handles the process of taking pages of data and swapping them between RAM and virtual memory.
 
@@ -158,7 +158,9 @@ author: "younari"
 - **TTL:** The main purpose of this field is to make sure that when there's a misconfiguration in routing that causes an endless loop, datagrams don't spend all eternity trying to reach their destination. 
 - **Protocol Field:** TCP, UDP
 - **Header Checksum**
-- Source IP Address (32bit = 4byte)
-- Destination Address
-- IP Options field
-- Padding field
+- **IP Address**: 32bit
+
+### ❏ subnetting
+- The process of taking a large network and splitting it up into many individual smaller subnetworks or subnets.
+- With subnets, _you can split your large network up into many smaller ones_. These individual subnets will all have their own gateway routers serving as the ingress and egress point for each subnet. 
+- **Subnet IDs** are calculated via what's known as a **subnet mask**. Just like an IP address, subnet masks are **32-bit numbers** that are normally written now as four octets in decimal. 
