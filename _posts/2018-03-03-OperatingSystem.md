@@ -151,16 +151,35 @@ author: "younari"
 
 ### ❏ IP datagram
 - Under the IP protocol, a **packet** is usually referred to as an IP datagram.
-- **Header:** version, header length, Service Type, Total Length field
-- **Playload:** Identification, Flag, Fragmentation
+- **Header** / version, header length, Service Type, Total Length field
+- **Playload** / Identification, Flag, Fragmentation
 - **The flag field** is used to indicate if a datagram is allowed to be fragmented, or to indicate that the datagram has already been fragmented. 
 - **Fragmentation** is the process of taking a single IP datagram and splitting it up into several smaller datagrams.
-- **TTL:** The main purpose of this field is to make sure that when there's a misconfiguration in routing that causes an endless loop, datagrams don't spend all eternity trying to reach their destination. 
-- **Protocol Field:** TCP, UDP
+- **TTL** / Time to live (TTL) or hop limit is a mechanism that limits the lifespan or lifetime of data in a computer or network. The main purpose of this field is to make sure that when there's a misconfiguration in routing that causes an endless loop, datagrams don't spend all eternity trying to reach their destination. 
+- **Protocol Field** / TCP, UDP
 - **Header Checksum**
-- **IP Address**: 32bit
+- **IP Address** / 32bit
+- **Source IP Address**, **Destination IP Address**
 
-### ❏ subnetting
-- The process of taking a large network and splitting it up into many individual smaller subnetworks or subnets.
+### ❏ Subnetting
+- The process of taking a large network and **splitting it up into many individual smaller subnetworks** or subnets.
 - With subnets, _you can split your large network up into many smaller ones_. These individual subnets will all have their own gateway routers serving as the ingress and egress point for each subnet. 
 - **Subnet IDs** are calculated via what's known as a **subnet mask**. Just like an IP address, subnet masks are **32-bit numbers** that are normally written now as four octets in decimal. 
+
+### ❏ IANA (Internet Assigned Numbers Authority)
+- Along with managing IP address allocation, the IANA is also responsible for ASN, or Autonomous System Number allocation.
+
+
+<br>
+<br>
+
+# Standby
+> Goal to be done by 31, March
+
+### Transport Layer
+### Application Layer
+### DNS
+### Dynamic Host Configuration Protocol
+### NAT
+### VPN
+### Proxies
