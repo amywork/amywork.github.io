@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Blog"
+title: "스위프트 시작하기"
 author: "younari"
-permalink: /Blog/
 ---
 
 # 👋🏻 Welcome
@@ -121,10 +120,3 @@ permalink: /Blog/
 - [Baseball 게임 만들기 v0.3](https://younari.github.io/2017-09-22/BaseballGameV0.3)
 - [Baseball 게임 만들기 v0.4](https://younari.github.io/2017-09-22/BaseballGameV0.4)
 - [Baseball 게임 만들기 v0.5](https://younari.github.io/2017-09-23/BaseballGameV0.5)
-
-# 05. Insights & Meetups
-- [Helpful Resources](https://younari.github.io/2017-09-12/HelpfulResources)
-- [API Lists](https://younari.github.io/2017-10-17/APILists)
-- [2017년 9월, Apple Events](https://younari.github.io/2017-09-12/AppleEvents2017)
-- [2017년 11월, 페이스북 밋업 참가 기록](https://younari.github.io/2017-11-05/FacebookPlatform)
-- 2017년 12월, Swift Meetup Seoul
