@@ -5,16 +5,6 @@ author: "younari"
 permalink: /Links/
 ---
 
-# APPLE
-> Apple is a multinational corporation that designs, manufactures, and markets mobile communication and media devices, personal computers, portable digital music players, and sells a variety of related software, services, peripherals, networking solutions, and third-party digital content and applications. (Foundation : Apr 1, 1976)
-
-## Articles
-- [Apple confirms Shazam acquisition. Snap and Spotify also expressed interest](https://techcrunch.com/2017/12/11/apple-shazam-deal/)
-- [Apple pushes HomePod release to early 2018](https://techcrunch.com/2017/11/17/apple-pushes-homepod-release-to-early-2018/)
-- [Apple defends new ad-tracking prevention measures in Safari](https://techcrunch.com/2017/09/15/apple-defends-new-ad-tracking-prevention-measures-in-safari/)
-- [The Future Of Enterprise App Development Is Swift](https://techcrunch.com/2015/06/10/the-future-of-enterprise-app-development-is-swift/)
-
-
 # Swift
 
 ## Swift Resources
@@ -58,7 +48,7 @@ permalink: /Links/
 ## Design
 - [Human Interface Guidelines iOS](https://developer.apple.com/ios/human-interface-guidelines/overview/themes/)
 
-## Official Documents
+## Apple Official Documents
 - [Swift Standard Library](https://developer.apple.com/documentation/swift)
 - [Terminology](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/GlossaryDefinitions.html#//apple_ref/doc/uid/TP40015214-CH12-SW1)
 - [The App Life Cycle](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/TheAppLifeCycle/TheAppLifeCycle.html#//apple_ref/doc/uid/TP40007072-CH2-SW1)
@@ -81,7 +71,17 @@ permalink: /Links/
 - [Introduction to Cocoa Drawing Guide](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CocoaDrawingGuide/Introduction/Introduction.html)
 - [Visual Format Language](https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage.html)
 
-# 3rd parties
+
+# Tech Nodes
+- [Apple confirms Shazam acquisition. Snap and Spotify also expressed interest](https://techcrunch.com/2017/12/11/apple-shazam-deal/)
+- [Apple pushes HomePod release to early 2018](https://techcrunch.com/2017/11/17/apple-pushes-homepod-release-to-early-2018/)
+- [Apple defends new ad-tracking prevention measures in Safari](https://techcrunch.com/2017/09/15/apple-defends-new-ad-tracking-prevention-measures-in-safari/)
+- [The Future Of Enterprise App Development Is Swift](https://techcrunch.com/2015/06/10/the-future-of-enterprise-app-development-is-swift/)
+
+
+
+# API
+- [Toss Developer](http://tossdev.github.io/index.html)
 - [AirBnb](https://ko.airbnb.com/partner?af=126295512&c=VigLink&ircid=4560&irclid=zTJ3J91AYXSp28EQkWW982ETUkm3Oux5nTlDR40&irgwc=1&sharedid=)
 - [Kakao](https://developers.kakao.com/docs/restapi)
 - [Vimeo](https://developer.vimeo.com/api/start)
