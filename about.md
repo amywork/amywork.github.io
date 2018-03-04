@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "About"
+title: "👧🏻"
 author: "younari"
 permalink: /About/
 ---
@@ -8,7 +8,7 @@ permalink: /About/
 # Younari
 - iOS developer based in Seoul. 
 - Coffee and media fuel my coding life :)
-- Say hello through **[Github](https://github.com/younari)** or **[younari.me@icloud.com](mailto:younari.me@icloud.com)**
+- Say hello to **[Github](https://github.com/younari)** or **[younari.me@icloud.com](mailto:younari.me@icloud.com)**
 
 # Education
 - **2011** Ewha Girl's Foreign Language High School
