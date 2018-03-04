@@ -6,6 +6,8 @@ author: "younari"
 
 요 포스팅은 제가 좋아하는 온라인 채널 모음입니다. 👧🏻💖 요즘은 개발하다가 심심할 때 유튜브에서 브이로그 보다가 시간이 다 가네요... 
 
+![vllog](younari.github.io/images/vlog.png)
+
 # V Log
 - [TV소나](https://www.youtube.com/user/SONATOWN)
 - [스타일난다 유튜브](https://www.youtube.com/channel/UCIcJXs34WdkNcz1qkcxf0Rw)
