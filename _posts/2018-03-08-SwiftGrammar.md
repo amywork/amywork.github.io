@@ -4,21 +4,22 @@ title: "Swift 탐구 생활"
 author: "younari"
 ---
 
-> 사수님께 배운 내용, RayWenderlich DevCon을 통해 학습한 내용, 구글링한 내용 등 - 각종 문제 상황을 해결하면서 남겨진 스위프트 지식들을 기록하는 포스트 입니다. 매 주 주말에 업데이트 됩니다.
+> 사수님께 배운 내용, RayWenderlich DevCon을 통해 학습한 내용, 구글링한 내용 등 - 각종 문제 상황을 해결하면서 남겨진 스위프트 지식들을 기록하는 포스트 입니다. 비정기적으로 새로운 내용을 학습할 경우 업데이트 됩니다.
 
 # 01. Memory Leak 
 - **질문**: init은 불렸는데, Deinit이 안불렸어요!
-- → 눈에 보이지는 않지만 뒤에서 줄줄 새고 있는 메모리를 관리하자.
+- **↳ Retain count 의 문제**
+- ↳ 눈에 보이지는 않지만 뒤에서 줄줄 새고 있는 메모리를 관리하자.
 - 자식 클래스가 부모 클래스를 참조하는 상황에서는 weak을 통해 부모가 해제되면 자식도 해제될 수 있도록 설계한다.
 - 클로저는 일종의 compiler가 내부적으로 만드는 class이다. 클로저 블럭에서 값을 캡쳐하는 경우에 retain count를 올려서 메모리 손실을 발생시킬 수 있다. 클로저 블럭에서도 self를 참조해야 하는 경우 weak으로 retain count를 올리는 것을 방지하거나 self를 guard로 감쌀 필요가 있다. (예외: UIView.animate)
-- **Retain count를 올리느냐 마느냐의 문제!**
-- **→ 요약**: **Heap Allocation**은 **Deallocation**될 때 **Reference Cycle**이 발생되어 **Memory Leak**이 일어나지 않도록 주의해야 한다.
+
+- **↳  요약**: **Heap Allocation**은 **Deallocation**될 때 **Reference Cycle**이 발생되어 **Memory Leak**이 일어나지 않도록 주의해야 한다.
 
 
 <hr>
 
 - **흔히 발생하는 문제**: 뷰콘트롤러의 경우 **클로저에서 self를 캡처** 당했거나 **delegate = self**를 통해 누군가의 대행자가 되면서 해당 뷰콘트롤러의 Retain count를 올리게 된다. 이렇게 되면 ViewController가 Pop되더라도 RetainCount가 0이 되지 않는데, 때문에 힙에 할당된 메모리가 영구 해제될 수 없게된다. 
-- **→ 요약**: **Delegate, Closure 에서 weak 챙겨주기!**
+- **↳  요약**: **Delegate, Closure 등 에서 weak 챙겨주기!**
 
 <hr>
 
@@ -246,3 +247,38 @@ override func observeValue(forKeyPath keyPath: String?, of object: Any?, change:
 - 함수의 동작 원리: 함수 또한 결국 메모리를 alloc 하는 것인데, 함수 내부에서 다른 함수를 호출 할 때 계속 메모리를 할당하게 된다.
 - 매우 간단한 연산을 하는 함수의 경우 inline을 사용하면 함수 내부에서 다른 함수를 호출할 때 메모리를 alloc하지 않고 인라인 함수들을 복붙 형태로 내부에 임베드 하게 된다.
 
+
+# 21. Animation
+- [Animation - Transform / Spring](https://medium.com/written-code/ui-animations-with-swift-2ebb5e6d2292)
+- [YYImage](https://juejin.im/post/5a2df947f265da43163d03ca)
+
+
+# 22. Extra
+- [Regular Expression](https://koenig-media.raywenderlich.com/downloads/RW-NSRegularExpression-Cheatsheet.pdf)
+- [Blurred Effect](https://stackoverflow.com/questions/17041669/creating-a-blurring-overlay-view)
+
+```
+//Stackoverflow
+//https://stackoverflow.com/questions/17041669/creating-a-blurring-overlay-view
+//only apply the blur if the user hasn't disabled transparency effects
+
+if !UIAccessibilityIsReduceTransparencyEnabled() {
+    view.backgroundColor = .clear
+
+    let blurEffect = UIBlurEffect(style: .dark)
+    let blurEffectView = UIVisualEffectView(effect: blurEffect)
+    //always fill the view
+    blurEffectView.frame = self.view.bounds
+    blurEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+
+    view.addSubview(blurEffectView) //if you have more UIViews, use an insertSubview API to place it where needed
+} else {
+    view.backgroundColor = .black
+}
+```
+
+# 23. Layout guide
+- [Identifiers to Debugging NSLayoutConstraints](https://useyourloaf.com/blog/using-identifiers-to-debug-autolayout/)
+- [`automaticallyAdjustsScrollViewInsets`](https://developer.apple.com/documentation/uikit/uiviewcontroller/1621372-automaticallyadjustsscrollviewin)
+- [`edgesForExtendedLayout`](https://developer.apple.com/documentation/uikit/uiviewcontroller/1621515-edgesforextendedlayout)
+- [	`extendedLayoutIncludesOpaqueBars`](https://developer.apple.com/documentation/uikit/uiviewcontroller/1621404-extendedlayoutincludesopaquebars)
