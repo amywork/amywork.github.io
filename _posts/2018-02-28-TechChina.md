@@ -40,9 +40,28 @@ author: "younari"
 - **智能音箱**的时代要来了。据美国国家公共电台和调查分析公司 Edison Research 今年 1 月发布的报告，16% 的美国人拥有智能音箱，大概相当于每六个人中间，就有一个是智能音箱用户。
 - **亚马逊****发言人** Kristen Kish 表示：“亚马逊物流照片交付项目提供了视觉化的送达确认功能 —— 它向客户表明了包裹已安全抵达何处 —— 这是我们为改善客户的便利而进行的诸多创新之一”。
 - 根据亚马逊的政策，如果用户声称包裹在投递期间遗失，是可以要求退款和再派送的。目前该项目已在俄勒冈、拉斯维加斯、 印第安纳波利斯、西雅图、旧金山、以及北弗吉尼亚等部分地区上线，如果用户不希望隐私被曝光，也可以在下单时勾选“请勿拍摄妥投照片”。
+- YYImage 是一款功能强大的 iOS 图像框架，支持当前市场主流的静/动态图像编/解码与动态图像的动画播放显示。
+- 支持以下类型图片的渐进式 / **逐行扫描** / **隔行扫描**解码: PNG, GIF, JPEG, BMP。
+- 支持多张图片构成的帧动画播放，支持单张图片的 sprite sheet 动画。
 
-# 단어
-## 微信， 滴滴出行
+# Tech
 - 微信转装: 위쳇페이
 - 代叫: 대리기사
 - 区块链技术: 블록체인 기술
+
+# iOS / Code
+- Resources: [JueJin](https://juejin.im/post/5a2df947f265da43163d03ca)
+- 框架: Framework
+- 库: Library
+- 协议: `protocol`
+- 编码: Encoding
+- 解码: Decoding
+- 初始化: `init()`
+- 逐行扫描(zhuhang): line by line scanning, progressive
+- 隔行扫描(gehang): interlaced scanning
+- 帧(zhen): frame
+- 动画: animation
+- 兼容(jianrong): compatible
+- 架构: architecture
+- 源码: Source code
+- 封装: encapsulate
