@@ -63,5 +63,17 @@ author: "younari"
 - 动画: animation
 - 兼容(jianrong): compatible
 - 架构: architecture
+- 接口: interface
 - 源码: Source code
 - 封装: encapsulate
+- 流程: Stream
+- 缓存: `cache`
+- 路径: path
+- 私有: `private`
+- 变量: `variable`
+- 属性: `property`
+- 视图: `view (UIView)`
+- 阻塞(zuse): blocked
+- 读写: compile
+- 耗时: time consuming
+- 数组: `array`
