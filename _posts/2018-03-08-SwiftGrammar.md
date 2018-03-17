@@ -13,6 +13,8 @@ author: "younari"
 - ↳ **상호 참조되는 상황 주의**
 - ↳ 눈에 보이지는 않지만 뒤에서 줄줄 새고 있는 메모리를 관리하자.
 - **↳  요약**: **Heap Allocation**은 **Deallocation**될 때 **Reference Cycle**이 발생되어 **Memory Leak**이 일어나지 않도록 주의해야 한다.
+- **흔히 발생하는 문제**: **프로토콜 Delegate 프로퍼티, Closure 블럭 내부**
+
 
 <hr>
 
@@ -22,9 +24,6 @@ author: "younari"
 
 <hr>
 
-- **흔히 발생하는 문제**: 뷰콘트롤러의 경우 **클로저에서 self를 캡처** 당했거나 **delegate = self**를 통해 누군가의 대행자가 되면서 해당 뷰콘트롤러의 Retain count를 올리게 된다. 이렇게 되면 ViewController가 Pop되더라도 RetainCount가 0이 되지 않아 힙에 할당된 메모리가 영구 해제될 수 없다.
-- 클로저는 일종의 compiler가 내부적으로 만드는 class이다. 클로저 블럭에서 값을 캡쳐하는 경우에 retain count를 올려서 메모리 손실을 발생시킬 수 있다. 클로저 블럭에서도 self를 참조해야 하는 경우 weak으로 retain count를 올리는 것을 방지하거나 self를 guard로 감쌀 필요가 있다. (예외: UIView.animate)
-- **↳  요약**: **Delegate, Closure 등 에서 weak 챙겨주기!**
 
 <hr>
 
