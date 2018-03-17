@@ -5,15 +5,11 @@ author: "younari"
 permalink: /Edu/
 ---
 
-#### Learning fuels my life. 👧🏻📝
+#### Learning fuels my life 🙂
 
 # Fast Campus Courses
 
 <hr>
-## **Machine Learning**
-- 2018.3.10 ~ 3.31 (4weeks)
-- 함수, 미분, 적분, 행렬, 선형대수, 확률, 최적화, 선형회귀, 파이썬
-- [머신러닝 수학기초](http://www.fastcampus.co.kr/data_camp_basicmath/)
 
 ## **iOS Programming School**
 - 2017.09 ~ 2017.12 (16weeks)
@@ -49,25 +45,25 @@ permalink: /Edu/
 
 <hr>
 
-### [Google IT Support Professional Certificate](https://www.coursera.org/specializations/google-it-support)
+#### [objc.io - Advanced Swift](https://www.objc.io/books/)
 
-### [Developing iOS 10 Apps with Swift by Stanford](https://itunes.apple.com/us/course/developing-ios-10-apps-with-swift/id1198467120)
+#### [Google IT Support Professional Certificate](https://www.coursera.org/specializations/google-it-support)
 
-### [Ray Wenderlich iOS Video tutorials](https://www.raywenderlich.com/category/ios)
+#### [Developing iOS 10 Apps with Swift by Stanford](https://itunes.apple.com/us/course/developing-ios-10-apps-with-swift/id1198467120)
 
-### [Design + Code](https://designcode.io/)
+#### [Ray Wenderlich iOS Video tutorials](https://www.raywenderlich.com/category/ios)
 
-### [User Experience Design in Sketch](http://courses.sketchmaster.com/)
+#### [Design + Code](https://designcode.io/)
 
-### [Inflearn C/C++](https://www.inflearn.com/course/c%EC%96%B8%EC%96%B4-%EB%91%90%EB%93%A4%EB%82%99%EC%84%9C/)
+#### [User Experience Design in Sketch](http://courses.sketchmaster.com/)
 
-### [Let's build that app](https://www.letsbuildthatapp.com/course/AppStore), [Youtube](https://www.letsbuildthatapp.com/course/YouTube), [Firebase Social Login](https://www.letsbuildthatapp.com/course/Firebase-Social-Login), [Facebook Messenger](https://www.letsbuildthatapp.com/course/Facebook-Chat-Messenger), [Facebook Newsfeed](https://www.letsbuildthatapp.com/course/Facebook-News-Feed), [Instagram](https://www.letsbuildthatapp.com/course/Instagram-Firebase)
+#### [Inflearn C/C++](https://www.inflearn.com/course/c%EC%96%B8%EC%96%B4-%EB%91%90%EB%93%A4%EB%82%99%EC%84%9C/)
 
-### [iOS 10 & Swift 3: From Beginner to Paid Professional](https://www.udemy.com/devslopes-ios10/)
+#### [Let's build that app](https://www.letsbuildthatapp.com/course/AppStore), [Youtube](https://www.letsbuildthatapp.com/course/YouTube), [Firebase Social Login](https://www.letsbuildthatapp.com/course/Firebase-Social-Login), [Facebook Messenger](https://www.letsbuildthatapp.com/course/Facebook-Chat-Messenger), [Facebook Newsfeed](https://www.letsbuildthatapp.com/course/Facebook-News-Feed), [Instagram](https://www.letsbuildthatapp.com/course/Instagram-Firebase)
 
-### [objc.io Advanced Swift](https://www.objc.io/books/)
+#### [iOS 10 & Swift 3: From Beginner to Paid Professional](https://www.udemy.com/devslopes-ios10/)
 
-### [Programming Foundations with JavaScript, HTML and CSS](https://www.coursera.org/learn/duke-programming-web)
+#### [Programming Foundations with JavaScript, HTML and CSS](https://www.coursera.org/learn/duke-programming-web)
 
 <br>
 <br>
@@ -80,7 +76,7 @@ permalink: /Edu/
 - [Probabilistic Graphical Models Specialization](https://www.coursera.org/specializations/probabilistic-graphical-models)
 - [프로그래머스.co.kr](https://programmers.co.kr)
 
-# Review
+# Articles
 <hr>
 - [FastCampus - RxSwift 강의 리뷰 / 브런치](https://brunch.co.kr/@younari/5)
 - [온라인으로 코딩 공부 시작하기 / 브런치](https://brunch.co.kr/@younari/1)

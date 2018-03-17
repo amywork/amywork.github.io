@@ -7,24 +7,28 @@ author: "younari"
 > 사수님께 배운 내용, RayWenderlich DevCon을 통해 학습한 내용, 구글링한 내용 등 - 각종 문제 상황을 해결하면서 남겨진 스위프트 지식들을 기록하는 포스트 입니다. 비정기적으로 새로운 내용을 학습할 경우 업데이트 됩니다.
 
 # 01. Memory Leak 
+
 - **질문**: init은 불렸는데, Deinit이 안불렸어요!
-- **↳ Retain count 의 문제**
+- ↳ **Retain count**
+- ↳ **상호 참조되는 상황 주의**
 - ↳ 눈에 보이지는 않지만 뒤에서 줄줄 새고 있는 메모리를 관리하자.
-- 자식 클래스가 부모 클래스를 참조하는 상황에서는 weak을 통해 부모가 해제되면 자식도 해제될 수 있도록 설계한다.
-- 클로저는 일종의 compiler가 내부적으로 만드는 class이다. 클로저 블럭에서 값을 캡쳐하는 경우에 retain count를 올려서 메모리 손실을 발생시킬 수 있다. 클로저 블럭에서도 self를 참조해야 하는 경우 weak으로 retain count를 올리는 것을 방지하거나 self를 guard로 감쌀 필요가 있다. (예외: UIView.animate)
-
 - **↳  요약**: **Heap Allocation**은 **Deallocation**될 때 **Reference Cycle**이 발생되어 **Memory Leak**이 일어나지 않도록 주의해야 한다.
-
-
-<hr>
-
-- **흔히 발생하는 문제**: 뷰콘트롤러의 경우 **클로저에서 self를 캡처** 당했거나 **delegate = self**를 통해 누군가의 대행자가 되면서 해당 뷰콘트롤러의 Retain count를 올리게 된다. 이렇게 되면 ViewController가 Pop되더라도 RetainCount가 0이 되지 않는데, 때문에 힙에 할당된 메모리가 영구 해제될 수 없게된다. 
-- **↳  요약**: **Delegate, Closure 등 에서 weak 챙겨주기!**
 
 <hr>
 
 - ***"Memory is a limited resource on mobile. Use too much and the jetsam system deamon will kill your app."*** @RayWenderlich, 2017 DevCon, Session 8
 - [참고 링크 RWDevCon 2017 Vault - Swift Memory Management](https://videos.raywenderlich.com/courses/81-rwdevcon-2017-vault-tutorials/lessons/8)
+
+
+<hr>
+
+- **흔히 발생하는 문제**: 뷰콘트롤러의 경우 **클로저에서 self를 캡처** 당했거나 **delegate = self**를 통해 누군가의 대행자가 되면서 해당 뷰콘트롤러의 Retain count를 올리게 된다. 이렇게 되면 ViewController가 Pop되더라도 RetainCount가 0이 되지 않아 힙에 할당된 메모리가 영구 해제될 수 없다.
+- 클로저는 일종의 compiler가 내부적으로 만드는 class이다. 클로저 블럭에서 값을 캡쳐하는 경우에 retain count를 올려서 메모리 손실을 발생시킬 수 있다. 클로저 블럭에서도 self를 참조해야 하는 경우 weak으로 retain count를 올리는 것을 방지하거나 self를 guard로 감쌀 필요가 있다. (예외: UIView.animate)
+- **↳  요약**: **Delegate, Closure 등 에서 weak 챙겨주기!**
+
+<hr>
+
+
 
 
 <br>
