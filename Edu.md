@@ -74,7 +74,7 @@ permalink: /Edu/
 
 - [Bitcoin and Cryptocurrency Technologies](https://www.coursera.org/learn/cryptocurrency)
 - [Probabilistic Graphical Models Specialization](https://www.coursera.org/specializations/probabilistic-graphical-models)
-- [프로그래머스.co.kr](https://programmers.co.kr)
+- [실습으로 배우는 데이터 사이언스](https://programmers.co.kr/learn/courses/21)
 
 # Articles
 <hr>
