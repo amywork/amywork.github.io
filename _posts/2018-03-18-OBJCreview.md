@@ -7,7 +7,7 @@ author: "younari"
 
 # objc.io review note
 
-> I'm subscribing objc.io online contents for monthly plan. It is an platform which provides In-depth guides on iOS and macOS development. This post is for keeping track of the Swift coding concepts that I encountered through objc.io.
+> I'm subscribing **objc.io** online contents on monthly plan. It is an platform which provides **In-depth** guides on **iOS** and macOS development. This post is for keeping track of the Swift coding concepts that I encountered through objc.io.
 
 <br>
 
@@ -56,3 +56,24 @@ extension Collection {
 
 
 
+<br>
+
+# === : ==
+- === is really asking: “Do both these variables **hold the same reference as their value?**” 
+- Programming language literature, == is sometimes called **structural equality**, and === is called **pointer equality** or **reference equality**. 
+
+<br>
+
+# Reference
+
+- A variable that holds a reference can be declared with let — that is, the reference is constant. This means that the variable can never be changed to refer to something else. 
+- But **it doesn’t mean that the object it refers to can’t be changed.**
+— **it’s only constant in what it points to. It doesn’t mean what it points to is constant. 
+**
+
+<br>
+
+# Polymorphic features
+
+- Subtyping and **method overriding** is one way of getting polymorphic behavior, - generics, where a function or method is written once to take any type that provides certain functions or methods, but the implementations of those functions can vary. 
+- Unlike method overriding, the results of function overloading and generics are known statically at compile time. 
