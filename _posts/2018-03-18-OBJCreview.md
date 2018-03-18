@@ -1,0 +1,58 @@
+---
+layout: post
+title: "objc.io"
+author: "younari"
+---
+
+
+# objc.io review note
+
+> I'm subscribing objc.io online contents for monthly plan. It is an platform which provides In-depth guides on iOS and macOS development. This post is for keeping track of the Swift coding concepts that I encountered through objc.io.
+
+<br>
+
+# Delegates & Callbacks
+✳︎ [Swift Talk #24 Delegates & Callbacks](https://talk.objc.io/episodes/S01E24-delegates-callbacks)
+
+#### ↳ NOTE
+- Another advantage of delegate protocols is that you can group multiple methods that belong together. Furthermore, it's relatively easy to implement an API where you can register and unregister multiple delegates. This is much more difficult with callback functions, e.g. you'd need to return a token when registering a callback, which you can use later on to unregister this specific callback.
+
+<br>
+
+# Sharing State between VCs
+✳︎ [Swift Talk #86, #87](https://talk.objc.io/episodes/S01E86-sharing-state-between-view-controllers-in-mvc-part-1)
+
+#### ↳ NOTE
+- Tip. Embedding ViewControllers through Container
+
+
+<br>
+
+# Collection protocol 
+✳︎ [Swift Talk #32 Array, ArraySlice & Collection](https://talk.objc.io/episodes/S01E32-array-arrayslice-collection)
+
+#### ↳ NOTE
+- amazing. :)
+
+```
+extension Collection {
+    func split(batchSize: IndexDistance) -> [SubSequence] {
+        var remainderIndex = startIndex
+        var result: [SubSequence] = []
+        while remainderIndex < endIndex {
+            let batchEndIndex = index(remainderIndex, offsetBy: batchSize, limitedBy: endIndex) ?? endIndex
+            result.append(self[remainderIndex..<batchEndIndex])
+            remainderIndex = batchEndIndex
+        }
+        return result
+    }
+}
+```
+
+<br>
+
+# Auto Layout with Key Paths
+✳︎ [Swift Talk #75 Auto Layout with Key Paths](https://talk.objc.io/episodes/S01E75-auto-layout-with-key-paths)
+
+
+

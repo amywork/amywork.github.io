@@ -6,8 +6,15 @@ permalink: /About/
 ---
 
 # Younari
-- iOS developer based in Seoul. 
-- Say hello through **[Github](https://github.com/younari)** or **[younari.me@icloud.com](mailto:younari.me@icloud.com)**
+- Software Engineer, iOS
+- **[Github Profile](https://github.com/younari)** 
+- **[Linkedin](https://www.linkedin.com/in/기윤-김-6b61b894/)**
+- **[younari.me@icloud.com](mailto:younari.me@icloud.com)**
+
+
+# Featured Skills
+- **iOS, Swift, Cocoa, AutoLayout**
+- **Mobile UI Design** : [Chatbot UI](https://www.behance.net/gallery/54607233/Organize-your-subscriptions-with-Cash-bot) / [VMD](https://www.behance.net/gallery/49975731/-VMD) / [Infographic](https://www.behance.net/gallery/49975089/MoMA-Infographic)
 
 # Education
 - **2011** Ewha Girl's Foreign Language High School
@@ -20,9 +27,6 @@ permalink: /About/
 - **Major** : Chinese Language & Literature, Digital Design
 - **Activities** : [연세대학교 학보사 연세춘추 문화국](http://chunchu.yonsei.ac.kr)
 
-# Featured Skills
-- **iOS, Swift, Cocoa**
-- **Mobile UI Design** : [Chatbot UI](https://www.behance.net/gallery/54607233/Organize-your-subscriptions-with-Cash-bot) / [VMD](https://www.behance.net/gallery/49975731/-VMD) / [Infographic](https://www.behance.net/gallery/49975089/MoMA-Infographic)
 
 # Languages
 - 🇨🇳 **Chinese** : Limited Working proficiency - 新 HSK 6级, 255pt
@@ -39,6 +43,7 @@ permalink: /About/
 
 
 ### Projects
+- SSG.COM iPhone App Renewal Project in Swift
 - [SSG.COM LifeMagazine / PC](http://www.ssg.com/contents/lifeMagazineMain.ssg?gnb=magazine)
 - [SSG.COM LifeMagazine / Mobile](http://m.ssg.com/contents/lifeMagazineMain.ssg)
 - [Back Office editor system for magazine channel](http://howdy.ssg.com/contents/journalMain.ssg)
@@ -50,6 +55,6 @@ permalink: /About/
 
 <br>
 
-### 💌 Contact me
+### 💌 Email me
 
 - [younari.me@icloud.com](mailto:younari.me@icloud.com)
