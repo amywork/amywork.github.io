@@ -5,9 +5,11 @@ author: "younari"
 permalink: /Links/
 ---
 
+> 🔗 Links that I Love :) 
+
 # Swift
 
-## Performance
+### Performance
 - [Optimizing Swift Performance](https://developer.apple.com/videos/play/wwdc2015/409/)
 - [Instruments Tutorial with Swift: Getting Started](https://www.raywenderlich.com/166125/instruments-tutorial-swift-getting-started)
 - [Improving Your App with Instruments](https://developer.apple.com/videos/play/wwdc2014/418/)
@@ -17,7 +19,7 @@ permalink: /Links/
 - [Reference Counting](https://videos.raywenderlich.com/screencasts/421-ios-10-memory-graph-debugger)
 
 
-## Swift Resources
+### Swift Resources
 - [The Traveled iOS Developer’s Guide](https://medium.com/the-traveled-ios-developers-guide)
 - [We Heart Swift](https://www.weheartswift.com/learn-swift/)
 - [Swift Guide to Map Filter Reduce](https://useyourloaf.com/blog/swift-guide-to-map-filter-reduce/)
@@ -33,7 +35,7 @@ permalink: /Links/
 - [Ramdom Number](http://www.seemuapps.com/generating-a-random-number-in-swift)
 - [Bounds and Frame](http://www.ryanwright.me/cookbook/ios/obj-c/frames-and-bounds)
 
-## RayWenderlich
+### RayWenderlich
 - [Networking with URLSession](https://videos.raywenderlich.com/courses/93-networking-with-urlsession/lessons/1)
 - [Saving Data in iOS](https://videos.raywenderlich.com/courses/96-saving-data-in-ios/lessons/1)
 - [Xcode Tips and Tricks](https://videos.raywenderlich.com/courses/88-xcode-tips-and-tricks/lessons/1)
@@ -47,13 +49,13 @@ permalink: /Links/
 - [CALayers](https://videos.raywenderlich.com/courses/25-calayers/lessons/1)
 
 
-## WWDC
+### WWDC
 - [What's New in the Apple Push Notification Service](https://developer.apple.com/videos/play/wwdc2016/724/)
 - [Advances in UIKit Animations and Transitions](https://developer.apple.com/videos/play/wwdc2016/216)
 - [Advanced Notifications](https://developer.apple.com/videos/play/wwdc2016/708)
 
 
-## Apple Official Documents
+### Apple Official Documents
 - [Swift Standard Library](https://developer.apple.com/documentation/swift)
 - [Terminology](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/GlossaryDefinitions.html#//apple_ref/doc/uid/TP40015214-CH12-SW1)
 - [The App Life Cycle](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/TheAppLifeCycle/TheAppLifeCycle.html#//apple_ref/doc/uid/TP40007072-CH2-SW1)
@@ -76,7 +78,7 @@ permalink: /Links/
 - [Introduction to Cocoa Drawing Guide](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CocoaDrawingGuide/Introduction/Introduction.html)
 - [Visual Format Language](https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage.html)
 
-## Design
+### Design
 - [Human Interface Guidelines iOS](https://developer.apple.com/ios/human-interface-guidelines/overview/themes/)
 
 
@@ -87,7 +89,7 @@ permalink: /Links/
 
 # Developers
 
-## Tech Nodes
+### Tech Nodes
 - [Apple confirms Shazam acquisition. Snap and Spotify also expressed interest](https://techcrunch.com/2017/12/11/apple-shazam-deal/)
 - [Apple pushes HomePod release to early 2018](https://techcrunch.com/2017/11/17/apple-pushes-homepod-release-to-early-2018/)
 - [Apple defends new ad-tracking prevention measures in Safari](https://techcrunch.com/2017/09/15/apple-defends-new-ad-tracking-prevention-measures-in-safari/)
@@ -95,7 +97,7 @@ permalink: /Links/
 
 
 
-## APIs
+### APIs
 - [Toss Developer](http://tossdev.github.io/index.html)
 - [AirBnb](https://ko.airbnb.com/partner?af=126295512&c=VigLink&ircid=4560&irclid=zTJ3J91AYXSp28EQkWW982ETUkm3Oux5nTlDR40&irgwc=1&sharedid=)
 - [Kakao](https://developers.kakao.com/docs/restapi)
@@ -109,7 +111,7 @@ permalink: /Links/
 - [Behance](https://www.behance.net/dev)
 - [Ebay](http://developer.ebay.com/Devzone/shopping/docs/Concepts/ShoppingAPIGuide.html)
 
-## Backend
+### Backend
 - [Microsoft Azure](https://azure.microsoft.com)
 - [AWS](https://aws.amazon.com)
 - [Google Cloud Platform](https://cloud.google.com)
@@ -121,17 +123,19 @@ permalink: /Links/
 <br>
 <br>
 
-# V Log
-## Fashion
+# V-Log & Youtubers
+### Fashion
 - [TV소나](https://www.youtube.com/user/SONATOWN), [스타일난다 유튜브](https://www.youtube.com/channel/UCIcJXs34WdkNcz1qkcxf0Rw), [딩고 스타일](https://www.youtube.com/channel/UCmz6ztWicRRcxiwguc_Z_Yw), [패션블로거 혜인](https://www.youtube.com/channel/UCs0dIu9USYQnSyPcekI8Y6A)
 
 
-## Beauty
+### Beauty
 - [오늘의 하늘](https://www.youtube.com/channel/UCW-rU_ZE4dAKDejWdTAKmoA), [아름송이](https://www.youtube.com/channel/UCZggbgiMY7u4Def37xQpyAQ), [RISABE](https://www.youtube.com/channel/UC9kmlDcqksaOnCkC_qzGacA)
 
-## Daily
+### Daily
 - [mixmansion](https://www.youtube.com/channel/UCOx8P9PScjg3yQDDznBpmBA), [도쿄 일상 onuk](https://www.youtube.com/channel/UC3qZ64dp-kyHwCygqZdTp1w), [Maji](https://www.youtube.com/channel/UC-CnwTZJ_A5v-AQK92fNYKw)
 
+### Tech
+- [태용 / 스타트업](https://www.youtube.com/channel/UCQ2DWm5Md16Dc3xRwwhVE7Q)
 
 <br>
 <br>
@@ -139,8 +143,23 @@ permalink: /Links/
 <br>
 
 
-# Shop
-- [소녀나라](http://www.sonyunara.com), [Mogujie](http://www.mogujie.com), [스타일난다](http://stylenanda.com), [임블리](http://imvely.com), [에이랜드](http://www.a-land.co.kr), [모코블링](http://www.mocobling.com), [하나언니](http://www.hanaunni.com), [29CM](https://www.29cm.co.kr)
+# Online Shops
+
+### Fancy
+- [소녀나라](http://www.sonyunara.com)
+- [Mogujie](http://www.mogujie.com)
+- [스타일난다](http://stylenanda.com)
+- [임블리](http://imvely.com)
+- [에이랜드](http://www.a-land.co.kr)
+- [모코블링](http://www.mocobling.com)
+- [하나언니](http://www.hanaunni.com)
+
+### Curation
+- [29CM](https://www.29cm.co.kr)
+
+### Office
+- [Desker :: IT 사무환경에 최적화된 제품](http://www.desker.co.kr)
+- [HPIX :: Design Furniture](http://hpix.co.kr)
 
 
 
