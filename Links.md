@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bookmarks"
-author: "younari"
+author: "amy"
 permalink: /Links/
 ---
 

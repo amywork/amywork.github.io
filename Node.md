@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tech Node"
-author: "younari"
+author: "amy"
 permalink: /Node/
 ---
 

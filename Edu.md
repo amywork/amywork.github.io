@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Edu"
-author: "younari"
+author: "amy"
 permalink: /Edu/
 ---
 

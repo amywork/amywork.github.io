@@ -1,15 +1,14 @@
 ---
 layout: post
 title: "📝"
-author: "younari"
+author: "amy"
 permalink: /About/
 ---
 
-# Younari
+# Amy
 - Software Engineer, iOS
 - **[Github Profile](https://github.com/younari)** 
 - **[Linkedin](https://www.linkedin.com/in/기윤-김-6b61b894/)**
-- **[younari.me@icloud.com](mailto:younari.me@icloud.com)**
 
 
 # Featured Skills
@@ -37,7 +36,7 @@ permalink: /About/
 # Experience
 
 ### SHINSEGAE
--  **2018 ~** [SSG.COM](https://itunes.apple.com/kr/app/ssg-com-%EB%B0%B1%ED%99%94%EC%A0%90%EC%97%90%EC%84%9C-%EC%9D%B4%EB%A7%88%ED%8A%B8%EA%B9%8C%EC%A7%80-%EC%93%B1-%ED%95%9C%EB%B2%88%EC%97%90/id786135420?mt=8) Software Developer, iOS App
+-  **2018 ~** [SSG.COM](https://itunes.apple.com/kr/app/ssg-com-%EB%B0%B1%ED%99%94%EC%A0%90%EC%97%90%EC%84%9C-%EC%9D%B4%EB%A7%88%ED%8A%B8%EA%B9%8C%EC%A7%80-%EC%93%B1-%ED%95%9C%EB%B2%88%EC%97%90/id786135420?mt=8) Software Developer, iOS
 -  **2015 ~ 2017** [SSG.COM](https://itunes.apple.com/kr/app/ssg-com-%EB%B0%B1%ED%99%94%EC%A0%90%EC%97%90%EC%84%9C-%EC%9D%B4%EB%A7%88%ED%8A%B8%EA%B9%8C%EC%A7%80-%EC%93%B1-%ED%95%9C%EB%B2%88%EC%97%90/id786135420?mt=8) Product Manager
 
 
@@ -57,4 +56,4 @@ permalink: /About/
 
 ### 💌 Email me
 
-- [younari.me@icloud.com](mailto:younari.me@icloud.com)
+- [Click to email](mailto:younari.me@icloud.com)

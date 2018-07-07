@@ -2,10 +2,10 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          younari.swift
+title:          amy.swift
 paginate:       100
-baseurl:        "https://younari.github.io"
-url:            "https://younari.github.io"
+baseurl:        "https://amywork.github.io"
+url:            "https://amywork.github.io"
 
 # Assets
 sass:
@@ -17,14 +17,14 @@ markdown:       kramdown
 
 # About
 author:
-  name:         younari
-  url:          https://younari.github.io
+  name:         amy
+  url:          https://amywork.github.io
   email:        younari.me@icloud.com
 
 # Custom vars
 version:        3.4.1
 github:
-  repo:         https://github.com/younari/younari.github.io
+  repo:         https://github.com/amywork/amywork.github.io
 
 # Gems
 gems:
