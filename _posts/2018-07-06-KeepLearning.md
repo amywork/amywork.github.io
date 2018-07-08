@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "objc.io"
-author: "younari"
+title: "Keep Learning"
+author: "Amy"
 ---
 
 
@@ -24,6 +24,7 @@ author: "younari"
 
 #### ↳ NOTE
 - Tip. Embedding ViewControllers through Container
+- Opinion. It seems container view's viewDidLoad is called earlier than owner.
 
 
 <br>
@@ -32,7 +33,7 @@ author: "younari"
 ✳︎ [Swift Talk #32 Array, ArraySlice & Collection](https://talk.objc.io/episodes/S01E32-array-arrayslice-collection)
 
 #### ↳ NOTE
-- amazing. :)
+- For me, Collection protocol is an amazing & interesting topic. :)
 
 ```
 extension Collection {
