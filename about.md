@@ -7,30 +7,13 @@ permalink: /About/
 
 # Amy
 - Software Engineer, iOS
-- **[Github Profile](https://github.com/younari)** 
+- **[Github Profile](https://github.com/amywork)** 
 - **[Linkedin](https://www.linkedin.com/in/기윤-김-6b61b894/)**
 
 
 # Featured Skills
 - **iOS, Swift, Cocoa, AutoLayout**
 - **Mobile UI Design** : [Chatbot UI](https://www.behance.net/gallery/54607233/Organize-your-subscriptions-with-Cash-bot) / [VMD](https://www.behance.net/gallery/49975731/-VMD) / [Infographic](https://www.behance.net/gallery/49975089/MoMA-Infographic)
-
-# Education
-- **2011** Ewha Girl's Foreign Language High School
-- **2013** Exchange student at Beijing Normal University 
-- **2015** Yonsei University (Seoul)
-- **2017** [Fast Campus (iOS ・ RxSwift ・ UXDesign)](https://younari.github.io/Edu/)
-
-### 2011 - 15 : 연세대학교 YONSEI University
-- **Degree** : Bachelor's degree
-- **Major** : Chinese Language & Literature, Digital Design
-- **Activities** : [연세대학교 학보사 연세춘추 문화국](http://chunchu.yonsei.ac.kr)
-
-
-# Languages
-- 🇨🇳 **Chinese** : Limited Working proficiency - 新 HSK 6级, 255pt
-- 🇺🇸 **English** : Limited Working proficiency - Toeic 950, OPIC AL
-- 🇰🇷 **Korean** : Native 
 
 
 # Experience
@@ -51,6 +34,25 @@ permalink: /About/
 - [Personalized wishlist service / Member limited service / Mobile](http://m.ssg.com/service/clipsale.ssg)
 - [S.I.Village / PC, Mobile](http://sivillage.ssg.com/)
 - [SSG.COM Brand Channel / PC, Mobile](http://www.ssg.com/special/index.ssg)
+
+# Education
+- **2011** Ewha Girl's Foreign Language High School
+- **2013** Exchange student at Beijing Normal University 
+- **2015** Yonsei University (Seoul)
+- **2017** [Fast Campus (iOS ・ RxSwift ・ UXDesign)](https://amywork.github.io/Edu/)
+
+### 2011 - 15 : 연세대학교 YONSEI University
+- **Degree** : Bachelor's degree
+- **Major** : Chinese Language & Literature, Digital Design
+- **Activities** : [연세대학교 학보사 연세춘추 문화국](http://chunchu.yonsei.ac.kr)
+
+
+# Languages
+- 🇨🇳 **Chinese** : Limited Working proficiency - 新 HSK 6级, 255pt
+- 🇺🇸 **English** : Limited Working proficiency - Toeic 950, OPIC AL
+- 🇰🇷 **Korean** : Native 
+
+
 
 <br>
 

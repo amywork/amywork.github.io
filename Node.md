@@ -23,19 +23,12 @@ permalink: /Node/
 - **일정**: May
 - **위치**: San Jose, California
 - **공식 홈페이지**: [Facebook Developer Conference](https://www.f8.com)
-- **관심 주제**:
-- Instant Games and the Future of Mobile Gaming
-- Type-Checked Python at Instagram
-- Cassandra on RocksDB at Instagram
-- App Upgrades in Emerging Markets
-- How to Facilitate Cross-Cultural Understanding in User Research
-- How the Sharing Economy Developed in China and Beyond
 
-
-# WWDC
+# WWDC 
 - **일정**: June
 - **위치**: San Jose, California
 - **공식 홈페이지**: [Apple Developer Conference, WWDC](https://developer.apple.com/wwdc/)
+- **참여완료👍🏻🎓**
 
 
 # Github Universe
@@ -48,18 +41,6 @@ permalink: /Node/
 - **일정**: SEPTEMBER
 - **위치**: SAN FRANCISCO
 - **공식 홈페이지**: [Disrupt SF 2018](https://techcrunch.com/event-info/disrupt-sf-2018/)
-- Artificial Intelligence
-- Augmented/Virtual Reality
-- Blockchain
-- BioTech
-- FinTech
-- HealthTech
-- Investor Topics
-- Justice/Diversity
-- Mobility
-- Privacy/Security
-- Robotics
-- Space
 
 
 # RW Devcon
@@ -78,19 +59,6 @@ permalink: /Node/
 - **위치**: Mountain View, CA
 - **공식 홈페이지**: [Google I/O 2018](http://events.google.com/io)
 - **관심 주제**:
--  AI Adventures: art, science, and tools of machine learning
--  An introduction to developing Actions for the Google Assistant
--  An overview of Cloud IoT Core
--  Android Instant Apps: how developers are finding success
--  AutoML: build a custom model, no model code required
--  Background processing - principles and recommendations
--  Build a powerful data backend for mobile and web
--  Build awesome media experiences on the web
--  Build e-commerce sites for the modern web with AMP, PWA, and more
--  Build reactive mobile apps with Flutter
--  What’s new in Android apps for Chrome OS
--  What's new with the Google Assistant SDK for devices
--  What's new in Android Support Library
 
 <br>
 <hr>
@@ -103,3 +71,4 @@ permalink: /Node/
 - [iOS Dev-Seminar, Fast Campus](http://www.fastcampus.co.kr/dev_seminar_dev1801/)
 - [Apple Special Event 2017 - 온라인](https://younari.github.io/2017-09-12/AppleEvents2017)
 - [RW DevCon 2017 - 온라인](https://videos.raywenderlich.com/courses/81-rwdevcon-2017-vault-tutorials/lessons/1)
+- [WWDC 2018](https://www.facebook.com/kiyun.k/media_set?set=a.1025354554297444.1073741842.100004687277938&type=3)
