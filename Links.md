@@ -1,13 +1,24 @@
 ---
 layout: post
-title: "Bookmarks"
+title: "information"
 author: "amy"
 permalink: /Links/
 ---
 
-> 🔗 Links that I Love :) 
+> 🔗 Links from online
 
-# Swift
+# Artificials
+
+- [Bitcoin Documentary](https://www.youtube.com/watch?v=vr-zeMIKICw)
+- [TED - Bitcoin](https://www.ted.com/talks/don_tapscott_how_the_blockchain_is_changing_money_and_business?language=ko)
+- [비트코인 킬러웨일](https://www.youtube.com/channel/UCFYXE2w60jhpCO9uKvjZvVQ)
+- [블록체인 코인사이트 CoinSight](https://www.youtube.com/channel/UCZWvx1PFmcTLiGJX3FTcCBA)
+- [블록체인 세상](https://www.youtube.com/channel/UC70aaNLIi5Er-ZmKBPL2-Xw)
+
+<br>
+<br>
+
+# iOS
 
 ### Performance
 - [Optimizing Swift Performance](https://developer.apple.com/videos/play/wwdc2015/409/)
@@ -122,45 +133,3 @@ permalink: /Links/
 <br>
 <br>
 <br>
-
-# V-Log & Youtubers
-### Fashion
-- [TV소나](https://www.youtube.com/user/SONATOWN), [스타일난다 유튜브](https://www.youtube.com/channel/UCIcJXs34WdkNcz1qkcxf0Rw), [딩고 스타일](https://www.youtube.com/channel/UCmz6ztWicRRcxiwguc_Z_Yw), [패션블로거 혜인](https://www.youtube.com/channel/UCs0dIu9USYQnSyPcekI8Y6A)
-
-
-### Beauty
-- [오늘의 하늘](https://www.youtube.com/channel/UCW-rU_ZE4dAKDejWdTAKmoA), [아름송이](https://www.youtube.com/channel/UCZggbgiMY7u4Def37xQpyAQ), [RISABE](https://www.youtube.com/channel/UC9kmlDcqksaOnCkC_qzGacA)
-
-### Daily
-- [mixmansion](https://www.youtube.com/channel/UCOx8P9PScjg3yQDDznBpmBA), [도쿄 일상 onuk](https://www.youtube.com/channel/UC3qZ64dp-kyHwCygqZdTp1w), [Maji](https://www.youtube.com/channel/UC-CnwTZJ_A5v-AQK92fNYKw)
-
-### Tech
-- [태용 / 스타트업](https://www.youtube.com/channel/UCQ2DWm5Md16Dc3xRwwhVE7Q)
-
-<br>
-<br>
-<br>
-<br>
-
-
-# Online Shops
-
-### Fancy
-- [소녀나라](http://www.sonyunara.com)
-- [Mogujie](http://www.mogujie.com)
-- [스타일난다](http://stylenanda.com)
-- [임블리](http://imvely.com)
-- [에이랜드](http://www.a-land.co.kr)
-- [모코블링](http://www.mocobling.com)
-- [하나언니](http://www.hanaunni.com)
-
-### Curation
-- [29CM](https://www.29cm.co.kr)
-
-### Office
-- [Desker :: IT 사무환경에 최적화된 제품](http://www.desker.co.kr)
-- [HPIX :: Design Furniture](http://hpix.co.kr)
-
-
-
-
