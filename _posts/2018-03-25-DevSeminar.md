@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dev Seminar 2018"
-author: "younari"
+author: "Amy"
 ---
 
 # Dev Seminar, 2018 리뷰
@@ -90,7 +90,7 @@ func bind() {
 - [SnapKit](https://github.com/SnapKit/SnapKit)
 
 ### 실습
-- [실습](https://github.com/younari/DevSeminar/tree/master/02_AutoLayout)
+- [실습](https://github.com/amywork/DevSeminar/tree/master/02_AutoLayout)
 
 
 <br>

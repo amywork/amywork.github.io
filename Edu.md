@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Edu"
-author: "amy"
+author: "Amy"
 permalink: /Edu/
 ---
 
@@ -13,7 +13,7 @@ permalink: /Edu/
 
 ## **iOS Programming School**
 - 2017.09 ~ 2017.12 (16weeks)
-- [Today I Learned](https://younari.github.io/2017-09-01/StartOfTheDay)
+- [Today I Learned](https://amywork.github.io/2017-09-01/StartOfTheDay)
 - [Swift, Objective-C, Network, Firebase](http://school.fastcampus.co.kr/dev_ids)
 
 ## **RxSwift**

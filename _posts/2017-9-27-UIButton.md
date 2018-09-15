@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "스위프트 UI Button"
-author: "younari"
+author: "Amy"
 ---
 
 > Xcode ViewController에서, UIView와 UIButton을 활용하여 버튼을 만들고, 버튼에 색상을 입혀 On/Off 하며 색을 바꾸는 인터렉션을 만들어봅니다.
 
 # UIButton
-- [연습용 Xcode Project 바로가기](https://github.com/younari/tastySwift/tree/master/0926_ButtonPractice)
+- [연습용 Xcode Project 바로가기](https://github.com/amywork/tastySwift/tree/master/0926_ButtonPractice)
 - UIButton의 type은 init 할 때만 지정할 수 있다.
 - type default는 커스텀 타입이다.
 - buttonType은 get만 있는 read Only 읽기 전용이다.

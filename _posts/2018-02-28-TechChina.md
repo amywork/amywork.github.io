@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tech China"
-author: "younari"
+author: "Amy"
 ---
 
 2018년 3월부터 6월까지 4개월동안 WeWork(위워크)에서 차이나탄 중국어 캠프 과정을 수강햡니다. 테크/모바일/스타트업과 관련된 다양한 중국어 표현들을 중점적으로 학습하고 기록합니다.

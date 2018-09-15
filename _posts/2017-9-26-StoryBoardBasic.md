@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "스토리보드로 UI 구현하기"
-author: "younari"
+author: "Amy"
 ---
 
 # StoryBoard
@@ -21,7 +21,7 @@ author: "younari"
 ## 실습: Xcode 스토리보드로 간단한 UI 구현하기
 - 일정 금액을 충전해서 물건을 구매하는 포인트몰을 구현.
 - 금액 충전시 잔액 + 반영, 물건 구매시 잔액 - 반영.
-- [스크린샷 보러가기](https://github.com/younari/tastySwift/blob/master/0916_appleMachine/Readme.md)
+- [스크린샷 보러가기](https://github.com/amywork/tastySwift/blob/master/0916_appleMachine/Readme.md)
 
 {% highlight swift %}
 

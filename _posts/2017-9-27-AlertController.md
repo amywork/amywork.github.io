@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "스위프트 Alert Controller"
-author: "younari"
+author: "Amy"
 ---
 
 # UI Alert Controller
-- [Xcode 스위프트 프로젝트 바로가기](https://github.com/younari/tastySwift)
+- [Xcode 스위프트 프로젝트 바로가기](https://github.com/amywork/tastySwift)
 
 01. UIAlertController의 인스턴스를 만든다.
 02. UIAlertController에 추가할 Action인 UIAlertAction을 만든다.

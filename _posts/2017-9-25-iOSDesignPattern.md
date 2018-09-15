@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "iOS Design Pattern"
-author: "younari"
+author: "Amy"
 ---
 
 # iOS Design Pattern 

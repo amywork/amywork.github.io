@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Algorithms in Swift"
-author: "younari"
+author: "Amy"
 ---
 
 ## Data Structures & Algorithms in Swift

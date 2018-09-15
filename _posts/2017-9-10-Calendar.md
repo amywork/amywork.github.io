@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "요일을 구하는 함수"
-author: "younari"
+author: "Amy"
 ---
 
 > 연월일 입력시 요일을 반환하는 함수입니다. 

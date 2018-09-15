@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Thread & GCD"
-author: "younari"
+author: "Amy"
 ---
 
 ## Thread?
@@ -95,7 +95,7 @@ class ViewController: UIViewController {
 - let globalQueue = DispatchQueue.global(qos: .userInitiated)
 
 #### custom: init으로 label 및 attribute, qos 등 옵션 설정 가능
-- let customQueue = DispatchQueue(label: "com.younari.queue1",attributes: [.concurrent, .initiallyInactive])
+- let customQueue = DispatchQueue(label: "com.amywork.queue1",attributes: [.concurrent, .initiallyInactive])
 
 #### Attributes
 - **Default**: 직렬

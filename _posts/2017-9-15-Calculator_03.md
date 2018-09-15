@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Swift 계산기 만들기 v0.3"
-author: "younari"
+author: "Amy"
 ---
 
 ### Swift로 계산기 만들기 - Refactoring 3차 (작업 시간: 약 30분)

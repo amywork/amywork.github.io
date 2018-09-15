@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Play with Animation"
-author: "younari"
+author: "Amy"
 ---
 
 > Swift로 애니메이션 만들어보기

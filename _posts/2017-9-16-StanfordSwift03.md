@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "스탠포드 iOS 강의노트 L5"
-author: "younari"
+author: "Amy"
 ---
 
 ## Lecture 5

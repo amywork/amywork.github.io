@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "스위프트 Scroll View"
-author: "younari"
+author: "Amy"
 ---
 
 # UI Scroll View
-- [Xcode 스위프트 프로젝트 바로가기](https://github.com/younari/tastySwift)
+- [Xcode 스위프트 프로젝트 바로가기](https://github.com/amywork/tastySwift)
 - UIImageView, UILabel, UIControl, UIWindow, **UIScrollView**
 - UIButton, UISlider, UISwitch, UITextField
 - ScrollView 내에 존재하는 프로퍼티인 ContentView 가 움직이는 것.

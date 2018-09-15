@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Swift 계산기 만들기 v0.4"
-author: "younari"
+author: "Amy"
 ---
 
 ## MVC 모델 적용 및 Enum, Closure 활용

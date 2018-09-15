@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Data Model"
-author: "younari"
+author: "Amy"
 ---
 
 # Data Model, Structure와 Class

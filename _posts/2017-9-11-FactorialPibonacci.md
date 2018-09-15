@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "팩토리얼, 피보나치 수열"
-author: "younari"
+author: "Amy"
 ---
 
 # 팩토리얼 값을 구하는 함수

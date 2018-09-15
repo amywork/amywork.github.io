@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gesture Recognizer"
-author: "younari"
+author: "Amy"
 ---
 
 > [Gesture Recognizer](https://www.raywenderlich.com/162745/uigesturerecognizer-tutorial-getting-started)

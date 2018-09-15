@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "단위와 관련된 함수 만들기"
-author: "younari"
+author: "Amy"
 ---
  
 > cm, inch, m, 평, MB, KB, 시, 분, 초 등 단위 변환과 관련된 여러가지 함수입니다.

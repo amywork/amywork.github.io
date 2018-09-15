@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Facebook Meetup"
-author: "younari"
+author: "Amy"
 ---
 
 # Facebook Platform Meetup

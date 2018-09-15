@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Swift 계산기 만들기 v0.1"
-author: "younari"
+author: "Amy"
 ---
 
 ### Swift로 계산기 만들기, 1차 시도(작업 시간: 약 3시간)

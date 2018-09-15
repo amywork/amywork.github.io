@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Custom Transition"
-author: "younari"
+author: "Amy"
 ---
 
 > Navigation Controller에 올라탄 view controller들의 transition 효과를 커스텀해본다.

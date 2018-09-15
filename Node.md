@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tech Node"
-author: "amy"
+author: "Amy"
 permalink: /Node/
 ---
 
@@ -65,10 +65,10 @@ permalink: /Node/
 <br>
 
 ### 참여했던 컨퍼런스
-- [Facebook Platform Meetup, Seoul](https://younari.github.io/2017-11-05/FacebookPlatform)
+- [Facebook Platform Meetup, Seoul](https://amywork.github.io/2017-11-05/FacebookPlatform)
 - [Swift Meetup 2017, Seoul](https://swiftkorea.github.io/meetup/2)
 - [Facebook F8, 2017 - 온라인](https://www.google.co.kr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=8&ved=0ahUKEwick4jqnsvZAhWElZQKHf7uBPAQFghGMAc&url=https%3A%2F%2Fdevelopers.facebook.com%2Fvideos%2Ff8-2017%2Ff8-2017-keynote%2F%3Flocale%3Dko_KR&usg=AOvVaw1tcepGOxsksWjPPvPHQxpI)
 - [iOS Dev-Seminar, Fast Campus](http://www.fastcampus.co.kr/dev_seminar_dev1801/)
-- [Apple Special Event 2017 - 온라인](https://younari.github.io/2017-09-12/AppleEvents2017)
+- [Apple Special Event 2017 - 온라인](https://amywork.github.io/2017-09-12/AppleEvents2017)
 - [RW DevCon 2017 - 온라인](https://videos.raywenderlich.com/courses/81-rwdevcon-2017-vault-tutorials/lessons/1)
 - [WWDC 2018](https://www.facebook.com/kiyun.k/media_set?set=a.1025354554297444.1073741842.100004687277938&type=3)

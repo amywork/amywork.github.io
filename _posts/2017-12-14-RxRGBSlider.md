@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RxSwift 실험"
-author: "younari"
+author: "Amy"
 ---
 
 > **[Fastcampus RxSwift](http://www.fastcampus.co.kr/dev_camp_rxswift/)** 강좌를 통해 만난, **Rx Swift**로 구현해보는 작은 실험들 👀 

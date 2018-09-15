@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Moving Image"
-author: "younari"
+author: "Amy"
 ---
 
 > SNS 피드처럼, 이미지뷰의 사진을 클릭하면 해당 콘트롤러 정중앙으로 사진이 확대되고, 다시 클릭하면 제자리로 돌아가는 UI를 구현해본다.

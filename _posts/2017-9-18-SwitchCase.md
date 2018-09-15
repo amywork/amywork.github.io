@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "스위프트 Switch"
-author: "younari"
+author: "Amy"
 ---
 
 > 패턴 비교문: Switch 와 Case 문법

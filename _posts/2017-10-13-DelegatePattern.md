@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Delegate Pattern"
-author: "younari"
+author: "Amy"
 ---
 
 # Delegate Pattern

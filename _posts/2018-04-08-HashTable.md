@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hash Table"
-author: "younari"
+author: "Amy"
 ---
 
 # 해시 테이블

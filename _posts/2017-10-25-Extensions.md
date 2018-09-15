@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Swift 고급 문법"
-author: "younari"
+author: "Amy"
 ---
 
 > Subscript, Extensions, Generic

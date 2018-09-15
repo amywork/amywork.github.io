@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "iOS UI Overview"
-author: "younari"
+author: "Amy"
 ---
 
 # iOS User Interface Overview
-- [연습용 Xcode Project 바로가기](https://github.com/younari/tastySwift/tree/master/0925_UIViewPractice)
+- [연습용 Xcode Project 바로가기](https://github.com/amywork/tastySwift/tree/master/0925_UIViewPractice)
 - [Apple SDK 문서 읽기](https://developer.apple.com/documentation/uikit/uilabel)
 
 ### Point, Pixel

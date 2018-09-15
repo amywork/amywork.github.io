@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "스위프트 베이스볼 게임 만들기 v0.2"
-author: "younari"
+author: "Amy"
 ---
 
 > v0.2 버전에서는 Model 부분의 구조화를 좀 더 강화하여, View 영역에서는 UI 처리에만 집중할 수 있도록 함수를 모두 분리하였습니다.
 
 
 # 01. UI를 담당하는 View Controler
-- [Xcode 프로젝트 파일 바로가기](https://github.com/younari/tastySwift/tree/master/0920_BaseballGame)
+- [Xcode 프로젝트 파일 바로가기](https://github.com/amywork/tastySwift/tree/master/0920_BaseballGame)
 
 {% highlight swift %}
 import UIKit

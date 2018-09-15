@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Playing Video"
-author: "younari"
+author: "Amy"
 ---
 
 > [Brian Voong :: Let's Bild That App](https://www.letsbuildthatapp.com/course/YouTube) 튜토리얼을 통해, YoutubeApp 처럼 Video를 Control (재생, 정지, progress) 하는 기능 구현해보기

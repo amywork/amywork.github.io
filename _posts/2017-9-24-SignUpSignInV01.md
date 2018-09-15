@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "로그인 화면 구현하기 v0.1"
-author: "younari"
+author: "Amy"
 ---
 
 > SignUp & SignIn - 로그인 화면 구현하기
 
 # SignUp & SignIn
-- [Xcode Project 바로가기](https://github.com/younari/tastySwift/tree/master/0927_LoginUserDefault/0927_SignUp)
+- [Xcode Project 바로가기](https://github.com/amywork/tastySwift/tree/master/0927_LoginUserDefault/0927_SignUp)
 
 
 ## 01. User Model 클래스 생성
