@@ -44,7 +44,7 @@
 # 02. iOS Platform Guide
 ## iOS Interface
 - [iOS Design Pattern](https://amywork.github.io/2017-09-25/iOSDesignPattern)
-- [iOS Delegate Pattern](https://amywork.github.io/2017-10-12/Delegate)
+- [iOS Delegate Pattern](https://amywork.github.io/2017-10-13/DelegatePattern)
 - [iOS UI Overview](https://amywork.github.io/2017-09-26/iOSUIOverView)
 - [iOS UI View Controller](https://amywork.github.io/2017-10-10/iOSViewController)
 - [iOS Container View Controller](https://amywork.github.io/2017-10-11/ContainerController)
@@ -54,7 +54,7 @@
 - [스위프트 UI Button](https://amywork.github.io/2017-09-27/UIButton)
 - [스위프트 AlertController](https://amywork.github.io/2017-09-27/AlertController)
 - [스위프트 ScrollView & Switch](https://amywork.github.io/2017-09-27/ScrollView)
-- [스위프트 TableView](https://amywork.github.io/2017-09-30/UITableView)
+- [스위프트 TableView](https://amywork.github.io/2017-09-27/UITableView)
 
 ## Stanford iOS Lecture
 - [스탠포드 iOS 강의노트 L1~3](https://amywork.github.io/2017-09-16/StanfordSwift01)
