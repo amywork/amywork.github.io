@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "스위프트 Enum"
-author: "younari"
+author: "Amy"
 ---
 
 # Swift Terminology - Enumeration

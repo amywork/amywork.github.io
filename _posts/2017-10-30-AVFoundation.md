@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AV Foundation"
-author: "younari"
+author: "Amy"
 ---
 > AV Foundation 도큐멘트 직접 읽고 유용한 프로퍼티 및 메소드 찾아보기
 

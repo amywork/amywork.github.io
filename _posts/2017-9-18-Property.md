@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "스위프트 Property"
-author: "younari"
+author: "Amy"
 ---
 
 # Swift Terminology - Property(속성)

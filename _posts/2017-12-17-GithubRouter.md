@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GithubAPI"
-author: "younari"
+author: "Amy"
 ---
 
 - *[Fast Campus](http://www.fastㄴampus.co.kr/dev_camp_rxswift/) 수업 [강사님](https://github.com/intmain)께서 API와 관련된 클래스들을 구조화 하는 방식이 너무 좋았어서, 포스팅을 올려봅니다🙂*

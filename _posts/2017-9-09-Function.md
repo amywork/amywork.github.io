@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "함수 만들기 연습"
-author: "younari"
+author: "Amy"
 ---
 
 > Swift의 기초 문법을 익히기 위해 변수, 상수, 연산자, 조건문을 활용하는 기초 함수를 만듭니다.

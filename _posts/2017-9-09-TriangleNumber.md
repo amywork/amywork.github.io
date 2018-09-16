@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "삼각수 만들기"
-author: "younari"
+author: "Amy"
 ---
 
 > 1부터 입력한 숫자까지의 합, 삼각수를 구하는 함수입니다.

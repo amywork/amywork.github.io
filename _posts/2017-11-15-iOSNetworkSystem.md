@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "iOS Newtwork system"
-author: "younari"
+author: "Amy"
 ---
 
-- **기초 지식**: [컴퓨터 공학 용어 사전](https://younari.github.io/2017-09-05/Programming)
+- **기초 지식**: [컴퓨터 공학 용어 사전](https://amywork.github.io/2017-09-05/Programming)
 - **공식 문서**: [URL Loading System](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/URLLoadingSystem/URLLoadingSystem.html)
 
 # URL Load System

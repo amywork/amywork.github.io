@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "연속으로 중복된 숫자 제거하기"
-author: "younari"
+author: "Amy"
 ---
 
 ## 연속으로 중복된 숫자 없애기

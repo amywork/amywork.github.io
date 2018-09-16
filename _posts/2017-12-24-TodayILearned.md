@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Slide out effect"
-author: "younari"
+author: "Amy"
 ---
 
 > 12월 마지막 주, 크리스마스를 스위프트와 함께... ✨ 오늘은 RayWenderlich의 [Slide out navigation panel]((https://www.raywenderlich.com/78568/create-slide-out-navigation-panel-swift)) 튜토리얼을 따라해보는 시간을 가졌습니다. 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "입력받은 숫자를 배열로 만들기"
-author: "younari"
+author: "Amy"
 ---
 
 ## 입력받은 숫자를 숫자의 배열로 만들기 v0.1

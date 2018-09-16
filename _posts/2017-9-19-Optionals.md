@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "스위프트 Optional"
-author: "younari"
+author: "Amy"
 ---
 
 # iOS and Swift Terminology - Optional

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Data Control"
-author: "younari"
+author: "Amy"
 ---
 
 # 서버와의 데이터 연동시 Data Control 

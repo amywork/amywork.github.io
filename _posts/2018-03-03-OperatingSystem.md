@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Google + Coursera"
-author: "younari"
+author: "Amy"
 ---
 
 # Google IT Support Professional Certificate

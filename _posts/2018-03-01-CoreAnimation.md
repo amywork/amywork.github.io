@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Core Animation API"
-author: "younari"
+author: "Amy"
 ---
 
 # Resources

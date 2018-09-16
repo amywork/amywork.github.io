@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "간단한 알고리즘 구현하기"
-author: "younari"
+author: "Amy"
 ---
 
 ### 01. Collatz의 추측 함수 만들기

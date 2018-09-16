@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Container Controller"
-author: "younari"
+author: "Amy"
 ---
 
 # Container ViewController
 
-> [샘플 Xcode 프로젝트 바로가기](https://github.com/younari/tastySwift/tree/master/1011_NavigationController)
+> [샘플 Xcode 프로젝트 바로가기](https://github.com/amywork/tastySwift/tree/master/1011_NavigationController)
 
 - 목표: Container ViewController인 UINavigationController, UITabBarController, UISplitViewController를 통해 View Controller의 구조를 알아본다. 
 
@@ -16,7 +16,7 @@ author: "younari"
 - [Apple 공식 문서 읽기](https://developer.apple.com/documentation/uikit/uinavigationcontroller)
 
 ###  UI Navigation Controller의 구조 : Navigation stack
-![NavBar](https://younari.github.io/images/NavController.png)
+![NavBar](https://amywork.github.io/images/NavController.png)
 
 - View Controller들을 array로 가지고 있으면서 **스택** 구조로 관리하는 컨테이너이다.
 - **viewControllers(Array)와 navigationBar, toolbar**로 이루어져 있다.
@@ -30,7 +30,7 @@ author: "younari"
 <br>
 
 ### 설정 방법
-![NavBar](https://younari.github.io/images/NavShowPresent.jpg)
+![NavBar](https://amywork.github.io/images/NavShowPresent.jpg)
 
 - 뷰콘트롤러에서 Editor -> Embed in -> Navigation Controller
 - 우측 하단 오브젝트 라이브러리에서 UINaviagationController를 Drag and Drop!

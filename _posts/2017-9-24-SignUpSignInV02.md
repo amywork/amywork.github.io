@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "로그인 화면 구현하기 v0.2"
-author: "younari"
+author: "Amy"
 ---
 
 > SignUp & SignIn - 로그인 화면 구현하기 v0.2 (UserDefaults를 활용한 데이터 저장)
 
 # SignUp & SignIn & UserDefaults
-- [Xcode Project 바로가기](https://github.com/younari/tastySwift/tree/master/0927_LoginUserDefault/0927_SignUp)
-- [로그인 화면 구현하기 v0.1 바로가기](https://younari.github.io/2017-09-28/SignUpSignInV01)
+- [Xcode Project 바로가기](https://github.com/amywork/tastySwift/tree/master/0927_LoginUserDefault/0927_SignUp)
+- [로그인 화면 구현하기 v0.1 바로가기](https://amywork.github.io/2017-09-28/SignUpSignInV01)
 
 ![LoginScreen](https://i.pinimg.com/originals/d2/16/a2/d216a20c76bb482cb25ac42135975f16.png)
 

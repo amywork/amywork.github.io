@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Swift 탐구 생활"
-author: "younari"
+author: "Amy"
 ---
 
 > 사수님께 배운 내용, RayWenderlich DevCon을 통해 학습한 내용, 구글링한 내용 등 - 각종 문제 상황을 해결하면서 남겨진 스위프트 지식들을 기록하는 포스트 입니다. 비정기적으로 새로운 내용을 학습할 경우 업데이트 됩니다.

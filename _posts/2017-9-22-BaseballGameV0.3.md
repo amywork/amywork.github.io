@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "스위프트 베이스볼 게임 만들기 v0.3"
-author: "younari"
+author: "Amy"
 ---
 
 > v0.3 버전에서는 Enum을 활용하여 Strike, Ball 케이스를 분기하고, 변수에 Property Observer를 활용했습니다.
 
 # 조금 더 똑똑하게 Smart Brain 만들기
 
-- [Xcode 프로젝트 파일 바로가기](https://github.com/younari/tastySwift/tree/master/0921_BaseballGame)
-- [스위프트 베이스볼 게임 만들기 v0.1](https://younari.github.io/2017-09-21/BaseballGame)
-- [스위프트 베이스볼 게임 만들기 v0.2](https://younari.github.io/2017-09-22/BaseballGameV0.2)
+- [Xcode 프로젝트 파일 바로가기](https://github.com/amywork/tastySwift/tree/master/0921_BaseballGame)
+- [스위프트 베이스볼 게임 만들기 v0.1](https://amywork.github.io/2017-09-21/BaseballGame)
+- [스위프트 베이스볼 게임 만들기 v0.2](https://amywork.github.io/2017-09-22/BaseballGameV0.2)
 
 ### 수정사항: Enum, Property Observer 추가
 - Strike, Ball의 케이스를 담고있는 Enum 케이스 SET을 만들고, 케이스에 따라 String을 return하는 내부 메소드를 정의했습니다.

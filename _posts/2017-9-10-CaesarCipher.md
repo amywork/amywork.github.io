@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Caesar cipher 알고리즘"
-author: "younari"
+author: "Amy"
 ---
 
 > 시저 암호: 어떤 문장의 각 알파벳을 일정한 거리만큼 밀어서 다른 알파벳으로 바꾸는 암호화 함수입니다. (단, 대소문자 고려)

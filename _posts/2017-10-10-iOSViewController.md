@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "iOS View Controller"
-author: "younari"
+author: "Amy"
 ---
 
 # UIViewController
 
-> [샘플 Xcode 프로젝트 바로가기](https://github.com/younari/tastySwift/tree/master/1011_ViewController)
+> [샘플 Xcode 프로젝트 바로가기](https://github.com/amywork/tastySwift/tree/master/1011_ViewController)
 
-![segue](https://younari.github.io/images/Segue.jpg)
+![segue](https://amywork.github.io/images/Segue.jpg)
 
 - 모든 앱은 적어도 한 개 이상의 UIViewController를 가지고 있어야 하며, 대부분의 앱은 여러개의 UIViewController로 이뤄져 있다.
 - **모든 앱은 하나의 Root View Controller를 가지고 있고, 모든 View Controller는 제각각 자신의 Root View를 가지고 있다.**
@@ -94,7 +94,7 @@ func close(_ sender: UIButton) {
 - 종착점은 UIViewController가 된다.
 - Segue 또한 Identifier를 가질 수 있다.
 
-![segue](https://raw.githubusercontent.com/younari/younari.github.io/master/images/SegueProcess.png)
+![segue](https://raw.githubusercontent.com/amywork/amywork.github.io/master/images/SegueProcess.png)
 
 
 ### should Perform Segue?

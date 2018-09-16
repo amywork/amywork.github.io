@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "소수 판별 함수 만들기"
-author: "younari"
+author: "Amy"
 ---
 
 > 2부터 입력된 숫자까지의 모든 소수를 찾아서 반환하는 함수(소수 판별 함수)입니다.

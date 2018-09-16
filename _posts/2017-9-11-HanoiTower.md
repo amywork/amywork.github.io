@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "재귀, 하노이의 탑"
-author: "younari"
+author: "Amy"
 ---
 
 ### 재귀를 활용한 하노이 탑 알고리즘 해결하기

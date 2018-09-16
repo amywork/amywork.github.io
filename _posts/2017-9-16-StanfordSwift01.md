@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "스탠포드 iOS 강의노트 L1,2,3"
-author: "younari"
+author: "Amy"
 ---
 
 ## Lecture 1 ~ 3
@@ -156,4 +156,4 @@ private var brain: CalculatorBrain = CalculatorBrain()
 
 
 ### 06. Model 기능 완성하기
-- [MVC 모델로 만든 계산기 바로가기](https://younari.github.io/2017-09-15/Calculator_05)
+- [MVC 모델로 만든 계산기 바로가기](https://amywork.github.io/2017-09-15/Calculator_05)

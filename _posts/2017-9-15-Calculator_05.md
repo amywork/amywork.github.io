@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Swift 계산기 만들기 v0.5"
-author: "younari"
+author: "Amy"
 ---
 
 ### 연산 기호 중복 클릭 처리 기능 추가, 단항 연산 오류 수정
-- [Xcode 프로젝트 바로가기](https://github.com/younari/tastySwift/tree/master/0919_CalculatorBrain)
+- [Xcode 프로젝트 바로가기](https://github.com/amywork/tastySwift/tree/master/0919_CalculatorBrain)
 
 
 ### 연산 처리를 담당하는 클래스 (모델)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "자료구조와 알고리즘"
-author: "younari"
+author: "Amy"
 ---
 
 # ✔️ Reading Note - 알고리즘

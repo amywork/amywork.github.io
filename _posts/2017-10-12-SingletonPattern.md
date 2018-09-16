@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Singletone Pattern"
-author: "younari"
+author: "Amy"
 ---
 
 # Read & Write Data

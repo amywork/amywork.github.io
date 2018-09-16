@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cell Delegate 실습"
-author: "younari"
+author: "Amy"
 ---
 
 # CustomCell설계 및 delegate 패턴 실습

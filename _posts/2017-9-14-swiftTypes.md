@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "스위프트 Type"
-author: "younari"
+author: "Amy"
 ---
 
 > Swift Type Review
@@ -42,7 +42,7 @@ author: "younari"
 - String 역시 Instance 이기 때문에 문자열을 다루기 위한 다양한 기능(메소드)이 제공된다. 
 - **hasPrefix, uppercased, isEmpty**등
 - Interpolation(삽입)
-- `var name:String = "Younari"`
+- `var name: String = "Amy"`
 - `print("my name is \(name)")`
 
 

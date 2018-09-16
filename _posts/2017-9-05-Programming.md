@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "컴퓨터 공학 용어 사전"
-author: "younari"
+author: "Amy"
 ---
 
 > 프로그래밍, 컴퓨터의 구조, 통신 방식 등 컴퓨터 공학 기초 용어 정리

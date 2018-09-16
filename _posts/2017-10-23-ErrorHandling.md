@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Error Handling"
-author: "younari"
+author: "Amy"
 ---
 
 > Swift provides first-class support for throwing, catching, propagating, and manipulating recoverable errors at runtime.

@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "User Defaults 만들기"
-author: "younari"
+author: "Amy"
 ---
 
 # Singleton 디자인 패턴 실습
 
 ## UserDefaults와 유사한 싱글톤 객체, DataCenter 만들기
 
-> [Xcode Project Files](https://github.com/younari/tastySwift/tree/master/1016_DataModel)
+> [Xcode Project Files](https://github.com/amywork/tastySwift/tree/master/1016_DataModel)
 
 ### Singletone Design Pattern
 - 어플리케이션 전 영역에 걸쳐서 **클래스에 대한 단 하나의 인스턴스만** 존재해야 할 때 (App내에서 공유하는 단 1개의 객체가 되어야 할 때) 싱글톤 디자인 패턴으로 설계한다.

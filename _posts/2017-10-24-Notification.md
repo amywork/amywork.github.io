@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Notification Center"
-author: "younari"
+author: "Amy"
 ---
 > [Notification Center Offical Documents](https://developer.apple.com/documentation/foundation/notificationcenter), [Notification Programming Topics](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Notifications/Introduction/introNotifications.html#//apple_ref/doc/uid/10000043i)
 

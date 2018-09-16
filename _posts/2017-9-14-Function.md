@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "스위프트 Function"
-author: "younari"
+author: "Amy"
 ---
 
 > 함수는 클로저의 일부이다.

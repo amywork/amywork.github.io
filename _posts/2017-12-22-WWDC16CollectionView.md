@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Collection View"
-author: "younari"
+author: "Amy"
 ---
 
 > 16년도 WWDC의 UICollectionView 섹션을 다시 보고, CollectionView와 관련된 정보들을 아카이브 해야겠다고 생각해서 시작하는 포스팅입니다. 
