@@ -12,19 +12,20 @@ permalink: /About/
 
 
 # Featured Skills
-- **iOS, Swift, Cocoa, AutoLayout**
+- **iOS / Swift, ObjectiveC, Cocoa, AutoLayout**
 - **Mobile UI Design** : [Chatbot UI](https://www.behance.net/gallery/54607233/Organize-your-subscriptions-with-Cash-bot) / [VMD](https://www.behance.net/gallery/49975731/-VMD) / [Infographic](https://www.behance.net/gallery/49975089/MoMA-Infographic)
 
 
 # Experience
 
-### SHINSEGAE
--  **2018 ~** [SSG.COM](https://itunes.apple.com/kr/app/ssg-com-%EB%B0%B1%ED%99%94%EC%A0%90%EC%97%90%EC%84%9C-%EC%9D%B4%EB%A7%88%ED%8A%B8%EA%B9%8C%EC%A7%80-%EC%93%B1-%ED%95%9C%EB%B2%88%EC%97%90/id786135420?mt=8) Software Developer, iOS
--  **2015 ~ 2017** [SSG.COM](https://itunes.apple.com/kr/app/ssg-com-%EB%B0%B1%ED%99%94%EC%A0%90%EC%97%90%EC%84%9C-%EC%9D%B4%EB%A7%88%ED%8A%B8%EA%B9%8C%EC%A7%80-%EC%93%B1-%ED%95%9C%EB%B2%88%EC%97%90/id786135420?mt=8) Product Manager
+### NAVER / 2018.10 ~ 
+- [Group& Client Dev / Band App, iOS](https://band.us/home)
 
+### SHINSEGAE / 2015 ~ 2018.09
+- [SSG.COM](https://itunes.apple.com/kr/app/ssg-com-%EB%B0%B1%ED%99%94%EC%A0%90%EC%97%90%EC%84%9C-%EC%9D%B4%EB%A7%88%ED%8A%B8%EA%B9%8C%EC%A7%80-%EC%93%B1-%ED%95%9C%EB%B2%88%EC%97%90/id786135420?mt=8) Software Developer, iOS
+- [SSG.COM](https://itunes.apple.com/kr/app/ssg-com-%EB%B0%B1%ED%99%94%EC%A0%90%EC%97%90%EC%84%9C-%EC%9D%B4%EB%A7%88%ED%8A%B8%EA%B9%8C%EC%A7%80-%EC%93%B1-%ED%95%9C%EB%B2%88%EC%97%90/id786135420?mt=8) Product Manager
 
-
-### Projects
+##### Projects
 - SSG.COM iPhone App Renewal Project in Swift
 - [SSG.COM LifeMagazine / PC](http://www.ssg.com/contents/lifeMagazineMain.ssg?gnb=magazine)
 - [SSG.COM LifeMagazine / Mobile](http://m.ssg.com/contents/lifeMagazineMain.ssg)
