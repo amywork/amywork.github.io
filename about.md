@@ -5,8 +5,8 @@ author: "amy"
 permalink: /About/
 ---
 
-# Amy
-- Software Engineer, iOS
+# Hello, Amy
+- Software Engineer → PM / iOS
 - **[Github Profile](https://github.com/amywork)** 
 - **[Linkedin](https://www.linkedin.com/in/기윤-김-6b61b894/)**
 
@@ -18,8 +18,13 @@ permalink: /About/
 
 # Experience
 
-### NAVER / 2018.10 ~ 
-- [Group& Client Dev / Band App, iOS](https://band.us/home)
+### Apple / 2019.08 ~
+- Engineering Project Manager
+- [Store Kit & App Store Connect](https://developer.apple.com/documentation/storekit)
+
+### NAVER Corp. / 2018.10 ~ 2019.06
+- [Group& Client Dev](https://band.us/home) Software Developer, iOS
+
 
 ### SHINSEGAE / 2015 ~ 2018.09
 - [SSG.COM](https://itunes.apple.com/kr/app/ssg-com-%EB%B0%B1%ED%99%94%EC%A0%90%EC%97%90%EC%84%9C-%EC%9D%B4%EB%A7%88%ED%8A%B8%EA%B9%8C%EC%A7%80-%EC%93%B1-%ED%95%9C%EB%B2%88%EC%97%90/id786135420?mt=8) Software Developer, iOS
@@ -57,6 +62,6 @@ permalink: /About/
 
 <br>
 
-### 💌 Email me
+# Contact
 
 - [Click to email](mailto:younari.me@icloud.com)

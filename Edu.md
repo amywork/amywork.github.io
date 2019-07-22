@@ -7,6 +7,8 @@ permalink: /Edu/
 
 #### Learning fuels my life 🙂
 
+<br>
+
 # Fast Campus Courses
 
 <hr>
@@ -78,5 +80,5 @@ permalink: /Edu/
 
 # Articles
 <hr>
-- [FastCampus - RxSwift 강의 리뷰 / 브런치](https://brunch.co.kr/@younari/5)
-- [온라인으로 코딩 공부 시작하기 / 브런치](https://brunch.co.kr/@younari/1)
+- [FastCampus - RxSwift 강의 리뷰 / 브런치](https://brunch.co.kr/@amydev/5)
+- [온라인으로 코딩 공부 시작하기 / 브런치](https://brunch.co.kr/@amydev/1)

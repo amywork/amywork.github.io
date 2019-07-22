@@ -7,13 +7,14 @@ permalink: /Links/
 
 > 🔗 Links from online
 
-# Artificials
+# AI
 
 - [Bitcoin Documentary](https://www.youtube.com/watch?v=vr-zeMIKICw)
 - [TED - Bitcoin](https://www.ted.com/talks/don_tapscott_how_the_blockchain_is_changing_money_and_business?language=ko)
 - [비트코인 킬러웨일](https://www.youtube.com/channel/UCFYXE2w60jhpCO9uKvjZvVQ)
 - [블록체인 코인사이트 CoinSight](https://www.youtube.com/channel/UCZWvx1PFmcTLiGJX3FTcCBA)
 - [블록체인 세상](https://www.youtube.com/channel/UC70aaNLIi5Er-ZmKBPL2-Xw)
+- [People + AI by Google](https://pair.withgoogle.com)
 
 <br>
 <br>
