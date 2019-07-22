@@ -6,8 +6,7 @@ permalink: /About/
 ---
 
 # Hello, Amy
-- Software Engineer → PM / iOS
-- **[Github Profile](https://github.com/amywork)** 
+- **[Github](https://github.com/amywork)** 
 - **[Linkedin](https://www.linkedin.com/in/기윤-김-6b61b894/)**
 
 
