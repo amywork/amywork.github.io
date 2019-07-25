@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Thread Programming"
+title: "Concurrency"
 author: "Amy"
 ---
 
